@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "skill_1",
+    "name": "Bí Kỹ Tứ Tượng 1",
+    "type": "passive",
+    "element": "Mộc",
+    "power": 98,
+    "cooldown": 15,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_2",
+    "name": "Bí Kỹ Tứ Tượng 2",
+    "type": "ultimate",
+    "element": "Kim",
+    "power": 116,
+    "cooldown": 15,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_3",
+    "name": "Bí Kỹ Tứ Tượng 3",
+    "type": "counter",
+    "element": "Hỏa",
+    "power": 134,
+    "cooldown": 15,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_4",
+    "name": "Bí Kỹ Tứ Tượng 4",
+    "type": "awakening",
+    "element": "Thủy",
+    "power": 152,
+    "cooldown": 15,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_5",
+    "name": "Bí Kỹ Tứ Tượng 5",
+    "type": "active",
+    "element": "Thổ",
+    "power": 170,
+    "cooldown": 15,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_6",
+    "name": "Bí Kỹ Tứ Tượng 6",
+    "type": "passive",
+    "element": "Phong",
+    "power": 188,
+    "cooldown": 15,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_7",
+    "name": "Bí Kỹ Tứ Tượng 7",
+    "type": "ultimate",
+    "element": "Quang",
+    "power": 206,
+    "cooldown": 15,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_8",
+    "name": "Bí Kỹ Tứ Tượng 8",
+    "type": "counter",
+    "element": "Hắc",
+    "power": 224,
+    "cooldown": 15,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_9",
+    "name": "Bí Kỹ Tứ Tượng 9",
+    "type": "awakening",
+    "element": "Hư Không",
+    "power": 242,
+    "cooldown": 15,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_10",
+    "name": "Bí Kỹ Tứ Tượng 10",
+    "type": "active",
+    "element": "Tinh Thần",
+    "power": 260,
+    "cooldown": 14,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_11",
+    "name": "Bí Kỹ Tứ Tượng 11",
+    "type": "passive",
+    "element": "Hỗn Độn",
+    "power": 278,
+    "cooldown": 14,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_12",
+    "name": "Bí Kỹ Tứ Tượng 12",
+    "type": "ultimate",
+    "element": "Lôi",
+    "power": 296,
+    "cooldown": 14,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_13",
+    "name": "Bí Kỹ Tứ Tượng 13",
+    "type": "counter",
+    "element": "Mộc",
+    "power": 314,
+    "cooldown": 14,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_14",
+    "name": "Bí Kỹ Tứ Tượng 14",
+    "type": "awakening",
+    "element": "Kim",
+    "power": 332,
+    "cooldown": 14,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_15",
+    "name": "Bí Kỹ Tứ Tượng 15",
+    "type": "active",
+    "element": "Hỏa",
+    "power": 350,
+    "cooldown": 14,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_16",
+    "name": "Bí Kỹ Tứ Tượng 16",
+    "type": "passive",
+    "element": "Thủy",
+    "power": 368,
+    "cooldown": 14,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_17",
+    "name": "Bí Kỹ Tứ Tượng 17",
+    "type": "ultimate",
+    "element": "Thổ",
+    "power": 386,
+    "cooldown": 14,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_18",
+    "name": "Bí Kỹ Tứ Tượng 18",
+    "type": "counter",
+    "element": "Phong",
+    "power": 404,
+    "cooldown": 14,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_19",
+    "name": "Bí Kỹ Tứ Tượng 19",
+    "type": "awakening",
+    "element": "Quang",
+    "power": 422,
+    "cooldown": 14,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_20",
+    "name": "Bí Kỹ Tứ Tượng 20",
+    "type": "active",
+    "element": "Hắc",
+    "power": 440,
+    "cooldown": 13,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_21",
+    "name": "Bí Kỹ Tứ Tượng 21",
+    "type": "passive",
+    "element": "Hư Không",
+    "power": 458,
+    "cooldown": 13,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_22",
+    "name": "Bí Kỹ Tứ Tượng 22",
+    "type": "ultimate",
+    "element": "Tinh Thần",
+    "power": 476,
+    "cooldown": 13,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_23",
+    "name": "Bí Kỹ Tứ Tượng 23",
+    "type": "counter",
+    "element": "Hỗn Độn",
+    "power": 494,
+    "cooldown": 13,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_24",
+    "name": "Bí Kỹ Tứ Tượng 24",
+    "type": "awakening",
+    "element": "Lôi",
+    "power": 512,
+    "cooldown": 13,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_25",
+    "name": "Bí Kỹ Tứ Tượng 25",
+    "type": "active",
+    "element": "Mộc",
+    "power": 530,
+    "cooldown": 13,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_26",
+    "name": "Bí Kỹ Tứ Tượng 26",
+    "type": "passive",
+    "element": "Kim",
+    "power": 548,
+    "cooldown": 13,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_27",
+    "name": "Bí Kỹ Tứ Tượng 27",
+    "type": "ultimate",
+    "element": "Hỏa",
+    "power": 566,
+    "cooldown": 13,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_28",
+    "name": "Bí Kỹ Tứ Tượng 28",
+    "type": "counter",
+    "element": "Thủy",
+    "power": 584,
+    "cooldown": 13,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_29",
+    "name": "Bí Kỹ Tứ Tượng 29",
+    "type": "awakening",
+    "element": "Thổ",
+    "power": 602,
+    "cooldown": 13,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_30",
+    "name": "Bí Kỹ Tứ Tượng 30",
+    "type": "active",
+    "element": "Phong",
+    "power": 620,
+    "cooldown": 12,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_31",
+    "name": "Bí Kỹ Tứ Tượng 31",
+    "type": "passive",
+    "element": "Quang",
+    "power": 638,
+    "cooldown": 12,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_32",
+    "name": "Bí Kỹ Tứ Tượng 32",
+    "type": "ultimate",
+    "element": "Hắc",
+    "power": 656,
+    "cooldown": 12,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_33",
+    "name": "Bí Kỹ Tứ Tượng 33",
+    "type": "counter",
+    "element": "Hư Không",
+    "power": 674,
+    "cooldown": 12,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_34",
+    "name": "Bí Kỹ Tứ Tượng 34",
+    "type": "awakening",
+    "element": "Tinh Thần",
+    "power": 692,
+    "cooldown": 12,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_35",
+    "name": "Bí Kỹ Tứ Tượng 35",
+    "type": "active",
+    "element": "Hỗn Độn",
+    "power": 710,
+    "cooldown": 12,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_36",
+    "name": "Bí Kỹ Tứ Tượng 36",
+    "type": "passive",
+    "element": "Lôi",
+    "power": 728,
+    "cooldown": 12,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_37",
+    "name": "Bí Kỹ Tứ Tượng 37",
+    "type": "ultimate",
+    "element": "Mộc",
+    "power": 746,
+    "cooldown": 12,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_38",
+    "name": "Bí Kỹ Tứ Tượng 38",
+    "type": "counter",
+    "element": "Kim",
+    "power": 764,
+    "cooldown": 12,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_39",
+    "name": "Bí Kỹ Tứ Tượng 39",
+    "type": "awakening",
+    "element": "Hỏa",
+    "power": 782,
+    "cooldown": 12,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_40",
+    "name": "Bí Kỹ Tứ Tượng 40",
+    "type": "active",
+    "element": "Thủy",
+    "power": 800,
+    "cooldown": 11,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_41",
+    "name": "Bí Kỹ Tứ Tượng 41",
+    "type": "passive",
+    "element": "Thổ",
+    "power": 818,
+    "cooldown": 11,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_42",
+    "name": "Bí Kỹ Tứ Tượng 42",
+    "type": "ultimate",
+    "element": "Phong",
+    "power": 836,
+    "cooldown": 11,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_43",
+    "name": "Bí Kỹ Tứ Tượng 43",
+    "type": "counter",
+    "element": "Quang",
+    "power": 854,
+    "cooldown": 11,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_44",
+    "name": "Bí Kỹ Tứ Tượng 44",
+    "type": "awakening",
+    "element": "Hắc",
+    "power": 872,
+    "cooldown": 11,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_45",
+    "name": "Bí Kỹ Tứ Tượng 45",
+    "type": "active",
+    "element": "Hư Không",
+    "power": 890,
+    "cooldown": 11,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_46",
+    "name": "Bí Kỹ Tứ Tượng 46",
+    "type": "passive",
+    "element": "Tinh Thần",
+    "power": 908,
+    "cooldown": 11,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_47",
+    "name": "Bí Kỹ Tứ Tượng 47",
+    "type": "ultimate",
+    "element": "Hỗn Độn",
+    "power": 926,
+    "cooldown": 11,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_48",
+    "name": "Bí Kỹ Tứ Tượng 48",
+    "type": "counter",
+    "element": "Lôi",
+    "power": 944,
+    "cooldown": 11,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_49",
+    "name": "Bí Kỹ Tứ Tượng 49",
+    "type": "awakening",
+    "element": "Mộc",
+    "power": 962,
+    "cooldown": 11,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_50",
+    "name": "Bí Kỹ Tứ Tượng 50",
+    "type": "active",
+    "element": "Kim",
+    "power": 980,
+    "cooldown": 10,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_51",
+    "name": "Bí Kỹ Tứ Tượng 51",
+    "type": "passive",
+    "element": "Hỏa",
+    "power": 998,
+    "cooldown": 10,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_52",
+    "name": "Bí Kỹ Tứ Tượng 52",
+    "type": "ultimate",
+    "element": "Thủy",
+    "power": 1016,
+    "cooldown": 10,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_53",
+    "name": "Bí Kỹ Tứ Tượng 53",
+    "type": "counter",
+    "element": "Thổ",
+    "power": 1034,
+    "cooldown": 10,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_54",
+    "name": "Bí Kỹ Tứ Tượng 54",
+    "type": "awakening",
+    "element": "Phong",
+    "power": 1052,
+    "cooldown": 10,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_55",
+    "name": "Bí Kỹ Tứ Tượng 55",
+    "type": "active",
+    "element": "Quang",
+    "power": 1070,
+    "cooldown": 10,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_56",
+    "name": "Bí Kỹ Tứ Tượng 56",
+    "type": "passive",
+    "element": "Hắc",
+    "power": 1088,
+    "cooldown": 10,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_57",
+    "name": "Bí Kỹ Tứ Tượng 57",
+    "type": "ultimate",
+    "element": "Hư Không",
+    "power": 1106,
+    "cooldown": 10,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_58",
+    "name": "Bí Kỹ Tứ Tượng 58",
+    "type": "counter",
+    "element": "Tinh Thần",
+    "power": 1124,
+    "cooldown": 10,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_59",
+    "name": "Bí Kỹ Tứ Tượng 59",
+    "type": "awakening",
+    "element": "Hỗn Độn",
+    "power": 1142,
+    "cooldown": 10,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_60",
+    "name": "Bí Kỹ Tứ Tượng 60",
+    "type": "active",
+    "element": "Lôi",
+    "power": 1160,
+    "cooldown": 9,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_61",
+    "name": "Bí Kỹ Tứ Tượng 61",
+    "type": "passive",
+    "element": "Mộc",
+    "power": 1178,
+    "cooldown": 9,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_62",
+    "name": "Bí Kỹ Tứ Tượng 62",
+    "type": "ultimate",
+    "element": "Kim",
+    "power": 1196,
+    "cooldown": 9,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_63",
+    "name": "Bí Kỹ Tứ Tượng 63",
+    "type": "counter",
+    "element": "Hỏa",
+    "power": 1214,
+    "cooldown": 9,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_64",
+    "name": "Bí Kỹ Tứ Tượng 64",
+    "type": "awakening",
+    "element": "Thủy",
+    "power": 1232,
+    "cooldown": 9,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_65",
+    "name": "Bí Kỹ Tứ Tượng 65",
+    "type": "active",
+    "element": "Thổ",
+    "power": 1250,
+    "cooldown": 9,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_66",
+    "name": "Bí Kỹ Tứ Tượng 66",
+    "type": "passive",
+    "element": "Phong",
+    "power": 1268,
+    "cooldown": 9,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_67",
+    "name": "Bí Kỹ Tứ Tượng 67",
+    "type": "ultimate",
+    "element": "Quang",
+    "power": 1286,
+    "cooldown": 9,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_68",
+    "name": "Bí Kỹ Tứ Tượng 68",
+    "type": "counter",
+    "element": "Hắc",
+    "power": 1304,
+    "cooldown": 9,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_69",
+    "name": "Bí Kỹ Tứ Tượng 69",
+    "type": "awakening",
+    "element": "Hư Không",
+    "power": 1322,
+    "cooldown": 9,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_70",
+    "name": "Bí Kỹ Tứ Tượng 70",
+    "type": "active",
+    "element": "Tinh Thần",
+    "power": 1340,
+    "cooldown": 8,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_71",
+    "name": "Bí Kỹ Tứ Tượng 71",
+    "type": "passive",
+    "element": "Hỗn Độn",
+    "power": 1358,
+    "cooldown": 8,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_72",
+    "name": "Bí Kỹ Tứ Tượng 72",
+    "type": "ultimate",
+    "element": "Lôi",
+    "power": 1376,
+    "cooldown": 8,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_73",
+    "name": "Bí Kỹ Tứ Tượng 73",
+    "type": "counter",
+    "element": "Mộc",
+    "power": 1394,
+    "cooldown": 8,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_74",
+    "name": "Bí Kỹ Tứ Tượng 74",
+    "type": "awakening",
+    "element": "Kim",
+    "power": 1412,
+    "cooldown": 8,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_75",
+    "name": "Bí Kỹ Tứ Tượng 75",
+    "type": "active",
+    "element": "Hỏa",
+    "power": 1430,
+    "cooldown": 8,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_76",
+    "name": "Bí Kỹ Tứ Tượng 76",
+    "type": "passive",
+    "element": "Thủy",
+    "power": 1448,
+    "cooldown": 8,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_77",
+    "name": "Bí Kỹ Tứ Tượng 77",
+    "type": "ultimate",
+    "element": "Thổ",
+    "power": 1466,
+    "cooldown": 8,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_78",
+    "name": "Bí Kỹ Tứ Tượng 78",
+    "type": "counter",
+    "element": "Phong",
+    "power": 1484,
+    "cooldown": 8,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_79",
+    "name": "Bí Kỹ Tứ Tượng 79",
+    "type": "awakening",
+    "element": "Quang",
+    "power": 1502,
+    "cooldown": 8,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_80",
+    "name": "Bí Kỹ Tứ Tượng 80",
+    "type": "active",
+    "element": "Hắc",
+    "power": 1520,
+    "cooldown": 7,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_81",
+    "name": "Bí Kỹ Tứ Tượng 81",
+    "type": "passive",
+    "element": "Hư Không",
+    "power": 1538,
+    "cooldown": 7,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_82",
+    "name": "Bí Kỹ Tứ Tượng 82",
+    "type": "ultimate",
+    "element": "Tinh Thần",
+    "power": 1556,
+    "cooldown": 7,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_83",
+    "name": "Bí Kỹ Tứ Tượng 83",
+    "type": "counter",
+    "element": "Hỗn Độn",
+    "power": 1574,
+    "cooldown": 7,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_84",
+    "name": "Bí Kỹ Tứ Tượng 84",
+    "type": "awakening",
+    "element": "Lôi",
+    "power": 1592,
+    "cooldown": 7,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_85",
+    "name": "Bí Kỹ Tứ Tượng 85",
+    "type": "active",
+    "element": "Mộc",
+    "power": 1610,
+    "cooldown": 7,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_86",
+    "name": "Bí Kỹ Tứ Tượng 86",
+    "type": "passive",
+    "element": "Kim",
+    "power": 1628,
+    "cooldown": 7,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_87",
+    "name": "Bí Kỹ Tứ Tượng 87",
+    "type": "ultimate",
+    "element": "Hỏa",
+    "power": 1646,
+    "cooldown": 7,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_88",
+    "name": "Bí Kỹ Tứ Tượng 88",
+    "type": "counter",
+    "element": "Thủy",
+    "power": 1664,
+    "cooldown": 7,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_89",
+    "name": "Bí Kỹ Tứ Tượng 89",
+    "type": "awakening",
+    "element": "Thổ",
+    "power": 1682,
+    "cooldown": 7,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_90",
+    "name": "Bí Kỹ Tứ Tượng 90",
+    "type": "active",
+    "element": "Phong",
+    "power": 1700,
+    "cooldown": 6,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_91",
+    "name": "Bí Kỹ Tứ Tượng 91",
+    "type": "passive",
+    "element": "Quang",
+    "power": 1718,
+    "cooldown": 6,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_92",
+    "name": "Bí Kỹ Tứ Tượng 92",
+    "type": "ultimate",
+    "element": "Hắc",
+    "power": 1736,
+    "cooldown": 6,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_93",
+    "name": "Bí Kỹ Tứ Tượng 93",
+    "type": "counter",
+    "element": "Hư Không",
+    "power": 1754,
+    "cooldown": 6,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_94",
+    "name": "Bí Kỹ Tứ Tượng 94",
+    "type": "awakening",
+    "element": "Tinh Thần",
+    "power": 1772,
+    "cooldown": 6,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_95",
+    "name": "Bí Kỹ Tứ Tượng 95",
+    "type": "active",
+    "element": "Hỗn Độn",
+    "power": 1790,
+    "cooldown": 6,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_96",
+    "name": "Bí Kỹ Tứ Tượng 96",
+    "type": "passive",
+    "element": "Lôi",
+    "power": 1808,
+    "cooldown": 6,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_97",
+    "name": "Bí Kỹ Tứ Tượng 97",
+    "type": "ultimate",
+    "element": "Mộc",
+    "power": 1826,
+    "cooldown": 6,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_98",
+    "name": "Bí Kỹ Tứ Tượng 98",
+    "type": "counter",
+    "element": "Kim",
+    "power": 1844,
+    "cooldown": 6,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_99",
+    "name": "Bí Kỹ Tứ Tượng 99",
+    "type": "awakening",
+    "element": "Hỏa",
+    "power": 1862,
+    "cooldown": 6,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_100",
+    "name": "Bí Kỹ Tứ Tượng 100",
+    "type": "active",
+    "element": "Thủy",
+    "power": 1880,
+    "cooldown": 5,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_101",
+    "name": "Bí Kỹ Tứ Tượng 101",
+    "type": "passive",
+    "element": "Thổ",
+    "power": 1898,
+    "cooldown": 5,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_102",
+    "name": "Bí Kỹ Tứ Tượng 102",
+    "type": "ultimate",
+    "element": "Phong",
+    "power": 1916,
+    "cooldown": 5,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_103",
+    "name": "Bí Kỹ Tứ Tượng 103",
+    "type": "counter",
+    "element": "Quang",
+    "power": 1934,
+    "cooldown": 5,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_104",
+    "name": "Bí Kỹ Tứ Tượng 104",
+    "type": "awakening",
+    "element": "Hắc",
+    "power": 1952,
+    "cooldown": 5,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_105",
+    "name": "Bí Kỹ Tứ Tượng 105",
+    "type": "active",
+    "element": "Hư Không",
+    "power": 1970,
+    "cooldown": 5,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_106",
+    "name": "Bí Kỹ Tứ Tượng 106",
+    "type": "passive",
+    "element": "Tinh Thần",
+    "power": 1988,
+    "cooldown": 5,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_107",
+    "name": "Bí Kỹ Tứ Tượng 107",
+    "type": "ultimate",
+    "element": "Hỗn Độn",
+    "power": 2006,
+    "cooldown": 5,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_108",
+    "name": "Bí Kỹ Tứ Tượng 108",
+    "type": "counter",
+    "element": "Lôi",
+    "power": 2024,
+    "cooldown": 5,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_109",
+    "name": "Bí Kỹ Tứ Tượng 109",
+    "type": "awakening",
+    "element": "Mộc",
+    "power": 2042,
+    "cooldown": 5,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_110",
+    "name": "Bí Kỹ Tứ Tượng 110",
+    "type": "active",
+    "element": "Kim",
+    "power": 2060,
+    "cooldown": 4,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_111",
+    "name": "Bí Kỹ Tứ Tượng 111",
+    "type": "passive",
+    "element": "Hỏa",
+    "power": 2078,
+    "cooldown": 4,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_112",
+    "name": "Bí Kỹ Tứ Tượng 112",
+    "type": "ultimate",
+    "element": "Thủy",
+    "power": 2096,
+    "cooldown": 4,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_113",
+    "name": "Bí Kỹ Tứ Tượng 113",
+    "type": "counter",
+    "element": "Thổ",
+    "power": 2114,
+    "cooldown": 4,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_114",
+    "name": "Bí Kỹ Tứ Tượng 114",
+    "type": "awakening",
+    "element": "Phong",
+    "power": 2132,
+    "cooldown": 4,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_115",
+    "name": "Bí Kỹ Tứ Tượng 115",
+    "type": "active",
+    "element": "Quang",
+    "power": 2150,
+    "cooldown": 4,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_116",
+    "name": "Bí Kỹ Tứ Tượng 116",
+    "type": "passive",
+    "element": "Hắc",
+    "power": 2168,
+    "cooldown": 4,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_117",
+    "name": "Bí Kỹ Tứ Tượng 117",
+    "type": "ultimate",
+    "element": "Hư Không",
+    "power": 2186,
+    "cooldown": 4,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_118",
+    "name": "Bí Kỹ Tứ Tượng 118",
+    "type": "counter",
+    "element": "Tinh Thần",
+    "power": 2204,
+    "cooldown": 4,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_119",
+    "name": "Bí Kỹ Tứ Tượng 119",
+    "type": "awakening",
+    "element": "Hỗn Độn",
+    "power": 2222,
+    "cooldown": 4,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_120",
+    "name": "Bí Kỹ Tứ Tượng 120",
+    "type": "active",
+    "element": "Lôi",
+    "power": 2240,
+    "cooldown": 3,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_121",
+    "name": "Bí Kỹ Tứ Tượng 121",
+    "type": "passive",
+    "element": "Mộc",
+    "power": 2258,
+    "cooldown": 3,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_122",
+    "name": "Bí Kỹ Tứ Tượng 122",
+    "type": "ultimate",
+    "element": "Kim",
+    "power": 2276,
+    "cooldown": 3,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_123",
+    "name": "Bí Kỹ Tứ Tượng 123",
+    "type": "counter",
+    "element": "Hỏa",
+    "power": 2294,
+    "cooldown": 3,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_124",
+    "name": "Bí Kỹ Tứ Tượng 124",
+    "type": "awakening",
+    "element": "Thủy",
+    "power": 2312,
+    "cooldown": 3,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_125",
+    "name": "Bí Kỹ Tứ Tượng 125",
+    "type": "active",
+    "element": "Thổ",
+    "power": 2330,
+    "cooldown": 3,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_126",
+    "name": "Bí Kỹ Tứ Tượng 126",
+    "type": "passive",
+    "element": "Phong",
+    "power": 2348,
+    "cooldown": 3,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_127",
+    "name": "Bí Kỹ Tứ Tượng 127",
+    "type": "ultimate",
+    "element": "Quang",
+    "power": 2366,
+    "cooldown": 3,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_128",
+    "name": "Bí Kỹ Tứ Tượng 128",
+    "type": "counter",
+    "element": "Hắc",
+    "power": 2384,
+    "cooldown": 3,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_129",
+    "name": "Bí Kỹ Tứ Tượng 129",
+    "type": "awakening",
+    "element": "Hư Không",
+    "power": 2402,
+    "cooldown": 3,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_130",
+    "name": "Bí Kỹ Tứ Tượng 130",
+    "type": "active",
+    "element": "Tinh Thần",
+    "power": 2420,
+    "cooldown": 2,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_131",
+    "name": "Bí Kỹ Tứ Tượng 131",
+    "type": "passive",
+    "element": "Hỗn Độn",
+    "power": 2438,
+    "cooldown": 2,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_132",
+    "name": "Bí Kỹ Tứ Tượng 132",
+    "type": "ultimate",
+    "element": "Lôi",
+    "power": 2456,
+    "cooldown": 2,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_133",
+    "name": "Bí Kỹ Tứ Tượng 133",
+    "type": "counter",
+    "element": "Mộc",
+    "power": 2474,
+    "cooldown": 2,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_134",
+    "name": "Bí Kỹ Tứ Tượng 134",
+    "type": "awakening",
+    "element": "Kim",
+    "power": 2492,
+    "cooldown": 2,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_135",
+    "name": "Bí Kỹ Tứ Tượng 135",
+    "type": "active",
+    "element": "Hỏa",
+    "power": 2510,
+    "cooldown": 2,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_136",
+    "name": "Bí Kỹ Tứ Tượng 136",
+    "type": "passive",
+    "element": "Thủy",
+    "power": 2528,
+    "cooldown": 2,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_137",
+    "name": "Bí Kỹ Tứ Tượng 137",
+    "type": "ultimate",
+    "element": "Thổ",
+    "power": 2546,
+    "cooldown": 2,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_138",
+    "name": "Bí Kỹ Tứ Tượng 138",
+    "type": "counter",
+    "element": "Phong",
+    "power": 2564,
+    "cooldown": 2,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_139",
+    "name": "Bí Kỹ Tứ Tượng 139",
+    "type": "awakening",
+    "element": "Quang",
+    "power": 2582,
+    "cooldown": 2,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_140",
+    "name": "Bí Kỹ Tứ Tượng 140",
+    "type": "active",
+    "element": "Hắc",
+    "power": 2600,
+    "cooldown": 2,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_141",
+    "name": "Bí Kỹ Tứ Tượng 141",
+    "type": "passive",
+    "element": "Hư Không",
+    "power": 2618,
+    "cooldown": 2,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_142",
+    "name": "Bí Kỹ Tứ Tượng 142",
+    "type": "ultimate",
+    "element": "Tinh Thần",
+    "power": 2636,
+    "cooldown": 2,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_143",
+    "name": "Bí Kỹ Tứ Tượng 143",
+    "type": "counter",
+    "element": "Hỗn Độn",
+    "power": 2654,
+    "cooldown": 2,
+    "status": "Niết Bàn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_144",
+    "name": "Bí Kỹ Tứ Tượng 144",
+    "type": "awakening",
+    "element": "Lôi",
+    "power": 2672,
+    "cooldown": 2,
+    "status": "Thiêu Đốt",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_145",
+    "name": "Bí Kỹ Tứ Tượng 145",
+    "type": "active",
+    "element": "Mộc",
+    "power": 2690,
+    "cooldown": 2,
+    "status": "Điện Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_146",
+    "name": "Bí Kỹ Tứ Tượng 146",
+    "type": "passive",
+    "element": "Kim",
+    "power": 2708,
+    "cooldown": 2,
+    "status": "Choáng",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_147",
+    "name": "Bí Kỹ Tứ Tượng 147",
+    "type": "ultimate",
+    "element": "Hỏa",
+    "power": 2726,
+    "cooldown": 2,
+    "status": "Suy Yếu",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_148",
+    "name": "Bí Kỹ Tứ Tượng 148",
+    "type": "counter",
+    "element": "Thủy",
+    "power": 2744,
+    "cooldown": 2,
+    "status": "Hộ Thuẫn",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_149",
+    "name": "Bí Kỹ Tứ Tượng 149",
+    "type": "awakening",
+    "element": "Thổ",
+    "power": 2762,
+    "cooldown": 2,
+    "status": "Phản Kích",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  },
+  {
+    "id": "skill_150",
+    "name": "Bí Kỹ Tứ Tượng 150",
+    "type": "active",
+    "element": "Phong",
+    "power": 2780,
+    "cooldown": 2,
+    "status": "Cuồng Nộ",
+    "animation_frames": [
+      "charge",
+      "summon",
+      "impact",
+      "aftershock",
+      "finish"
+    ]
+  }
+]

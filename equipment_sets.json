@@ -1,0 +1,112 @@
+[
+  {
+    "id": "set_1",
+    "name": "Thanh Long Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_2",
+    "name": "Bạch Hổ Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_3",
+    "name": "Chu Tước Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_4",
+    "name": "Huyền Vũ Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_5",
+    "name": "Tứ Tượng Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_6",
+    "name": "Bắc Minh Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_7",
+    "name": "Cổ Chiến Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_8",
+    "name": "Thiên Ngoại Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_9",
+    "name": "Hắc Uyên Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  },
+  {
+    "id": "set_10",
+    "name": "Tinh Hải Thần Trang",
+    "pieces": 6,
+    "bonuses": {
+      "2pcs": "+5% chỉ số cơ bản",
+      "4pcs": "+10% sát thương hoặc phòng thủ",
+      "6pcs": "Kích hoạt nội tại thần uy"
+    },
+    "lore": "Bộ trang bị nguyên bản lấy cảm hứng từ biểu tượng Tứ Tượng."
+  }
+]

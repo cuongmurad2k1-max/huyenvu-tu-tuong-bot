@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "title_1",
+    "name": "Danh Hiệu 1",
+    "bonus": {
+      "attack": 1,
+      "defense": 1,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_2",
+    "name": "Danh Hiệu 2",
+    "bonus": {
+      "attack": 2,
+      "defense": 2,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_3",
+    "name": "Danh Hiệu 3",
+    "bonus": {
+      "attack": 3,
+      "defense": 3,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_4",
+    "name": "Danh Hiệu 4",
+    "bonus": {
+      "attack": 4,
+      "defense": 4,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_5",
+    "name": "Danh Hiệu 5",
+    "bonus": {
+      "attack": 5,
+      "defense": 5,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_6",
+    "name": "Danh Hiệu 6",
+    "bonus": {
+      "attack": 6,
+      "defense": 6,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_7",
+    "name": "Danh Hiệu 7",
+    "bonus": {
+      "attack": 7,
+      "defense": 7,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_8",
+    "name": "Danh Hiệu 8",
+    "bonus": {
+      "attack": 8,
+      "defense": 8,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_9",
+    "name": "Danh Hiệu 9",
+    "bonus": {
+      "attack": 9,
+      "defense": 9,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_10",
+    "name": "Danh Hiệu 10",
+    "bonus": {
+      "attack": 10,
+      "defense": 10,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_11",
+    "name": "Danh Hiệu 11",
+    "bonus": {
+      "attack": 11,
+      "defense": 11,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_12",
+    "name": "Danh Hiệu 12",
+    "bonus": {
+      "attack": 12,
+      "defense": 0,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_13",
+    "name": "Danh Hiệu 13",
+    "bonus": {
+      "attack": 13,
+      "defense": 1,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_14",
+    "name": "Danh Hiệu 14",
+    "bonus": {
+      "attack": 14,
+      "defense": 2,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_15",
+    "name": "Danh Hiệu 15",
+    "bonus": {
+      "attack": 0,
+      "defense": 3,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_16",
+    "name": "Danh Hiệu 16",
+    "bonus": {
+      "attack": 1,
+      "defense": 4,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_17",
+    "name": "Danh Hiệu 17",
+    "bonus": {
+      "attack": 2,
+      "defense": 5,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_18",
+    "name": "Danh Hiệu 18",
+    "bonus": {
+      "attack": 3,
+      "defense": 6,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_19",
+    "name": "Danh Hiệu 19",
+    "bonus": {
+      "attack": 4,
+      "defense": 7,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_20",
+    "name": "Danh Hiệu 20",
+    "bonus": {
+      "attack": 5,
+      "defense": 8,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_21",
+    "name": "Danh Hiệu 21",
+    "bonus": {
+      "attack": 6,
+      "defense": 9,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_22",
+    "name": "Danh Hiệu 22",
+    "bonus": {
+      "attack": 7,
+      "defense": 10,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_23",
+    "name": "Danh Hiệu 23",
+    "bonus": {
+      "attack": 8,
+      "defense": 11,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_24",
+    "name": "Danh Hiệu 24",
+    "bonus": {
+      "attack": 9,
+      "defense": 0,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_25",
+    "name": "Danh Hiệu 25",
+    "bonus": {
+      "attack": 10,
+      "defense": 1,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_26",
+    "name": "Danh Hiệu 26",
+    "bonus": {
+      "attack": 11,
+      "defense": 2,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_27",
+    "name": "Danh Hiệu 27",
+    "bonus": {
+      "attack": 12,
+      "defense": 3,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_28",
+    "name": "Danh Hiệu 28",
+    "bonus": {
+      "attack": 13,
+      "defense": 4,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_29",
+    "name": "Danh Hiệu 29",
+    "bonus": {
+      "attack": 14,
+      "defense": 5,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_30",
+    "name": "Danh Hiệu 30",
+    "bonus": {
+      "attack": 0,
+      "defense": 6,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_31",
+    "name": "Danh Hiệu 31",
+    "bonus": {
+      "attack": 1,
+      "defense": 7,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_32",
+    "name": "Danh Hiệu 32",
+    "bonus": {
+      "attack": 2,
+      "defense": 8,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_33",
+    "name": "Danh Hiệu 33",
+    "bonus": {
+      "attack": 3,
+      "defense": 9,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_34",
+    "name": "Danh Hiệu 34",
+    "bonus": {
+      "attack": 4,
+      "defense": 10,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_35",
+    "name": "Danh Hiệu 35",
+    "bonus": {
+      "attack": 5,
+      "defense": 11,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_36",
+    "name": "Danh Hiệu 36",
+    "bonus": {
+      "attack": 6,
+      "defense": 0,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_37",
+    "name": "Danh Hiệu 37",
+    "bonus": {
+      "attack": 7,
+      "defense": 1,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_38",
+    "name": "Danh Hiệu 38",
+    "bonus": {
+      "attack": 8,
+      "defense": 2,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_39",
+    "name": "Danh Hiệu 39",
+    "bonus": {
+      "attack": 9,
+      "defense": 3,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_40",
+    "name": "Danh Hiệu 40",
+    "bonus": {
+      "attack": 10,
+      "defense": 4,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_41",
+    "name": "Danh Hiệu 41",
+    "bonus": {
+      "attack": 11,
+      "defense": 5,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_42",
+    "name": "Danh Hiệu 42",
+    "bonus": {
+      "attack": 12,
+      "defense": 6,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_43",
+    "name": "Danh Hiệu 43",
+    "bonus": {
+      "attack": 13,
+      "defense": 7,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_44",
+    "name": "Danh Hiệu 44",
+    "bonus": {
+      "attack": 14,
+      "defense": 8,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_45",
+    "name": "Danh Hiệu 45",
+    "bonus": {
+      "attack": 0,
+      "defense": 9,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_46",
+    "name": "Danh Hiệu 46",
+    "bonus": {
+      "attack": 1,
+      "defense": 10,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_47",
+    "name": "Danh Hiệu 47",
+    "bonus": {
+      "attack": 2,
+      "defense": 11,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_48",
+    "name": "Danh Hiệu 48",
+    "bonus": {
+      "attack": 3,
+      "defense": 0,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_49",
+    "name": "Danh Hiệu 49",
+    "bonus": {
+      "attack": 4,
+      "defense": 1,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_50",
+    "name": "Danh Hiệu 50",
+    "bonus": {
+      "attack": 5,
+      "defense": 2,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_51",
+    "name": "Danh Hiệu 51",
+    "bonus": {
+      "attack": 6,
+      "defense": 3,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_52",
+    "name": "Danh Hiệu 52",
+    "bonus": {
+      "attack": 7,
+      "defense": 4,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_53",
+    "name": "Danh Hiệu 53",
+    "bonus": {
+      "attack": 8,
+      "defense": 5,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_54",
+    "name": "Danh Hiệu 54",
+    "bonus": {
+      "attack": 9,
+      "defense": 6,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_55",
+    "name": "Danh Hiệu 55",
+    "bonus": {
+      "attack": 10,
+      "defense": 7,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_56",
+    "name": "Danh Hiệu 56",
+    "bonus": {
+      "attack": 11,
+      "defense": 8,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_57",
+    "name": "Danh Hiệu 57",
+    "bonus": {
+      "attack": 12,
+      "defense": 9,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_58",
+    "name": "Danh Hiệu 58",
+    "bonus": {
+      "attack": 13,
+      "defense": 10,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_59",
+    "name": "Danh Hiệu 59",
+    "bonus": {
+      "attack": 14,
+      "defense": 11,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_60",
+    "name": "Danh Hiệu 60",
+    "bonus": {
+      "attack": 0,
+      "defense": 0,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_61",
+    "name": "Danh Hiệu 61",
+    "bonus": {
+      "attack": 1,
+      "defense": 1,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_62",
+    "name": "Danh Hiệu 62",
+    "bonus": {
+      "attack": 2,
+      "defense": 2,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_63",
+    "name": "Danh Hiệu 63",
+    "bonus": {
+      "attack": 3,
+      "defense": 3,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_64",
+    "name": "Danh Hiệu 64",
+    "bonus": {
+      "attack": 4,
+      "defense": 4,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_65",
+    "name": "Danh Hiệu 65",
+    "bonus": {
+      "attack": 5,
+      "defense": 5,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_66",
+    "name": "Danh Hiệu 66",
+    "bonus": {
+      "attack": 6,
+      "defense": 6,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_67",
+    "name": "Danh Hiệu 67",
+    "bonus": {
+      "attack": 7,
+      "defense": 7,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_68",
+    "name": "Danh Hiệu 68",
+    "bonus": {
+      "attack": 8,
+      "defense": 8,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_69",
+    "name": "Danh Hiệu 69",
+    "bonus": {
+      "attack": 9,
+      "defense": 9,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_70",
+    "name": "Danh Hiệu 70",
+    "bonus": {
+      "attack": 10,
+      "defense": 10,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_71",
+    "name": "Danh Hiệu 71",
+    "bonus": {
+      "attack": 11,
+      "defense": 11,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_72",
+    "name": "Danh Hiệu 72",
+    "bonus": {
+      "attack": 12,
+      "defense": 0,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_73",
+    "name": "Danh Hiệu 73",
+    "bonus": {
+      "attack": 13,
+      "defense": 1,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_74",
+    "name": "Danh Hiệu 74",
+    "bonus": {
+      "attack": 14,
+      "defense": 2,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_75",
+    "name": "Danh Hiệu 75",
+    "bonus": {
+      "attack": 0,
+      "defense": 3,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_76",
+    "name": "Danh Hiệu 76",
+    "bonus": {
+      "attack": 1,
+      "defense": 4,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_77",
+    "name": "Danh Hiệu 77",
+    "bonus": {
+      "attack": 2,
+      "defense": 5,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_78",
+    "name": "Danh Hiệu 78",
+    "bonus": {
+      "attack": 3,
+      "defense": 6,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_79",
+    "name": "Danh Hiệu 79",
+    "bonus": {
+      "attack": 4,
+      "defense": 7,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_80",
+    "name": "Danh Hiệu 80",
+    "bonus": {
+      "attack": 5,
+      "defense": 8,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_81",
+    "name": "Danh Hiệu 81",
+    "bonus": {
+      "attack": 6,
+      "defense": 9,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_82",
+    "name": "Danh Hiệu 82",
+    "bonus": {
+      "attack": 7,
+      "defense": 10,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_83",
+    "name": "Danh Hiệu 83",
+    "bonus": {
+      "attack": 8,
+      "defense": 11,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_84",
+    "name": "Danh Hiệu 84",
+    "bonus": {
+      "attack": 9,
+      "defense": 0,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_85",
+    "name": "Danh Hiệu 85",
+    "bonus": {
+      "attack": 10,
+      "defense": 1,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_86",
+    "name": "Danh Hiệu 86",
+    "bonus": {
+      "attack": 11,
+      "defense": 2,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_87",
+    "name": "Danh Hiệu 87",
+    "bonus": {
+      "attack": 12,
+      "defense": 3,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_88",
+    "name": "Danh Hiệu 88",
+    "bonus": {
+      "attack": 13,
+      "defense": 4,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_89",
+    "name": "Danh Hiệu 89",
+    "bonus": {
+      "attack": 14,
+      "defense": 5,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_90",
+    "name": "Danh Hiệu 90",
+    "bonus": {
+      "attack": 0,
+      "defense": 6,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_91",
+    "name": "Danh Hiệu 91",
+    "bonus": {
+      "attack": 1,
+      "defense": 7,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_92",
+    "name": "Danh Hiệu 92",
+    "bonus": {
+      "attack": 2,
+      "defense": 8,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_93",
+    "name": "Danh Hiệu 93",
+    "bonus": {
+      "attack": 3,
+      "defense": 9,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_94",
+    "name": "Danh Hiệu 94",
+    "bonus": {
+      "attack": 4,
+      "defense": 10,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_95",
+    "name": "Danh Hiệu 95",
+    "bonus": {
+      "attack": 5,
+      "defense": 11,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_96",
+    "name": "Danh Hiệu 96",
+    "bonus": {
+      "attack": 6,
+      "defense": 0,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_97",
+    "name": "Danh Hiệu 97",
+    "bonus": {
+      "attack": 7,
+      "defense": 1,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_98",
+    "name": "Danh Hiệu 98",
+    "bonus": {
+      "attack": 8,
+      "defense": 2,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_99",
+    "name": "Danh Hiệu 99",
+    "bonus": {
+      "attack": 9,
+      "defense": 3,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_100",
+    "name": "Danh Hiệu 100",
+    "bonus": {
+      "attack": 10,
+      "defense": 4,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_101",
+    "name": "Danh Hiệu 101",
+    "bonus": {
+      "attack": 11,
+      "defense": 5,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_102",
+    "name": "Danh Hiệu 102",
+    "bonus": {
+      "attack": 12,
+      "defense": 6,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_103",
+    "name": "Danh Hiệu 103",
+    "bonus": {
+      "attack": 13,
+      "defense": 7,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_104",
+    "name": "Danh Hiệu 104",
+    "bonus": {
+      "attack": 14,
+      "defense": 8,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_105",
+    "name": "Danh Hiệu 105",
+    "bonus": {
+      "attack": 0,
+      "defense": 9,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_106",
+    "name": "Danh Hiệu 106",
+    "bonus": {
+      "attack": 1,
+      "defense": 10,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_107",
+    "name": "Danh Hiệu 107",
+    "bonus": {
+      "attack": 2,
+      "defense": 11,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_108",
+    "name": "Danh Hiệu 108",
+    "bonus": {
+      "attack": 3,
+      "defense": 0,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_109",
+    "name": "Danh Hiệu 109",
+    "bonus": {
+      "attack": 4,
+      "defense": 1,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_110",
+    "name": "Danh Hiệu 110",
+    "bonus": {
+      "attack": 5,
+      "defense": 2,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_111",
+    "name": "Danh Hiệu 111",
+    "bonus": {
+      "attack": 6,
+      "defense": 3,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_112",
+    "name": "Danh Hiệu 112",
+    "bonus": {
+      "attack": 7,
+      "defense": 4,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_113",
+    "name": "Danh Hiệu 113",
+    "bonus": {
+      "attack": 8,
+      "defense": 5,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_114",
+    "name": "Danh Hiệu 114",
+    "bonus": {
+      "attack": 9,
+      "defense": 6,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_115",
+    "name": "Danh Hiệu 115",
+    "bonus": {
+      "attack": 10,
+      "defense": 7,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_116",
+    "name": "Danh Hiệu 116",
+    "bonus": {
+      "attack": 11,
+      "defense": 8,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_117",
+    "name": "Danh Hiệu 117",
+    "bonus": {
+      "attack": 12,
+      "defense": 9,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_118",
+    "name": "Danh Hiệu 118",
+    "bonus": {
+      "attack": 13,
+      "defense": 10,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_119",
+    "name": "Danh Hiệu 119",
+    "bonus": {
+      "attack": 14,
+      "defense": 11,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_120",
+    "name": "Danh Hiệu 120",
+    "bonus": {
+      "attack": 0,
+      "defense": 0,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_121",
+    "name": "Danh Hiệu 121",
+    "bonus": {
+      "attack": 1,
+      "defense": 1,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_122",
+    "name": "Danh Hiệu 122",
+    "bonus": {
+      "attack": 2,
+      "defense": 2,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_123",
+    "name": "Danh Hiệu 123",
+    "bonus": {
+      "attack": 3,
+      "defense": 3,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_124",
+    "name": "Danh Hiệu 124",
+    "bonus": {
+      "attack": 4,
+      "defense": 4,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_125",
+    "name": "Danh Hiệu 125",
+    "bonus": {
+      "attack": 5,
+      "defense": 5,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_126",
+    "name": "Danh Hiệu 126",
+    "bonus": {
+      "attack": 6,
+      "defense": 6,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_127",
+    "name": "Danh Hiệu 127",
+    "bonus": {
+      "attack": 7,
+      "defense": 7,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_128",
+    "name": "Danh Hiệu 128",
+    "bonus": {
+      "attack": 8,
+      "defense": 8,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_129",
+    "name": "Danh Hiệu 129",
+    "bonus": {
+      "attack": 9,
+      "defense": 9,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_130",
+    "name": "Danh Hiệu 130",
+    "bonus": {
+      "attack": 10,
+      "defense": 10,
+      "hp": 200
+    }
+  },
+  {
+    "id": "title_131",
+    "name": "Danh Hiệu 131",
+    "bonus": {
+      "attack": 11,
+      "defense": 11,
+      "hp": 220
+    }
+  },
+  {
+    "id": "title_132",
+    "name": "Danh Hiệu 132",
+    "bonus": {
+      "attack": 12,
+      "defense": 0,
+      "hp": 240
+    }
+  },
+  {
+    "id": "title_133",
+    "name": "Danh Hiệu 133",
+    "bonus": {
+      "attack": 13,
+      "defense": 1,
+      "hp": 260
+    }
+  },
+  {
+    "id": "title_134",
+    "name": "Danh Hiệu 134",
+    "bonus": {
+      "attack": 14,
+      "defense": 2,
+      "hp": 280
+    }
+  },
+  {
+    "id": "title_135",
+    "name": "Danh Hiệu 135",
+    "bonus": {
+      "attack": 0,
+      "defense": 3,
+      "hp": 300
+    }
+  },
+  {
+    "id": "title_136",
+    "name": "Danh Hiệu 136",
+    "bonus": {
+      "attack": 1,
+      "defense": 4,
+      "hp": 320
+    }
+  },
+  {
+    "id": "title_137",
+    "name": "Danh Hiệu 137",
+    "bonus": {
+      "attack": 2,
+      "defense": 5,
+      "hp": 340
+    }
+  },
+  {
+    "id": "title_138",
+    "name": "Danh Hiệu 138",
+    "bonus": {
+      "attack": 3,
+      "defense": 6,
+      "hp": 360
+    }
+  },
+  {
+    "id": "title_139",
+    "name": "Danh Hiệu 139",
+    "bonus": {
+      "attack": 4,
+      "defense": 7,
+      "hp": 380
+    }
+  },
+  {
+    "id": "title_140",
+    "name": "Danh Hiệu 140",
+    "bonus": {
+      "attack": 5,
+      "defense": 8,
+      "hp": 0
+    }
+  },
+  {
+    "id": "title_141",
+    "name": "Danh Hiệu 141",
+    "bonus": {
+      "attack": 6,
+      "defense": 9,
+      "hp": 20
+    }
+  },
+  {
+    "id": "title_142",
+    "name": "Danh Hiệu 142",
+    "bonus": {
+      "attack": 7,
+      "defense": 10,
+      "hp": 40
+    }
+  },
+  {
+    "id": "title_143",
+    "name": "Danh Hiệu 143",
+    "bonus": {
+      "attack": 8,
+      "defense": 11,
+      "hp": 60
+    }
+  },
+  {
+    "id": "title_144",
+    "name": "Danh Hiệu 144",
+    "bonus": {
+      "attack": 9,
+      "defense": 0,
+      "hp": 80
+    }
+  },
+  {
+    "id": "title_145",
+    "name": "Danh Hiệu 145",
+    "bonus": {
+      "attack": 10,
+      "defense": 1,
+      "hp": 100
+    }
+  },
+  {
+    "id": "title_146",
+    "name": "Danh Hiệu 146",
+    "bonus": {
+      "attack": 11,
+      "defense": 2,
+      "hp": 120
+    }
+  },
+  {
+    "id": "title_147",
+    "name": "Danh Hiệu 147",
+    "bonus": {
+      "attack": 12,
+      "defense": 3,
+      "hp": 140
+    }
+  },
+  {
+    "id": "title_148",
+    "name": "Danh Hiệu 148",
+    "bonus": {
+      "attack": 13,
+      "defense": 4,
+      "hp": 160
+    }
+  },
+  {
+    "id": "title_149",
+    "name": "Danh Hiệu 149",
+    "bonus": {
+      "attack": 14,
+      "defense": 5,
+      "hp": 180
+    }
+  },
+  {
+    "id": "title_150",
+    "name": "Danh Hiệu 150",
+    "bonus": {
+      "attack": 0,
+      "defense": 6,
+      "hp": 200
+    }
+  }
+]

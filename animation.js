@@ -1,0 +1,1 @@
+async function cinematic(message,frames,delay=700){for(const frame of frames){await new Promise(r=>setTimeout(r,delay));await message.edit({content:frame})}return message}module.exports={cinematic};

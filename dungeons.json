@@ -1,0 +1,882 @@
+[
+  {
+    "id": "dungeon_1",
+    "name": "Bí Cảnh Cổ Thần 1",
+    "floors": 6,
+    "boss": "boss_2",
+    "entry_key": "item_4",
+    "rewards": [
+      "item_6",
+      "item_10"
+    ]
+  },
+  {
+    "id": "dungeon_2",
+    "name": "Bí Cảnh Cổ Thần 2",
+    "floors": 7,
+    "boss": "boss_3",
+    "entry_key": "item_7",
+    "rewards": [
+      "item_11",
+      "item_19"
+    ]
+  },
+  {
+    "id": "dungeon_3",
+    "name": "Bí Cảnh Cổ Thần 3",
+    "floors": 8,
+    "boss": "boss_4",
+    "entry_key": "item_10",
+    "rewards": [
+      "item_16",
+      "item_28"
+    ]
+  },
+  {
+    "id": "dungeon_4",
+    "name": "Bí Cảnh Cổ Thần 4",
+    "floors": 9,
+    "boss": "boss_5",
+    "entry_key": "item_13",
+    "rewards": [
+      "item_21",
+      "item_37"
+    ]
+  },
+  {
+    "id": "dungeon_5",
+    "name": "Bí Cảnh Cổ Thần 5",
+    "floors": 10,
+    "boss": "boss_6",
+    "entry_key": "item_16",
+    "rewards": [
+      "item_26",
+      "item_46"
+    ]
+  },
+  {
+    "id": "dungeon_6",
+    "name": "Bí Cảnh Cổ Thần 6",
+    "floors": 11,
+    "boss": "boss_7",
+    "entry_key": "item_19",
+    "rewards": [
+      "item_31",
+      "item_55"
+    ]
+  },
+  {
+    "id": "dungeon_7",
+    "name": "Bí Cảnh Cổ Thần 7",
+    "floors": 12,
+    "boss": "boss_8",
+    "entry_key": "item_22",
+    "rewards": [
+      "item_36",
+      "item_64"
+    ]
+  },
+  {
+    "id": "dungeon_8",
+    "name": "Bí Cảnh Cổ Thần 8",
+    "floors": 13,
+    "boss": "boss_9",
+    "entry_key": "item_25",
+    "rewards": [
+      "item_41",
+      "item_73"
+    ]
+  },
+  {
+    "id": "dungeon_9",
+    "name": "Bí Cảnh Cổ Thần 9",
+    "floors": 14,
+    "boss": "boss_10",
+    "entry_key": "item_28",
+    "rewards": [
+      "item_46",
+      "item_82"
+    ]
+  },
+  {
+    "id": "dungeon_10",
+    "name": "Bí Cảnh Cổ Thần 10",
+    "floors": 15,
+    "boss": "boss_11",
+    "entry_key": "item_31",
+    "rewards": [
+      "item_51",
+      "item_91"
+    ]
+  },
+  {
+    "id": "dungeon_11",
+    "name": "Bí Cảnh Cổ Thần 11",
+    "floors": 16,
+    "boss": "boss_12",
+    "entry_key": "item_34",
+    "rewards": [
+      "item_56",
+      "item_100"
+    ]
+  },
+  {
+    "id": "dungeon_12",
+    "name": "Bí Cảnh Cổ Thần 12",
+    "floors": 17,
+    "boss": "boss_13",
+    "entry_key": "item_37",
+    "rewards": [
+      "item_61",
+      "item_109"
+    ]
+  },
+  {
+    "id": "dungeon_13",
+    "name": "Bí Cảnh Cổ Thần 13",
+    "floors": 18,
+    "boss": "boss_14",
+    "entry_key": "item_40",
+    "rewards": [
+      "item_66",
+      "item_118"
+    ]
+  },
+  {
+    "id": "dungeon_14",
+    "name": "Bí Cảnh Cổ Thần 14",
+    "floors": 19,
+    "boss": "boss_15",
+    "entry_key": "item_43",
+    "rewards": [
+      "item_71",
+      "item_127"
+    ]
+  },
+  {
+    "id": "dungeon_15",
+    "name": "Bí Cảnh Cổ Thần 15",
+    "floors": 20,
+    "boss": "boss_16",
+    "entry_key": "item_46",
+    "rewards": [
+      "item_76",
+      "item_136"
+    ]
+  },
+  {
+    "id": "dungeon_16",
+    "name": "Bí Cảnh Cổ Thần 16",
+    "floors": 5,
+    "boss": "boss_17",
+    "entry_key": "item_49",
+    "rewards": [
+      "item_81",
+      "item_145"
+    ]
+  },
+  {
+    "id": "dungeon_17",
+    "name": "Bí Cảnh Cổ Thần 17",
+    "floors": 6,
+    "boss": "boss_18",
+    "entry_key": "item_52",
+    "rewards": [
+      "item_86",
+      "item_154"
+    ]
+  },
+  {
+    "id": "dungeon_18",
+    "name": "Bí Cảnh Cổ Thần 18",
+    "floors": 7,
+    "boss": "boss_19",
+    "entry_key": "item_55",
+    "rewards": [
+      "item_91",
+      "item_163"
+    ]
+  },
+  {
+    "id": "dungeon_19",
+    "name": "Bí Cảnh Cổ Thần 19",
+    "floors": 8,
+    "boss": "boss_20",
+    "entry_key": "item_58",
+    "rewards": [
+      "item_96",
+      "item_172"
+    ]
+  },
+  {
+    "id": "dungeon_20",
+    "name": "Bí Cảnh Cổ Thần 20",
+    "floors": 9,
+    "boss": "boss_21",
+    "entry_key": "item_61",
+    "rewards": [
+      "item_101",
+      "item_181"
+    ]
+  },
+  {
+    "id": "dungeon_21",
+    "name": "Bí Cảnh Cổ Thần 21",
+    "floors": 10,
+    "boss": "boss_22",
+    "entry_key": "item_64",
+    "rewards": [
+      "item_106",
+      "item_190"
+    ]
+  },
+  {
+    "id": "dungeon_22",
+    "name": "Bí Cảnh Cổ Thần 22",
+    "floors": 11,
+    "boss": "boss_23",
+    "entry_key": "item_67",
+    "rewards": [
+      "item_111",
+      "item_199"
+    ]
+  },
+  {
+    "id": "dungeon_23",
+    "name": "Bí Cảnh Cổ Thần 23",
+    "floors": 12,
+    "boss": "boss_24",
+    "entry_key": "item_70",
+    "rewards": [
+      "item_116",
+      "item_208"
+    ]
+  },
+  {
+    "id": "dungeon_24",
+    "name": "Bí Cảnh Cổ Thần 24",
+    "floors": 13,
+    "boss": "boss_25",
+    "entry_key": "item_73",
+    "rewards": [
+      "item_121",
+      "item_217"
+    ]
+  },
+  {
+    "id": "dungeon_25",
+    "name": "Bí Cảnh Cổ Thần 25",
+    "floors": 14,
+    "boss": "boss_26",
+    "entry_key": "item_76",
+    "rewards": [
+      "item_126",
+      "item_226"
+    ]
+  },
+  {
+    "id": "dungeon_26",
+    "name": "Bí Cảnh Cổ Thần 26",
+    "floors": 15,
+    "boss": "boss_27",
+    "entry_key": "item_79",
+    "rewards": [
+      "item_131",
+      "item_235"
+    ]
+  },
+  {
+    "id": "dungeon_27",
+    "name": "Bí Cảnh Cổ Thần 27",
+    "floors": 16,
+    "boss": "boss_28",
+    "entry_key": "item_82",
+    "rewards": [
+      "item_136",
+      "item_244"
+    ]
+  },
+  {
+    "id": "dungeon_28",
+    "name": "Bí Cảnh Cổ Thần 28",
+    "floors": 17,
+    "boss": "boss_29",
+    "entry_key": "item_85",
+    "rewards": [
+      "item_141",
+      "item_253"
+    ]
+  },
+  {
+    "id": "dungeon_29",
+    "name": "Bí Cảnh Cổ Thần 29",
+    "floors": 18,
+    "boss": "boss_30",
+    "entry_key": "item_88",
+    "rewards": [
+      "item_146",
+      "item_262"
+    ]
+  },
+  {
+    "id": "dungeon_30",
+    "name": "Bí Cảnh Cổ Thần 30",
+    "floors": 19,
+    "boss": "boss_31",
+    "entry_key": "item_91",
+    "rewards": [
+      "item_151",
+      "item_271"
+    ]
+  },
+  {
+    "id": "dungeon_31",
+    "name": "Bí Cảnh Cổ Thần 31",
+    "floors": 20,
+    "boss": "boss_32",
+    "entry_key": "item_94",
+    "rewards": [
+      "item_156",
+      "item_280"
+    ]
+  },
+  {
+    "id": "dungeon_32",
+    "name": "Bí Cảnh Cổ Thần 32",
+    "floors": 5,
+    "boss": "boss_33",
+    "entry_key": "item_97",
+    "rewards": [
+      "item_161",
+      "item_289"
+    ]
+  },
+  {
+    "id": "dungeon_33",
+    "name": "Bí Cảnh Cổ Thần 33",
+    "floors": 6,
+    "boss": "boss_34",
+    "entry_key": "item_100",
+    "rewards": [
+      "item_166",
+      "item_298"
+    ]
+  },
+  {
+    "id": "dungeon_34",
+    "name": "Bí Cảnh Cổ Thần 34",
+    "floors": 7,
+    "boss": "boss_35",
+    "entry_key": "item_103",
+    "rewards": [
+      "item_171",
+      "item_307"
+    ]
+  },
+  {
+    "id": "dungeon_35",
+    "name": "Bí Cảnh Cổ Thần 35",
+    "floors": 8,
+    "boss": "boss_36",
+    "entry_key": "item_106",
+    "rewards": [
+      "item_176",
+      "item_316"
+    ]
+  },
+  {
+    "id": "dungeon_36",
+    "name": "Bí Cảnh Cổ Thần 36",
+    "floors": 9,
+    "boss": "boss_37",
+    "entry_key": "item_109",
+    "rewards": [
+      "item_181",
+      "item_325"
+    ]
+  },
+  {
+    "id": "dungeon_37",
+    "name": "Bí Cảnh Cổ Thần 37",
+    "floors": 10,
+    "boss": "boss_38",
+    "entry_key": "item_112",
+    "rewards": [
+      "item_186",
+      "item_334"
+    ]
+  },
+  {
+    "id": "dungeon_38",
+    "name": "Bí Cảnh Cổ Thần 38",
+    "floors": 11,
+    "boss": "boss_39",
+    "entry_key": "item_115",
+    "rewards": [
+      "item_191",
+      "item_343"
+    ]
+  },
+  {
+    "id": "dungeon_39",
+    "name": "Bí Cảnh Cổ Thần 39",
+    "floors": 12,
+    "boss": "boss_40",
+    "entry_key": "item_118",
+    "rewards": [
+      "item_196",
+      "item_352"
+    ]
+  },
+  {
+    "id": "dungeon_40",
+    "name": "Bí Cảnh Cổ Thần 40",
+    "floors": 13,
+    "boss": "boss_41",
+    "entry_key": "item_121",
+    "rewards": [
+      "item_201",
+      "item_361"
+    ]
+  },
+  {
+    "id": "dungeon_41",
+    "name": "Bí Cảnh Cổ Thần 41",
+    "floors": 14,
+    "boss": "boss_42",
+    "entry_key": "item_124",
+    "rewards": [
+      "item_206",
+      "item_370"
+    ]
+  },
+  {
+    "id": "dungeon_42",
+    "name": "Bí Cảnh Cổ Thần 42",
+    "floors": 15,
+    "boss": "boss_43",
+    "entry_key": "item_127",
+    "rewards": [
+      "item_211",
+      "item_379"
+    ]
+  },
+  {
+    "id": "dungeon_43",
+    "name": "Bí Cảnh Cổ Thần 43",
+    "floors": 16,
+    "boss": "boss_44",
+    "entry_key": "item_130",
+    "rewards": [
+      "item_216",
+      "item_388"
+    ]
+  },
+  {
+    "id": "dungeon_44",
+    "name": "Bí Cảnh Cổ Thần 44",
+    "floors": 17,
+    "boss": "boss_45",
+    "entry_key": "item_133",
+    "rewards": [
+      "item_221",
+      "item_397"
+    ]
+  },
+  {
+    "id": "dungeon_45",
+    "name": "Bí Cảnh Cổ Thần 45",
+    "floors": 18,
+    "boss": "boss_46",
+    "entry_key": "item_136",
+    "rewards": [
+      "item_226",
+      "item_406"
+    ]
+  },
+  {
+    "id": "dungeon_46",
+    "name": "Bí Cảnh Cổ Thần 46",
+    "floors": 19,
+    "boss": "boss_47",
+    "entry_key": "item_139",
+    "rewards": [
+      "item_231",
+      "item_415"
+    ]
+  },
+  {
+    "id": "dungeon_47",
+    "name": "Bí Cảnh Cổ Thần 47",
+    "floors": 20,
+    "boss": "boss_48",
+    "entry_key": "item_142",
+    "rewards": [
+      "item_236",
+      "item_424"
+    ]
+  },
+  {
+    "id": "dungeon_48",
+    "name": "Bí Cảnh Cổ Thần 48",
+    "floors": 5,
+    "boss": "boss_49",
+    "entry_key": "item_145",
+    "rewards": [
+      "item_241",
+      "item_433"
+    ]
+  },
+  {
+    "id": "dungeon_49",
+    "name": "Bí Cảnh Cổ Thần 49",
+    "floors": 6,
+    "boss": "boss_50",
+    "entry_key": "item_148",
+    "rewards": [
+      "item_246",
+      "item_442"
+    ]
+  },
+  {
+    "id": "dungeon_50",
+    "name": "Bí Cảnh Cổ Thần 50",
+    "floors": 7,
+    "boss": "boss_51",
+    "entry_key": "item_151",
+    "rewards": [
+      "item_251",
+      "item_451"
+    ]
+  },
+  {
+    "id": "dungeon_51",
+    "name": "Bí Cảnh Cổ Thần 51",
+    "floors": 8,
+    "boss": "boss_52",
+    "entry_key": "item_154",
+    "rewards": [
+      "item_256",
+      "item_460"
+    ]
+  },
+  {
+    "id": "dungeon_52",
+    "name": "Bí Cảnh Cổ Thần 52",
+    "floors": 9,
+    "boss": "boss_53",
+    "entry_key": "item_157",
+    "rewards": [
+      "item_261",
+      "item_469"
+    ]
+  },
+  {
+    "id": "dungeon_53",
+    "name": "Bí Cảnh Cổ Thần 53",
+    "floors": 10,
+    "boss": "boss_54",
+    "entry_key": "item_160",
+    "rewards": [
+      "item_266",
+      "item_478"
+    ]
+  },
+  {
+    "id": "dungeon_54",
+    "name": "Bí Cảnh Cổ Thần 54",
+    "floors": 11,
+    "boss": "boss_55",
+    "entry_key": "item_163",
+    "rewards": [
+      "item_271",
+      "item_487"
+    ]
+  },
+  {
+    "id": "dungeon_55",
+    "name": "Bí Cảnh Cổ Thần 55",
+    "floors": 12,
+    "boss": "boss_56",
+    "entry_key": "item_166",
+    "rewards": [
+      "item_276",
+      "item_496"
+    ]
+  },
+  {
+    "id": "dungeon_56",
+    "name": "Bí Cảnh Cổ Thần 56",
+    "floors": 13,
+    "boss": "boss_57",
+    "entry_key": "item_169",
+    "rewards": [
+      "item_281",
+      "item_5"
+    ]
+  },
+  {
+    "id": "dungeon_57",
+    "name": "Bí Cảnh Cổ Thần 57",
+    "floors": 14,
+    "boss": "boss_58",
+    "entry_key": "item_172",
+    "rewards": [
+      "item_286",
+      "item_14"
+    ]
+  },
+  {
+    "id": "dungeon_58",
+    "name": "Bí Cảnh Cổ Thần 58",
+    "floors": 15,
+    "boss": "boss_59",
+    "entry_key": "item_175",
+    "rewards": [
+      "item_291",
+      "item_23"
+    ]
+  },
+  {
+    "id": "dungeon_59",
+    "name": "Bí Cảnh Cổ Thần 59",
+    "floors": 16,
+    "boss": "boss_60",
+    "entry_key": "item_178",
+    "rewards": [
+      "item_296",
+      "item_32"
+    ]
+  },
+  {
+    "id": "dungeon_60",
+    "name": "Bí Cảnh Cổ Thần 60",
+    "floors": 17,
+    "boss": "boss_61",
+    "entry_key": "item_181",
+    "rewards": [
+      "item_301",
+      "item_41"
+    ]
+  },
+  {
+    "id": "dungeon_61",
+    "name": "Bí Cảnh Cổ Thần 61",
+    "floors": 18,
+    "boss": "boss_62",
+    "entry_key": "item_184",
+    "rewards": [
+      "item_306",
+      "item_50"
+    ]
+  },
+  {
+    "id": "dungeon_62",
+    "name": "Bí Cảnh Cổ Thần 62",
+    "floors": 19,
+    "boss": "boss_63",
+    "entry_key": "item_187",
+    "rewards": [
+      "item_311",
+      "item_59"
+    ]
+  },
+  {
+    "id": "dungeon_63",
+    "name": "Bí Cảnh Cổ Thần 63",
+    "floors": 20,
+    "boss": "boss_64",
+    "entry_key": "item_190",
+    "rewards": [
+      "item_316",
+      "item_68"
+    ]
+  },
+  {
+    "id": "dungeon_64",
+    "name": "Bí Cảnh Cổ Thần 64",
+    "floors": 5,
+    "boss": "boss_65",
+    "entry_key": "item_193",
+    "rewards": [
+      "item_321",
+      "item_77"
+    ]
+  },
+  {
+    "id": "dungeon_65",
+    "name": "Bí Cảnh Cổ Thần 65",
+    "floors": 6,
+    "boss": "boss_66",
+    "entry_key": "item_196",
+    "rewards": [
+      "item_326",
+      "item_86"
+    ]
+  },
+  {
+    "id": "dungeon_66",
+    "name": "Bí Cảnh Cổ Thần 66",
+    "floors": 7,
+    "boss": "boss_67",
+    "entry_key": "item_199",
+    "rewards": [
+      "item_331",
+      "item_95"
+    ]
+  },
+  {
+    "id": "dungeon_67",
+    "name": "Bí Cảnh Cổ Thần 67",
+    "floors": 8,
+    "boss": "boss_68",
+    "entry_key": "item_202",
+    "rewards": [
+      "item_336",
+      "item_104"
+    ]
+  },
+  {
+    "id": "dungeon_68",
+    "name": "Bí Cảnh Cổ Thần 68",
+    "floors": 9,
+    "boss": "boss_69",
+    "entry_key": "item_205",
+    "rewards": [
+      "item_341",
+      "item_113"
+    ]
+  },
+  {
+    "id": "dungeon_69",
+    "name": "Bí Cảnh Cổ Thần 69",
+    "floors": 10,
+    "boss": "boss_70",
+    "entry_key": "item_208",
+    "rewards": [
+      "item_346",
+      "item_122"
+    ]
+  },
+  {
+    "id": "dungeon_70",
+    "name": "Bí Cảnh Cổ Thần 70",
+    "floors": 11,
+    "boss": "boss_71",
+    "entry_key": "item_211",
+    "rewards": [
+      "item_351",
+      "item_131"
+    ]
+  },
+  {
+    "id": "dungeon_71",
+    "name": "Bí Cảnh Cổ Thần 71",
+    "floors": 12,
+    "boss": "boss_72",
+    "entry_key": "item_214",
+    "rewards": [
+      "item_356",
+      "item_140"
+    ]
+  },
+  {
+    "id": "dungeon_72",
+    "name": "Bí Cảnh Cổ Thần 72",
+    "floors": 13,
+    "boss": "boss_73",
+    "entry_key": "item_217",
+    "rewards": [
+      "item_361",
+      "item_149"
+    ]
+  },
+  {
+    "id": "dungeon_73",
+    "name": "Bí Cảnh Cổ Thần 73",
+    "floors": 14,
+    "boss": "boss_74",
+    "entry_key": "item_220",
+    "rewards": [
+      "item_366",
+      "item_158"
+    ]
+  },
+  {
+    "id": "dungeon_74",
+    "name": "Bí Cảnh Cổ Thần 74",
+    "floors": 15,
+    "boss": "boss_75",
+    "entry_key": "item_223",
+    "rewards": [
+      "item_371",
+      "item_167"
+    ]
+  },
+  {
+    "id": "dungeon_75",
+    "name": "Bí Cảnh Cổ Thần 75",
+    "floors": 16,
+    "boss": "boss_76",
+    "entry_key": "item_226",
+    "rewards": [
+      "item_376",
+      "item_176"
+    ]
+  },
+  {
+    "id": "dungeon_76",
+    "name": "Bí Cảnh Cổ Thần 76",
+    "floors": 17,
+    "boss": "boss_77",
+    "entry_key": "item_229",
+    "rewards": [
+      "item_381",
+      "item_185"
+    ]
+  },
+  {
+    "id": "dungeon_77",
+    "name": "Bí Cảnh Cổ Thần 77",
+    "floors": 18,
+    "boss": "boss_78",
+    "entry_key": "item_232",
+    "rewards": [
+      "item_386",
+      "item_194"
+    ]
+  },
+  {
+    "id": "dungeon_78",
+    "name": "Bí Cảnh Cổ Thần 78",
+    "floors": 19,
+    "boss": "boss_79",
+    "entry_key": "item_235",
+    "rewards": [
+      "item_391",
+      "item_203"
+    ]
+  },
+  {
+    "id": "dungeon_79",
+    "name": "Bí Cảnh Cổ Thần 79",
+    "floors": 20,
+    "boss": "boss_80",
+    "entry_key": "item_238",
+    "rewards": [
+      "item_396",
+      "item_212"
+    ]
+  },
+  {
+    "id": "dungeon_80",
+    "name": "Bí Cảnh Cổ Thần 80",
+    "floors": 5,
+    "boss": "boss_81",
+    "entry_key": "item_241",
+    "rewards": [
+      "item_401",
+      "item_221"
+    ]
+  }
+]

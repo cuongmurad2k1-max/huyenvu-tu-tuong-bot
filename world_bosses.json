@@ -1,0 +1,302 @@
+[
+  {
+    "id": "worldboss_1",
+    "name": "World Boss Tứ Tượng 1",
+    "hp": 10000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_14"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_2",
+    "name": "World Boss Tứ Tượng 2",
+    "hp": 20000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_27"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_3",
+    "name": "World Boss Tứ Tượng 3",
+    "hp": 30000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_40"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_4",
+    "name": "World Boss Tứ Tượng 4",
+    "hp": 40000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_53"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_5",
+    "name": "World Boss Tứ Tượng 5",
+    "hp": 50000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_66"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_6",
+    "name": "World Boss Tứ Tượng 6",
+    "hp": 60000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_79"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_7",
+    "name": "World Boss Tứ Tượng 7",
+    "hp": 70000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_92"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_8",
+    "name": "World Boss Tứ Tượng 8",
+    "hp": 80000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_105"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_9",
+    "name": "World Boss Tứ Tượng 9",
+    "hp": 90000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_118"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_10",
+    "name": "World Boss Tứ Tượng 10",
+    "hp": 100000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_131"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_11",
+    "name": "World Boss Tứ Tượng 11",
+    "hp": 110000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_144"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_12",
+    "name": "World Boss Tứ Tượng 12",
+    "hp": 120000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_157"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_13",
+    "name": "World Boss Tứ Tượng 13",
+    "hp": 130000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_170"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_14",
+    "name": "World Boss Tứ Tượng 14",
+    "hp": 140000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_183"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_15",
+    "name": "World Boss Tứ Tượng 15",
+    "hp": 150000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_196"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_16",
+    "name": "World Boss Tứ Tượng 16",
+    "hp": 160000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_209"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_17",
+    "name": "World Boss Tứ Tượng 17",
+    "hp": 170000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_222"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_18",
+    "name": "World Boss Tứ Tượng 18",
+    "hp": 180000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_235"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_19",
+    "name": "World Boss Tứ Tượng 19",
+    "hp": 190000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_248"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_20",
+    "name": "World Boss Tứ Tượng 20",
+    "hp": 200000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_261"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_21",
+    "name": "World Boss Tứ Tượng 21",
+    "hp": 210000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_274"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_22",
+    "name": "World Boss Tứ Tượng 22",
+    "hp": 220000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_287"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_23",
+    "name": "World Boss Tứ Tượng 23",
+    "hp": 230000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_300"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_24",
+    "name": "World Boss Tứ Tượng 24",
+    "hp": 240000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_313"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_25",
+    "name": "World Boss Tứ Tượng 25",
+    "hp": 250000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_326"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_26",
+    "name": "World Boss Tứ Tượng 26",
+    "hp": 260000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_339"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_27",
+    "name": "World Boss Tứ Tượng 27",
+    "hp": 270000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_352"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_28",
+    "name": "World Boss Tứ Tượng 28",
+    "hp": 280000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_365"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_29",
+    "name": "World Boss Tứ Tượng 29",
+    "hp": 290000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_378"
+    ],
+    "phases": 6
+  },
+  {
+    "id": "worldboss_30",
+    "name": "World Boss Tứ Tượng 30",
+    "hp": 300000000,
+    "spawn": "random_event",
+    "contribution_rewards": [
+      "item_391"
+    ],
+    "phases": 6
+  }
+]

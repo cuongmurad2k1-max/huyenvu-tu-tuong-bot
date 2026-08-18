@@ -1,0 +1,5282 @@
+[
+  {
+    "id": "beast_1",
+    "name": "Thần Hổ 1",
+    "rarity": "COMMON",
+    "element": "Mộc",
+    "hp": 9800,
+    "attack": 360,
+    "defense": 245,
+    "skills": [
+      "Cổ Kỹ 1",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 75,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_2",
+    "name": "Huyền Phượng 2",
+    "rarity": "COMMON",
+    "element": "Kim",
+    "hp": 11600,
+    "attack": 420,
+    "defense": 290,
+    "skills": [
+      "Cổ Kỹ 2",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 74,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_3",
+    "name": "Thiên Quy 3",
+    "rarity": "COMMON",
+    "element": "Hỏa",
+    "hp": 13400,
+    "attack": 480,
+    "defense": 335,
+    "skills": [
+      "Cổ Kỹ 3",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 74,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_4",
+    "name": "U Minh Giao 4",
+    "rarity": "COMMON",
+    "element": "Thủy",
+    "hp": 15200,
+    "attack": 540,
+    "defense": 380,
+    "skills": [
+      "Cổ Kỹ 4",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 73,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_5",
+    "name": "Tinh Hải Điểu 5",
+    "rarity": "COMMON",
+    "element": "Thổ",
+    "hp": 17000,
+    "attack": 600,
+    "defense": 425,
+    "skills": [
+      "Cổ Kỹ 5",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 73,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_6",
+    "name": "Thái Cổ Hồ 6",
+    "rarity": "COMMON",
+    "element": "Phong",
+    "hp": 18800,
+    "attack": 660,
+    "defense": 470,
+    "skills": [
+      "Cổ Kỹ 6",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 72,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_7",
+    "name": "Cổ Lộc 7",
+    "rarity": "COMMON",
+    "element": "Ảo",
+    "hp": 20600,
+    "attack": 720,
+    "defense": 515,
+    "skills": [
+      "Cổ Kỹ 7",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 72,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_8",
+    "name": "Thần Sư 8",
+    "rarity": "COMMON",
+    "element": "Hắc",
+    "hp": 22400,
+    "attack": 780,
+    "defense": 560,
+    "skills": [
+      "Cổ Kỹ 8",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 71,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_9",
+    "name": "Huyền Viên 9",
+    "rarity": "COMMON",
+    "element": "Quang",
+    "hp": 24200,
+    "attack": 840,
+    "defense": 605,
+    "skills": [
+      "Cổ Kỹ 9",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 71,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_10",
+    "name": "Thiên Xà 10",
+    "rarity": "COMMON",
+    "element": "Lôi",
+    "hp": 26000,
+    "attack": 900,
+    "defense": 650,
+    "skills": [
+      "Cổ Kỹ 10",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 70,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_11",
+    "name": "U Minh Cá 11",
+    "rarity": "COMMON",
+    "element": "Mộc",
+    "hp": 27800,
+    "attack": 960,
+    "defense": 695,
+    "skills": [
+      "Cổ Kỹ 11",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 70,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_12",
+    "name": "Tinh Hải Điệp 12",
+    "rarity": "COMMON",
+    "element": "Kim",
+    "hp": 29600,
+    "attack": 1020,
+    "defense": 740,
+    "skills": [
+      "Cổ Kỹ 12",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 69,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_13",
+    "name": "Thái Cổ Kình 13",
+    "rarity": "COMMON",
+    "element": "Hỏa",
+    "hp": 31400,
+    "attack": 1080,
+    "defense": 785,
+    "skills": [
+      "Cổ Kỹ 13",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 69,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_14",
+    "name": "Cổ Lang 14",
+    "rarity": "COMMON",
+    "element": "Thủy",
+    "hp": 33200,
+    "attack": 1140,
+    "defense": 830,
+    "skills": [
+      "Cổ Kỹ 14",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 68,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_15",
+    "name": "Thần Hùng 15",
+    "rarity": "COMMON",
+    "element": "Thổ",
+    "hp": 35000,
+    "attack": 1200,
+    "defense": 875,
+    "skills": [
+      "Cổ Kỹ 15",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 68,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_16",
+    "name": "Huyền Long 16",
+    "rarity": "UNCOMMON",
+    "element": "Phong",
+    "hp": 36800,
+    "attack": 1260,
+    "defense": 920,
+    "skills": [
+      "Cổ Kỹ 16",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 67,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_17",
+    "name": "Thiên Hổ 17",
+    "rarity": "UNCOMMON",
+    "element": "Ảo",
+    "hp": 38600,
+    "attack": 1320,
+    "defense": 965,
+    "skills": [
+      "Cổ Kỹ 17",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 67,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_18",
+    "name": "U Minh Phượng 18",
+    "rarity": "UNCOMMON",
+    "element": "Hắc",
+    "hp": 40400,
+    "attack": 1380,
+    "defense": 1010,
+    "skills": [
+      "Cổ Kỹ 18",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 66,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_19",
+    "name": "Tinh Hải Quy 19",
+    "rarity": "UNCOMMON",
+    "element": "Quang",
+    "hp": 42200,
+    "attack": 1440,
+    "defense": 1055,
+    "skills": [
+      "Cổ Kỹ 19",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 66,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_20",
+    "name": "Thái Cổ Giao 20",
+    "rarity": "UNCOMMON",
+    "element": "Lôi",
+    "hp": 44000,
+    "attack": 1500,
+    "defense": 1100,
+    "skills": [
+      "Cổ Kỹ 20",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 65,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_21",
+    "name": "Cổ Điểu 21",
+    "rarity": "UNCOMMON",
+    "element": "Mộc",
+    "hp": 45800,
+    "attack": 1560,
+    "defense": 1145,
+    "skills": [
+      "Cổ Kỹ 21",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 65,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_22",
+    "name": "Thần Hồ 22",
+    "rarity": "UNCOMMON",
+    "element": "Kim",
+    "hp": 47600,
+    "attack": 1620,
+    "defense": 1190,
+    "skills": [
+      "Cổ Kỹ 22",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 64,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_23",
+    "name": "Huyền Lộc 23",
+    "rarity": "UNCOMMON",
+    "element": "Hỏa",
+    "hp": 49400,
+    "attack": 1680,
+    "defense": 1235,
+    "skills": [
+      "Cổ Kỹ 23",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 64,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_24",
+    "name": "Thiên Sư 24",
+    "rarity": "UNCOMMON",
+    "element": "Thủy",
+    "hp": 51200,
+    "attack": 1740,
+    "defense": 1280,
+    "skills": [
+      "Cổ Kỹ 24",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 63,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_25",
+    "name": "U Minh Viên 25",
+    "rarity": "UNCOMMON",
+    "element": "Thổ",
+    "hp": 53000,
+    "attack": 1800,
+    "defense": 1325,
+    "skills": [
+      "Cổ Kỹ 25",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 63,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_26",
+    "name": "Tinh Hải Xà 26",
+    "rarity": "UNCOMMON",
+    "element": "Phong",
+    "hp": 54800,
+    "attack": 1860,
+    "defense": 1370,
+    "skills": [
+      "Cổ Kỹ 26",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 62,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_27",
+    "name": "Thái Cổ Cá 27",
+    "rarity": "UNCOMMON",
+    "element": "Ảo",
+    "hp": 56600,
+    "attack": 1920,
+    "defense": 1415,
+    "skills": [
+      "Cổ Kỹ 27",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 62,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_28",
+    "name": "Cổ Điệp 28",
+    "rarity": "UNCOMMON",
+    "element": "Hắc",
+    "hp": 58400,
+    "attack": 1980,
+    "defense": 1460,
+    "skills": [
+      "Cổ Kỹ 28",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 61,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_29",
+    "name": "Thần Kình 29",
+    "rarity": "UNCOMMON",
+    "element": "Quang",
+    "hp": 60200,
+    "attack": 2040,
+    "defense": 1505,
+    "skills": [
+      "Cổ Kỹ 29",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 61,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_30",
+    "name": "Huyền Lang 30",
+    "rarity": "UNCOMMON",
+    "element": "Lôi",
+    "hp": 62000,
+    "attack": 2100,
+    "defense": 1550,
+    "skills": [
+      "Cổ Kỹ 30",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 60,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_31",
+    "name": "Thiên Hùng 31",
+    "rarity": "UNCOMMON",
+    "element": "Mộc",
+    "hp": 63800,
+    "attack": 2160,
+    "defense": 1595,
+    "skills": [
+      "Cổ Kỹ 31",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 60,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_32",
+    "name": "U Minh Long 32",
+    "rarity": "RARE",
+    "element": "Kim",
+    "hp": 65600,
+    "attack": 2220,
+    "defense": 1640,
+    "skills": [
+      "Cổ Kỹ 32",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 59,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_33",
+    "name": "Tinh Hải Hổ 33",
+    "rarity": "RARE",
+    "element": "Hỏa",
+    "hp": 67400,
+    "attack": 2280,
+    "defense": 1685,
+    "skills": [
+      "Cổ Kỹ 33",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 59,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_34",
+    "name": "Thái Cổ Phượng 34",
+    "rarity": "RARE",
+    "element": "Thủy",
+    "hp": 69200,
+    "attack": 2340,
+    "defense": 1730,
+    "skills": [
+      "Cổ Kỹ 34",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 58,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_35",
+    "name": "Cổ Quy 35",
+    "rarity": "RARE",
+    "element": "Thổ",
+    "hp": 71000,
+    "attack": 2400,
+    "defense": 1775,
+    "skills": [
+      "Cổ Kỹ 35",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 58,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_36",
+    "name": "Thần Giao 36",
+    "rarity": "RARE",
+    "element": "Phong",
+    "hp": 72800,
+    "attack": 2460,
+    "defense": 1820,
+    "skills": [
+      "Cổ Kỹ 36",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 57,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_37",
+    "name": "Huyền Điểu 37",
+    "rarity": "RARE",
+    "element": "Ảo",
+    "hp": 74600,
+    "attack": 2520,
+    "defense": 1865,
+    "skills": [
+      "Cổ Kỹ 37",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 57,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_38",
+    "name": "Thiên Hồ 38",
+    "rarity": "RARE",
+    "element": "Hắc",
+    "hp": 76400,
+    "attack": 2580,
+    "defense": 1910,
+    "skills": [
+      "Cổ Kỹ 38",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 56,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_39",
+    "name": "U Minh Lộc 39",
+    "rarity": "RARE",
+    "element": "Quang",
+    "hp": 78200,
+    "attack": 2640,
+    "defense": 1955,
+    "skills": [
+      "Cổ Kỹ 39",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 56,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_40",
+    "name": "Tinh Hải Sư 40",
+    "rarity": "RARE",
+    "element": "Lôi",
+    "hp": 80000,
+    "attack": 2700,
+    "defense": 2000,
+    "skills": [
+      "Cổ Kỹ 40",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 55,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_41",
+    "name": "Thái Cổ Viên 41",
+    "rarity": "RARE",
+    "element": "Mộc",
+    "hp": 81800,
+    "attack": 2760,
+    "defense": 2045,
+    "skills": [
+      "Cổ Kỹ 41",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 55,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_42",
+    "name": "Cổ Xà 42",
+    "rarity": "RARE",
+    "element": "Kim",
+    "hp": 83600,
+    "attack": 2820,
+    "defense": 2090,
+    "skills": [
+      "Cổ Kỹ 42",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 54,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_43",
+    "name": "Thần Cá 43",
+    "rarity": "RARE",
+    "element": "Hỏa",
+    "hp": 85400,
+    "attack": 2880,
+    "defense": 2135,
+    "skills": [
+      "Cổ Kỹ 43",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 54,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_44",
+    "name": "Huyền Điệp 44",
+    "rarity": "RARE",
+    "element": "Thủy",
+    "hp": 87200,
+    "attack": 2940,
+    "defense": 2180,
+    "skills": [
+      "Cổ Kỹ 44",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 53,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_45",
+    "name": "Thiên Kình 45",
+    "rarity": "RARE",
+    "element": "Thổ",
+    "hp": 89000,
+    "attack": 3000,
+    "defense": 2225,
+    "skills": [
+      "Cổ Kỹ 45",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 53,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_46",
+    "name": "U Minh Lang 46",
+    "rarity": "RARE",
+    "element": "Phong",
+    "hp": 90800,
+    "attack": 3060,
+    "defense": 2270,
+    "skills": [
+      "Cổ Kỹ 46",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 52,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_47",
+    "name": "Tinh Hải Hùng 47",
+    "rarity": "RARE",
+    "element": "Ảo",
+    "hp": 92600,
+    "attack": 3120,
+    "defense": 2315,
+    "skills": [
+      "Cổ Kỹ 47",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 52,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_48",
+    "name": "Thái Cổ Long 48",
+    "rarity": "EPIC",
+    "element": "Hắc",
+    "hp": 94400,
+    "attack": 3180,
+    "defense": 2360,
+    "skills": [
+      "Cổ Kỹ 48",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 51,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_49",
+    "name": "Cổ Hổ 49",
+    "rarity": "EPIC",
+    "element": "Quang",
+    "hp": 96200,
+    "attack": 3240,
+    "defense": 2405,
+    "skills": [
+      "Cổ Kỹ 49",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 51,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_50",
+    "name": "Thần Phượng 50",
+    "rarity": "EPIC",
+    "element": "Lôi",
+    "hp": 98000,
+    "attack": 3300,
+    "defense": 2450,
+    "skills": [
+      "Cổ Kỹ 50",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 50,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_51",
+    "name": "Huyền Quy 51",
+    "rarity": "EPIC",
+    "element": "Mộc",
+    "hp": 99800,
+    "attack": 3360,
+    "defense": 2495,
+    "skills": [
+      "Cổ Kỹ 51",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 50,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_52",
+    "name": "Thiên Giao 52",
+    "rarity": "EPIC",
+    "element": "Kim",
+    "hp": 101600,
+    "attack": 3420,
+    "defense": 2540,
+    "skills": [
+      "Cổ Kỹ 52",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 49,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_53",
+    "name": "U Minh Điểu 53",
+    "rarity": "EPIC",
+    "element": "Hỏa",
+    "hp": 103400,
+    "attack": 3480,
+    "defense": 2585,
+    "skills": [
+      "Cổ Kỹ 53",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 49,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_54",
+    "name": "Tinh Hải Hồ 54",
+    "rarity": "EPIC",
+    "element": "Thủy",
+    "hp": 105200,
+    "attack": 3540,
+    "defense": 2630,
+    "skills": [
+      "Cổ Kỹ 54",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 48,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_55",
+    "name": "Thái Cổ Lộc 55",
+    "rarity": "EPIC",
+    "element": "Thổ",
+    "hp": 107000,
+    "attack": 3600,
+    "defense": 2675,
+    "skills": [
+      "Cổ Kỹ 55",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 48,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_56",
+    "name": "Cổ Sư 56",
+    "rarity": "EPIC",
+    "element": "Phong",
+    "hp": 108800,
+    "attack": 3660,
+    "defense": 2720,
+    "skills": [
+      "Cổ Kỹ 56",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 47,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_57",
+    "name": "Thần Viên 57",
+    "rarity": "EPIC",
+    "element": "Ảo",
+    "hp": 110600,
+    "attack": 3720,
+    "defense": 2765,
+    "skills": [
+      "Cổ Kỹ 57",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 47,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_58",
+    "name": "Huyền Xà 58",
+    "rarity": "EPIC",
+    "element": "Hắc",
+    "hp": 112400,
+    "attack": 3780,
+    "defense": 2810,
+    "skills": [
+      "Cổ Kỹ 58",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 46,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_59",
+    "name": "Thiên Cá 59",
+    "rarity": "EPIC",
+    "element": "Quang",
+    "hp": 114200,
+    "attack": 3840,
+    "defense": 2855,
+    "skills": [
+      "Cổ Kỹ 59",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 46,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_60",
+    "name": "U Minh Điệp 60",
+    "rarity": "EPIC",
+    "element": "Lôi",
+    "hp": 116000,
+    "attack": 3900,
+    "defense": 2900,
+    "skills": [
+      "Cổ Kỹ 60",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 45,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_61",
+    "name": "Tinh Hải Kình 61",
+    "rarity": "EPIC",
+    "element": "Mộc",
+    "hp": 117800,
+    "attack": 3960,
+    "defense": 2945,
+    "skills": [
+      "Cổ Kỹ 61",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 45,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_62",
+    "name": "Thái Cổ Lang 62",
+    "rarity": "EPIC",
+    "element": "Kim",
+    "hp": 119600,
+    "attack": 4020,
+    "defense": 2990,
+    "skills": [
+      "Cổ Kỹ 62",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 44,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_63",
+    "name": "Cổ Hùng 63",
+    "rarity": "EPIC",
+    "element": "Hỏa",
+    "hp": 121400,
+    "attack": 4080,
+    "defense": 3035,
+    "skills": [
+      "Cổ Kỹ 63",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 44,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_64",
+    "name": "Thần Long 64",
+    "rarity": "LEGENDARY",
+    "element": "Thủy",
+    "hp": 123200,
+    "attack": 4140,
+    "defense": 3080,
+    "skills": [
+      "Cổ Kỹ 64",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 43,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_65",
+    "name": "Huyền Hổ 65",
+    "rarity": "LEGENDARY",
+    "element": "Thổ",
+    "hp": 125000,
+    "attack": 4200,
+    "defense": 3125,
+    "skills": [
+      "Cổ Kỹ 65",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 43,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_66",
+    "name": "Thiên Phượng 66",
+    "rarity": "LEGENDARY",
+    "element": "Phong",
+    "hp": 126800,
+    "attack": 4260,
+    "defense": 3170,
+    "skills": [
+      "Cổ Kỹ 66",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 42,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_67",
+    "name": "U Minh Quy 67",
+    "rarity": "LEGENDARY",
+    "element": "Ảo",
+    "hp": 128600,
+    "attack": 4320,
+    "defense": 3215,
+    "skills": [
+      "Cổ Kỹ 67",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 42,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_68",
+    "name": "Tinh Hải Giao 68",
+    "rarity": "LEGENDARY",
+    "element": "Hắc",
+    "hp": 130400,
+    "attack": 4380,
+    "defense": 3260,
+    "skills": [
+      "Cổ Kỹ 68",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 41,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_69",
+    "name": "Thái Cổ Điểu 69",
+    "rarity": "LEGENDARY",
+    "element": "Quang",
+    "hp": 132200,
+    "attack": 4440,
+    "defense": 3305,
+    "skills": [
+      "Cổ Kỹ 69",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 41,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_70",
+    "name": "Cổ Hồ 70",
+    "rarity": "LEGENDARY",
+    "element": "Lôi",
+    "hp": 134000,
+    "attack": 4500,
+    "defense": 3350,
+    "skills": [
+      "Cổ Kỹ 70",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 40,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_71",
+    "name": "Thần Lộc 71",
+    "rarity": "LEGENDARY",
+    "element": "Mộc",
+    "hp": 135800,
+    "attack": 4560,
+    "defense": 3395,
+    "skills": [
+      "Cổ Kỹ 71",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 40,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_72",
+    "name": "Huyền Sư 72",
+    "rarity": "LEGENDARY",
+    "element": "Kim",
+    "hp": 137600,
+    "attack": 4620,
+    "defense": 3440,
+    "skills": [
+      "Cổ Kỹ 72",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_73",
+    "name": "Thiên Viên 73",
+    "rarity": "LEGENDARY",
+    "element": "Hỏa",
+    "hp": 139400,
+    "attack": 4680,
+    "defense": 3485,
+    "skills": [
+      "Cổ Kỹ 73",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_74",
+    "name": "U Minh Xà 74",
+    "rarity": "LEGENDARY",
+    "element": "Thủy",
+    "hp": 141200,
+    "attack": 4740,
+    "defense": 3530,
+    "skills": [
+      "Cổ Kỹ 74",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_75",
+    "name": "Tinh Hải Cá 75",
+    "rarity": "LEGENDARY",
+    "element": "Thổ",
+    "hp": 143000,
+    "attack": 4800,
+    "defense": 3575,
+    "skills": [
+      "Cổ Kỹ 75",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_76",
+    "name": "Thái Cổ Điệp 76",
+    "rarity": "LEGENDARY",
+    "element": "Phong",
+    "hp": 144800,
+    "attack": 4860,
+    "defense": 3620,
+    "skills": [
+      "Cổ Kỹ 76",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_77",
+    "name": "Cổ Kình 77",
+    "rarity": "LEGENDARY",
+    "element": "Ảo",
+    "hp": 146600,
+    "attack": 4920,
+    "defense": 3665,
+    "skills": [
+      "Cổ Kỹ 77",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_78",
+    "name": "Thần Lang 78",
+    "rarity": "LEGENDARY",
+    "element": "Hắc",
+    "hp": 148400,
+    "attack": 4980,
+    "defense": 3710,
+    "skills": [
+      "Cổ Kỹ 78",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_79",
+    "name": "Huyền Hùng 79",
+    "rarity": "LEGENDARY",
+    "element": "Quang",
+    "hp": 150200,
+    "attack": 5040,
+    "defense": 3755,
+    "skills": [
+      "Cổ Kỹ 79",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_80",
+    "name": "Thiên Long 80",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 152000,
+    "attack": 5100,
+    "defense": 3800,
+    "skills": [
+      "Cổ Kỹ 80",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_81",
+    "name": "U Minh Hổ 81",
+    "rarity": "ANCIENT",
+    "element": "Mộc",
+    "hp": 153800,
+    "attack": 5160,
+    "defense": 3845,
+    "skills": [
+      "Cổ Kỹ 81",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_82",
+    "name": "Tinh Hải Phượng 82",
+    "rarity": "ANCIENT",
+    "element": "Kim",
+    "hp": 155600,
+    "attack": 5220,
+    "defense": 3890,
+    "skills": [
+      "Cổ Kỹ 82",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_83",
+    "name": "Thái Cổ Quy 83",
+    "rarity": "ANCIENT",
+    "element": "Hỏa",
+    "hp": 157400,
+    "attack": 5280,
+    "defense": 3935,
+    "skills": [
+      "Cổ Kỹ 83",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_84",
+    "name": "Cổ Giao 84",
+    "rarity": "ANCIENT",
+    "element": "Thủy",
+    "hp": 159200,
+    "attack": 5340,
+    "defense": 3980,
+    "skills": [
+      "Cổ Kỹ 84",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_85",
+    "name": "Thần Điểu 85",
+    "rarity": "ANCIENT",
+    "element": "Thổ",
+    "hp": 161000,
+    "attack": 5400,
+    "defense": 4025,
+    "skills": [
+      "Cổ Kỹ 85",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_86",
+    "name": "Huyền Hồ 86",
+    "rarity": "ANCIENT",
+    "element": "Phong",
+    "hp": 162800,
+    "attack": 5460,
+    "defense": 4070,
+    "skills": [
+      "Cổ Kỹ 86",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_87",
+    "name": "Thiên Lộc 87",
+    "rarity": "ANCIENT",
+    "element": "Ảo",
+    "hp": 164600,
+    "attack": 5520,
+    "defense": 4115,
+    "skills": [
+      "Cổ Kỹ 87",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_88",
+    "name": "U Minh Sư 88",
+    "rarity": "ANCIENT",
+    "element": "Hắc",
+    "hp": 166400,
+    "attack": 5580,
+    "defense": 4160,
+    "skills": [
+      "Cổ Kỹ 88",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_89",
+    "name": "Tinh Hải Viên 89",
+    "rarity": "ANCIENT",
+    "element": "Quang",
+    "hp": 168200,
+    "attack": 5640,
+    "defense": 4205,
+    "skills": [
+      "Cổ Kỹ 89",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_90",
+    "name": "Thái Cổ Xà 90",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 170000,
+    "attack": 5700,
+    "defense": 4250,
+    "skills": [
+      "Cổ Kỹ 90",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_91",
+    "name": "Cổ Cá 91",
+    "rarity": "ANCIENT",
+    "element": "Mộc",
+    "hp": 171800,
+    "attack": 5760,
+    "defense": 4295,
+    "skills": [
+      "Cổ Kỹ 91",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_92",
+    "name": "Thần Điệp 92",
+    "rarity": "ANCIENT",
+    "element": "Kim",
+    "hp": 173600,
+    "attack": 5820,
+    "defense": 4340,
+    "skills": [
+      "Cổ Kỹ 92",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_93",
+    "name": "Huyền Kình 93",
+    "rarity": "ANCIENT",
+    "element": "Hỏa",
+    "hp": 175400,
+    "attack": 5880,
+    "defense": 4385,
+    "skills": [
+      "Cổ Kỹ 93",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_94",
+    "name": "Thiên Lang 94",
+    "rarity": "ANCIENT",
+    "element": "Thủy",
+    "hp": 177200,
+    "attack": 5940,
+    "defense": 4430,
+    "skills": [
+      "Cổ Kỹ 94",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_95",
+    "name": "U Minh Hùng 95",
+    "rarity": "ANCIENT",
+    "element": "Thổ",
+    "hp": 179000,
+    "attack": 6000,
+    "defense": 4475,
+    "skills": [
+      "Cổ Kỹ 95",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_96",
+    "name": "Tinh Hải Long 96",
+    "rarity": "MYTHIC",
+    "element": "Phong",
+    "hp": 180800,
+    "attack": 6060,
+    "defense": 4520,
+    "skills": [
+      "Cổ Kỹ 96",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_97",
+    "name": "Thái Cổ Hổ 97",
+    "rarity": "MYTHIC",
+    "element": "Ảo",
+    "hp": 182600,
+    "attack": 6120,
+    "defense": 4565,
+    "skills": [
+      "Cổ Kỹ 97",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_98",
+    "name": "Cổ Phượng 98",
+    "rarity": "MYTHIC",
+    "element": "Hắc",
+    "hp": 184400,
+    "attack": 6180,
+    "defense": 4610,
+    "skills": [
+      "Cổ Kỹ 98",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_99",
+    "name": "Thần Quy 99",
+    "rarity": "MYTHIC",
+    "element": "Quang",
+    "hp": 186200,
+    "attack": 6240,
+    "defense": 4655,
+    "skills": [
+      "Cổ Kỹ 99",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_100",
+    "name": "Huyền Giao 100",
+    "rarity": "MYTHIC",
+    "element": "Lôi",
+    "hp": 188000,
+    "attack": 6300,
+    "defense": 4700,
+    "skills": [
+      "Cổ Kỹ 100",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_101",
+    "name": "Thiên Điểu 101",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 189800,
+    "attack": 6360,
+    "defense": 4745,
+    "skills": [
+      "Cổ Kỹ 101",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_102",
+    "name": "U Minh Hồ 102",
+    "rarity": "MYTHIC",
+    "element": "Kim",
+    "hp": 191600,
+    "attack": 6420,
+    "defense": 4790,
+    "skills": [
+      "Cổ Kỹ 102",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_103",
+    "name": "Tinh Hải Lộc 103",
+    "rarity": "MYTHIC",
+    "element": "Hỏa",
+    "hp": 193400,
+    "attack": 6480,
+    "defense": 4835,
+    "skills": [
+      "Cổ Kỹ 103",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_104",
+    "name": "Thái Cổ Sư 104",
+    "rarity": "MYTHIC",
+    "element": "Thủy",
+    "hp": 195200,
+    "attack": 6540,
+    "defense": 4880,
+    "skills": [
+      "Cổ Kỹ 104",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_105",
+    "name": "Cổ Viên 105",
+    "rarity": "MYTHIC",
+    "element": "Thổ",
+    "hp": 197000,
+    "attack": 6600,
+    "defense": 4925,
+    "skills": [
+      "Cổ Kỹ 105",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_106",
+    "name": "Thần Xà 106",
+    "rarity": "MYTHIC",
+    "element": "Phong",
+    "hp": 198800,
+    "attack": 6660,
+    "defense": 4970,
+    "skills": [
+      "Cổ Kỹ 106",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_107",
+    "name": "Huyền Cá 107",
+    "rarity": "MYTHIC",
+    "element": "Ảo",
+    "hp": 200600,
+    "attack": 6720,
+    "defense": 5015,
+    "skills": [
+      "Cổ Kỹ 107",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_108",
+    "name": "Thiên Điệp 108",
+    "rarity": "MYTHIC",
+    "element": "Hắc",
+    "hp": 202400,
+    "attack": 6780,
+    "defense": 5060,
+    "skills": [
+      "Cổ Kỹ 108",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_109",
+    "name": "U Minh Kình 109",
+    "rarity": "MYTHIC",
+    "element": "Quang",
+    "hp": 204200,
+    "attack": 6840,
+    "defense": 5105,
+    "skills": [
+      "Cổ Kỹ 109",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_110",
+    "name": "Tinh Hải Lang 110",
+    "rarity": "MYTHIC",
+    "element": "Lôi",
+    "hp": 206000,
+    "attack": 6900,
+    "defense": 5150,
+    "skills": [
+      "Cổ Kỹ 110",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_111",
+    "name": "Thái Cổ Hùng 111",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 207800,
+    "attack": 6960,
+    "defense": 5195,
+    "skills": [
+      "Cổ Kỹ 111",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_112",
+    "name": "Cổ Long 112",
+    "rarity": "DIVINE",
+    "element": "Kim",
+    "hp": 209600,
+    "attack": 7020,
+    "defense": 5240,
+    "skills": [
+      "Cổ Kỹ 112",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_113",
+    "name": "Thần Hổ 113",
+    "rarity": "DIVINE",
+    "element": "Hỏa",
+    "hp": 211400,
+    "attack": 7080,
+    "defense": 5285,
+    "skills": [
+      "Cổ Kỹ 113",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_114",
+    "name": "Huyền Phượng 114",
+    "rarity": "DIVINE",
+    "element": "Thủy",
+    "hp": 213200,
+    "attack": 7140,
+    "defense": 5330,
+    "skills": [
+      "Cổ Kỹ 114",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_115",
+    "name": "Thiên Quy 115",
+    "rarity": "DIVINE",
+    "element": "Thổ",
+    "hp": 215000,
+    "attack": 7200,
+    "defense": 5375,
+    "skills": [
+      "Cổ Kỹ 115",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_116",
+    "name": "U Minh Giao 116",
+    "rarity": "DIVINE",
+    "element": "Phong",
+    "hp": 216800,
+    "attack": 7260,
+    "defense": 5420,
+    "skills": [
+      "Cổ Kỹ 116",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_117",
+    "name": "Tinh Hải Điểu 117",
+    "rarity": "DIVINE",
+    "element": "Ảo",
+    "hp": 218600,
+    "attack": 7320,
+    "defense": 5465,
+    "skills": [
+      "Cổ Kỹ 117",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_118",
+    "name": "Thái Cổ Hồ 118",
+    "rarity": "DIVINE",
+    "element": "Hắc",
+    "hp": 220400,
+    "attack": 7380,
+    "defense": 5510,
+    "skills": [
+      "Cổ Kỹ 118",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_119",
+    "name": "Cổ Lộc 119",
+    "rarity": "DIVINE",
+    "element": "Quang",
+    "hp": 222200,
+    "attack": 7440,
+    "defense": 5555,
+    "skills": [
+      "Cổ Kỹ 119",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_120",
+    "name": "Thần Sư 120",
+    "rarity": "DIVINE",
+    "element": "Lôi",
+    "hp": 224000,
+    "attack": 7500,
+    "defense": 5600,
+    "skills": [
+      "Cổ Kỹ 120",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh"
+    ],
+    "capture_rate": 15,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_121",
+    "name": "Cổ Ma Điểu 121",
+    "rarity": "EPIC",
+    "element": "Mộc",
+    "hp": 312500,
+    "attack": 11290,
+    "defense": 7560,
+    "skills": [
+      "Cổ Kỹ 121",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 40,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_122",
+    "name": "Thần Cự Xà 122",
+    "rarity": "EPIC",
+    "element": "Kim",
+    "hp": 315000,
+    "attack": 11380,
+    "defense": 7620,
+    "skills": [
+      "Cổ Kỹ 122",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 40,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_123",
+    "name": "Huyền Thiên Mã 123",
+    "rarity": "EPIC",
+    "element": "Hỏa",
+    "hp": 317500,
+    "attack": 11470,
+    "defense": 7680,
+    "skills": [
+      "Cổ Kỹ 123",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 40,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_124",
+    "name": "Thiên Cổ Hạc 124",
+    "rarity": "EPIC",
+    "element": "Thủy",
+    "hp": 320000,
+    "attack": 11560,
+    "defense": 7740,
+    "skills": [
+      "Cổ Kỹ 124",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_125",
+    "name": "U Minh Thần Quy 125",
+    "rarity": "EPIC",
+    "element": "Thổ",
+    "hp": 322500,
+    "attack": 11650,
+    "defense": 7800,
+    "skills": [
+      "Cổ Kỹ 125",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_126",
+    "name": "Tinh Hải Long 126",
+    "rarity": "EPIC",
+    "element": "Phong",
+    "hp": 325000,
+    "attack": 11740,
+    "defense": 7860,
+    "skills": [
+      "Cổ Kỹ 126",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_127",
+    "name": "Thái Cổ Hổ 127",
+    "rarity": "EPIC",
+    "element": "Quang",
+    "hp": 327500,
+    "attack": 11830,
+    "defense": 7920,
+    "skills": [
+      "Cổ Kỹ 127",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 39,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_128",
+    "name": "Hoang Cổ Phượng 128",
+    "rarity": "EPIC",
+    "element": "Hắc",
+    "hp": 330000,
+    "attack": 11920,
+    "defense": 7980,
+    "skills": [
+      "Cổ Kỹ 128",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_129",
+    "name": "Tử Kim Quy 129",
+    "rarity": "EPIC",
+    "element": "Hư Không",
+    "hp": 332500,
+    "attack": 12010,
+    "defense": 8040,
+    "skills": [
+      "Cổ Kỹ 129",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_130",
+    "name": "Ngân Nguyệt Giao 130",
+    "rarity": "EPIC",
+    "element": "Tinh Thần",
+    "hp": 335000,
+    "attack": 12100,
+    "defense": 8100,
+    "skills": [
+      "Cổ Kỹ 130",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_131",
+    "name": "Hắc Ám Điểu 131",
+    "rarity": "EPIC",
+    "element": "Hỗn Độn",
+    "hp": 337500,
+    "attack": 12190,
+    "defense": 8160,
+    "skills": [
+      "Cổ Kỹ 131",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 38,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_132",
+    "name": "Thánh Quang Hồ 132",
+    "rarity": "EPIC",
+    "element": "Lôi",
+    "hp": 340000,
+    "attack": 12280,
+    "defense": 8220,
+    "skills": [
+      "Cổ Kỹ 132",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_133",
+    "name": "Vạn Tượng Lộc 133",
+    "rarity": "EPIC",
+    "element": "Mộc",
+    "hp": 342500,
+    "attack": 12370,
+    "defense": 8280,
+    "skills": [
+      "Cổ Kỹ 133",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_134",
+    "name": "Hỗn Độn Sư 134",
+    "rarity": "EPIC",
+    "element": "Kim",
+    "hp": 345000,
+    "attack": 12460,
+    "defense": 8340,
+    "skills": [
+      "Cổ Kỹ 134",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_135",
+    "name": "Hư Không Viên 135",
+    "rarity": "EPIC",
+    "element": "Hỏa",
+    "hp": 347500,
+    "attack": 12550,
+    "defense": 8400,
+    "skills": [
+      "Cổ Kỹ 135",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 37,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_136",
+    "name": "Cổ Xà 136",
+    "rarity": "EPIC",
+    "element": "Thủy",
+    "hp": 350000,
+    "attack": 12640,
+    "defense": 8460,
+    "skills": [
+      "Cổ Kỹ 136",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_137",
+    "name": "Thần Kình 137",
+    "rarity": "EPIC",
+    "element": "Thổ",
+    "hp": 352500,
+    "attack": 12730,
+    "defense": 8520,
+    "skills": [
+      "Cổ Kỹ 137",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_138",
+    "name": "Huyền Điệp 138",
+    "rarity": "EPIC",
+    "element": "Phong",
+    "hp": 355000,
+    "attack": 12820,
+    "defense": 8580,
+    "skills": [
+      "Cổ Kỹ 138",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_139",
+    "name": "Thiên Lang 139",
+    "rarity": "EPIC",
+    "element": "Quang",
+    "hp": 357500,
+    "attack": 12910,
+    "defense": 8640,
+    "skills": [
+      "Cổ Kỹ 139",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 36,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_140",
+    "name": "U Minh Hùng 140",
+    "rarity": "EPIC",
+    "element": "Hắc",
+    "hp": 360000,
+    "attack": 13000,
+    "defense": 8700,
+    "skills": [
+      "Cổ Kỹ 140",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_141",
+    "name": "Tinh Hải Thiềm 141",
+    "rarity": "EPIC",
+    "element": "Hư Không",
+    "hp": 362500,
+    "attack": 13090,
+    "defense": 8760,
+    "skills": [
+      "Cổ Kỹ 141",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_142",
+    "name": "Thái Cổ Cáo 142",
+    "rarity": "EPIC",
+    "element": "Tinh Thần",
+    "hp": 365000,
+    "attack": 13180,
+    "defense": 8820,
+    "skills": [
+      "Cổ Kỹ 142",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_143",
+    "name": "Hoang Cổ Ngưu 143",
+    "rarity": "EPIC",
+    "element": "Hỗn Độn",
+    "hp": 367500,
+    "attack": 13270,
+    "defense": 8880,
+    "skills": [
+      "Cổ Kỹ 143",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 35,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_144",
+    "name": "Tử Kim Tượng 144",
+    "rarity": "EPIC",
+    "element": "Lôi",
+    "hp": 370000,
+    "attack": 13360,
+    "defense": 8940,
+    "skills": [
+      "Cổ Kỹ 144",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_145",
+    "name": "Ngân Nguyệt Kình Ngư 145",
+    "rarity": "EPIC",
+    "element": "Mộc",
+    "hp": 372500,
+    "attack": 13450,
+    "defense": 9000,
+    "skills": [
+      "Cổ Kỹ 145",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_146",
+    "name": "Hắc Ám Ma Điểu 146",
+    "rarity": "EPIC",
+    "element": "Kim",
+    "hp": 375000,
+    "attack": 13540,
+    "defense": 9060,
+    "skills": [
+      "Cổ Kỹ 146",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_147",
+    "name": "Thánh Quang Cự Xà 147",
+    "rarity": "EPIC",
+    "element": "Hỏa",
+    "hp": 377500,
+    "attack": 13630,
+    "defense": 9120,
+    "skills": [
+      "Cổ Kỹ 147",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 34,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_148",
+    "name": "Vạn Tượng Thiên Mã 148",
+    "rarity": "EPIC",
+    "element": "Thủy",
+    "hp": 380000,
+    "attack": 13720,
+    "defense": 9180,
+    "skills": [
+      "Cổ Kỹ 148",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_149",
+    "name": "Hỗn Độn Cổ Hạc 149",
+    "rarity": "EPIC",
+    "element": "Thổ",
+    "hp": 382500,
+    "attack": 13810,
+    "defense": 9240,
+    "skills": [
+      "Cổ Kỹ 149",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_150",
+    "name": "Hư Không Thần Quy 150",
+    "rarity": "EPIC",
+    "element": "Phong",
+    "hp": 385000,
+    "attack": 13900,
+    "defense": 9300,
+    "skills": [
+      "Cổ Kỹ 150",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_151",
+    "name": "Cổ Long 151",
+    "rarity": "EPIC",
+    "element": "Quang",
+    "hp": 387500,
+    "attack": 13990,
+    "defense": 9360,
+    "skills": [
+      "Cổ Kỹ 151",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 33,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_152",
+    "name": "Thần Hổ 152",
+    "rarity": "EPIC",
+    "element": "Hắc",
+    "hp": 390000,
+    "attack": 14080,
+    "defense": 9420,
+    "skills": [
+      "Cổ Kỹ 152",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_153",
+    "name": "Huyền Phượng 153",
+    "rarity": "LEGENDARY",
+    "element": "Hư Không",
+    "hp": 392500,
+    "attack": 14170,
+    "defense": 9480,
+    "skills": [
+      "Cổ Kỹ 153",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_154",
+    "name": "Thiên Quy 154",
+    "rarity": "LEGENDARY",
+    "element": "Tinh Thần",
+    "hp": 395000,
+    "attack": 14260,
+    "defense": 9540,
+    "skills": [
+      "Cổ Kỹ 154",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_155",
+    "name": "U Minh Giao 155",
+    "rarity": "LEGENDARY",
+    "element": "Hỗn Độn",
+    "hp": 397500,
+    "attack": 14350,
+    "defense": 9600,
+    "skills": [
+      "Cổ Kỹ 155",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 32,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_156",
+    "name": "Tinh Hải Điểu 156",
+    "rarity": "LEGENDARY",
+    "element": "Lôi",
+    "hp": 400000,
+    "attack": 14440,
+    "defense": 9660,
+    "skills": [
+      "Cổ Kỹ 156",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_157",
+    "name": "Thái Cổ Hồ 157",
+    "rarity": "LEGENDARY",
+    "element": "Mộc",
+    "hp": 402500,
+    "attack": 14530,
+    "defense": 9720,
+    "skills": [
+      "Cổ Kỹ 157",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_158",
+    "name": "Hoang Cổ Lộc 158",
+    "rarity": "LEGENDARY",
+    "element": "Kim",
+    "hp": 405000,
+    "attack": 14620,
+    "defense": 9780,
+    "skills": [
+      "Cổ Kỹ 158",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_159",
+    "name": "Tử Kim Sư 159",
+    "rarity": "LEGENDARY",
+    "element": "Hỏa",
+    "hp": 407500,
+    "attack": 14710,
+    "defense": 9840,
+    "skills": [
+      "Cổ Kỹ 159",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 31,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_160",
+    "name": "Ngân Nguyệt Viên 160",
+    "rarity": "LEGENDARY",
+    "element": "Thủy",
+    "hp": 410000,
+    "attack": 14800,
+    "defense": 9900,
+    "skills": [
+      "Cổ Kỹ 160",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_161",
+    "name": "Hắc Ám Xà 161",
+    "rarity": "LEGENDARY",
+    "element": "Thổ",
+    "hp": 412500,
+    "attack": 14890,
+    "defense": 9960,
+    "skills": [
+      "Cổ Kỹ 161",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_162",
+    "name": "Thánh Quang Kình 162",
+    "rarity": "LEGENDARY",
+    "element": "Phong",
+    "hp": 415000,
+    "attack": 14980,
+    "defense": 10020,
+    "skills": [
+      "Cổ Kỹ 162",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_163",
+    "name": "Vạn Tượng Điệp 163",
+    "rarity": "LEGENDARY",
+    "element": "Quang",
+    "hp": 417500,
+    "attack": 15070,
+    "defense": 10080,
+    "skills": [
+      "Cổ Kỹ 163",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 30,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_164",
+    "name": "Hỗn Độn Lang 164",
+    "rarity": "LEGENDARY",
+    "element": "Hắc",
+    "hp": 420000,
+    "attack": 15160,
+    "defense": 10140,
+    "skills": [
+      "Cổ Kỹ 164",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_165",
+    "name": "Hư Không Hùng 165",
+    "rarity": "LEGENDARY",
+    "element": "Hư Không",
+    "hp": 422500,
+    "attack": 15250,
+    "defense": 10200,
+    "skills": [
+      "Cổ Kỹ 165",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_166",
+    "name": "Cổ Thiềm 166",
+    "rarity": "LEGENDARY",
+    "element": "Tinh Thần",
+    "hp": 425000,
+    "attack": 15340,
+    "defense": 10260,
+    "skills": [
+      "Cổ Kỹ 166",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_167",
+    "name": "Thần Cáo 167",
+    "rarity": "LEGENDARY",
+    "element": "Hỗn Độn",
+    "hp": 427500,
+    "attack": 15430,
+    "defense": 10320,
+    "skills": [
+      "Cổ Kỹ 167",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 29,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_168",
+    "name": "Huyền Ngưu 168",
+    "rarity": "LEGENDARY",
+    "element": "Lôi",
+    "hp": 430000,
+    "attack": 15520,
+    "defense": 10380,
+    "skills": [
+      "Cổ Kỹ 168",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_169",
+    "name": "Thiên Tượng 169",
+    "rarity": "LEGENDARY",
+    "element": "Mộc",
+    "hp": 432500,
+    "attack": 15610,
+    "defense": 10440,
+    "skills": [
+      "Cổ Kỹ 169",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_170",
+    "name": "U Minh Kình Ngư 170",
+    "rarity": "LEGENDARY",
+    "element": "Kim",
+    "hp": 435000,
+    "attack": 15700,
+    "defense": 10500,
+    "skills": [
+      "Cổ Kỹ 170",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_171",
+    "name": "Tinh Hải Ma Điểu 171",
+    "rarity": "LEGENDARY",
+    "element": "Hỏa",
+    "hp": 437500,
+    "attack": 15790,
+    "defense": 10560,
+    "skills": [
+      "Cổ Kỹ 171",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 28,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_172",
+    "name": "Thái Cổ Cự Xà 172",
+    "rarity": "LEGENDARY",
+    "element": "Thủy",
+    "hp": 440000,
+    "attack": 15880,
+    "defense": 10620,
+    "skills": [
+      "Cổ Kỹ 172",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_173",
+    "name": "Hoang Cổ Thiên Mã 173",
+    "rarity": "LEGENDARY",
+    "element": "Thổ",
+    "hp": 442500,
+    "attack": 15970,
+    "defense": 10680,
+    "skills": [
+      "Cổ Kỹ 173",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_174",
+    "name": "Tử Kim Cổ Hạc 174",
+    "rarity": "LEGENDARY",
+    "element": "Phong",
+    "hp": 445000,
+    "attack": 16060,
+    "defense": 10740,
+    "skills": [
+      "Cổ Kỹ 174",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_175",
+    "name": "Ngân Nguyệt Thần Quy 175",
+    "rarity": "LEGENDARY",
+    "element": "Quang",
+    "hp": 447500,
+    "attack": 16150,
+    "defense": 10800,
+    "skills": [
+      "Cổ Kỹ 175",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 27,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_176",
+    "name": "Hắc Ám Long 176",
+    "rarity": "LEGENDARY",
+    "element": "Hắc",
+    "hp": 450000,
+    "attack": 16240,
+    "defense": 10860,
+    "skills": [
+      "Cổ Kỹ 176",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_177",
+    "name": "Thánh Quang Hổ 177",
+    "rarity": "LEGENDARY",
+    "element": "Hư Không",
+    "hp": 452500,
+    "attack": 16330,
+    "defense": 10920,
+    "skills": [
+      "Cổ Kỹ 177",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_178",
+    "name": "Vạn Tượng Phượng 178",
+    "rarity": "LEGENDARY",
+    "element": "Tinh Thần",
+    "hp": 455000,
+    "attack": 16420,
+    "defense": 10980,
+    "skills": [
+      "Cổ Kỹ 178",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_179",
+    "name": "Hỗn Độn Quy 179",
+    "rarity": "LEGENDARY",
+    "element": "Hỗn Độn",
+    "hp": 457500,
+    "attack": 16510,
+    "defense": 11040,
+    "skills": [
+      "Cổ Kỹ 179",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 26,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_180",
+    "name": "Hư Không Giao 180",
+    "rarity": "LEGENDARY",
+    "element": "Lôi",
+    "hp": 460000,
+    "attack": 16600,
+    "defense": 11100,
+    "skills": [
+      "Cổ Kỹ 180",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_181",
+    "name": "Cổ Điểu 181",
+    "rarity": "LEGENDARY",
+    "element": "Mộc",
+    "hp": 462500,
+    "attack": 16690,
+    "defense": 11160,
+    "skills": [
+      "Cổ Kỹ 181",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_182",
+    "name": "Thần Hồ 182",
+    "rarity": "LEGENDARY",
+    "element": "Kim",
+    "hp": 465000,
+    "attack": 16780,
+    "defense": 11220,
+    "skills": [
+      "Cổ Kỹ 182",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_183",
+    "name": "Huyền Lộc 183",
+    "rarity": "LEGENDARY",
+    "element": "Hỏa",
+    "hp": 467500,
+    "attack": 16870,
+    "defense": 11280,
+    "skills": [
+      "Cổ Kỹ 183",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 25,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_184",
+    "name": "Thiên Sư 184",
+    "rarity": "LEGENDARY",
+    "element": "Thủy",
+    "hp": 470000,
+    "attack": 16960,
+    "defense": 11340,
+    "skills": [
+      "Cổ Kỹ 184",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_185",
+    "name": "U Minh Viên 185",
+    "rarity": "LEGENDARY",
+    "element": "Thổ",
+    "hp": 472500,
+    "attack": 17050,
+    "defense": 11400,
+    "skills": [
+      "Cổ Kỹ 185",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_186",
+    "name": "Tinh Hải Xà 186",
+    "rarity": "LEGENDARY",
+    "element": "Phong",
+    "hp": 475000,
+    "attack": 17140,
+    "defense": 11460,
+    "skills": [
+      "Cổ Kỹ 186",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_187",
+    "name": "Thái Cổ Kình 187",
+    "rarity": "LEGENDARY",
+    "element": "Quang",
+    "hp": 477500,
+    "attack": 17230,
+    "defense": 11520,
+    "skills": [
+      "Cổ Kỹ 187",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 24,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_188",
+    "name": "Hoang Cổ Điệp 188",
+    "rarity": "LEGENDARY",
+    "element": "Hắc",
+    "hp": 480000,
+    "attack": 17320,
+    "defense": 11580,
+    "skills": [
+      "Cổ Kỹ 188",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_189",
+    "name": "Tử Kim Lang 189",
+    "rarity": "LEGENDARY",
+    "element": "Hư Không",
+    "hp": 482500,
+    "attack": 17410,
+    "defense": 11640,
+    "skills": [
+      "Cổ Kỹ 189",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_190",
+    "name": "Ngân Nguyệt Hùng 190",
+    "rarity": "LEGENDARY",
+    "element": "Tinh Thần",
+    "hp": 485000,
+    "attack": 17500,
+    "defense": 11700,
+    "skills": [
+      "Cổ Kỹ 190",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_191",
+    "name": "Hắc Ám Thiềm 191",
+    "rarity": "ANCIENT",
+    "element": "Hỗn Độn",
+    "hp": 487500,
+    "attack": 17590,
+    "defense": 11760,
+    "skills": [
+      "Cổ Kỹ 191",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 23,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_192",
+    "name": "Thánh Quang Cáo 192",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 490000,
+    "attack": 17680,
+    "defense": 11820,
+    "skills": [
+      "Cổ Kỹ 192",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_193",
+    "name": "Vạn Tượng Ngưu 193",
+    "rarity": "ANCIENT",
+    "element": "Mộc",
+    "hp": 492500,
+    "attack": 17770,
+    "defense": 11880,
+    "skills": [
+      "Cổ Kỹ 193",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_194",
+    "name": "Hỗn Độn Tượng 194",
+    "rarity": "ANCIENT",
+    "element": "Kim",
+    "hp": 495000,
+    "attack": 17860,
+    "defense": 11940,
+    "skills": [
+      "Cổ Kỹ 194",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_195",
+    "name": "Hư Không Kình Ngư 195",
+    "rarity": "ANCIENT",
+    "element": "Hỏa",
+    "hp": 497500,
+    "attack": 17950,
+    "defense": 12000,
+    "skills": [
+      "Cổ Kỹ 195",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 22,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_196",
+    "name": "Cổ Ma Điểu 196",
+    "rarity": "ANCIENT",
+    "element": "Thủy",
+    "hp": 500000,
+    "attack": 18040,
+    "defense": 12060,
+    "skills": [
+      "Cổ Kỹ 196",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_197",
+    "name": "Thần Cự Xà 197",
+    "rarity": "ANCIENT",
+    "element": "Thổ",
+    "hp": 502500,
+    "attack": 18130,
+    "defense": 12120,
+    "skills": [
+      "Cổ Kỹ 197",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_198",
+    "name": "Huyền Thiên Mã 198",
+    "rarity": "ANCIENT",
+    "element": "Phong",
+    "hp": 505000,
+    "attack": 18220,
+    "defense": 12180,
+    "skills": [
+      "Cổ Kỹ 198",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_199",
+    "name": "Thiên Cổ Hạc 199",
+    "rarity": "ANCIENT",
+    "element": "Quang",
+    "hp": 507500,
+    "attack": 18310,
+    "defense": 12240,
+    "skills": [
+      "Cổ Kỹ 199",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 21,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_200",
+    "name": "U Minh Thần Quy 200",
+    "rarity": "ANCIENT",
+    "element": "Hắc",
+    "hp": 510000,
+    "attack": 18400,
+    "defense": 12300,
+    "skills": [
+      "Cổ Kỹ 200",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_201",
+    "name": "Tinh Hải Long 201",
+    "rarity": "ANCIENT",
+    "element": "Hư Không",
+    "hp": 512500,
+    "attack": 18490,
+    "defense": 12360,
+    "skills": [
+      "Cổ Kỹ 201",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_202",
+    "name": "Thái Cổ Hổ 202",
+    "rarity": "ANCIENT",
+    "element": "Tinh Thần",
+    "hp": 515000,
+    "attack": 18580,
+    "defense": 12420,
+    "skills": [
+      "Cổ Kỹ 202",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_203",
+    "name": "Hoang Cổ Phượng 203",
+    "rarity": "ANCIENT",
+    "element": "Hỗn Độn",
+    "hp": 517500,
+    "attack": 18670,
+    "defense": 12480,
+    "skills": [
+      "Cổ Kỹ 203",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 20,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_204",
+    "name": "Tử Kim Quy 204",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 520000,
+    "attack": 18760,
+    "defense": 12540,
+    "skills": [
+      "Cổ Kỹ 204",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_205",
+    "name": "Ngân Nguyệt Giao 205",
+    "rarity": "ANCIENT",
+    "element": "Mộc",
+    "hp": 522500,
+    "attack": 18850,
+    "defense": 12600,
+    "skills": [
+      "Cổ Kỹ 205",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_206",
+    "name": "Hắc Ám Điểu 206",
+    "rarity": "ANCIENT",
+    "element": "Kim",
+    "hp": 525000,
+    "attack": 18940,
+    "defense": 12660,
+    "skills": [
+      "Cổ Kỹ 206",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_207",
+    "name": "Thánh Quang Hồ 207",
+    "rarity": "ANCIENT",
+    "element": "Hỏa",
+    "hp": 527500,
+    "attack": 19030,
+    "defense": 12720,
+    "skills": [
+      "Cổ Kỹ 207",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 19,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_208",
+    "name": "Vạn Tượng Lộc 208",
+    "rarity": "ANCIENT",
+    "element": "Thủy",
+    "hp": 530000,
+    "attack": 19120,
+    "defense": 12780,
+    "skills": [
+      "Cổ Kỹ 208",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_209",
+    "name": "Hỗn Độn Sư 209",
+    "rarity": "ANCIENT",
+    "element": "Thổ",
+    "hp": 532500,
+    "attack": 19210,
+    "defense": 12840,
+    "skills": [
+      "Cổ Kỹ 209",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_210",
+    "name": "Hư Không Viên 210",
+    "rarity": "ANCIENT",
+    "element": "Phong",
+    "hp": 535000,
+    "attack": 19300,
+    "defense": 12900,
+    "skills": [
+      "Cổ Kỹ 210",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_211",
+    "name": "Cổ Xà 211",
+    "rarity": "ANCIENT",
+    "element": "Quang",
+    "hp": 537500,
+    "attack": 19390,
+    "defense": 12960,
+    "skills": [
+      "Cổ Kỹ 211",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 18,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_212",
+    "name": "Thần Kình 212",
+    "rarity": "ANCIENT",
+    "element": "Hắc",
+    "hp": 540000,
+    "attack": 19480,
+    "defense": 13020,
+    "skills": [
+      "Cổ Kỹ 212",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_213",
+    "name": "Huyền Điệp 213",
+    "rarity": "ANCIENT",
+    "element": "Hư Không",
+    "hp": 542500,
+    "attack": 19570,
+    "defense": 13080,
+    "skills": [
+      "Cổ Kỹ 213",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_214",
+    "name": "Thiên Lang 214",
+    "rarity": "ANCIENT",
+    "element": "Tinh Thần",
+    "hp": 545000,
+    "attack": 19660,
+    "defense": 13140,
+    "skills": [
+      "Cổ Kỹ 214",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_215",
+    "name": "U Minh Hùng 215",
+    "rarity": "ANCIENT",
+    "element": "Hỗn Độn",
+    "hp": 547500,
+    "attack": 19750,
+    "defense": 13200,
+    "skills": [
+      "Cổ Kỹ 215",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 17,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_216",
+    "name": "Tinh Hải Thiềm 216",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 550000,
+    "attack": 19840,
+    "defense": 13260,
+    "skills": [
+      "Cổ Kỹ 216",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_217",
+    "name": "Thái Cổ Cáo 217",
+    "rarity": "ANCIENT",
+    "element": "Mộc",
+    "hp": 552500,
+    "attack": 19930,
+    "defense": 13320,
+    "skills": [
+      "Cổ Kỹ 217",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_218",
+    "name": "Hoang Cổ Ngưu 218",
+    "rarity": "ANCIENT",
+    "element": "Kim",
+    "hp": 555000,
+    "attack": 20020,
+    "defense": 13380,
+    "skills": [
+      "Cổ Kỹ 218",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_219",
+    "name": "Tử Kim Tượng 219",
+    "rarity": "ANCIENT",
+    "element": "Hỏa",
+    "hp": 557500,
+    "attack": 20110,
+    "defense": 13440,
+    "skills": [
+      "Cổ Kỹ 219",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 16,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_220",
+    "name": "Ngân Nguyệt Kình Ngư 220",
+    "rarity": "ANCIENT",
+    "element": "Thủy",
+    "hp": 560000,
+    "attack": 20200,
+    "defense": 13500,
+    "skills": [
+      "Cổ Kỹ 220",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 15,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_221",
+    "name": "Hắc Ám Ma Điểu 221",
+    "rarity": "ANCIENT",
+    "element": "Thổ",
+    "hp": 562500,
+    "attack": 20290,
+    "defense": 13560,
+    "skills": [
+      "Cổ Kỹ 221",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 15,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_222",
+    "name": "Thánh Quang Cự Xà 222",
+    "rarity": "ANCIENT",
+    "element": "Phong",
+    "hp": 565000,
+    "attack": 20380,
+    "defense": 13620,
+    "skills": [
+      "Cổ Kỹ 222",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 15,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_223",
+    "name": "Vạn Tượng Thiên Mã 223",
+    "rarity": "ANCIENT",
+    "element": "Quang",
+    "hp": 567500,
+    "attack": 20470,
+    "defense": 13680,
+    "skills": [
+      "Cổ Kỹ 223",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 15,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_224",
+    "name": "Hỗn Độn Cổ Hạc 224",
+    "rarity": "ANCIENT",
+    "element": "Hắc",
+    "hp": 570000,
+    "attack": 20560,
+    "defense": 13740,
+    "skills": [
+      "Cổ Kỹ 224",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 14,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_225",
+    "name": "Hư Không Thần Quy 225",
+    "rarity": "ANCIENT",
+    "element": "Hư Không",
+    "hp": 572500,
+    "attack": 20650,
+    "defense": 13800,
+    "skills": [
+      "Cổ Kỹ 225",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 14,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_226",
+    "name": "Cổ Long 226",
+    "rarity": "ANCIENT",
+    "element": "Tinh Thần",
+    "hp": 575000,
+    "attack": 20740,
+    "defense": 13860,
+    "skills": [
+      "Cổ Kỹ 226",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 14,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_227",
+    "name": "Thần Hổ 227",
+    "rarity": "ANCIENT",
+    "element": "Hỗn Độn",
+    "hp": 577500,
+    "attack": 20830,
+    "defense": 13920,
+    "skills": [
+      "Cổ Kỹ 227",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 14,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_228",
+    "name": "Huyền Phượng 228",
+    "rarity": "ANCIENT",
+    "element": "Lôi",
+    "hp": 580000,
+    "attack": 20920,
+    "defense": 13980,
+    "skills": [
+      "Cổ Kỹ 228",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 13,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_229",
+    "name": "Thiên Quy 229",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 582500,
+    "attack": 21010,
+    "defense": 14040,
+    "skills": [
+      "Cổ Kỹ 229",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 13,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_230",
+    "name": "U Minh Giao 230",
+    "rarity": "MYTHIC",
+    "element": "Kim",
+    "hp": 585000,
+    "attack": 21100,
+    "defense": 14100,
+    "skills": [
+      "Cổ Kỹ 230",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 13,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_231",
+    "name": "Tinh Hải Điểu 231",
+    "rarity": "MYTHIC",
+    "element": "Hỏa",
+    "hp": 587500,
+    "attack": 21190,
+    "defense": 14160,
+    "skills": [
+      "Cổ Kỹ 231",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 13,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_232",
+    "name": "Thái Cổ Hồ 232",
+    "rarity": "MYTHIC",
+    "element": "Thủy",
+    "hp": 590000,
+    "attack": 21280,
+    "defense": 14220,
+    "skills": [
+      "Cổ Kỹ 232",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 12,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_233",
+    "name": "Hoang Cổ Lộc 233",
+    "rarity": "MYTHIC",
+    "element": "Thổ",
+    "hp": 592500,
+    "attack": 21370,
+    "defense": 14280,
+    "skills": [
+      "Cổ Kỹ 233",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 12,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_234",
+    "name": "Tử Kim Sư 234",
+    "rarity": "MYTHIC",
+    "element": "Phong",
+    "hp": 595000,
+    "attack": 21460,
+    "defense": 14340,
+    "skills": [
+      "Cổ Kỹ 234",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 12,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_235",
+    "name": "Ngân Nguyệt Viên 235",
+    "rarity": "MYTHIC",
+    "element": "Quang",
+    "hp": 597500,
+    "attack": 21550,
+    "defense": 14400,
+    "skills": [
+      "Cổ Kỹ 235",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 12,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_236",
+    "name": "Hắc Ám Xà 236",
+    "rarity": "MYTHIC",
+    "element": "Hắc",
+    "hp": 600000,
+    "attack": 21640,
+    "defense": 14460,
+    "skills": [
+      "Cổ Kỹ 236",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 11,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_237",
+    "name": "Thánh Quang Kình 237",
+    "rarity": "MYTHIC",
+    "element": "Hư Không",
+    "hp": 602500,
+    "attack": 21730,
+    "defense": 14520,
+    "skills": [
+      "Cổ Kỹ 237",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 11,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_238",
+    "name": "Vạn Tượng Điệp 238",
+    "rarity": "MYTHIC",
+    "element": "Tinh Thần",
+    "hp": 605000,
+    "attack": 21820,
+    "defense": 14580,
+    "skills": [
+      "Cổ Kỹ 238",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 11,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_239",
+    "name": "Hỗn Độn Lang 239",
+    "rarity": "MYTHIC",
+    "element": "Hỗn Độn",
+    "hp": 607500,
+    "attack": 21910,
+    "defense": 14640,
+    "skills": [
+      "Cổ Kỹ 239",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 11,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_240",
+    "name": "Hư Không Hùng 240",
+    "rarity": "MYTHIC",
+    "element": "Lôi",
+    "hp": 610000,
+    "attack": 22000,
+    "defense": 14700,
+    "skills": [
+      "Cổ Kỹ 240",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 10,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_241",
+    "name": "Cổ Thiềm 241",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 612500,
+    "attack": 22090,
+    "defense": 14760,
+    "skills": [
+      "Cổ Kỹ 241",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 10,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_242",
+    "name": "Thần Cáo 242",
+    "rarity": "MYTHIC",
+    "element": "Kim",
+    "hp": 615000,
+    "attack": 22180,
+    "defense": 14820,
+    "skills": [
+      "Cổ Kỹ 242",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 10,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_243",
+    "name": "Huyền Ngưu 243",
+    "rarity": "MYTHIC",
+    "element": "Hỏa",
+    "hp": 617500,
+    "attack": 22270,
+    "defense": 14880,
+    "skills": [
+      "Cổ Kỹ 243",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 10,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_244",
+    "name": "Thiên Tượng 244",
+    "rarity": "MYTHIC",
+    "element": "Thủy",
+    "hp": 620000,
+    "attack": 22360,
+    "defense": 14940,
+    "skills": [
+      "Cổ Kỹ 244",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 9,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_245",
+    "name": "U Minh Kình Ngư 245",
+    "rarity": "MYTHIC",
+    "element": "Thổ",
+    "hp": 622500,
+    "attack": 22450,
+    "defense": 15000,
+    "skills": [
+      "Cổ Kỹ 245",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 9,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_246",
+    "name": "Tinh Hải Ma Điểu 246",
+    "rarity": "MYTHIC",
+    "element": "Phong",
+    "hp": 625000,
+    "attack": 22540,
+    "defense": 15060,
+    "skills": [
+      "Cổ Kỹ 246",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 9,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_247",
+    "name": "Thái Cổ Cự Xà 247",
+    "rarity": "MYTHIC",
+    "element": "Quang",
+    "hp": 627500,
+    "attack": 22630,
+    "defense": 15120,
+    "skills": [
+      "Cổ Kỹ 247",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 9,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_248",
+    "name": "Hoang Cổ Thiên Mã 248",
+    "rarity": "MYTHIC",
+    "element": "Hắc",
+    "hp": 630000,
+    "attack": 22720,
+    "defense": 15180,
+    "skills": [
+      "Cổ Kỹ 248",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 8,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_249",
+    "name": "Tử Kim Cổ Hạc 249",
+    "rarity": "MYTHIC",
+    "element": "Hư Không",
+    "hp": 632500,
+    "attack": 22810,
+    "defense": 15240,
+    "skills": [
+      "Cổ Kỹ 249",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 8,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_250",
+    "name": "Ngân Nguyệt Thần Quy 250",
+    "rarity": "MYTHIC",
+    "element": "Tinh Thần",
+    "hp": 635000,
+    "attack": 22900,
+    "defense": 15300,
+    "skills": [
+      "Cổ Kỹ 250",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 8,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_251",
+    "name": "Hắc Ám Long 251",
+    "rarity": "MYTHIC",
+    "element": "Hỗn Độn",
+    "hp": 637500,
+    "attack": 22990,
+    "defense": 15360,
+    "skills": [
+      "Cổ Kỹ 251",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 8,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_252",
+    "name": "Thánh Quang Hổ 252",
+    "rarity": "MYTHIC",
+    "element": "Lôi",
+    "hp": 640000,
+    "attack": 23080,
+    "defense": 15420,
+    "skills": [
+      "Cổ Kỹ 252",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 7,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_253",
+    "name": "Vạn Tượng Phượng 253",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 642500,
+    "attack": 23170,
+    "defense": 15480,
+    "skills": [
+      "Cổ Kỹ 253",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 7,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_254",
+    "name": "Hỗn Độn Quy 254",
+    "rarity": "MYTHIC",
+    "element": "Kim",
+    "hp": 645000,
+    "attack": 23260,
+    "defense": 15540,
+    "skills": [
+      "Cổ Kỹ 254",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 7,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_255",
+    "name": "Hư Không Giao 255",
+    "rarity": "MYTHIC",
+    "element": "Hỏa",
+    "hp": 647500,
+    "attack": 23350,
+    "defense": 15600,
+    "skills": [
+      "Cổ Kỹ 255",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 7,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_256",
+    "name": "Cổ Điểu 256",
+    "rarity": "MYTHIC",
+    "element": "Thủy",
+    "hp": 650000,
+    "attack": 23440,
+    "defense": 15660,
+    "skills": [
+      "Cổ Kỹ 256",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 6,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_257",
+    "name": "Thần Hồ 257",
+    "rarity": "MYTHIC",
+    "element": "Thổ",
+    "hp": 652500,
+    "attack": 23530,
+    "defense": 15720,
+    "skills": [
+      "Cổ Kỹ 257",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 6,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_258",
+    "name": "Huyền Lộc 258",
+    "rarity": "MYTHIC",
+    "element": "Phong",
+    "hp": 655000,
+    "attack": 23620,
+    "defense": 15780,
+    "skills": [
+      "Cổ Kỹ 258",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 6,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_259",
+    "name": "Thiên Sư 259",
+    "rarity": "MYTHIC",
+    "element": "Quang",
+    "hp": 657500,
+    "attack": 23710,
+    "defense": 15840,
+    "skills": [
+      "Cổ Kỹ 259",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 6,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_260",
+    "name": "U Minh Viên 260",
+    "rarity": "MYTHIC",
+    "element": "Hắc",
+    "hp": 660000,
+    "attack": 23800,
+    "defense": 15900,
+    "skills": [
+      "Cổ Kỹ 260",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 5,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_261",
+    "name": "Tinh Hải Xà 261",
+    "rarity": "MYTHIC",
+    "element": "Hư Không",
+    "hp": 662500,
+    "attack": 23890,
+    "defense": 15960,
+    "skills": [
+      "Cổ Kỹ 261",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 5,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_262",
+    "name": "Thái Cổ Kình 262",
+    "rarity": "MYTHIC",
+    "element": "Tinh Thần",
+    "hp": 665000,
+    "attack": 23980,
+    "defense": 16020,
+    "skills": [
+      "Cổ Kỹ 262",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 5,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_263",
+    "name": "Hoang Cổ Điệp 263",
+    "rarity": "MYTHIC",
+    "element": "Hỗn Độn",
+    "hp": 667500,
+    "attack": 24070,
+    "defense": 16080,
+    "skills": [
+      "Cổ Kỹ 263",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 5,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_264",
+    "name": "Tử Kim Lang 264",
+    "rarity": "MYTHIC",
+    "element": "Lôi",
+    "hp": 670000,
+    "attack": 24160,
+    "defense": 16140,
+    "skills": [
+      "Cổ Kỹ 264",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 4,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_265",
+    "name": "Ngân Nguyệt Hùng 265",
+    "rarity": "MYTHIC",
+    "element": "Mộc",
+    "hp": 672500,
+    "attack": 24250,
+    "defense": 16200,
+    "skills": [
+      "Cổ Kỹ 265",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 4,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_266",
+    "name": "Hắc Ám Thiềm 266",
+    "rarity": "MYTHIC",
+    "element": "Kim",
+    "hp": 675000,
+    "attack": 24340,
+    "defense": 16260,
+    "skills": [
+      "Cổ Kỹ 266",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 4,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_267",
+    "name": "Thánh Quang Cáo 267",
+    "rarity": "DIVINE",
+    "element": "Hỏa",
+    "hp": 677500,
+    "attack": 24430,
+    "defense": 16320,
+    "skills": [
+      "Cổ Kỹ 267",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 4,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_268",
+    "name": "Vạn Tượng Ngưu 268",
+    "rarity": "DIVINE",
+    "element": "Thủy",
+    "hp": 680000,
+    "attack": 24520,
+    "defense": 16380,
+    "skills": [
+      "Cổ Kỹ 268",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 3,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_269",
+    "name": "Hỗn Độn Tượng 269",
+    "rarity": "DIVINE",
+    "element": "Thổ",
+    "hp": 682500,
+    "attack": 24610,
+    "defense": 16440,
+    "skills": [
+      "Cổ Kỹ 269",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 3,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_270",
+    "name": "Hư Không Kình Ngư 270",
+    "rarity": "DIVINE",
+    "element": "Phong",
+    "hp": 685000,
+    "attack": 24700,
+    "defense": 16500,
+    "skills": [
+      "Cổ Kỹ 270",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 3,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_271",
+    "name": "Cổ Ma Điểu 271",
+    "rarity": "DIVINE",
+    "element": "Quang",
+    "hp": 687500,
+    "attack": 24790,
+    "defense": 16560,
+    "skills": [
+      "Cổ Kỹ 271",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 3,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_272",
+    "name": "Thần Cự Xà 272",
+    "rarity": "DIVINE",
+    "element": "Hắc",
+    "hp": 690000,
+    "attack": 24880,
+    "defense": 16620,
+    "skills": [
+      "Cổ Kỹ 272",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 2,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_273",
+    "name": "Huyền Thiên Mã 273",
+    "rarity": "DIVINE",
+    "element": "Hư Không",
+    "hp": 692500,
+    "attack": 24970,
+    "defense": 16680,
+    "skills": [
+      "Cổ Kỹ 273",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 2,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_274",
+    "name": "Thiên Cổ Hạc 274",
+    "rarity": "DIVINE",
+    "element": "Tinh Thần",
+    "hp": 695000,
+    "attack": 25060,
+    "defense": 16740,
+    "skills": [
+      "Cổ Kỹ 274",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 2,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_275",
+    "name": "U Minh Thần Quy 275",
+    "rarity": "DIVINE",
+    "element": "Hỗn Độn",
+    "hp": 697500,
+    "attack": 25150,
+    "defense": 16800,
+    "skills": [
+      "Cổ Kỹ 275",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 2,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_276",
+    "name": "Tinh Hải Long 276",
+    "rarity": "DIVINE",
+    "element": "Lôi",
+    "hp": 700000,
+    "attack": 25240,
+    "defense": 16860,
+    "skills": [
+      "Cổ Kỹ 276",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_277",
+    "name": "Thái Cổ Hổ 277",
+    "rarity": "DIVINE",
+    "element": "Mộc",
+    "hp": 702500,
+    "attack": 25330,
+    "defense": 16920,
+    "skills": [
+      "Cổ Kỹ 277",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_278",
+    "name": "Hoang Cổ Phượng 278",
+    "rarity": "DIVINE",
+    "element": "Kim",
+    "hp": 705000,
+    "attack": 25420,
+    "defense": 16980,
+    "skills": [
+      "Cổ Kỹ 278",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_279",
+    "name": "Tử Kim Quy 279",
+    "rarity": "DIVINE",
+    "element": "Hỏa",
+    "hp": 707500,
+    "attack": 25510,
+    "defense": 17040,
+    "skills": [
+      "Cổ Kỹ 279",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_280",
+    "name": "Ngân Nguyệt Giao 280",
+    "rarity": "DIVINE",
+    "element": "Thủy",
+    "hp": 710000,
+    "attack": 25600,
+    "defense": 17100,
+    "skills": [
+      "Cổ Kỹ 280",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_281",
+    "name": "Hắc Ám Điểu 281",
+    "rarity": "DIVINE",
+    "element": "Thổ",
+    "hp": 712500,
+    "attack": 25690,
+    "defense": 17160,
+    "skills": [
+      "Cổ Kỹ 281",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_282",
+    "name": "Thánh Quang Hồ 282",
+    "rarity": "DIVINE",
+    "element": "Phong",
+    "hp": 715000,
+    "attack": 25780,
+    "defense": 17220,
+    "skills": [
+      "Cổ Kỹ 282",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_283",
+    "name": "Vạn Tượng Lộc 283",
+    "rarity": "DIVINE",
+    "element": "Quang",
+    "hp": 717500,
+    "attack": 25870,
+    "defense": 17280,
+    "skills": [
+      "Cổ Kỹ 283",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_284",
+    "name": "Hỗn Độn Sư 284",
+    "rarity": "DIVINE",
+    "element": "Hắc",
+    "hp": 720000,
+    "attack": 25960,
+    "defense": 17340,
+    "skills": [
+      "Cổ Kỹ 284",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_285",
+    "name": "Hư Không Viên 285",
+    "rarity": "DIVINE",
+    "element": "Hư Không",
+    "hp": 722500,
+    "attack": 26050,
+    "defense": 17400,
+    "skills": [
+      "Cổ Kỹ 285",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_286",
+    "name": "Cổ Xà 286",
+    "rarity": "DIVINE",
+    "element": "Tinh Thần",
+    "hp": 725000,
+    "attack": 26140,
+    "defense": 17460,
+    "skills": [
+      "Cổ Kỹ 286",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_287",
+    "name": "Thần Kình 287",
+    "rarity": "DIVINE",
+    "element": "Hỗn Độn",
+    "hp": 727500,
+    "attack": 26230,
+    "defense": 17520,
+    "skills": [
+      "Cổ Kỹ 287",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_288",
+    "name": "Huyền Điệp 288",
+    "rarity": "DIVINE",
+    "element": "Lôi",
+    "hp": 730000,
+    "attack": 26320,
+    "defense": 17580,
+    "skills": [
+      "Cổ Kỹ 288",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_289",
+    "name": "Thiên Lang 289",
+    "rarity": "DIVINE",
+    "element": "Mộc",
+    "hp": 732500,
+    "attack": 26410,
+    "defense": 17640,
+    "skills": [
+      "Cổ Kỹ 289",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_290",
+    "name": "U Minh Hùng 290",
+    "rarity": "DIVINE",
+    "element": "Kim",
+    "hp": 735000,
+    "attack": 26500,
+    "defense": 17700,
+    "skills": [
+      "Cổ Kỹ 290",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_291",
+    "name": "Tinh Hải Thiềm 291",
+    "rarity": "DIVINE",
+    "element": "Hỏa",
+    "hp": 737500,
+    "attack": 26590,
+    "defense": 17760,
+    "skills": [
+      "Cổ Kỹ 291",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_292",
+    "name": "Thái Cổ Cáo 292",
+    "rarity": "DIVINE",
+    "element": "Thủy",
+    "hp": 740000,
+    "attack": 26680,
+    "defense": 17820,
+    "skills": [
+      "Cổ Kỹ 292",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_293",
+    "name": "Hoang Cổ Ngưu 293",
+    "rarity": "DIVINE",
+    "element": "Thổ",
+    "hp": 742500,
+    "attack": 26770,
+    "defense": 17880,
+    "skills": [
+      "Cổ Kỹ 293",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_294",
+    "name": "Tử Kim Tượng 294",
+    "rarity": "DIVINE",
+    "element": "Phong",
+    "hp": 745000,
+    "attack": 26860,
+    "defense": 17940,
+    "skills": [
+      "Cổ Kỹ 294",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_295",
+    "name": "Ngân Nguyệt Kình Ngư 295",
+    "rarity": "DIVINE",
+    "element": "Quang",
+    "hp": 747500,
+    "attack": 26950,
+    "defense": 18000,
+    "skills": [
+      "Cổ Kỹ 295",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_296",
+    "name": "Hắc Ám Ma Điểu 296",
+    "rarity": "DIVINE",
+    "element": "Hắc",
+    "hp": 750000,
+    "attack": 27040,
+    "defense": 18060,
+    "skills": [
+      "Cổ Kỹ 296",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  },
+  {
+    "id": "beast_297",
+    "name": "Thánh Quang Cự Xà 297",
+    "rarity": "DIVINE",
+    "element": "Hư Không",
+    "hp": 752500,
+    "attack": 27130,
+    "defense": 18120,
+    "skills": [
+      "Cổ Kỹ 297",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 4
+  },
+  {
+    "id": "beast_298",
+    "name": "Vạn Tượng Thiên Mã 298",
+    "rarity": "DIVINE",
+    "element": "Tinh Thần",
+    "hp": 755000,
+    "attack": 27220,
+    "defense": 18180,
+    "skills": [
+      "Cổ Kỹ 298",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 5
+  },
+  {
+    "id": "beast_299",
+    "name": "Hỗn Độn Cổ Hạc 299",
+    "rarity": "DIVINE",
+    "element": "Hỗn Độn",
+    "hp": 757500,
+    "attack": 27310,
+    "defense": 18240,
+    "skills": [
+      "Cổ Kỹ 299",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 6
+  },
+  {
+    "id": "beast_300",
+    "name": "Hư Không Thần Quy 300",
+    "rarity": "DIVINE",
+    "element": "Lôi",
+    "hp": 760000,
+    "attack": 27400,
+    "defense": 18300,
+    "skills": [
+      "Cổ Kỹ 300",
+      "Thần Uy",
+      "Bạo Phát",
+      "Thức Tỉnh",
+      "Tối Thượng"
+    ],
+    "capture_rate": 1,
+    "evolution_stages": 3
+  }
+]

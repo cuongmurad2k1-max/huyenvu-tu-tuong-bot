@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "recipe_1",
+    "name": "Công Thức Cổ Luyện 1",
+    "ingredients": [
+      "item_3",
+      "item_6"
+    ],
+    "output": "item_8",
+    "success_rate": 95
+  },
+  {
+    "id": "recipe_2",
+    "name": "Công Thức Cổ Luyện 2",
+    "ingredients": [
+      "item_5",
+      "item_11"
+    ],
+    "output": "item_15",
+    "success_rate": 95
+  },
+  {
+    "id": "recipe_3",
+    "name": "Công Thức Cổ Luyện 3",
+    "ingredients": [
+      "item_7",
+      "item_16"
+    ],
+    "output": "item_22",
+    "success_rate": 95
+  },
+  {
+    "id": "recipe_4",
+    "name": "Công Thức Cổ Luyện 4",
+    "ingredients": [
+      "item_9",
+      "item_21"
+    ],
+    "output": "item_29",
+    "success_rate": 94
+  },
+  {
+    "id": "recipe_5",
+    "name": "Công Thức Cổ Luyện 5",
+    "ingredients": [
+      "item_11",
+      "item_26"
+    ],
+    "output": "item_36",
+    "success_rate": 94
+  },
+  {
+    "id": "recipe_6",
+    "name": "Công Thức Cổ Luyện 6",
+    "ingredients": [
+      "item_13",
+      "item_31"
+    ],
+    "output": "item_43",
+    "success_rate": 94
+  },
+  {
+    "id": "recipe_7",
+    "name": "Công Thức Cổ Luyện 7",
+    "ingredients": [
+      "item_15",
+      "item_36"
+    ],
+    "output": "item_50",
+    "success_rate": 94
+  },
+  {
+    "id": "recipe_8",
+    "name": "Công Thức Cổ Luyện 8",
+    "ingredients": [
+      "item_17",
+      "item_41"
+    ],
+    "output": "item_57",
+    "success_rate": 93
+  },
+  {
+    "id": "recipe_9",
+    "name": "Công Thức Cổ Luyện 9",
+    "ingredients": [
+      "item_19",
+      "item_46"
+    ],
+    "output": "item_64",
+    "success_rate": 93
+  },
+  {
+    "id": "recipe_10",
+    "name": "Công Thức Cổ Luyện 10",
+    "ingredients": [
+      "item_21",
+      "item_51"
+    ],
+    "output": "item_71",
+    "success_rate": 93
+  },
+  {
+    "id": "recipe_11",
+    "name": "Công Thức Cổ Luyện 11",
+    "ingredients": [
+      "item_23",
+      "item_56"
+    ],
+    "output": "item_78",
+    "success_rate": 93
+  },
+  {
+    "id": "recipe_12",
+    "name": "Công Thức Cổ Luyện 12",
+    "ingredients": [
+      "item_25",
+      "item_61"
+    ],
+    "output": "item_85",
+    "success_rate": 92
+  },
+  {
+    "id": "recipe_13",
+    "name": "Công Thức Cổ Luyện 13",
+    "ingredients": [
+      "item_27",
+      "item_66"
+    ],
+    "output": "item_92",
+    "success_rate": 92
+  },
+  {
+    "id": "recipe_14",
+    "name": "Công Thức Cổ Luyện 14",
+    "ingredients": [
+      "item_29",
+      "item_71"
+    ],
+    "output": "item_99",
+    "success_rate": 92
+  },
+  {
+    "id": "recipe_15",
+    "name": "Công Thức Cổ Luyện 15",
+    "ingredients": [
+      "item_31",
+      "item_76"
+    ],
+    "output": "item_106",
+    "success_rate": 92
+  },
+  {
+    "id": "recipe_16",
+    "name": "Công Thức Cổ Luyện 16",
+    "ingredients": [
+      "item_33",
+      "item_81"
+    ],
+    "output": "item_113",
+    "success_rate": 91
+  },
+  {
+    "id": "recipe_17",
+    "name": "Công Thức Cổ Luyện 17",
+    "ingredients": [
+      "item_35",
+      "item_86"
+    ],
+    "output": "item_120",
+    "success_rate": 91
+  },
+  {
+    "id": "recipe_18",
+    "name": "Công Thức Cổ Luyện 18",
+    "ingredients": [
+      "item_37",
+      "item_91"
+    ],
+    "output": "item_127",
+    "success_rate": 91
+  },
+  {
+    "id": "recipe_19",
+    "name": "Công Thức Cổ Luyện 19",
+    "ingredients": [
+      "item_39",
+      "item_96"
+    ],
+    "output": "item_134",
+    "success_rate": 91
+  },
+  {
+    "id": "recipe_20",
+    "name": "Công Thức Cổ Luyện 20",
+    "ingredients": [
+      "item_41",
+      "item_101"
+    ],
+    "output": "item_141",
+    "success_rate": 90
+  },
+  {
+    "id": "recipe_21",
+    "name": "Công Thức Cổ Luyện 21",
+    "ingredients": [
+      "item_43",
+      "item_106"
+    ],
+    "output": "item_148",
+    "success_rate": 90
+  },
+  {
+    "id": "recipe_22",
+    "name": "Công Thức Cổ Luyện 22",
+    "ingredients": [
+      "item_45",
+      "item_111"
+    ],
+    "output": "item_155",
+    "success_rate": 90
+  },
+  {
+    "id": "recipe_23",
+    "name": "Công Thức Cổ Luyện 23",
+    "ingredients": [
+      "item_47",
+      "item_116"
+    ],
+    "output": "item_162",
+    "success_rate": 90
+  },
+  {
+    "id": "recipe_24",
+    "name": "Công Thức Cổ Luyện 24",
+    "ingredients": [
+      "item_49",
+      "item_121"
+    ],
+    "output": "item_169",
+    "success_rate": 89
+  },
+  {
+    "id": "recipe_25",
+    "name": "Công Thức Cổ Luyện 25",
+    "ingredients": [
+      "item_51",
+      "item_126"
+    ],
+    "output": "item_176",
+    "success_rate": 89
+  },
+  {
+    "id": "recipe_26",
+    "name": "Công Thức Cổ Luyện 26",
+    "ingredients": [
+      "item_53",
+      "item_131"
+    ],
+    "output": "item_183",
+    "success_rate": 89
+  },
+  {
+    "id": "recipe_27",
+    "name": "Công Thức Cổ Luyện 27",
+    "ingredients": [
+      "item_55",
+      "item_136"
+    ],
+    "output": "item_190",
+    "success_rate": 89
+  },
+  {
+    "id": "recipe_28",
+    "name": "Công Thức Cổ Luyện 28",
+    "ingredients": [
+      "item_57",
+      "item_141"
+    ],
+    "output": "item_197",
+    "success_rate": 88
+  },
+  {
+    "id": "recipe_29",
+    "name": "Công Thức Cổ Luyện 29",
+    "ingredients": [
+      "item_59",
+      "item_146"
+    ],
+    "output": "item_204",
+    "success_rate": 88
+  },
+  {
+    "id": "recipe_30",
+    "name": "Công Thức Cổ Luyện 30",
+    "ingredients": [
+      "item_61",
+      "item_151"
+    ],
+    "output": "item_211",
+    "success_rate": 88
+  },
+  {
+    "id": "recipe_31",
+    "name": "Công Thức Cổ Luyện 31",
+    "ingredients": [
+      "item_63",
+      "item_156"
+    ],
+    "output": "item_218",
+    "success_rate": 88
+  },
+  {
+    "id": "recipe_32",
+    "name": "Công Thức Cổ Luyện 32",
+    "ingredients": [
+      "item_65",
+      "item_161"
+    ],
+    "output": "item_225",
+    "success_rate": 87
+  },
+  {
+    "id": "recipe_33",
+    "name": "Công Thức Cổ Luyện 33",
+    "ingredients": [
+      "item_67",
+      "item_166"
+    ],
+    "output": "item_232",
+    "success_rate": 87
+  },
+  {
+    "id": "recipe_34",
+    "name": "Công Thức Cổ Luyện 34",
+    "ingredients": [
+      "item_69",
+      "item_171"
+    ],
+    "output": "item_239",
+    "success_rate": 87
+  },
+  {
+    "id": "recipe_35",
+    "name": "Công Thức Cổ Luyện 35",
+    "ingredients": [
+      "item_71",
+      "item_176"
+    ],
+    "output": "item_246",
+    "success_rate": 87
+  },
+  {
+    "id": "recipe_36",
+    "name": "Công Thức Cổ Luyện 36",
+    "ingredients": [
+      "item_73",
+      "item_181"
+    ],
+    "output": "item_253",
+    "success_rate": 86
+  },
+  {
+    "id": "recipe_37",
+    "name": "Công Thức Cổ Luyện 37",
+    "ingredients": [
+      "item_75",
+      "item_186"
+    ],
+    "output": "item_260",
+    "success_rate": 86
+  },
+  {
+    "id": "recipe_38",
+    "name": "Công Thức Cổ Luyện 38",
+    "ingredients": [
+      "item_77",
+      "item_191"
+    ],
+    "output": "item_267",
+    "success_rate": 86
+  },
+  {
+    "id": "recipe_39",
+    "name": "Công Thức Cổ Luyện 39",
+    "ingredients": [
+      "item_79",
+      "item_196"
+    ],
+    "output": "item_274",
+    "success_rate": 86
+  },
+  {
+    "id": "recipe_40",
+    "name": "Công Thức Cổ Luyện 40",
+    "ingredients": [
+      "item_81",
+      "item_201"
+    ],
+    "output": "item_281",
+    "success_rate": 85
+  },
+  {
+    "id": "recipe_41",
+    "name": "Công Thức Cổ Luyện 41",
+    "ingredients": [
+      "item_83",
+      "item_206"
+    ],
+    "output": "item_288",
+    "success_rate": 85
+  },
+  {
+    "id": "recipe_42",
+    "name": "Công Thức Cổ Luyện 42",
+    "ingredients": [
+      "item_85",
+      "item_211"
+    ],
+    "output": "item_295",
+    "success_rate": 85
+  },
+  {
+    "id": "recipe_43",
+    "name": "Công Thức Cổ Luyện 43",
+    "ingredients": [
+      "item_87",
+      "item_216"
+    ],
+    "output": "item_302",
+    "success_rate": 85
+  },
+  {
+    "id": "recipe_44",
+    "name": "Công Thức Cổ Luyện 44",
+    "ingredients": [
+      "item_89",
+      "item_221"
+    ],
+    "output": "item_309",
+    "success_rate": 84
+  },
+  {
+    "id": "recipe_45",
+    "name": "Công Thức Cổ Luyện 45",
+    "ingredients": [
+      "item_91",
+      "item_226"
+    ],
+    "output": "item_316",
+    "success_rate": 84
+  },
+  {
+    "id": "recipe_46",
+    "name": "Công Thức Cổ Luyện 46",
+    "ingredients": [
+      "item_93",
+      "item_231"
+    ],
+    "output": "item_323",
+    "success_rate": 84
+  },
+  {
+    "id": "recipe_47",
+    "name": "Công Thức Cổ Luyện 47",
+    "ingredients": [
+      "item_95",
+      "item_236"
+    ],
+    "output": "item_330",
+    "success_rate": 84
+  },
+  {
+    "id": "recipe_48",
+    "name": "Công Thức Cổ Luyện 48",
+    "ingredients": [
+      "item_97",
+      "item_241"
+    ],
+    "output": "item_337",
+    "success_rate": 83
+  },
+  {
+    "id": "recipe_49",
+    "name": "Công Thức Cổ Luyện 49",
+    "ingredients": [
+      "item_99",
+      "item_246"
+    ],
+    "output": "item_344",
+    "success_rate": 83
+  },
+  {
+    "id": "recipe_50",
+    "name": "Công Thức Cổ Luyện 50",
+    "ingredients": [
+      "item_101",
+      "item_251"
+    ],
+    "output": "item_351",
+    "success_rate": 83
+  },
+  {
+    "id": "recipe_51",
+    "name": "Công Thức Cổ Luyện 51",
+    "ingredients": [
+      "item_103",
+      "item_256"
+    ],
+    "output": "item_358",
+    "success_rate": 83
+  },
+  {
+    "id": "recipe_52",
+    "name": "Công Thức Cổ Luyện 52",
+    "ingredients": [
+      "item_105",
+      "item_261"
+    ],
+    "output": "item_365",
+    "success_rate": 82
+  },
+  {
+    "id": "recipe_53",
+    "name": "Công Thức Cổ Luyện 53",
+    "ingredients": [
+      "item_107",
+      "item_266"
+    ],
+    "output": "item_372",
+    "success_rate": 82
+  },
+  {
+    "id": "recipe_54",
+    "name": "Công Thức Cổ Luyện 54",
+    "ingredients": [
+      "item_109",
+      "item_271"
+    ],
+    "output": "item_379",
+    "success_rate": 82
+  },
+  {
+    "id": "recipe_55",
+    "name": "Công Thức Cổ Luyện 55",
+    "ingredients": [
+      "item_111",
+      "item_276"
+    ],
+    "output": "item_386",
+    "success_rate": 82
+  },
+  {
+    "id": "recipe_56",
+    "name": "Công Thức Cổ Luyện 56",
+    "ingredients": [
+      "item_113",
+      "item_281"
+    ],
+    "output": "item_393",
+    "success_rate": 81
+  },
+  {
+    "id": "recipe_57",
+    "name": "Công Thức Cổ Luyện 57",
+    "ingredients": [
+      "item_115",
+      "item_286"
+    ],
+    "output": "item_400",
+    "success_rate": 81
+  },
+  {
+    "id": "recipe_58",
+    "name": "Công Thức Cổ Luyện 58",
+    "ingredients": [
+      "item_117",
+      "item_291"
+    ],
+    "output": "item_407",
+    "success_rate": 81
+  },
+  {
+    "id": "recipe_59",
+    "name": "Công Thức Cổ Luyện 59",
+    "ingredients": [
+      "item_119",
+      "item_296"
+    ],
+    "output": "item_414",
+    "success_rate": 81
+  },
+  {
+    "id": "recipe_60",
+    "name": "Công Thức Cổ Luyện 60",
+    "ingredients": [
+      "item_121",
+      "item_301"
+    ],
+    "output": "item_421",
+    "success_rate": 80
+  },
+  {
+    "id": "recipe_61",
+    "name": "Công Thức Cổ Luyện 61",
+    "ingredients": [
+      "item_123",
+      "item_306"
+    ],
+    "output": "item_428",
+    "success_rate": 80
+  },
+  {
+    "id": "recipe_62",
+    "name": "Công Thức Cổ Luyện 62",
+    "ingredients": [
+      "item_125",
+      "item_311"
+    ],
+    "output": "item_435",
+    "success_rate": 80
+  },
+  {
+    "id": "recipe_63",
+    "name": "Công Thức Cổ Luyện 63",
+    "ingredients": [
+      "item_127",
+      "item_316"
+    ],
+    "output": "item_442",
+    "success_rate": 80
+  },
+  {
+    "id": "recipe_64",
+    "name": "Công Thức Cổ Luyện 64",
+    "ingredients": [
+      "item_129",
+      "item_321"
+    ],
+    "output": "item_449",
+    "success_rate": 79
+  },
+  {
+    "id": "recipe_65",
+    "name": "Công Thức Cổ Luyện 65",
+    "ingredients": [
+      "item_131",
+      "item_326"
+    ],
+    "output": "item_456",
+    "success_rate": 79
+  },
+  {
+    "id": "recipe_66",
+    "name": "Công Thức Cổ Luyện 66",
+    "ingredients": [
+      "item_133",
+      "item_331"
+    ],
+    "output": "item_463",
+    "success_rate": 79
+  },
+  {
+    "id": "recipe_67",
+    "name": "Công Thức Cổ Luyện 67",
+    "ingredients": [
+      "item_135",
+      "item_336"
+    ],
+    "output": "item_470",
+    "success_rate": 79
+  },
+  {
+    "id": "recipe_68",
+    "name": "Công Thức Cổ Luyện 68",
+    "ingredients": [
+      "item_137",
+      "item_341"
+    ],
+    "output": "item_477",
+    "success_rate": 78
+  },
+  {
+    "id": "recipe_69",
+    "name": "Công Thức Cổ Luyện 69",
+    "ingredients": [
+      "item_139",
+      "item_346"
+    ],
+    "output": "item_484",
+    "success_rate": 78
+  },
+  {
+    "id": "recipe_70",
+    "name": "Công Thức Cổ Luyện 70",
+    "ingredients": [
+      "item_141",
+      "item_351"
+    ],
+    "output": "item_491",
+    "success_rate": 78
+  },
+  {
+    "id": "recipe_71",
+    "name": "Công Thức Cổ Luyện 71",
+    "ingredients": [
+      "item_143",
+      "item_356"
+    ],
+    "output": "item_498",
+    "success_rate": 78
+  },
+  {
+    "id": "recipe_72",
+    "name": "Công Thức Cổ Luyện 72",
+    "ingredients": [
+      "item_145",
+      "item_361"
+    ],
+    "output": "item_5",
+    "success_rate": 77
+  },
+  {
+    "id": "recipe_73",
+    "name": "Công Thức Cổ Luyện 73",
+    "ingredients": [
+      "item_147",
+      "item_366"
+    ],
+    "output": "item_12",
+    "success_rate": 77
+  },
+  {
+    "id": "recipe_74",
+    "name": "Công Thức Cổ Luyện 74",
+    "ingredients": [
+      "item_149",
+      "item_371"
+    ],
+    "output": "item_19",
+    "success_rate": 77
+  },
+  {
+    "id": "recipe_75",
+    "name": "Công Thức Cổ Luyện 75",
+    "ingredients": [
+      "item_151",
+      "item_376"
+    ],
+    "output": "item_26",
+    "success_rate": 77
+  },
+  {
+    "id": "recipe_76",
+    "name": "Công Thức Cổ Luyện 76",
+    "ingredients": [
+      "item_153",
+      "item_381"
+    ],
+    "output": "item_33",
+    "success_rate": 76
+  },
+  {
+    "id": "recipe_77",
+    "name": "Công Thức Cổ Luyện 77",
+    "ingredients": [
+      "item_155",
+      "item_386"
+    ],
+    "output": "item_40",
+    "success_rate": 76
+  },
+  {
+    "id": "recipe_78",
+    "name": "Công Thức Cổ Luyện 78",
+    "ingredients": [
+      "item_157",
+      "item_391"
+    ],
+    "output": "item_47",
+    "success_rate": 76
+  },
+  {
+    "id": "recipe_79",
+    "name": "Công Thức Cổ Luyện 79",
+    "ingredients": [
+      "item_159",
+      "item_396"
+    ],
+    "output": "item_54",
+    "success_rate": 76
+  },
+  {
+    "id": "recipe_80",
+    "name": "Công Thức Cổ Luyện 80",
+    "ingredients": [
+      "item_161",
+      "item_401"
+    ],
+    "output": "item_61",
+    "success_rate": 75
+  },
+  {
+    "id": "recipe_81",
+    "name": "Công Thức Cổ Luyện 81",
+    "ingredients": [
+      "item_163",
+      "item_406"
+    ],
+    "output": "item_68",
+    "success_rate": 75
+  },
+  {
+    "id": "recipe_82",
+    "name": "Công Thức Cổ Luyện 82",
+    "ingredients": [
+      "item_165",
+      "item_411"
+    ],
+    "output": "item_75",
+    "success_rate": 75
+  },
+  {
+    "id": "recipe_83",
+    "name": "Công Thức Cổ Luyện 83",
+    "ingredients": [
+      "item_167",
+      "item_416"
+    ],
+    "output": "item_82",
+    "success_rate": 75
+  },
+  {
+    "id": "recipe_84",
+    "name": "Công Thức Cổ Luyện 84",
+    "ingredients": [
+      "item_169",
+      "item_421"
+    ],
+    "output": "item_89",
+    "success_rate": 74
+  },
+  {
+    "id": "recipe_85",
+    "name": "Công Thức Cổ Luyện 85",
+    "ingredients": [
+      "item_171",
+      "item_426"
+    ],
+    "output": "item_96",
+    "success_rate": 74
+  },
+  {
+    "id": "recipe_86",
+    "name": "Công Thức Cổ Luyện 86",
+    "ingredients": [
+      "item_173",
+      "item_431"
+    ],
+    "output": "item_103",
+    "success_rate": 74
+  },
+  {
+    "id": "recipe_87",
+    "name": "Công Thức Cổ Luyện 87",
+    "ingredients": [
+      "item_175",
+      "item_436"
+    ],
+    "output": "item_110",
+    "success_rate": 74
+  },
+  {
+    "id": "recipe_88",
+    "name": "Công Thức Cổ Luyện 88",
+    "ingredients": [
+      "item_177",
+      "item_441"
+    ],
+    "output": "item_117",
+    "success_rate": 73
+  },
+  {
+    "id": "recipe_89",
+    "name": "Công Thức Cổ Luyện 89",
+    "ingredients": [
+      "item_179",
+      "item_446"
+    ],
+    "output": "item_124",
+    "success_rate": 73
+  },
+  {
+    "id": "recipe_90",
+    "name": "Công Thức Cổ Luyện 90",
+    "ingredients": [
+      "item_181",
+      "item_451"
+    ],
+    "output": "item_131",
+    "success_rate": 73
+  },
+  {
+    "id": "recipe_91",
+    "name": "Công Thức Cổ Luyện 91",
+    "ingredients": [
+      "item_183",
+      "item_456"
+    ],
+    "output": "item_138",
+    "success_rate": 73
+  },
+  {
+    "id": "recipe_92",
+    "name": "Công Thức Cổ Luyện 92",
+    "ingredients": [
+      "item_185",
+      "item_461"
+    ],
+    "output": "item_145",
+    "success_rate": 72
+  },
+  {
+    "id": "recipe_93",
+    "name": "Công Thức Cổ Luyện 93",
+    "ingredients": [
+      "item_187",
+      "item_466"
+    ],
+    "output": "item_152",
+    "success_rate": 72
+  },
+  {
+    "id": "recipe_94",
+    "name": "Công Thức Cổ Luyện 94",
+    "ingredients": [
+      "item_189",
+      "item_471"
+    ],
+    "output": "item_159",
+    "success_rate": 72
+  },
+  {
+    "id": "recipe_95",
+    "name": "Công Thức Cổ Luyện 95",
+    "ingredients": [
+      "item_191",
+      "item_476"
+    ],
+    "output": "item_166",
+    "success_rate": 72
+  },
+  {
+    "id": "recipe_96",
+    "name": "Công Thức Cổ Luyện 96",
+    "ingredients": [
+      "item_193",
+      "item_481"
+    ],
+    "output": "item_173",
+    "success_rate": 71
+  },
+  {
+    "id": "recipe_97",
+    "name": "Công Thức Cổ Luyện 97",
+    "ingredients": [
+      "item_195",
+      "item_486"
+    ],
+    "output": "item_180",
+    "success_rate": 71
+  },
+  {
+    "id": "recipe_98",
+    "name": "Công Thức Cổ Luyện 98",
+    "ingredients": [
+      "item_197",
+      "item_491"
+    ],
+    "output": "item_187",
+    "success_rate": 71
+  },
+  {
+    "id": "recipe_99",
+    "name": "Công Thức Cổ Luyện 99",
+    "ingredients": [
+      "item_199",
+      "item_496"
+    ],
+    "output": "item_194",
+    "success_rate": 71
+  },
+  {
+    "id": "recipe_100",
+    "name": "Công Thức Cổ Luyện 100",
+    "ingredients": [
+      "item_201",
+      "item_1"
+    ],
+    "output": "item_201",
+    "success_rate": 70
+  },
+  {
+    "id": "recipe_101",
+    "name": "Công Thức Cổ Luyện 101",
+    "ingredients": [
+      "item_203",
+      "item_6"
+    ],
+    "output": "item_208",
+    "success_rate": 70
+  },
+  {
+    "id": "recipe_102",
+    "name": "Công Thức Cổ Luyện 102",
+    "ingredients": [
+      "item_205",
+      "item_11"
+    ],
+    "output": "item_215",
+    "success_rate": 70
+  },
+  {
+    "id": "recipe_103",
+    "name": "Công Thức Cổ Luyện 103",
+    "ingredients": [
+      "item_207",
+      "item_16"
+    ],
+    "output": "item_222",
+    "success_rate": 70
+  },
+  {
+    "id": "recipe_104",
+    "name": "Công Thức Cổ Luyện 104",
+    "ingredients": [
+      "item_209",
+      "item_21"
+    ],
+    "output": "item_229",
+    "success_rate": 69
+  },
+  {
+    "id": "recipe_105",
+    "name": "Công Thức Cổ Luyện 105",
+    "ingredients": [
+      "item_211",
+      "item_26"
+    ],
+    "output": "item_236",
+    "success_rate": 69
+  },
+  {
+    "id": "recipe_106",
+    "name": "Công Thức Cổ Luyện 106",
+    "ingredients": [
+      "item_213",
+      "item_31"
+    ],
+    "output": "item_243",
+    "success_rate": 69
+  },
+  {
+    "id": "recipe_107",
+    "name": "Công Thức Cổ Luyện 107",
+    "ingredients": [
+      "item_215",
+      "item_36"
+    ],
+    "output": "item_250",
+    "success_rate": 69
+  },
+  {
+    "id": "recipe_108",
+    "name": "Công Thức Cổ Luyện 108",
+    "ingredients": [
+      "item_217",
+      "item_41"
+    ],
+    "output": "item_257",
+    "success_rate": 68
+  },
+  {
+    "id": "recipe_109",
+    "name": "Công Thức Cổ Luyện 109",
+    "ingredients": [
+      "item_219",
+      "item_46"
+    ],
+    "output": "item_264",
+    "success_rate": 68
+  },
+  {
+    "id": "recipe_110",
+    "name": "Công Thức Cổ Luyện 110",
+    "ingredients": [
+      "item_221",
+      "item_51"
+    ],
+    "output": "item_271",
+    "success_rate": 68
+  },
+  {
+    "id": "recipe_111",
+    "name": "Công Thức Cổ Luyện 111",
+    "ingredients": [
+      "item_223",
+      "item_56"
+    ],
+    "output": "item_278",
+    "success_rate": 68
+  },
+  {
+    "id": "recipe_112",
+    "name": "Công Thức Cổ Luyện 112",
+    "ingredients": [
+      "item_225",
+      "item_61"
+    ],
+    "output": "item_285",
+    "success_rate": 67
+  },
+  {
+    "id": "recipe_113",
+    "name": "Công Thức Cổ Luyện 113",
+    "ingredients": [
+      "item_227",
+      "item_66"
+    ],
+    "output": "item_292",
+    "success_rate": 67
+  },
+  {
+    "id": "recipe_114",
+    "name": "Công Thức Cổ Luyện 114",
+    "ingredients": [
+      "item_229",
+      "item_71"
+    ],
+    "output": "item_299",
+    "success_rate": 67
+  },
+  {
+    "id": "recipe_115",
+    "name": "Công Thức Cổ Luyện 115",
+    "ingredients": [
+      "item_231",
+      "item_76"
+    ],
+    "output": "item_306",
+    "success_rate": 67
+  },
+  {
+    "id": "recipe_116",
+    "name": "Công Thức Cổ Luyện 116",
+    "ingredients": [
+      "item_233",
+      "item_81"
+    ],
+    "output": "item_313",
+    "success_rate": 66
+  },
+  {
+    "id": "recipe_117",
+    "name": "Công Thức Cổ Luyện 117",
+    "ingredients": [
+      "item_235",
+      "item_86"
+    ],
+    "output": "item_320",
+    "success_rate": 66
+  },
+  {
+    "id": "recipe_118",
+    "name": "Công Thức Cổ Luyện 118",
+    "ingredients": [
+      "item_237",
+      "item_91"
+    ],
+    "output": "item_327",
+    "success_rate": 66
+  },
+  {
+    "id": "recipe_119",
+    "name": "Công Thức Cổ Luyện 119",
+    "ingredients": [
+      "item_239",
+      "item_96"
+    ],
+    "output": "item_334",
+    "success_rate": 66
+  },
+  {
+    "id": "recipe_120",
+    "name": "Công Thức Cổ Luyện 120",
+    "ingredients": [
+      "item_241",
+      "item_101"
+    ],
+    "output": "item_341",
+    "success_rate": 65
+  },
+  {
+    "id": "recipe_121",
+    "name": "Công Thức Cổ Luyện 121",
+    "ingredients": [
+      "item_243",
+      "item_106"
+    ],
+    "output": "item_348",
+    "success_rate": 65
+  },
+  {
+    "id": "recipe_122",
+    "name": "Công Thức Cổ Luyện 122",
+    "ingredients": [
+      "item_245",
+      "item_111"
+    ],
+    "output": "item_355",
+    "success_rate": 65
+  },
+  {
+    "id": "recipe_123",
+    "name": "Công Thức Cổ Luyện 123",
+    "ingredients": [
+      "item_247",
+      "item_116"
+    ],
+    "output": "item_362",
+    "success_rate": 65
+  },
+  {
+    "id": "recipe_124",
+    "name": "Công Thức Cổ Luyện 124",
+    "ingredients": [
+      "item_249",
+      "item_121"
+    ],
+    "output": "item_369",
+    "success_rate": 64
+  },
+  {
+    "id": "recipe_125",
+    "name": "Công Thức Cổ Luyện 125",
+    "ingredients": [
+      "item_251",
+      "item_126"
+    ],
+    "output": "item_376",
+    "success_rate": 64
+  },
+  {
+    "id": "recipe_126",
+    "name": "Công Thức Cổ Luyện 126",
+    "ingredients": [
+      "item_253",
+      "item_131"
+    ],
+    "output": "item_383",
+    "success_rate": 64
+  },
+  {
+    "id": "recipe_127",
+    "name": "Công Thức Cổ Luyện 127",
+    "ingredients": [
+      "item_255",
+      "item_136"
+    ],
+    "output": "item_390",
+    "success_rate": 64
+  },
+  {
+    "id": "recipe_128",
+    "name": "Công Thức Cổ Luyện 128",
+    "ingredients": [
+      "item_257",
+      "item_141"
+    ],
+    "output": "item_397",
+    "success_rate": 63
+  },
+  {
+    "id": "recipe_129",
+    "name": "Công Thức Cổ Luyện 129",
+    "ingredients": [
+      "item_259",
+      "item_146"
+    ],
+    "output": "item_404",
+    "success_rate": 63
+  },
+  {
+    "id": "recipe_130",
+    "name": "Công Thức Cổ Luyện 130",
+    "ingredients": [
+      "item_261",
+      "item_151"
+    ],
+    "output": "item_411",
+    "success_rate": 63
+  },
+  {
+    "id": "recipe_131",
+    "name": "Công Thức Cổ Luyện 131",
+    "ingredients": [
+      "item_263",
+      "item_156"
+    ],
+    "output": "item_418",
+    "success_rate": 63
+  },
+  {
+    "id": "recipe_132",
+    "name": "Công Thức Cổ Luyện 132",
+    "ingredients": [
+      "item_265",
+      "item_161"
+    ],
+    "output": "item_425",
+    "success_rate": 62
+  },
+  {
+    "id": "recipe_133",
+    "name": "Công Thức Cổ Luyện 133",
+    "ingredients": [
+      "item_267",
+      "item_166"
+    ],
+    "output": "item_432",
+    "success_rate": 62
+  },
+  {
+    "id": "recipe_134",
+    "name": "Công Thức Cổ Luyện 134",
+    "ingredients": [
+      "item_269",
+      "item_171"
+    ],
+    "output": "item_439",
+    "success_rate": 62
+  },
+  {
+    "id": "recipe_135",
+    "name": "Công Thức Cổ Luyện 135",
+    "ingredients": [
+      "item_271",
+      "item_176"
+    ],
+    "output": "item_446",
+    "success_rate": 62
+  },
+  {
+    "id": "recipe_136",
+    "name": "Công Thức Cổ Luyện 136",
+    "ingredients": [
+      "item_273",
+      "item_181"
+    ],
+    "output": "item_453",
+    "success_rate": 61
+  },
+  {
+    "id": "recipe_137",
+    "name": "Công Thức Cổ Luyện 137",
+    "ingredients": [
+      "item_275",
+      "item_186"
+    ],
+    "output": "item_460",
+    "success_rate": 61
+  },
+  {
+    "id": "recipe_138",
+    "name": "Công Thức Cổ Luyện 138",
+    "ingredients": [
+      "item_277",
+      "item_191"
+    ],
+    "output": "item_467",
+    "success_rate": 61
+  },
+  {
+    "id": "recipe_139",
+    "name": "Công Thức Cổ Luyện 139",
+    "ingredients": [
+      "item_279",
+      "item_196"
+    ],
+    "output": "item_474",
+    "success_rate": 61
+  },
+  {
+    "id": "recipe_140",
+    "name": "Công Thức Cổ Luyện 140",
+    "ingredients": [
+      "item_281",
+      "item_201"
+    ],
+    "output": "item_481",
+    "success_rate": 60
+  },
+  {
+    "id": "recipe_141",
+    "name": "Công Thức Cổ Luyện 141",
+    "ingredients": [
+      "item_283",
+      "item_206"
+    ],
+    "output": "item_488",
+    "success_rate": 60
+  },
+  {
+    "id": "recipe_142",
+    "name": "Công Thức Cổ Luyện 142",
+    "ingredients": [
+      "item_285",
+      "item_211"
+    ],
+    "output": "item_495",
+    "success_rate": 60
+  },
+  {
+    "id": "recipe_143",
+    "name": "Công Thức Cổ Luyện 143",
+    "ingredients": [
+      "item_287",
+      "item_216"
+    ],
+    "output": "item_2",
+    "success_rate": 60
+  },
+  {
+    "id": "recipe_144",
+    "name": "Công Thức Cổ Luyện 144",
+    "ingredients": [
+      "item_289",
+      "item_221"
+    ],
+    "output": "item_9",
+    "success_rate": 59
+  },
+  {
+    "id": "recipe_145",
+    "name": "Công Thức Cổ Luyện 145",
+    "ingredients": [
+      "item_291",
+      "item_226"
+    ],
+    "output": "item_16",
+    "success_rate": 59
+  },
+  {
+    "id": "recipe_146",
+    "name": "Công Thức Cổ Luyện 146",
+    "ingredients": [
+      "item_293",
+      "item_231"
+    ],
+    "output": "item_23",
+    "success_rate": 59
+  },
+  {
+    "id": "recipe_147",
+    "name": "Công Thức Cổ Luyện 147",
+    "ingredients": [
+      "item_295",
+      "item_236"
+    ],
+    "output": "item_30",
+    "success_rate": 59
+  },
+  {
+    "id": "recipe_148",
+    "name": "Công Thức Cổ Luyện 148",
+    "ingredients": [
+      "item_297",
+      "item_241"
+    ],
+    "output": "item_37",
+    "success_rate": 58
+  },
+  {
+    "id": "recipe_149",
+    "name": "Công Thức Cổ Luyện 149",
+    "ingredients": [
+      "item_299",
+      "item_246"
+    ],
+    "output": "item_44",
+    "success_rate": 58
+  },
+  {
+    "id": "recipe_150",
+    "name": "Công Thức Cổ Luyện 150",
+    "ingredients": [
+      "item_301",
+      "item_251"
+    ],
+    "output": "item_51",
+    "success_rate": 58
+  },
+  {
+    "id": "recipe_151",
+    "name": "Công Thức Cổ Luyện 151",
+    "ingredients": [
+      "item_303",
+      "item_256"
+    ],
+    "output": "item_58",
+    "success_rate": 58
+  },
+  {
+    "id": "recipe_152",
+    "name": "Công Thức Cổ Luyện 152",
+    "ingredients": [
+      "item_305",
+      "item_261"
+    ],
+    "output": "item_65",
+    "success_rate": 57
+  },
+  {
+    "id": "recipe_153",
+    "name": "Công Thức Cổ Luyện 153",
+    "ingredients": [
+      "item_307",
+      "item_266"
+    ],
+    "output": "item_72",
+    "success_rate": 57
+  },
+  {
+    "id": "recipe_154",
+    "name": "Công Thức Cổ Luyện 154",
+    "ingredients": [
+      "item_309",
+      "item_271"
+    ],
+    "output": "item_79",
+    "success_rate": 57
+  },
+  {
+    "id": "recipe_155",
+    "name": "Công Thức Cổ Luyện 155",
+    "ingredients": [
+      "item_311",
+      "item_276"
+    ],
+    "output": "item_86",
+    "success_rate": 57
+  },
+  {
+    "id": "recipe_156",
+    "name": "Công Thức Cổ Luyện 156",
+    "ingredients": [
+      "item_313",
+      "item_281"
+    ],
+    "output": "item_93",
+    "success_rate": 56
+  },
+  {
+    "id": "recipe_157",
+    "name": "Công Thức Cổ Luyện 157",
+    "ingredients": [
+      "item_315",
+      "item_286"
+    ],
+    "output": "item_100",
+    "success_rate": 56
+  },
+  {
+    "id": "recipe_158",
+    "name": "Công Thức Cổ Luyện 158",
+    "ingredients": [
+      "item_317",
+      "item_291"
+    ],
+    "output": "item_107",
+    "success_rate": 56
+  },
+  {
+    "id": "recipe_159",
+    "name": "Công Thức Cổ Luyện 159",
+    "ingredients": [
+      "item_319",
+      "item_296"
+    ],
+    "output": "item_114",
+    "success_rate": 56
+  },
+  {
+    "id": "recipe_160",
+    "name": "Công Thức Cổ Luyện 160",
+    "ingredients": [
+      "item_321",
+      "item_301"
+    ],
+    "output": "item_121",
+    "success_rate": 55
+  },
+  {
+    "id": "recipe_161",
+    "name": "Công Thức Cổ Luyện 161",
+    "ingredients": [
+      "item_323",
+      "item_306"
+    ],
+    "output": "item_128",
+    "success_rate": 55
+  },
+  {
+    "id": "recipe_162",
+    "name": "Công Thức Cổ Luyện 162",
+    "ingredients": [
+      "item_325",
+      "item_311"
+    ],
+    "output": "item_135",
+    "success_rate": 55
+  },
+  {
+    "id": "recipe_163",
+    "name": "Công Thức Cổ Luyện 163",
+    "ingredients": [
+      "item_327",
+      "item_316"
+    ],
+    "output": "item_142",
+    "success_rate": 55
+  },
+  {
+    "id": "recipe_164",
+    "name": "Công Thức Cổ Luyện 164",
+    "ingredients": [
+      "item_329",
+      "item_321"
+    ],
+    "output": "item_149",
+    "success_rate": 54
+  },
+  {
+    "id": "recipe_165",
+    "name": "Công Thức Cổ Luyện 165",
+    "ingredients": [
+      "item_331",
+      "item_326"
+    ],
+    "output": "item_156",
+    "success_rate": 54
+  },
+  {
+    "id": "recipe_166",
+    "name": "Công Thức Cổ Luyện 166",
+    "ingredients": [
+      "item_333",
+      "item_331"
+    ],
+    "output": "item_163",
+    "success_rate": 54
+  },
+  {
+    "id": "recipe_167",
+    "name": "Công Thức Cổ Luyện 167",
+    "ingredients": [
+      "item_335",
+      "item_336"
+    ],
+    "output": "item_170",
+    "success_rate": 54
+  },
+  {
+    "id": "recipe_168",
+    "name": "Công Thức Cổ Luyện 168",
+    "ingredients": [
+      "item_337",
+      "item_341"
+    ],
+    "output": "item_177",
+    "success_rate": 53
+  },
+  {
+    "id": "recipe_169",
+    "name": "Công Thức Cổ Luyện 169",
+    "ingredients": [
+      "item_339",
+      "item_346"
+    ],
+    "output": "item_184",
+    "success_rate": 53
+  },
+  {
+    "id": "recipe_170",
+    "name": "Công Thức Cổ Luyện 170",
+    "ingredients": [
+      "item_341",
+      "item_351"
+    ],
+    "output": "item_191",
+    "success_rate": 53
+  },
+  {
+    "id": "recipe_171",
+    "name": "Công Thức Cổ Luyện 171",
+    "ingredients": [
+      "item_343",
+      "item_356"
+    ],
+    "output": "item_198",
+    "success_rate": 53
+  },
+  {
+    "id": "recipe_172",
+    "name": "Công Thức Cổ Luyện 172",
+    "ingredients": [
+      "item_345",
+      "item_361"
+    ],
+    "output": "item_205",
+    "success_rate": 52
+  },
+  {
+    "id": "recipe_173",
+    "name": "Công Thức Cổ Luyện 173",
+    "ingredients": [
+      "item_347",
+      "item_366"
+    ],
+    "output": "item_212",
+    "success_rate": 52
+  },
+  {
+    "id": "recipe_174",
+    "name": "Công Thức Cổ Luyện 174",
+    "ingredients": [
+      "item_349",
+      "item_371"
+    ],
+    "output": "item_219",
+    "success_rate": 52
+  },
+  {
+    "id": "recipe_175",
+    "name": "Công Thức Cổ Luyện 175",
+    "ingredients": [
+      "item_351",
+      "item_376"
+    ],
+    "output": "item_226",
+    "success_rate": 52
+  },
+  {
+    "id": "recipe_176",
+    "name": "Công Thức Cổ Luyện 176",
+    "ingredients": [
+      "item_353",
+      "item_381"
+    ],
+    "output": "item_233",
+    "success_rate": 51
+  },
+  {
+    "id": "recipe_177",
+    "name": "Công Thức Cổ Luyện 177",
+    "ingredients": [
+      "item_355",
+      "item_386"
+    ],
+    "output": "item_240",
+    "success_rate": 51
+  },
+  {
+    "id": "recipe_178",
+    "name": "Công Thức Cổ Luyện 178",
+    "ingredients": [
+      "item_357",
+      "item_391"
+    ],
+    "output": "item_247",
+    "success_rate": 51
+  },
+  {
+    "id": "recipe_179",
+    "name": "Công Thức Cổ Luyện 179",
+    "ingredients": [
+      "item_359",
+      "item_396"
+    ],
+    "output": "item_254",
+    "success_rate": 51
+  },
+  {
+    "id": "recipe_180",
+    "name": "Công Thức Cổ Luyện 180",
+    "ingredients": [
+      "item_361",
+      "item_401"
+    ],
+    "output": "item_261",
+    "success_rate": 50
+  },
+  {
+    "id": "recipe_181",
+    "name": "Công Thức Cổ Luyện 181",
+    "ingredients": [
+      "item_363",
+      "item_406"
+    ],
+    "output": "item_268",
+    "success_rate": 50
+  },
+  {
+    "id": "recipe_182",
+    "name": "Công Thức Cổ Luyện 182",
+    "ingredients": [
+      "item_365",
+      "item_411"
+    ],
+    "output": "item_275",
+    "success_rate": 50
+  },
+  {
+    "id": "recipe_183",
+    "name": "Công Thức Cổ Luyện 183",
+    "ingredients": [
+      "item_367",
+      "item_416"
+    ],
+    "output": "item_282",
+    "success_rate": 50
+  },
+  {
+    "id": "recipe_184",
+    "name": "Công Thức Cổ Luyện 184",
+    "ingredients": [
+      "item_369",
+      "item_421"
+    ],
+    "output": "item_289",
+    "success_rate": 49
+  },
+  {
+    "id": "recipe_185",
+    "name": "Công Thức Cổ Luyện 185",
+    "ingredients": [
+      "item_371",
+      "item_426"
+    ],
+    "output": "item_296",
+    "success_rate": 49
+  },
+  {
+    "id": "recipe_186",
+    "name": "Công Thức Cổ Luyện 186",
+    "ingredients": [
+      "item_373",
+      "item_431"
+    ],
+    "output": "item_303",
+    "success_rate": 49
+  },
+  {
+    "id": "recipe_187",
+    "name": "Công Thức Cổ Luyện 187",
+    "ingredients": [
+      "item_375",
+      "item_436"
+    ],
+    "output": "item_310",
+    "success_rate": 49
+  },
+  {
+    "id": "recipe_188",
+    "name": "Công Thức Cổ Luyện 188",
+    "ingredients": [
+      "item_377",
+      "item_441"
+    ],
+    "output": "item_317",
+    "success_rate": 48
+  },
+  {
+    "id": "recipe_189",
+    "name": "Công Thức Cổ Luyện 189",
+    "ingredients": [
+      "item_379",
+      "item_446"
+    ],
+    "output": "item_324",
+    "success_rate": 48
+  },
+  {
+    "id": "recipe_190",
+    "name": "Công Thức Cổ Luyện 190",
+    "ingredients": [
+      "item_381",
+      "item_451"
+    ],
+    "output": "item_331",
+    "success_rate": 48
+  },
+  {
+    "id": "recipe_191",
+    "name": "Công Thức Cổ Luyện 191",
+    "ingredients": [
+      "item_383",
+      "item_456"
+    ],
+    "output": "item_338",
+    "success_rate": 48
+  },
+  {
+    "id": "recipe_192",
+    "name": "Công Thức Cổ Luyện 192",
+    "ingredients": [
+      "item_385",
+      "item_461"
+    ],
+    "output": "item_345",
+    "success_rate": 47
+  },
+  {
+    "id": "recipe_193",
+    "name": "Công Thức Cổ Luyện 193",
+    "ingredients": [
+      "item_387",
+      "item_466"
+    ],
+    "output": "item_352",
+    "success_rate": 47
+  },
+  {
+    "id": "recipe_194",
+    "name": "Công Thức Cổ Luyện 194",
+    "ingredients": [
+      "item_389",
+      "item_471"
+    ],
+    "output": "item_359",
+    "success_rate": 47
+  },
+  {
+    "id": "recipe_195",
+    "name": "Công Thức Cổ Luyện 195",
+    "ingredients": [
+      "item_391",
+      "item_476"
+    ],
+    "output": "item_366",
+    "success_rate": 47
+  },
+  {
+    "id": "recipe_196",
+    "name": "Công Thức Cổ Luyện 196",
+    "ingredients": [
+      "item_393",
+      "item_481"
+    ],
+    "output": "item_373",
+    "success_rate": 46
+  },
+  {
+    "id": "recipe_197",
+    "name": "Công Thức Cổ Luyện 197",
+    "ingredients": [
+      "item_395",
+      "item_486"
+    ],
+    "output": "item_380",
+    "success_rate": 46
+  },
+  {
+    "id": "recipe_198",
+    "name": "Công Thức Cổ Luyện 198",
+    "ingredients": [
+      "item_397",
+      "item_491"
+    ],
+    "output": "item_387",
+    "success_rate": 46
+  },
+  {
+    "id": "recipe_199",
+    "name": "Công Thức Cổ Luyện 199",
+    "ingredients": [
+      "item_399",
+      "item_496"
+    ],
+    "output": "item_394",
+    "success_rate": 46
+  },
+  {
+    "id": "recipe_200",
+    "name": "Công Thức Cổ Luyện 200",
+    "ingredients": [
+      "item_401",
+      "item_1"
+    ],
+    "output": "item_401",
+    "success_rate": 45
+  }
+]

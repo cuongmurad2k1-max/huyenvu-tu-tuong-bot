@@ -1,0 +1,1 @@
+function damage(att,def,crit=5){let c=Math.random()*100<crit;let d=Math.max(1,att-def*.35);if(c)d*=2;return{damage:Math.floor(d),critical:c}}module.exports={damage};

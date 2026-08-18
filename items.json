@@ -1,0 +1,7762 @@
+[
+  {
+    "id": "artifact_1",
+    "name": "Huyền Cổ Ấn 1",
+    "type": "cổ_ấn",
+    "rarity": "COMMON",
+    "price": 425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_2",
+    "name": "Thanh Thần Châu 2",
+    "type": "thần_châu",
+    "rarity": "COMMON",
+    "price": 600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_3",
+    "name": "Xích Hộ Thuẫn 3",
+    "type": "hộ_thuẫn",
+    "rarity": "COMMON",
+    "price": 775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_4",
+    "name": "Bạch Chiến Giáp 4",
+    "type": "chiến_giáp",
+    "rarity": "COMMON",
+    "price": 950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_5",
+    "name": "Tử Thần Trảo 5",
+    "type": "thần_trảo",
+    "rarity": "COMMON",
+    "price": 1125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_6",
+    "name": "Thiên Long Lân 6",
+    "type": "long_lân",
+    "rarity": "COMMON",
+    "price": 1300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_7",
+    "name": "Cổ Hổ Nha 7",
+    "type": "hổ_nha",
+    "rarity": "COMMON",
+    "price": 1475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_8",
+    "name": "Bắc Minh Hỏa Tâm 8",
+    "type": "hỏa_tâm",
+    "rarity": "COMMON",
+    "price": 1650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_9",
+    "name": "Tinh Vân Huyền Giáp Phiến 9",
+    "type": "huyền_giáp_phiến",
+    "rarity": "COMMON",
+    "price": 1825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_10",
+    "name": "U Minh Lôi Tinh 10",
+    "type": "lôi_tinh",
+    "rarity": "COMMON",
+    "price": 2000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_11",
+    "name": "Thái Cổ Phong Ngọc 11",
+    "type": "phong_ngọc",
+    "rarity": "COMMON",
+    "price": 2175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_12",
+    "name": "Ngân Thủy Ngọc 12",
+    "type": "thủy_ngọc",
+    "rarity": "COMMON",
+    "price": 2350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_13",
+    "name": "Kim Thánh Phù 13",
+    "type": "thánh_phù",
+    "rarity": "COMMON",
+    "price": 2525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_14",
+    "name": "Hắc Cổ Quyển 14",
+    "type": "cổ_quyển",
+    "rarity": "COMMON",
+    "price": 2700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_15",
+    "name": "Lưu Ly Mật Khóa 15",
+    "type": "mật_khóa",
+    "rarity": "COMMON",
+    "price": 2875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_16",
+    "name": "Vạn Tượng Di Cốt 16",
+    "type": "di_cốt",
+    "rarity": "COMMON",
+    "price": 3050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_17",
+    "name": "Huyền Hồn Tinh 17",
+    "type": "hồn_tinh",
+    "rarity": "COMMON",
+    "price": 3225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_18",
+    "name": "Thanh Thiên Thạch 18",
+    "type": "thiên_thạch",
+    "rarity": "COMMON",
+    "price": 3400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_19",
+    "name": "Xích Linh Quả 19",
+    "type": "linh_quả",
+    "rarity": "COMMON",
+    "price": 3575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_20",
+    "name": "Bạch Thần Dược 20",
+    "type": "thần_dược",
+    "rarity": "COMMON",
+    "price": 3750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_21",
+    "name": "Tử Bảo Đỉnh 21",
+    "type": "bảo_đỉnh",
+    "rarity": "COMMON",
+    "price": 3925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_22",
+    "name": "Thiên Cổ Kính 22",
+    "type": "cổ_kính",
+    "rarity": "COMMON",
+    "price": 4100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_23",
+    "name": "Cổ Thần Đăng 23",
+    "type": "thần_đăng",
+    "rarity": "COMMON",
+    "price": 4275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_24",
+    "name": "Bắc Minh Ngọc Bội 24",
+    "type": "ngọc_bội",
+    "rarity": "COMMON",
+    "price": 4450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_25",
+    "name": "Tinh Vân Lệnh Bài 25",
+    "type": "lệnh_bài",
+    "rarity": "COMMON",
+    "price": 4625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_26",
+    "name": "U Minh Tàn Phiến 26",
+    "type": "tàn_phiến",
+    "rarity": "COMMON",
+    "price": 4800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_27",
+    "name": "Thái Cổ Cổ Ấn 27",
+    "type": "cổ_ấn",
+    "rarity": "COMMON",
+    "price": 4975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_28",
+    "name": "Ngân Thần Châu 28",
+    "type": "thần_châu",
+    "rarity": "COMMON",
+    "price": 5150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_29",
+    "name": "Kim Hộ Thuẫn 29",
+    "type": "hộ_thuẫn",
+    "rarity": "COMMON",
+    "price": 5325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_30",
+    "name": "Hắc Chiến Giáp 30",
+    "type": "chiến_giáp",
+    "rarity": "COMMON",
+    "price": 5500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_31",
+    "name": "Lưu Ly Thần Trảo 31",
+    "type": "thần_trảo",
+    "rarity": "UNCOMMON",
+    "price": 5675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_32",
+    "name": "Vạn Tượng Long Lân 32",
+    "type": "long_lân",
+    "rarity": "UNCOMMON",
+    "price": 5850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_33",
+    "name": "Huyền Hổ Nha 33",
+    "type": "hổ_nha",
+    "rarity": "UNCOMMON",
+    "price": 6025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_34",
+    "name": "Thanh Hỏa Tâm 34",
+    "type": "hỏa_tâm",
+    "rarity": "UNCOMMON",
+    "price": 6200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_35",
+    "name": "Xích Huyền Giáp Phiến 35",
+    "type": "huyền_giáp_phiến",
+    "rarity": "UNCOMMON",
+    "price": 6375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_36",
+    "name": "Bạch Lôi Tinh 36",
+    "type": "lôi_tinh",
+    "rarity": "UNCOMMON",
+    "price": 6550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_37",
+    "name": "Tử Phong Ngọc 37",
+    "type": "phong_ngọc",
+    "rarity": "UNCOMMON",
+    "price": 6725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_38",
+    "name": "Thiên Thủy Ngọc 38",
+    "type": "thủy_ngọc",
+    "rarity": "UNCOMMON",
+    "price": 6900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_39",
+    "name": "Cổ Thánh Phù 39",
+    "type": "thánh_phù",
+    "rarity": "UNCOMMON",
+    "price": 7075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_40",
+    "name": "Bắc Minh Cổ Quyển 40",
+    "type": "cổ_quyển",
+    "rarity": "UNCOMMON",
+    "price": 7250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_41",
+    "name": "Tinh Vân Mật Khóa 41",
+    "type": "mật_khóa",
+    "rarity": "UNCOMMON",
+    "price": 7425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_42",
+    "name": "U Minh Di Cốt 42",
+    "type": "di_cốt",
+    "rarity": "UNCOMMON",
+    "price": 7600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_43",
+    "name": "Thái Cổ Hồn Tinh 43",
+    "type": "hồn_tinh",
+    "rarity": "UNCOMMON",
+    "price": 7775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_44",
+    "name": "Ngân Thiên Thạch 44",
+    "type": "thiên_thạch",
+    "rarity": "UNCOMMON",
+    "price": 7950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_45",
+    "name": "Kim Linh Quả 45",
+    "type": "linh_quả",
+    "rarity": "UNCOMMON",
+    "price": 8125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_46",
+    "name": "Hắc Thần Dược 46",
+    "type": "thần_dược",
+    "rarity": "UNCOMMON",
+    "price": 8300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_47",
+    "name": "Lưu Ly Bảo Đỉnh 47",
+    "type": "bảo_đỉnh",
+    "rarity": "UNCOMMON",
+    "price": 8475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_48",
+    "name": "Vạn Tượng Cổ Kính 48",
+    "type": "cổ_kính",
+    "rarity": "UNCOMMON",
+    "price": 8650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_49",
+    "name": "Huyền Thần Đăng 49",
+    "type": "thần_đăng",
+    "rarity": "UNCOMMON",
+    "price": 8825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_50",
+    "name": "Thanh Ngọc Bội 50",
+    "type": "ngọc_bội",
+    "rarity": "UNCOMMON",
+    "price": 9000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_51",
+    "name": "Xích Lệnh Bài 51",
+    "type": "lệnh_bài",
+    "rarity": "UNCOMMON",
+    "price": 9175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_52",
+    "name": "Bạch Tàn Phiến 52",
+    "type": "tàn_phiến",
+    "rarity": "UNCOMMON",
+    "price": 9350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_53",
+    "name": "Tử Cổ Ấn 53",
+    "type": "cổ_ấn",
+    "rarity": "UNCOMMON",
+    "price": 9525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_54",
+    "name": "Thiên Thần Châu 54",
+    "type": "thần_châu",
+    "rarity": "UNCOMMON",
+    "price": 9700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_55",
+    "name": "Cổ Hộ Thuẫn 55",
+    "type": "hộ_thuẫn",
+    "rarity": "UNCOMMON",
+    "price": 9875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_56",
+    "name": "Bắc Minh Chiến Giáp 56",
+    "type": "chiến_giáp",
+    "rarity": "UNCOMMON",
+    "price": 10050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_57",
+    "name": "Tinh Vân Thần Trảo 57",
+    "type": "thần_trảo",
+    "rarity": "UNCOMMON",
+    "price": 10225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_58",
+    "name": "U Minh Long Lân 58",
+    "type": "long_lân",
+    "rarity": "UNCOMMON",
+    "price": 10400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_59",
+    "name": "Thái Cổ Hổ Nha 59",
+    "type": "hổ_nha",
+    "rarity": "UNCOMMON",
+    "price": 10575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_60",
+    "name": "Ngân Hỏa Tâm 60",
+    "type": "hỏa_tâm",
+    "rarity": "UNCOMMON",
+    "price": 10750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_61",
+    "name": "Kim Huyền Giáp Phiến 61",
+    "type": "huyền_giáp_phiến",
+    "rarity": "RARE",
+    "price": 10925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_62",
+    "name": "Hắc Lôi Tinh 62",
+    "type": "lôi_tinh",
+    "rarity": "RARE",
+    "price": 11100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_63",
+    "name": "Lưu Ly Phong Ngọc 63",
+    "type": "phong_ngọc",
+    "rarity": "RARE",
+    "price": 11275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_64",
+    "name": "Vạn Tượng Thủy Ngọc 64",
+    "type": "thủy_ngọc",
+    "rarity": "RARE",
+    "price": 11450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_65",
+    "name": "Huyền Thánh Phù 65",
+    "type": "thánh_phù",
+    "rarity": "RARE",
+    "price": 11625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_66",
+    "name": "Thanh Cổ Quyển 66",
+    "type": "cổ_quyển",
+    "rarity": "RARE",
+    "price": 11800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_67",
+    "name": "Xích Mật Khóa 67",
+    "type": "mật_khóa",
+    "rarity": "RARE",
+    "price": 11975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_68",
+    "name": "Bạch Di Cốt 68",
+    "type": "di_cốt",
+    "rarity": "RARE",
+    "price": 12150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_69",
+    "name": "Tử Hồn Tinh 69",
+    "type": "hồn_tinh",
+    "rarity": "RARE",
+    "price": 12325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_70",
+    "name": "Thiên Thiên Thạch 70",
+    "type": "thiên_thạch",
+    "rarity": "RARE",
+    "price": 12500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_71",
+    "name": "Cổ Linh Quả 71",
+    "type": "linh_quả",
+    "rarity": "RARE",
+    "price": 12675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_72",
+    "name": "Bắc Minh Thần Dược 72",
+    "type": "thần_dược",
+    "rarity": "RARE",
+    "price": 12850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_73",
+    "name": "Tinh Vân Bảo Đỉnh 73",
+    "type": "bảo_đỉnh",
+    "rarity": "RARE",
+    "price": 13025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_74",
+    "name": "U Minh Cổ Kính 74",
+    "type": "cổ_kính",
+    "rarity": "RARE",
+    "price": 13200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_75",
+    "name": "Thái Cổ Thần Đăng 75",
+    "type": "thần_đăng",
+    "rarity": "RARE",
+    "price": 13375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_76",
+    "name": "Ngân Ngọc Bội 76",
+    "type": "ngọc_bội",
+    "rarity": "RARE",
+    "price": 13550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_77",
+    "name": "Kim Lệnh Bài 77",
+    "type": "lệnh_bài",
+    "rarity": "RARE",
+    "price": 13725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_78",
+    "name": "Hắc Tàn Phiến 78",
+    "type": "tàn_phiến",
+    "rarity": "RARE",
+    "price": 13900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_79",
+    "name": "Lưu Ly Cổ Ấn 79",
+    "type": "cổ_ấn",
+    "rarity": "RARE",
+    "price": 14075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_80",
+    "name": "Vạn Tượng Thần Châu 80",
+    "type": "thần_châu",
+    "rarity": "RARE",
+    "price": 14250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_81",
+    "name": "Huyền Hộ Thuẫn 81",
+    "type": "hộ_thuẫn",
+    "rarity": "RARE",
+    "price": 14425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_82",
+    "name": "Thanh Chiến Giáp 82",
+    "type": "chiến_giáp",
+    "rarity": "RARE",
+    "price": 14600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_83",
+    "name": "Xích Thần Trảo 83",
+    "type": "thần_trảo",
+    "rarity": "RARE",
+    "price": 14775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_84",
+    "name": "Bạch Long Lân 84",
+    "type": "long_lân",
+    "rarity": "RARE",
+    "price": 14950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_85",
+    "name": "Tử Hổ Nha 85",
+    "type": "hổ_nha",
+    "rarity": "RARE",
+    "price": 15125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_86",
+    "name": "Thiên Hỏa Tâm 86",
+    "type": "hỏa_tâm",
+    "rarity": "RARE",
+    "price": 15300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_87",
+    "name": "Cổ Huyền Giáp Phiến 87",
+    "type": "huyền_giáp_phiến",
+    "rarity": "RARE",
+    "price": 15475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_88",
+    "name": "Bắc Minh Lôi Tinh 88",
+    "type": "lôi_tinh",
+    "rarity": "RARE",
+    "price": 15650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_89",
+    "name": "Tinh Vân Phong Ngọc 89",
+    "type": "phong_ngọc",
+    "rarity": "RARE",
+    "price": 15825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_90",
+    "name": "U Minh Thủy Ngọc 90",
+    "type": "thủy_ngọc",
+    "rarity": "RARE",
+    "price": 16000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_91",
+    "name": "Thái Cổ Thánh Phù 91",
+    "type": "thánh_phù",
+    "rarity": "EPIC",
+    "price": 16175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_92",
+    "name": "Ngân Cổ Quyển 92",
+    "type": "cổ_quyển",
+    "rarity": "EPIC",
+    "price": 16350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_93",
+    "name": "Kim Mật Khóa 93",
+    "type": "mật_khóa",
+    "rarity": "EPIC",
+    "price": 16525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_94",
+    "name": "Hắc Di Cốt 94",
+    "type": "di_cốt",
+    "rarity": "EPIC",
+    "price": 16700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_95",
+    "name": "Lưu Ly Hồn Tinh 95",
+    "type": "hồn_tinh",
+    "rarity": "EPIC",
+    "price": 16875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_96",
+    "name": "Vạn Tượng Thiên Thạch 96",
+    "type": "thiên_thạch",
+    "rarity": "EPIC",
+    "price": 17050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_97",
+    "name": "Huyền Linh Quả 97",
+    "type": "linh_quả",
+    "rarity": "EPIC",
+    "price": 17225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_98",
+    "name": "Thanh Thần Dược 98",
+    "type": "thần_dược",
+    "rarity": "EPIC",
+    "price": 17400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_99",
+    "name": "Xích Bảo Đỉnh 99",
+    "type": "bảo_đỉnh",
+    "rarity": "EPIC",
+    "price": 17575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_100",
+    "name": "Bạch Cổ Kính 100",
+    "type": "cổ_kính",
+    "rarity": "EPIC",
+    "price": 17750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_101",
+    "name": "Tử Thần Đăng 101",
+    "type": "thần_đăng",
+    "rarity": "EPIC",
+    "price": 17925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_102",
+    "name": "Thiên Ngọc Bội 102",
+    "type": "ngọc_bội",
+    "rarity": "EPIC",
+    "price": 18100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_103",
+    "name": "Cổ Lệnh Bài 103",
+    "type": "lệnh_bài",
+    "rarity": "EPIC",
+    "price": 18275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_104",
+    "name": "Bắc Minh Tàn Phiến 104",
+    "type": "tàn_phiến",
+    "rarity": "EPIC",
+    "price": 18450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_105",
+    "name": "Tinh Vân Cổ Ấn 105",
+    "type": "cổ_ấn",
+    "rarity": "EPIC",
+    "price": 18625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_106",
+    "name": "U Minh Thần Châu 106",
+    "type": "thần_châu",
+    "rarity": "EPIC",
+    "price": 18800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_107",
+    "name": "Thái Cổ Hộ Thuẫn 107",
+    "type": "hộ_thuẫn",
+    "rarity": "EPIC",
+    "price": 18975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_108",
+    "name": "Ngân Chiến Giáp 108",
+    "type": "chiến_giáp",
+    "rarity": "EPIC",
+    "price": 19150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_109",
+    "name": "Kim Thần Trảo 109",
+    "type": "thần_trảo",
+    "rarity": "EPIC",
+    "price": 19325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_110",
+    "name": "Hắc Long Lân 110",
+    "type": "long_lân",
+    "rarity": "EPIC",
+    "price": 19500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_111",
+    "name": "Lưu Ly Hổ Nha 111",
+    "type": "hổ_nha",
+    "rarity": "EPIC",
+    "price": 19675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_112",
+    "name": "Vạn Tượng Hỏa Tâm 112",
+    "type": "hỏa_tâm",
+    "rarity": "EPIC",
+    "price": 19850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_113",
+    "name": "Huyền Huyền Giáp Phiến 113",
+    "type": "huyền_giáp_phiến",
+    "rarity": "EPIC",
+    "price": 20025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_114",
+    "name": "Thanh Lôi Tinh 114",
+    "type": "lôi_tinh",
+    "rarity": "EPIC",
+    "price": 20200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_115",
+    "name": "Xích Phong Ngọc 115",
+    "type": "phong_ngọc",
+    "rarity": "EPIC",
+    "price": 20375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_116",
+    "name": "Bạch Thủy Ngọc 116",
+    "type": "thủy_ngọc",
+    "rarity": "EPIC",
+    "price": 20550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_117",
+    "name": "Tử Thánh Phù 117",
+    "type": "thánh_phù",
+    "rarity": "EPIC",
+    "price": 20725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_118",
+    "name": "Thiên Cổ Quyển 118",
+    "type": "cổ_quyển",
+    "rarity": "EPIC",
+    "price": 20900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_119",
+    "name": "Cổ Mật Khóa 119",
+    "type": "mật_khóa",
+    "rarity": "EPIC",
+    "price": 21075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_120",
+    "name": "Bắc Minh Di Cốt 120",
+    "type": "di_cốt",
+    "rarity": "EPIC",
+    "price": 21250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_121",
+    "name": "Tinh Vân Hồn Tinh 121",
+    "type": "hồn_tinh",
+    "rarity": "LEGENDARY",
+    "price": 21425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_122",
+    "name": "U Minh Thiên Thạch 122",
+    "type": "thiên_thạch",
+    "rarity": "LEGENDARY",
+    "price": 21600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_123",
+    "name": "Thái Cổ Linh Quả 123",
+    "type": "linh_quả",
+    "rarity": "LEGENDARY",
+    "price": 21775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_124",
+    "name": "Ngân Thần Dược 124",
+    "type": "thần_dược",
+    "rarity": "LEGENDARY",
+    "price": 21950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_125",
+    "name": "Kim Bảo Đỉnh 125",
+    "type": "bảo_đỉnh",
+    "rarity": "LEGENDARY",
+    "price": 22125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_126",
+    "name": "Hắc Cổ Kính 126",
+    "type": "cổ_kính",
+    "rarity": "LEGENDARY",
+    "price": 22300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_127",
+    "name": "Lưu Ly Thần Đăng 127",
+    "type": "thần_đăng",
+    "rarity": "LEGENDARY",
+    "price": 22475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_128",
+    "name": "Vạn Tượng Ngọc Bội 128",
+    "type": "ngọc_bội",
+    "rarity": "LEGENDARY",
+    "price": 22650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_129",
+    "name": "Huyền Lệnh Bài 129",
+    "type": "lệnh_bài",
+    "rarity": "LEGENDARY",
+    "price": 22825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_130",
+    "name": "Thanh Tàn Phiến 130",
+    "type": "tàn_phiến",
+    "rarity": "LEGENDARY",
+    "price": 23000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_131",
+    "name": "Xích Cổ Ấn 131",
+    "type": "cổ_ấn",
+    "rarity": "LEGENDARY",
+    "price": 23175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_132",
+    "name": "Bạch Thần Châu 132",
+    "type": "thần_châu",
+    "rarity": "LEGENDARY",
+    "price": 23350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_133",
+    "name": "Tử Hộ Thuẫn 133",
+    "type": "hộ_thuẫn",
+    "rarity": "LEGENDARY",
+    "price": 23525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_134",
+    "name": "Thiên Chiến Giáp 134",
+    "type": "chiến_giáp",
+    "rarity": "LEGENDARY",
+    "price": 23700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_135",
+    "name": "Cổ Thần Trảo 135",
+    "type": "thần_trảo",
+    "rarity": "LEGENDARY",
+    "price": 23875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_136",
+    "name": "Bắc Minh Long Lân 136",
+    "type": "long_lân",
+    "rarity": "LEGENDARY",
+    "price": 24050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_137",
+    "name": "Tinh Vân Hổ Nha 137",
+    "type": "hổ_nha",
+    "rarity": "LEGENDARY",
+    "price": 24225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_138",
+    "name": "U Minh Hỏa Tâm 138",
+    "type": "hỏa_tâm",
+    "rarity": "LEGENDARY",
+    "price": 24400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_139",
+    "name": "Thái Cổ Huyền Giáp Phiến 139",
+    "type": "huyền_giáp_phiến",
+    "rarity": "LEGENDARY",
+    "price": 24575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_140",
+    "name": "Ngân Lôi Tinh 140",
+    "type": "lôi_tinh",
+    "rarity": "LEGENDARY",
+    "price": 24750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_141",
+    "name": "Kim Phong Ngọc 141",
+    "type": "phong_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 24925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_142",
+    "name": "Hắc Thủy Ngọc 142",
+    "type": "thủy_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 25100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_143",
+    "name": "Lưu Ly Thánh Phù 143",
+    "type": "thánh_phù",
+    "rarity": "LEGENDARY",
+    "price": 25275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_144",
+    "name": "Vạn Tượng Cổ Quyển 144",
+    "type": "cổ_quyển",
+    "rarity": "LEGENDARY",
+    "price": 25450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_145",
+    "name": "Huyền Mật Khóa 145",
+    "type": "mật_khóa",
+    "rarity": "LEGENDARY",
+    "price": 25625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_146",
+    "name": "Thanh Di Cốt 146",
+    "type": "di_cốt",
+    "rarity": "LEGENDARY",
+    "price": 25800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_147",
+    "name": "Xích Hồn Tinh 147",
+    "type": "hồn_tinh",
+    "rarity": "LEGENDARY",
+    "price": 25975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_148",
+    "name": "Bạch Thiên Thạch 148",
+    "type": "thiên_thạch",
+    "rarity": "LEGENDARY",
+    "price": 26150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_149",
+    "name": "Tử Linh Quả 149",
+    "type": "linh_quả",
+    "rarity": "LEGENDARY",
+    "price": 26325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_150",
+    "name": "Thiên Thần Dược 150",
+    "type": "thần_dược",
+    "rarity": "LEGENDARY",
+    "price": 26500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_151",
+    "name": "Cổ Bảo Đỉnh 151",
+    "type": "bảo_đỉnh",
+    "rarity": "ANCIENT",
+    "price": 26675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_152",
+    "name": "Bắc Minh Cổ Kính 152",
+    "type": "cổ_kính",
+    "rarity": "ANCIENT",
+    "price": 26850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_153",
+    "name": "Tinh Vân Thần Đăng 153",
+    "type": "thần_đăng",
+    "rarity": "ANCIENT",
+    "price": 27025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_154",
+    "name": "U Minh Ngọc Bội 154",
+    "type": "ngọc_bội",
+    "rarity": "ANCIENT",
+    "price": 27200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_155",
+    "name": "Thái Cổ Lệnh Bài 155",
+    "type": "lệnh_bài",
+    "rarity": "ANCIENT",
+    "price": 27375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_156",
+    "name": "Ngân Tàn Phiến 156",
+    "type": "tàn_phiến",
+    "rarity": "ANCIENT",
+    "price": 27550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_157",
+    "name": "Kim Cổ Ấn 157",
+    "type": "cổ_ấn",
+    "rarity": "ANCIENT",
+    "price": 27725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_158",
+    "name": "Hắc Thần Châu 158",
+    "type": "thần_châu",
+    "rarity": "ANCIENT",
+    "price": 27900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_159",
+    "name": "Lưu Ly Hộ Thuẫn 159",
+    "type": "hộ_thuẫn",
+    "rarity": "ANCIENT",
+    "price": 28075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_160",
+    "name": "Vạn Tượng Chiến Giáp 160",
+    "type": "chiến_giáp",
+    "rarity": "ANCIENT",
+    "price": 28250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_161",
+    "name": "Huyền Thần Trảo 161",
+    "type": "thần_trảo",
+    "rarity": "ANCIENT",
+    "price": 28425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_162",
+    "name": "Thanh Long Lân 162",
+    "type": "long_lân",
+    "rarity": "ANCIENT",
+    "price": 28600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_163",
+    "name": "Xích Hổ Nha 163",
+    "type": "hổ_nha",
+    "rarity": "ANCIENT",
+    "price": 28775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_164",
+    "name": "Bạch Hỏa Tâm 164",
+    "type": "hỏa_tâm",
+    "rarity": "ANCIENT",
+    "price": 28950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_165",
+    "name": "Tử Huyền Giáp Phiến 165",
+    "type": "huyền_giáp_phiến",
+    "rarity": "ANCIENT",
+    "price": 29125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_166",
+    "name": "Thiên Lôi Tinh 166",
+    "type": "lôi_tinh",
+    "rarity": "ANCIENT",
+    "price": 29300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_167",
+    "name": "Cổ Phong Ngọc 167",
+    "type": "phong_ngọc",
+    "rarity": "ANCIENT",
+    "price": 29475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_168",
+    "name": "Bắc Minh Thủy Ngọc 168",
+    "type": "thủy_ngọc",
+    "rarity": "ANCIENT",
+    "price": 29650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_169",
+    "name": "Tinh Vân Thánh Phù 169",
+    "type": "thánh_phù",
+    "rarity": "ANCIENT",
+    "price": 29825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_170",
+    "name": "U Minh Cổ Quyển 170",
+    "type": "cổ_quyển",
+    "rarity": "ANCIENT",
+    "price": 30000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_171",
+    "name": "Thái Cổ Mật Khóa 171",
+    "type": "mật_khóa",
+    "rarity": "ANCIENT",
+    "price": 30175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_172",
+    "name": "Ngân Di Cốt 172",
+    "type": "di_cốt",
+    "rarity": "ANCIENT",
+    "price": 30350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_173",
+    "name": "Kim Hồn Tinh 173",
+    "type": "hồn_tinh",
+    "rarity": "ANCIENT",
+    "price": 30525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_174",
+    "name": "Hắc Thiên Thạch 174",
+    "type": "thiên_thạch",
+    "rarity": "ANCIENT",
+    "price": 30700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_175",
+    "name": "Lưu Ly Linh Quả 175",
+    "type": "linh_quả",
+    "rarity": "ANCIENT",
+    "price": 30875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_176",
+    "name": "Vạn Tượng Thần Dược 176",
+    "type": "thần_dược",
+    "rarity": "ANCIENT",
+    "price": 31050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_177",
+    "name": "Huyền Bảo Đỉnh 177",
+    "type": "bảo_đỉnh",
+    "rarity": "ANCIENT",
+    "price": 31225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_178",
+    "name": "Thanh Cổ Kính 178",
+    "type": "cổ_kính",
+    "rarity": "ANCIENT",
+    "price": 31400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_179",
+    "name": "Xích Thần Đăng 179",
+    "type": "thần_đăng",
+    "rarity": "ANCIENT",
+    "price": 31575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_180",
+    "name": "Bạch Ngọc Bội 180",
+    "type": "ngọc_bội",
+    "rarity": "ANCIENT",
+    "price": 31750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_181",
+    "name": "Tử Lệnh Bài 181",
+    "type": "lệnh_bài",
+    "rarity": "MYTHIC",
+    "price": 31925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_182",
+    "name": "Thiên Tàn Phiến 182",
+    "type": "tàn_phiến",
+    "rarity": "MYTHIC",
+    "price": 32100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_183",
+    "name": "Cổ Cổ Ấn 183",
+    "type": "cổ_ấn",
+    "rarity": "MYTHIC",
+    "price": 32275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_184",
+    "name": "Bắc Minh Thần Châu 184",
+    "type": "thần_châu",
+    "rarity": "MYTHIC",
+    "price": 32450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_185",
+    "name": "Tinh Vân Hộ Thuẫn 185",
+    "type": "hộ_thuẫn",
+    "rarity": "MYTHIC",
+    "price": 32625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_186",
+    "name": "U Minh Chiến Giáp 186",
+    "type": "chiến_giáp",
+    "rarity": "MYTHIC",
+    "price": 32800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_187",
+    "name": "Thái Cổ Thần Trảo 187",
+    "type": "thần_trảo",
+    "rarity": "MYTHIC",
+    "price": 32975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_188",
+    "name": "Ngân Long Lân 188",
+    "type": "long_lân",
+    "rarity": "MYTHIC",
+    "price": 33150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_189",
+    "name": "Kim Hổ Nha 189",
+    "type": "hổ_nha",
+    "rarity": "MYTHIC",
+    "price": 33325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_190",
+    "name": "Hắc Hỏa Tâm 190",
+    "type": "hỏa_tâm",
+    "rarity": "MYTHIC",
+    "price": 33500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_191",
+    "name": "Lưu Ly Huyền Giáp Phiến 191",
+    "type": "huyền_giáp_phiến",
+    "rarity": "MYTHIC",
+    "price": 33675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_192",
+    "name": "Vạn Tượng Lôi Tinh 192",
+    "type": "lôi_tinh",
+    "rarity": "MYTHIC",
+    "price": 33850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_193",
+    "name": "Huyền Phong Ngọc 193",
+    "type": "phong_ngọc",
+    "rarity": "MYTHIC",
+    "price": 34025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_194",
+    "name": "Thanh Thủy Ngọc 194",
+    "type": "thủy_ngọc",
+    "rarity": "MYTHIC",
+    "price": 34200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_195",
+    "name": "Xích Thánh Phù 195",
+    "type": "thánh_phù",
+    "rarity": "MYTHIC",
+    "price": 34375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_196",
+    "name": "Bạch Cổ Quyển 196",
+    "type": "cổ_quyển",
+    "rarity": "MYTHIC",
+    "price": 34550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_197",
+    "name": "Tử Mật Khóa 197",
+    "type": "mật_khóa",
+    "rarity": "MYTHIC",
+    "price": 34725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_198",
+    "name": "Thiên Di Cốt 198",
+    "type": "di_cốt",
+    "rarity": "MYTHIC",
+    "price": 34900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_199",
+    "name": "Cổ Hồn Tinh 199",
+    "type": "hồn_tinh",
+    "rarity": "MYTHIC",
+    "price": 35075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_200",
+    "name": "Bắc Minh Thiên Thạch 200",
+    "type": "thiên_thạch",
+    "rarity": "MYTHIC",
+    "price": 35250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_201",
+    "name": "Tinh Vân Linh Quả 201",
+    "type": "linh_quả",
+    "rarity": "MYTHIC",
+    "price": 35425,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_202",
+    "name": "U Minh Thần Dược 202",
+    "type": "thần_dược",
+    "rarity": "MYTHIC",
+    "price": 35600,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_203",
+    "name": "Thái Cổ Bảo Đỉnh 203",
+    "type": "bảo_đỉnh",
+    "rarity": "MYTHIC",
+    "price": 35775,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_204",
+    "name": "Ngân Cổ Kính 204",
+    "type": "cổ_kính",
+    "rarity": "MYTHIC",
+    "price": 35950,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_205",
+    "name": "Kim Thần Đăng 205",
+    "type": "thần_đăng",
+    "rarity": "MYTHIC",
+    "price": 36125,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_206",
+    "name": "Hắc Ngọc Bội 206",
+    "type": "ngọc_bội",
+    "rarity": "MYTHIC",
+    "price": 36300,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_207",
+    "name": "Lưu Ly Lệnh Bài 207",
+    "type": "lệnh_bài",
+    "rarity": "MYTHIC",
+    "price": 36475,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_208",
+    "name": "Vạn Tượng Tàn Phiến 208",
+    "type": "tàn_phiến",
+    "rarity": "MYTHIC",
+    "price": 36650,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_209",
+    "name": "Huyền Cổ Ấn 209",
+    "type": "cổ_ấn",
+    "rarity": "MYTHIC",
+    "price": 36825,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_210",
+    "name": "Thanh Thần Châu 210",
+    "type": "thần_châu",
+    "rarity": "MYTHIC",
+    "price": 37000,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_211",
+    "name": "Xích Hộ Thuẫn 211",
+    "type": "hộ_thuẫn",
+    "rarity": "DIVINE",
+    "price": 37175,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 3,
+      "speed": 1,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_212",
+    "name": "Bạch Chiến Giáp 212",
+    "type": "chiến_giáp",
+    "rarity": "DIVINE",
+    "price": 37350,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 6,
+      "speed": 2,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_213",
+    "name": "Tử Thần Trảo 213",
+    "type": "thần_trảo",
+    "rarity": "DIVINE",
+    "price": 37525,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 9,
+      "speed": 3,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_214",
+    "name": "Thiên Long Lân 214",
+    "type": "long_lân",
+    "rarity": "DIVINE",
+    "price": 37700,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 12,
+      "speed": 4,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_215",
+    "name": "Cổ Hổ Nha 215",
+    "type": "hổ_nha",
+    "rarity": "DIVINE",
+    "price": 37875,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 5,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_216",
+    "name": "Bắc Minh Hỏa Tâm 216",
+    "type": "hỏa_tâm",
+    "rarity": "DIVINE",
+    "price": 38050,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 16,
+      "defense": 18,
+      "speed": 6,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_217",
+    "name": "Tinh Vân Huyền Giáp Phiến 217",
+    "type": "huyền_giáp_phiến",
+    "rarity": "DIVINE",
+    "price": 38225,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 17,
+      "defense": 21,
+      "speed": 7,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_218",
+    "name": "U Minh Lôi Tinh 218",
+    "type": "lôi_tinh",
+    "rarity": "DIVINE",
+    "price": 38400,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 18,
+      "defense": 24,
+      "speed": 8,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_219",
+    "name": "Thái Cổ Phong Ngọc 219",
+    "type": "phong_ngọc",
+    "rarity": "DIVINE",
+    "price": 38575,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 19,
+      "defense": 27,
+      "speed": 9,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_220",
+    "name": "Ngân Thủy Ngọc 220",
+    "type": "thủy_ngọc",
+    "rarity": "DIVINE",
+    "price": 38750,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 20,
+      "defense": 0,
+      "speed": 10,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_221",
+    "name": "Kim Thánh Phù 221",
+    "type": "thánh_phù",
+    "rarity": "DIVINE",
+    "price": 38925,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 21,
+      "defense": 3,
+      "speed": 11,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_222",
+    "name": "Hắc Cổ Quyển 222",
+    "type": "cổ_quyển",
+    "rarity": "DIVINE",
+    "price": 39100,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 22,
+      "defense": 6,
+      "speed": 12,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_223",
+    "name": "Lưu Ly Mật Khóa 223",
+    "type": "mật_khóa",
+    "rarity": "DIVINE",
+    "price": 39275,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 23,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_224",
+    "name": "Vạn Tượng Di Cốt 224",
+    "type": "di_cốt",
+    "rarity": "DIVINE",
+    "price": 39450,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 24,
+      "defense": 12,
+      "speed": 14,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_225",
+    "name": "Huyền Hồn Tinh 225",
+    "type": "hồn_tinh",
+    "rarity": "DIVINE",
+    "price": 39625,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 0,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_226",
+    "name": "Thanh Thiên Thạch 226",
+    "type": "thiên_thạch",
+    "rarity": "DIVINE",
+    "price": 39800,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 1,
+      "defense": 18,
+      "speed": 1,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_227",
+    "name": "Xích Linh Quả 227",
+    "type": "linh_quả",
+    "rarity": "DIVINE",
+    "price": 39975,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 2,
+      "defense": 21,
+      "speed": 2,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_228",
+    "name": "Bạch Thần Dược 228",
+    "type": "thần_dược",
+    "rarity": "DIVINE",
+    "price": 40150,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 3,
+      "defense": 24,
+      "speed": 3,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_229",
+    "name": "Tử Bảo Đỉnh 229",
+    "type": "bảo_đỉnh",
+    "rarity": "DIVINE",
+    "price": 40325,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 4,
+      "defense": 27,
+      "speed": 4,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_230",
+    "name": "Thiên Cổ Kính 230",
+    "type": "cổ_kính",
+    "rarity": "DIVINE",
+    "price": 40500,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 5,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_231",
+    "name": "Cổ Thần Đăng 231",
+    "type": "thần_đăng",
+    "rarity": "DIVINE",
+    "price": 40675,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 6,
+      "defense": 3,
+      "speed": 6,
+      "crit": 1
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_232",
+    "name": "Bắc Minh Ngọc Bội 232",
+    "type": "ngọc_bội",
+    "rarity": "DIVINE",
+    "price": 40850,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 7,
+      "defense": 6,
+      "speed": 7,
+      "crit": 2
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_233",
+    "name": "Tinh Vân Lệnh Bài 233",
+    "type": "lệnh_bài",
+    "rarity": "DIVINE",
+    "price": 41025,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 8,
+      "defense": 9,
+      "speed": 8,
+      "crit": 3
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_234",
+    "name": "U Minh Tàn Phiến 234",
+    "type": "tàn_phiến",
+    "rarity": "DIVINE",
+    "price": 41200,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 9,
+      "defense": 12,
+      "speed": 9,
+      "crit": 4
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_235",
+    "name": "Thái Cổ Cổ Ấn 235",
+    "type": "cổ_ấn",
+    "rarity": "DIVINE",
+    "price": 41375,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 10,
+      "defense": 15,
+      "speed": 10,
+      "crit": 5
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "artifact_236",
+    "name": "Ngân Thần Châu 236",
+    "type": "thần_châu",
+    "rarity": "DIVINE",
+    "price": 41550,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 11,
+      "defense": 18,
+      "speed": 11,
+      "crit": 6
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "artifact_237",
+    "name": "Kim Hộ Thuẫn 237",
+    "type": "hộ_thuẫn",
+    "rarity": "DIVINE",
+    "price": 41725,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 12,
+      "defense": 21,
+      "speed": 12,
+      "crit": 7
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "artifact_238",
+    "name": "Hắc Chiến Giáp 238",
+    "type": "chiến_giáp",
+    "rarity": "DIVINE",
+    "price": 41900,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 13,
+      "defense": 24,
+      "speed": 13,
+      "crit": 8
+    },
+    "drop_sources": "Kho báu"
+  },
+  {
+    "id": "artifact_239",
+    "name": "Lưu Ly Thần Trảo 239",
+    "type": "thần_trảo",
+    "rarity": "DIVINE",
+    "price": 42075,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 14,
+      "defense": 27,
+      "speed": 14,
+      "crit": 9
+    },
+    "drop_sources": "Sự kiện"
+  },
+  {
+    "id": "artifact_240",
+    "name": "Vạn Tượng Long Lân 240",
+    "type": "long_lân",
+    "rarity": "DIVINE",
+    "price": 42250,
+    "lore": "Cổ vật nguyên bản của thế giới Tứ Tượng, mang dấu ấn của một vùng đất và một thời đại đã thất truyền.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 0,
+      "crit": 0
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_241",
+    "name": "Tứ Tượng Thủy Ngọc 241",
+    "type": "thủy_ngọc",
+    "rarity": "EPIC",
+    "price": 72800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 32,
+      "speed": 21,
+      "crit": 1,
+      "hp": 223
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_242",
+    "name": "Bắc Minh Thánh Phù 242",
+    "type": "thánh_phù",
+    "rarity": "EPIC",
+    "price": 73100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 34,
+      "speed": 0,
+      "crit": 2,
+      "hp": 226
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_243",
+    "name": "Thanh Lôi Cổ Quyển 243",
+    "type": "cổ_quyển",
+    "rarity": "EPIC",
+    "price": 73400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 36,
+      "speed": 1,
+      "crit": 3,
+      "hp": 229
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_244",
+    "name": "Bạch Sát Mật Khóa 244",
+    "type": "mật_khóa",
+    "rarity": "EPIC",
+    "price": 73700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 38,
+      "speed": 2,
+      "crit": 4,
+      "hp": 232
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_245",
+    "name": "Chu Hỏa Di Cốt 245",
+    "type": "di_cốt",
+    "rarity": "EPIC",
+    "price": 74000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 40,
+      "speed": 3,
+      "crit": 5,
+      "hp": 235
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_246",
+    "name": "Cổ Thần Hồn Tinh 246",
+    "type": "hồn_tinh",
+    "rarity": "EPIC",
+    "price": 74300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 42,
+      "speed": 4,
+      "crit": 6,
+      "hp": 238
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_247",
+    "name": "Tinh Hải Thiên Thạch 247",
+    "type": "thiên_thạch",
+    "rarity": "EPIC",
+    "price": 74600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 44,
+      "speed": 5,
+      "crit": 7,
+      "hp": 241
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_248",
+    "name": "Hắc Uyên Linh Quả 248",
+    "type": "linh_quả",
+    "rarity": "EPIC",
+    "price": 74900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 1,
+      "speed": 6,
+      "crit": 8,
+      "hp": 244
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_249",
+    "name": "Thiên Ngoại Thần Dược 249",
+    "type": "thần_dược",
+    "rarity": "EPIC",
+    "price": 75200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 3,
+      "speed": 7,
+      "crit": 9,
+      "hp": 247
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_250",
+    "name": "Vạn Thú Bảo Đỉnh 250",
+    "type": "bảo_đỉnh",
+    "rarity": "EPIC",
+    "price": 75500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 5,
+      "speed": 8,
+      "crit": 10,
+      "hp": 250
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_251",
+    "name": "Hư Không Cổ Kính 251",
+    "type": "cổ_kính",
+    "rarity": "EPIC",
+    "price": 75800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 7,
+      "speed": 9,
+      "crit": 11,
+      "hp": 253
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_252",
+    "name": "Thái Cổ Thần Đăng 252",
+    "type": "thần_đăng",
+    "rarity": "EPIC",
+    "price": 76100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 9,
+      "speed": 10,
+      "crit": 0,
+      "hp": 256
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_253",
+    "name": "Ngân Nguyệt Ngọc Bội 253",
+    "type": "ngọc_bội",
+    "rarity": "EPIC",
+    "price": 76400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 11,
+      "speed": 11,
+      "crit": 1,
+      "hp": 259
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_254",
+    "name": "Tử Kim Lệnh Bài 254",
+    "type": "lệnh_bài",
+    "rarity": "EPIC",
+    "price": 76700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 13,
+      "speed": 12,
+      "crit": 2,
+      "hp": 262
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_255",
+    "name": "Lưu Ly Tàn Phiến 255",
+    "type": "tàn_phiến",
+    "rarity": "EPIC",
+    "price": 77000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 15,
+      "speed": 13,
+      "crit": 3,
+      "hp": 265
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_256",
+    "name": "Hoang Cổ Thú Hồn 256",
+    "type": "thú_hồn",
+    "rarity": "EPIC",
+    "price": 77300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 17,
+      "speed": 14,
+      "crit": 4,
+      "hp": 268
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_257",
+    "name": "Thần Mộc Thần Huyết 257",
+    "type": "thần_huyết",
+    "rarity": "EPIC",
+    "price": 77600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 19,
+      "speed": 15,
+      "crit": 5,
+      "hp": 271
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_258",
+    "name": "Cửu Thiên Cổ Linh 258",
+    "type": "cổ_linh",
+    "rarity": "EPIC",
+    "price": 77900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 21,
+      "speed": 16,
+      "crit": 6,
+      "hp": 274
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_259",
+    "name": "Địa Ngục Tinh Tủy 259",
+    "type": "tinh_tủy",
+    "rarity": "EPIC",
+    "price": 78200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 23,
+      "speed": 17,
+      "crit": 7,
+      "hp": 277
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_260",
+    "name": "Vô Danh Bí Văn 260",
+    "type": "bí_văn",
+    "rarity": "EPIC",
+    "price": 78500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 25,
+      "speed": 18,
+      "crit": 8,
+      "hp": 280
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_261",
+    "name": "Tứ Tượng Vương Miện 261",
+    "type": "vương_miện",
+    "rarity": "LEGENDARY",
+    "price": 78800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 27,
+      "speed": 19,
+      "crit": 9,
+      "hp": 283
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_262",
+    "name": "Bắc Minh Giày 262",
+    "type": "giày",
+    "rarity": "LEGENDARY",
+    "price": 79100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 29,
+      "speed": 20,
+      "crit": 10,
+      "hp": 286
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_263",
+    "name": "Thanh Lôi Nhẫn 263",
+    "type": "nhẫn",
+    "rarity": "LEGENDARY",
+    "price": 79400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 31,
+      "speed": 21,
+      "crit": 11,
+      "hp": 289
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_264",
+    "name": "Bạch Sát Dây Chuyền 264",
+    "type": "dây_chuyền",
+    "rarity": "LEGENDARY",
+    "price": 79700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 33,
+      "speed": 0,
+      "crit": 0,
+      "hp": 292
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_265",
+    "name": "Chu Hỏa Vũ Khí 265",
+    "type": "vũ_khí",
+    "rarity": "LEGENDARY",
+    "price": 80000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 35,
+      "speed": 1,
+      "crit": 1,
+      "hp": 295
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_266",
+    "name": "Cổ Thần Pháp Bào 266",
+    "type": "pháp_bào",
+    "rarity": "LEGENDARY",
+    "price": 80300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 37,
+      "speed": 2,
+      "crit": 2,
+      "hp": 298
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_267",
+    "name": "Tinh Hải Thần Khí 267",
+    "type": "thần_khí",
+    "rarity": "LEGENDARY",
+    "price": 80600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 39,
+      "speed": 3,
+      "crit": 3,
+      "hp": 301
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_268",
+    "name": "Hắc Uyên Cổ Ấn 268",
+    "type": "cổ_ấn",
+    "rarity": "LEGENDARY",
+    "price": 80900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 41,
+      "speed": 4,
+      "crit": 4,
+      "hp": 304
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_269",
+    "name": "Thiên Ngoại Thần Châu 269",
+    "type": "thần_châu",
+    "rarity": "LEGENDARY",
+    "price": 81200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 43,
+      "speed": 5,
+      "crit": 5,
+      "hp": 307
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_270",
+    "name": "Vạn Thú Hộ Thuẫn 270",
+    "type": "hộ_thuẫn",
+    "rarity": "LEGENDARY",
+    "price": 81500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 0,
+      "speed": 6,
+      "crit": 6,
+      "hp": 310
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_271",
+    "name": "Hư Không Chiến Giáp 271",
+    "type": "chiến_giáp",
+    "rarity": "LEGENDARY",
+    "price": 81800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 2,
+      "speed": 7,
+      "crit": 7,
+      "hp": 313
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_272",
+    "name": "Thái Cổ Thần Trảo 272",
+    "type": "thần_trảo",
+    "rarity": "LEGENDARY",
+    "price": 82100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 4,
+      "speed": 8,
+      "crit": 8,
+      "hp": 316
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_273",
+    "name": "Ngân Nguyệt Long Lân 273",
+    "type": "long_lân",
+    "rarity": "LEGENDARY",
+    "price": 82400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 6,
+      "speed": 9,
+      "crit": 9,
+      "hp": 319
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_274",
+    "name": "Tử Kim Hổ Nha 274",
+    "type": "hổ_nha",
+    "rarity": "LEGENDARY",
+    "price": 82700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 8,
+      "speed": 10,
+      "crit": 10,
+      "hp": 322
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_275",
+    "name": "Lưu Ly Hỏa Tâm 275",
+    "type": "hỏa_tâm",
+    "rarity": "LEGENDARY",
+    "price": 83000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 10,
+      "speed": 11,
+      "crit": 11,
+      "hp": 325
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_276",
+    "name": "Hoang Cổ Huyền Giáp 276",
+    "type": "huyền_giáp",
+    "rarity": "LEGENDARY",
+    "price": 83300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 12,
+      "speed": 12,
+      "crit": 0,
+      "hp": 328
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_277",
+    "name": "Thần Mộc Lôi Tinh 277",
+    "type": "lôi_tinh",
+    "rarity": "LEGENDARY",
+    "price": 83600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 14,
+      "speed": 13,
+      "crit": 1,
+      "hp": 331
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_278",
+    "name": "Cửu Thiên Phong Ngọc 278",
+    "type": "phong_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 83900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 16,
+      "speed": 14,
+      "crit": 2,
+      "hp": 334
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_279",
+    "name": "Địa Ngục Thủy Ngọc 279",
+    "type": "thủy_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 84200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 18,
+      "speed": 15,
+      "crit": 3,
+      "hp": 337
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_280",
+    "name": "Vô Danh Thánh Phù 280",
+    "type": "thánh_phù",
+    "rarity": "LEGENDARY",
+    "price": 84500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 20,
+      "speed": 16,
+      "crit": 4,
+      "hp": 340
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_281",
+    "name": "Tứ Tượng Cổ Quyển 281",
+    "type": "cổ_quyển",
+    "rarity": "LEGENDARY",
+    "price": 84800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 22,
+      "speed": 17,
+      "crit": 5,
+      "hp": 343
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_282",
+    "name": "Bắc Minh Mật Khóa 282",
+    "type": "mật_khóa",
+    "rarity": "LEGENDARY",
+    "price": 85100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 24,
+      "speed": 18,
+      "crit": 6,
+      "hp": 346
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_283",
+    "name": "Thanh Lôi Di Cốt 283",
+    "type": "di_cốt",
+    "rarity": "LEGENDARY",
+    "price": 85400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 26,
+      "speed": 19,
+      "crit": 7,
+      "hp": 349
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_284",
+    "name": "Bạch Sát Hồn Tinh 284",
+    "type": "hồn_tinh",
+    "rarity": "LEGENDARY",
+    "price": 85700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 28,
+      "speed": 20,
+      "crit": 8,
+      "hp": 352
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_285",
+    "name": "Chu Hỏa Thiên Thạch 285",
+    "type": "thiên_thạch",
+    "rarity": "LEGENDARY",
+    "price": 86000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 30,
+      "speed": 21,
+      "crit": 9,
+      "hp": 355
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_286",
+    "name": "Cổ Thần Linh Quả 286",
+    "type": "linh_quả",
+    "rarity": "LEGENDARY",
+    "price": 86300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 32,
+      "speed": 0,
+      "crit": 10,
+      "hp": 358
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_287",
+    "name": "Tinh Hải Thần Dược 287",
+    "type": "thần_dược",
+    "rarity": "LEGENDARY",
+    "price": 86600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 34,
+      "speed": 1,
+      "crit": 11,
+      "hp": 361
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_288",
+    "name": "Hắc Uyên Bảo Đỉnh 288",
+    "type": "bảo_đỉnh",
+    "rarity": "LEGENDARY",
+    "price": 86900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 36,
+      "speed": 2,
+      "crit": 0,
+      "hp": 364
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_289",
+    "name": "Thiên Ngoại Cổ Kính 289",
+    "type": "cổ_kính",
+    "rarity": "LEGENDARY",
+    "price": 87200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 38,
+      "speed": 3,
+      "crit": 1,
+      "hp": 367
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_290",
+    "name": "Vạn Thú Thần Đăng 290",
+    "type": "thần_đăng",
+    "rarity": "LEGENDARY",
+    "price": 87500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 40,
+      "speed": 4,
+      "crit": 2,
+      "hp": 370
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_291",
+    "name": "Hư Không Ngọc Bội 291",
+    "type": "ngọc_bội",
+    "rarity": "LEGENDARY",
+    "price": 87800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 42,
+      "speed": 5,
+      "crit": 3,
+      "hp": 373
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_292",
+    "name": "Thái Cổ Lệnh Bài 292",
+    "type": "lệnh_bài",
+    "rarity": "LEGENDARY",
+    "price": 88100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 44,
+      "speed": 6,
+      "crit": 4,
+      "hp": 376
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_293",
+    "name": "Ngân Nguyệt Tàn Phiến 293",
+    "type": "tàn_phiến",
+    "rarity": "LEGENDARY",
+    "price": 88400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 1,
+      "speed": 7,
+      "crit": 5,
+      "hp": 379
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_294",
+    "name": "Tử Kim Thú Hồn 294",
+    "type": "thú_hồn",
+    "rarity": "LEGENDARY",
+    "price": 88700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 3,
+      "speed": 8,
+      "crit": 6,
+      "hp": 382
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_295",
+    "name": "Lưu Ly Thần Huyết 295",
+    "type": "thần_huyết",
+    "rarity": "LEGENDARY",
+    "price": 89000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 5,
+      "speed": 9,
+      "crit": 7,
+      "hp": 385
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_296",
+    "name": "Hoang Cổ Cổ Linh 296",
+    "type": "cổ_linh",
+    "rarity": "LEGENDARY",
+    "price": 89300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 7,
+      "speed": 10,
+      "crit": 8,
+      "hp": 388
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_297",
+    "name": "Thần Mộc Tinh Tủy 297",
+    "type": "tinh_tủy",
+    "rarity": "LEGENDARY",
+    "price": 89600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 9,
+      "speed": 11,
+      "crit": 9,
+      "hp": 391
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_298",
+    "name": "Cửu Thiên Bí Văn 298",
+    "type": "bí_văn",
+    "rarity": "LEGENDARY",
+    "price": 89900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 11,
+      "speed": 12,
+      "crit": 10,
+      "hp": 394
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_299",
+    "name": "Địa Ngục Vương Miện 299",
+    "type": "vương_miện",
+    "rarity": "LEGENDARY",
+    "price": 90200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 13,
+      "speed": 13,
+      "crit": 11,
+      "hp": 397
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_300",
+    "name": "Vô Danh Giày 300",
+    "type": "giày",
+    "rarity": "LEGENDARY",
+    "price": 90500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 15,
+      "speed": 14,
+      "crit": 0,
+      "hp": 400
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_301",
+    "name": "Tứ Tượng Nhẫn 301",
+    "type": "nhẫn",
+    "rarity": "LEGENDARY",
+    "price": 90800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 17,
+      "speed": 15,
+      "crit": 1,
+      "hp": 403
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_302",
+    "name": "Bắc Minh Dây Chuyền 302",
+    "type": "dây_chuyền",
+    "rarity": "LEGENDARY",
+    "price": 91100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 19,
+      "speed": 16,
+      "crit": 2,
+      "hp": 406
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_303",
+    "name": "Thanh Lôi Vũ Khí 303",
+    "type": "vũ_khí",
+    "rarity": "LEGENDARY",
+    "price": 91400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 21,
+      "speed": 17,
+      "crit": 3,
+      "hp": 409
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_304",
+    "name": "Bạch Sát Pháp Bào 304",
+    "type": "pháp_bào",
+    "rarity": "LEGENDARY",
+    "price": 91700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 23,
+      "speed": 18,
+      "crit": 4,
+      "hp": 412
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_305",
+    "name": "Chu Hỏa Thần Khí 305",
+    "type": "thần_khí",
+    "rarity": "LEGENDARY",
+    "price": 92000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 25,
+      "speed": 19,
+      "crit": 5,
+      "hp": 415
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_306",
+    "name": "Cổ Thần Cổ Ấn 306",
+    "type": "cổ_ấn",
+    "rarity": "LEGENDARY",
+    "price": 92300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 27,
+      "speed": 20,
+      "crit": 6,
+      "hp": 418
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_307",
+    "name": "Tinh Hải Thần Châu 307",
+    "type": "thần_châu",
+    "rarity": "LEGENDARY",
+    "price": 92600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 29,
+      "speed": 21,
+      "crit": 7,
+      "hp": 421
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_308",
+    "name": "Hắc Uyên Hộ Thuẫn 308",
+    "type": "hộ_thuẫn",
+    "rarity": "LEGENDARY",
+    "price": 92900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 31,
+      "speed": 0,
+      "crit": 8,
+      "hp": 424
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_309",
+    "name": "Thiên Ngoại Chiến Giáp 309",
+    "type": "chiến_giáp",
+    "rarity": "LEGENDARY",
+    "price": 93200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 33,
+      "speed": 1,
+      "crit": 9,
+      "hp": 427
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_310",
+    "name": "Vạn Thú Thần Trảo 310",
+    "type": "thần_trảo",
+    "rarity": "LEGENDARY",
+    "price": 93500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 35,
+      "speed": 2,
+      "crit": 10,
+      "hp": 430
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_311",
+    "name": "Hư Không Long Lân 311",
+    "type": "long_lân",
+    "rarity": "LEGENDARY",
+    "price": 93800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 37,
+      "speed": 3,
+      "crit": 11,
+      "hp": 433
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_312",
+    "name": "Thái Cổ Hổ Nha 312",
+    "type": "hổ_nha",
+    "rarity": "LEGENDARY",
+    "price": 94100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 39,
+      "speed": 4,
+      "crit": 0,
+      "hp": 436
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_313",
+    "name": "Ngân Nguyệt Hỏa Tâm 313",
+    "type": "hỏa_tâm",
+    "rarity": "LEGENDARY",
+    "price": 94400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 41,
+      "speed": 5,
+      "crit": 1,
+      "hp": 439
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_314",
+    "name": "Tử Kim Huyền Giáp 314",
+    "type": "huyền_giáp",
+    "rarity": "LEGENDARY",
+    "price": 94700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 43,
+      "speed": 6,
+      "crit": 2,
+      "hp": 442
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_315",
+    "name": "Lưu Ly Lôi Tinh 315",
+    "type": "lôi_tinh",
+    "rarity": "LEGENDARY",
+    "price": 95000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 0,
+      "speed": 7,
+      "crit": 3,
+      "hp": 445
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_316",
+    "name": "Hoang Cổ Phong Ngọc 316",
+    "type": "phong_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 95300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 2,
+      "speed": 8,
+      "crit": 4,
+      "hp": 448
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_317",
+    "name": "Thần Mộc Thủy Ngọc 317",
+    "type": "thủy_ngọc",
+    "rarity": "LEGENDARY",
+    "price": 95600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 4,
+      "speed": 9,
+      "crit": 5,
+      "hp": 451
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_318",
+    "name": "Cửu Thiên Thánh Phù 318",
+    "type": "thánh_phù",
+    "rarity": "LEGENDARY",
+    "price": 95900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 6,
+      "speed": 10,
+      "crit": 6,
+      "hp": 454
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_319",
+    "name": "Địa Ngục Cổ Quyển 319",
+    "type": "cổ_quyển",
+    "rarity": "LEGENDARY",
+    "price": 96200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 8,
+      "speed": 11,
+      "crit": 7,
+      "hp": 457
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_320",
+    "name": "Vô Danh Mật Khóa 320",
+    "type": "mật_khóa",
+    "rarity": "LEGENDARY",
+    "price": 96500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 10,
+      "speed": 12,
+      "crit": 8,
+      "hp": 460
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_321",
+    "name": "Tứ Tượng Di Cốt 321",
+    "type": "di_cốt",
+    "rarity": "LEGENDARY",
+    "price": 96800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 12,
+      "speed": 13,
+      "crit": 9,
+      "hp": 463
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_322",
+    "name": "Bắc Minh Hồn Tinh 322",
+    "type": "hồn_tinh",
+    "rarity": "LEGENDARY",
+    "price": 97100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 14,
+      "speed": 14,
+      "crit": 10,
+      "hp": 466
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_323",
+    "name": "Thanh Lôi Thiên Thạch 323",
+    "type": "thiên_thạch",
+    "rarity": "LEGENDARY",
+    "price": 97400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 16,
+      "speed": 15,
+      "crit": 11,
+      "hp": 469
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_324",
+    "name": "Bạch Sát Linh Quả 324",
+    "type": "linh_quả",
+    "rarity": "LEGENDARY",
+    "price": 97700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 18,
+      "speed": 16,
+      "crit": 0,
+      "hp": 472
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_325",
+    "name": "Chu Hỏa Thần Dược 325",
+    "type": "thần_dược",
+    "rarity": "LEGENDARY",
+    "price": 98000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 20,
+      "speed": 17,
+      "crit": 1,
+      "hp": 475
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_326",
+    "name": "Cổ Thần Bảo Đỉnh 326",
+    "type": "bảo_đỉnh",
+    "rarity": "ANCIENT",
+    "price": 98300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 22,
+      "speed": 18,
+      "crit": 2,
+      "hp": 478
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_327",
+    "name": "Tinh Hải Cổ Kính 327",
+    "type": "cổ_kính",
+    "rarity": "ANCIENT",
+    "price": 98600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 24,
+      "speed": 19,
+      "crit": 3,
+      "hp": 481
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_328",
+    "name": "Hắc Uyên Thần Đăng 328",
+    "type": "thần_đăng",
+    "rarity": "ANCIENT",
+    "price": 98900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 26,
+      "speed": 20,
+      "crit": 4,
+      "hp": 484
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_329",
+    "name": "Thiên Ngoại Ngọc Bội 329",
+    "type": "ngọc_bội",
+    "rarity": "ANCIENT",
+    "price": 99200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 28,
+      "speed": 21,
+      "crit": 5,
+      "hp": 487
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_330",
+    "name": "Vạn Thú Lệnh Bài 330",
+    "type": "lệnh_bài",
+    "rarity": "ANCIENT",
+    "price": 99500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 30,
+      "speed": 0,
+      "crit": 6,
+      "hp": 490
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_331",
+    "name": "Hư Không Tàn Phiến 331",
+    "type": "tàn_phiến",
+    "rarity": "ANCIENT",
+    "price": 99800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 32,
+      "speed": 1,
+      "crit": 7,
+      "hp": 493
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_332",
+    "name": "Thái Cổ Thú Hồn 332",
+    "type": "thú_hồn",
+    "rarity": "ANCIENT",
+    "price": 100100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 34,
+      "speed": 2,
+      "crit": 8,
+      "hp": 496
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_333",
+    "name": "Ngân Nguyệt Thần Huyết 333",
+    "type": "thần_huyết",
+    "rarity": "ANCIENT",
+    "price": 100400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 36,
+      "speed": 3,
+      "crit": 9,
+      "hp": 499
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_334",
+    "name": "Tử Kim Cổ Linh 334",
+    "type": "cổ_linh",
+    "rarity": "ANCIENT",
+    "price": 100700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 38,
+      "speed": 4,
+      "crit": 10,
+      "hp": 2
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_335",
+    "name": "Lưu Ly Tinh Tủy 335",
+    "type": "tinh_tủy",
+    "rarity": "ANCIENT",
+    "price": 101000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 40,
+      "speed": 5,
+      "crit": 11,
+      "hp": 5
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_336",
+    "name": "Hoang Cổ Bí Văn 336",
+    "type": "bí_văn",
+    "rarity": "ANCIENT",
+    "price": 101300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 42,
+      "speed": 6,
+      "crit": 0,
+      "hp": 8
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_337",
+    "name": "Thần Mộc Vương Miện 337",
+    "type": "vương_miện",
+    "rarity": "ANCIENT",
+    "price": 101600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 44,
+      "speed": 7,
+      "crit": 1,
+      "hp": 11
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_338",
+    "name": "Cửu Thiên Giày 338",
+    "type": "giày",
+    "rarity": "ANCIENT",
+    "price": 101900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 1,
+      "speed": 8,
+      "crit": 2,
+      "hp": 14
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_339",
+    "name": "Địa Ngục Nhẫn 339",
+    "type": "nhẫn",
+    "rarity": "ANCIENT",
+    "price": 102200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 3,
+      "speed": 9,
+      "crit": 3,
+      "hp": 17
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_340",
+    "name": "Vô Danh Dây Chuyền 340",
+    "type": "dây_chuyền",
+    "rarity": "ANCIENT",
+    "price": 102500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 5,
+      "speed": 10,
+      "crit": 4,
+      "hp": 20
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_341",
+    "name": "Tứ Tượng Vũ Khí 341",
+    "type": "vũ_khí",
+    "rarity": "ANCIENT",
+    "price": 102800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 7,
+      "speed": 11,
+      "crit": 5,
+      "hp": 23
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_342",
+    "name": "Bắc Minh Pháp Bào 342",
+    "type": "pháp_bào",
+    "rarity": "ANCIENT",
+    "price": 103100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 9,
+      "speed": 12,
+      "crit": 6,
+      "hp": 26
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_343",
+    "name": "Thanh Lôi Thần Khí 343",
+    "type": "thần_khí",
+    "rarity": "ANCIENT",
+    "price": 103400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 11,
+      "speed": 13,
+      "crit": 7,
+      "hp": 29
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_344",
+    "name": "Bạch Sát Cổ Ấn 344",
+    "type": "cổ_ấn",
+    "rarity": "ANCIENT",
+    "price": 103700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 13,
+      "speed": 14,
+      "crit": 8,
+      "hp": 32
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_345",
+    "name": "Chu Hỏa Thần Châu 345",
+    "type": "thần_châu",
+    "rarity": "ANCIENT",
+    "price": 104000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 15,
+      "speed": 15,
+      "crit": 9,
+      "hp": 35
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_346",
+    "name": "Cổ Thần Hộ Thuẫn 346",
+    "type": "hộ_thuẫn",
+    "rarity": "ANCIENT",
+    "price": 104300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 17,
+      "speed": 16,
+      "crit": 10,
+      "hp": 38
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_347",
+    "name": "Tinh Hải Chiến Giáp 347",
+    "type": "chiến_giáp",
+    "rarity": "ANCIENT",
+    "price": 104600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 19,
+      "speed": 17,
+      "crit": 11,
+      "hp": 41
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_348",
+    "name": "Hắc Uyên Thần Trảo 348",
+    "type": "thần_trảo",
+    "rarity": "ANCIENT",
+    "price": 104900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 21,
+      "speed": 18,
+      "crit": 0,
+      "hp": 44
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_349",
+    "name": "Thiên Ngoại Long Lân 349",
+    "type": "long_lân",
+    "rarity": "ANCIENT",
+    "price": 105200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 23,
+      "speed": 19,
+      "crit": 1,
+      "hp": 47
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_350",
+    "name": "Vạn Thú Hổ Nha 350",
+    "type": "hổ_nha",
+    "rarity": "ANCIENT",
+    "price": 105500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 25,
+      "speed": 20,
+      "crit": 2,
+      "hp": 50
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_351",
+    "name": "Hư Không Hỏa Tâm 351",
+    "type": "hỏa_tâm",
+    "rarity": "ANCIENT",
+    "price": 105800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 27,
+      "speed": 21,
+      "crit": 3,
+      "hp": 53
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_352",
+    "name": "Thái Cổ Huyền Giáp 352",
+    "type": "huyền_giáp",
+    "rarity": "ANCIENT",
+    "price": 106100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 29,
+      "speed": 0,
+      "crit": 4,
+      "hp": 56
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_353",
+    "name": "Ngân Nguyệt Lôi Tinh 353",
+    "type": "lôi_tinh",
+    "rarity": "ANCIENT",
+    "price": 106400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 31,
+      "speed": 1,
+      "crit": 5,
+      "hp": 59
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_354",
+    "name": "Tử Kim Phong Ngọc 354",
+    "type": "phong_ngọc",
+    "rarity": "ANCIENT",
+    "price": 106700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 33,
+      "speed": 2,
+      "crit": 6,
+      "hp": 62
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_355",
+    "name": "Lưu Ly Thủy Ngọc 355",
+    "type": "thủy_ngọc",
+    "rarity": "ANCIENT",
+    "price": 107000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 35,
+      "speed": 3,
+      "crit": 7,
+      "hp": 65
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_356",
+    "name": "Hoang Cổ Thánh Phù 356",
+    "type": "thánh_phù",
+    "rarity": "ANCIENT",
+    "price": 107300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 37,
+      "speed": 4,
+      "crit": 8,
+      "hp": 68
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_357",
+    "name": "Thần Mộc Cổ Quyển 357",
+    "type": "cổ_quyển",
+    "rarity": "ANCIENT",
+    "price": 107600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 39,
+      "speed": 5,
+      "crit": 9,
+      "hp": 71
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_358",
+    "name": "Cửu Thiên Mật Khóa 358",
+    "type": "mật_khóa",
+    "rarity": "ANCIENT",
+    "price": 107900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 41,
+      "speed": 6,
+      "crit": 10,
+      "hp": 74
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_359",
+    "name": "Địa Ngục Di Cốt 359",
+    "type": "di_cốt",
+    "rarity": "ANCIENT",
+    "price": 108200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 43,
+      "speed": 7,
+      "crit": 11,
+      "hp": 77
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_360",
+    "name": "Vô Danh Hồn Tinh 360",
+    "type": "hồn_tinh",
+    "rarity": "ANCIENT",
+    "price": 108500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 0,
+      "speed": 8,
+      "crit": 0,
+      "hp": 80
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_361",
+    "name": "Tứ Tượng Thiên Thạch 361",
+    "type": "thiên_thạch",
+    "rarity": "ANCIENT",
+    "price": 108800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 2,
+      "speed": 9,
+      "crit": 1,
+      "hp": 83
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_362",
+    "name": "Bắc Minh Linh Quả 362",
+    "type": "linh_quả",
+    "rarity": "ANCIENT",
+    "price": 109100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 4,
+      "speed": 10,
+      "crit": 2,
+      "hp": 86
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_363",
+    "name": "Thanh Lôi Thần Dược 363",
+    "type": "thần_dược",
+    "rarity": "ANCIENT",
+    "price": 109400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 6,
+      "speed": 11,
+      "crit": 3,
+      "hp": 89
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_364",
+    "name": "Bạch Sát Bảo Đỉnh 364",
+    "type": "bảo_đỉnh",
+    "rarity": "ANCIENT",
+    "price": 109700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 8,
+      "speed": 12,
+      "crit": 4,
+      "hp": 92
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_365",
+    "name": "Chu Hỏa Cổ Kính 365",
+    "type": "cổ_kính",
+    "rarity": "ANCIENT",
+    "price": 110000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 10,
+      "speed": 13,
+      "crit": 5,
+      "hp": 95
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_366",
+    "name": "Cổ Thần Thần Đăng 366",
+    "type": "thần_đăng",
+    "rarity": "ANCIENT",
+    "price": 110300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 12,
+      "speed": 14,
+      "crit": 6,
+      "hp": 98
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_367",
+    "name": "Tinh Hải Ngọc Bội 367",
+    "type": "ngọc_bội",
+    "rarity": "ANCIENT",
+    "price": 110600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 14,
+      "speed": 15,
+      "crit": 7,
+      "hp": 101
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_368",
+    "name": "Hắc Uyên Lệnh Bài 368",
+    "type": "lệnh_bài",
+    "rarity": "ANCIENT",
+    "price": 110900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 16,
+      "speed": 16,
+      "crit": 8,
+      "hp": 104
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_369",
+    "name": "Thiên Ngoại Tàn Phiến 369",
+    "type": "tàn_phiến",
+    "rarity": "ANCIENT",
+    "price": 111200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 18,
+      "speed": 17,
+      "crit": 9,
+      "hp": 107
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_370",
+    "name": "Vạn Thú Thú Hồn 370",
+    "type": "thú_hồn",
+    "rarity": "ANCIENT",
+    "price": 111500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 20,
+      "speed": 18,
+      "crit": 10,
+      "hp": 110
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_371",
+    "name": "Hư Không Thần Huyết 371",
+    "type": "thần_huyết",
+    "rarity": "ANCIENT",
+    "price": 111800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 22,
+      "speed": 19,
+      "crit": 11,
+      "hp": 113
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_372",
+    "name": "Thái Cổ Cổ Linh 372",
+    "type": "cổ_linh",
+    "rarity": "ANCIENT",
+    "price": 112100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 24,
+      "speed": 20,
+      "crit": 0,
+      "hp": 116
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_373",
+    "name": "Ngân Nguyệt Tinh Tủy 373",
+    "type": "tinh_tủy",
+    "rarity": "ANCIENT",
+    "price": 112400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 26,
+      "speed": 21,
+      "crit": 1,
+      "hp": 119
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_374",
+    "name": "Tử Kim Bí Văn 374",
+    "type": "bí_văn",
+    "rarity": "ANCIENT",
+    "price": 112700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 28,
+      "speed": 0,
+      "crit": 2,
+      "hp": 122
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_375",
+    "name": "Lưu Ly Vương Miện 375",
+    "type": "vương_miện",
+    "rarity": "ANCIENT",
+    "price": 113000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 30,
+      "speed": 1,
+      "crit": 3,
+      "hp": 125
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_376",
+    "name": "Hoang Cổ Giày 376",
+    "type": "giày",
+    "rarity": "ANCIENT",
+    "price": 113300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 32,
+      "speed": 2,
+      "crit": 4,
+      "hp": 128
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_377",
+    "name": "Thần Mộc Nhẫn 377",
+    "type": "nhẫn",
+    "rarity": "ANCIENT",
+    "price": 113600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 34,
+      "speed": 3,
+      "crit": 5,
+      "hp": 131
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_378",
+    "name": "Cửu Thiên Dây Chuyền 378",
+    "type": "dây_chuyền",
+    "rarity": "ANCIENT",
+    "price": 113900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 36,
+      "speed": 4,
+      "crit": 6,
+      "hp": 134
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_379",
+    "name": "Địa Ngục Vũ Khí 379",
+    "type": "vũ_khí",
+    "rarity": "ANCIENT",
+    "price": 114200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 38,
+      "speed": 5,
+      "crit": 7,
+      "hp": 137
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_380",
+    "name": "Vô Danh Pháp Bào 380",
+    "type": "pháp_bào",
+    "rarity": "ANCIENT",
+    "price": 114500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 40,
+      "speed": 6,
+      "crit": 8,
+      "hp": 140
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_381",
+    "name": "Tứ Tượng Thần Khí 381",
+    "type": "thần_khí",
+    "rarity": "ANCIENT",
+    "price": 114800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 42,
+      "speed": 7,
+      "crit": 9,
+      "hp": 143
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_382",
+    "name": "Bắc Minh Cổ Ấn 382",
+    "type": "cổ_ấn",
+    "rarity": "ANCIENT",
+    "price": 115100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 44,
+      "speed": 8,
+      "crit": 10,
+      "hp": 146
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_383",
+    "name": "Thanh Lôi Thần Châu 383",
+    "type": "thần_châu",
+    "rarity": "ANCIENT",
+    "price": 115400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 1,
+      "speed": 9,
+      "crit": 11,
+      "hp": 149
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_384",
+    "name": "Bạch Sát Hộ Thuẫn 384",
+    "type": "hộ_thuẫn",
+    "rarity": "ANCIENT",
+    "price": 115700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 3,
+      "speed": 10,
+      "crit": 0,
+      "hp": 152
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_385",
+    "name": "Chu Hỏa Chiến Giáp 385",
+    "type": "chiến_giáp",
+    "rarity": "ANCIENT",
+    "price": 116000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 5,
+      "speed": 11,
+      "crit": 1,
+      "hp": 155
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_386",
+    "name": "Cổ Thần Thần Trảo 386",
+    "type": "thần_trảo",
+    "rarity": "ANCIENT",
+    "price": 116300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 7,
+      "speed": 12,
+      "crit": 2,
+      "hp": 158
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_387",
+    "name": "Tinh Hải Long Lân 387",
+    "type": "long_lân",
+    "rarity": "ANCIENT",
+    "price": 116600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 9,
+      "speed": 13,
+      "crit": 3,
+      "hp": 161
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_388",
+    "name": "Hắc Uyên Hổ Nha 388",
+    "type": "hổ_nha",
+    "rarity": "ANCIENT",
+    "price": 116900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 11,
+      "speed": 14,
+      "crit": 4,
+      "hp": 164
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_389",
+    "name": "Thiên Ngoại Hỏa Tâm 389",
+    "type": "hỏa_tâm",
+    "rarity": "ANCIENT",
+    "price": 117200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 13,
+      "speed": 15,
+      "crit": 5,
+      "hp": 167
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_390",
+    "name": "Vạn Thú Huyền Giáp 390",
+    "type": "huyền_giáp",
+    "rarity": "ANCIENT",
+    "price": 117500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 15,
+      "speed": 16,
+      "crit": 6,
+      "hp": 170
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_391",
+    "name": "Hư Không Lôi Tinh 391",
+    "type": "lôi_tinh",
+    "rarity": "MYTHIC",
+    "price": 117800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 17,
+      "speed": 17,
+      "crit": 7,
+      "hp": 173
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_392",
+    "name": "Thái Cổ Phong Ngọc 392",
+    "type": "phong_ngọc",
+    "rarity": "MYTHIC",
+    "price": 118100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 19,
+      "speed": 18,
+      "crit": 8,
+      "hp": 176
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_393",
+    "name": "Ngân Nguyệt Thủy Ngọc 393",
+    "type": "thủy_ngọc",
+    "rarity": "MYTHIC",
+    "price": 118400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 21,
+      "speed": 19,
+      "crit": 9,
+      "hp": 179
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_394",
+    "name": "Tử Kim Thánh Phù 394",
+    "type": "thánh_phù",
+    "rarity": "MYTHIC",
+    "price": 118700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 23,
+      "speed": 20,
+      "crit": 10,
+      "hp": 182
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_395",
+    "name": "Lưu Ly Cổ Quyển 395",
+    "type": "cổ_quyển",
+    "rarity": "MYTHIC",
+    "price": 119000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 25,
+      "speed": 21,
+      "crit": 11,
+      "hp": 185
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_396",
+    "name": "Hoang Cổ Mật Khóa 396",
+    "type": "mật_khóa",
+    "rarity": "MYTHIC",
+    "price": 119300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 27,
+      "speed": 0,
+      "crit": 0,
+      "hp": 188
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_397",
+    "name": "Thần Mộc Di Cốt 397",
+    "type": "di_cốt",
+    "rarity": "MYTHIC",
+    "price": 119600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 29,
+      "speed": 1,
+      "crit": 1,
+      "hp": 191
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_398",
+    "name": "Cửu Thiên Hồn Tinh 398",
+    "type": "hồn_tinh",
+    "rarity": "MYTHIC",
+    "price": 119900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 31,
+      "speed": 2,
+      "crit": 2,
+      "hp": 194
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_399",
+    "name": "Địa Ngục Thiên Thạch 399",
+    "type": "thiên_thạch",
+    "rarity": "MYTHIC",
+    "price": 120200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 33,
+      "speed": 3,
+      "crit": 3,
+      "hp": 197
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_400",
+    "name": "Vô Danh Linh Quả 400",
+    "type": "linh_quả",
+    "rarity": "MYTHIC",
+    "price": 120500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 35,
+      "speed": 4,
+      "crit": 4,
+      "hp": 200
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_401",
+    "name": "Tứ Tượng Thần Dược 401",
+    "type": "thần_dược",
+    "rarity": "MYTHIC",
+    "price": 120800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 37,
+      "speed": 5,
+      "crit": 5,
+      "hp": 203
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_402",
+    "name": "Bắc Minh Bảo Đỉnh 402",
+    "type": "bảo_đỉnh",
+    "rarity": "MYTHIC",
+    "price": 121100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 39,
+      "speed": 6,
+      "crit": 6,
+      "hp": 206
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_403",
+    "name": "Thanh Lôi Cổ Kính 403",
+    "type": "cổ_kính",
+    "rarity": "MYTHIC",
+    "price": 121400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 41,
+      "speed": 7,
+      "crit": 7,
+      "hp": 209
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_404",
+    "name": "Bạch Sát Thần Đăng 404",
+    "type": "thần_đăng",
+    "rarity": "MYTHIC",
+    "price": 121700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 43,
+      "speed": 8,
+      "crit": 8,
+      "hp": 212
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_405",
+    "name": "Chu Hỏa Ngọc Bội 405",
+    "type": "ngọc_bội",
+    "rarity": "MYTHIC",
+    "price": 122000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 0,
+      "speed": 9,
+      "crit": 9,
+      "hp": 215
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_406",
+    "name": "Cổ Thần Lệnh Bài 406",
+    "type": "lệnh_bài",
+    "rarity": "MYTHIC",
+    "price": 122300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 2,
+      "speed": 10,
+      "crit": 10,
+      "hp": 218
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_407",
+    "name": "Tinh Hải Tàn Phiến 407",
+    "type": "tàn_phiến",
+    "rarity": "MYTHIC",
+    "price": 122600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 4,
+      "speed": 11,
+      "crit": 11,
+      "hp": 221
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_408",
+    "name": "Hắc Uyên Thú Hồn 408",
+    "type": "thú_hồn",
+    "rarity": "MYTHIC",
+    "price": 122900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 6,
+      "speed": 12,
+      "crit": 0,
+      "hp": 224
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_409",
+    "name": "Thiên Ngoại Thần Huyết 409",
+    "type": "thần_huyết",
+    "rarity": "MYTHIC",
+    "price": 123200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 8,
+      "speed": 13,
+      "crit": 1,
+      "hp": 227
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_410",
+    "name": "Vạn Thú Cổ Linh 410",
+    "type": "cổ_linh",
+    "rarity": "MYTHIC",
+    "price": 123500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 10,
+      "speed": 14,
+      "crit": 2,
+      "hp": 230
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_411",
+    "name": "Hư Không Tinh Tủy 411",
+    "type": "tinh_tủy",
+    "rarity": "MYTHIC",
+    "price": 123800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 12,
+      "speed": 15,
+      "crit": 3,
+      "hp": 233
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_412",
+    "name": "Thái Cổ Bí Văn 412",
+    "type": "bí_văn",
+    "rarity": "MYTHIC",
+    "price": 124100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 14,
+      "speed": 16,
+      "crit": 4,
+      "hp": 236
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_413",
+    "name": "Ngân Nguyệt Vương Miện 413",
+    "type": "vương_miện",
+    "rarity": "MYTHIC",
+    "price": 124400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 16,
+      "speed": 17,
+      "crit": 5,
+      "hp": 239
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_414",
+    "name": "Tử Kim Giày 414",
+    "type": "giày",
+    "rarity": "MYTHIC",
+    "price": 124700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 18,
+      "speed": 18,
+      "crit": 6,
+      "hp": 242
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_415",
+    "name": "Lưu Ly Nhẫn 415",
+    "type": "nhẫn",
+    "rarity": "MYTHIC",
+    "price": 125000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 20,
+      "speed": 19,
+      "crit": 7,
+      "hp": 245
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_416",
+    "name": "Hoang Cổ Dây Chuyền 416",
+    "type": "dây_chuyền",
+    "rarity": "MYTHIC",
+    "price": 125300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 22,
+      "speed": 20,
+      "crit": 8,
+      "hp": 248
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_417",
+    "name": "Thần Mộc Vũ Khí 417",
+    "type": "vũ_khí",
+    "rarity": "MYTHIC",
+    "price": 125600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 24,
+      "speed": 21,
+      "crit": 9,
+      "hp": 251
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_418",
+    "name": "Cửu Thiên Pháp Bào 418",
+    "type": "pháp_bào",
+    "rarity": "MYTHIC",
+    "price": 125900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 26,
+      "speed": 0,
+      "crit": 10,
+      "hp": 254
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_419",
+    "name": "Địa Ngục Thần Khí 419",
+    "type": "thần_khí",
+    "rarity": "MYTHIC",
+    "price": 126200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 28,
+      "speed": 1,
+      "crit": 11,
+      "hp": 257
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_420",
+    "name": "Vô Danh Cổ Ấn 420",
+    "type": "cổ_ấn",
+    "rarity": "MYTHIC",
+    "price": 126500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 30,
+      "speed": 2,
+      "crit": 0,
+      "hp": 260
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_421",
+    "name": "Tứ Tượng Thần Châu 421",
+    "type": "thần_châu",
+    "rarity": "MYTHIC",
+    "price": 126800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 32,
+      "speed": 3,
+      "crit": 1,
+      "hp": 263
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_422",
+    "name": "Bắc Minh Hộ Thuẫn 422",
+    "type": "hộ_thuẫn",
+    "rarity": "MYTHIC",
+    "price": 127100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 34,
+      "speed": 4,
+      "crit": 2,
+      "hp": 266
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_423",
+    "name": "Thanh Lôi Chiến Giáp 423",
+    "type": "chiến_giáp",
+    "rarity": "MYTHIC",
+    "price": 127400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 36,
+      "speed": 5,
+      "crit": 3,
+      "hp": 269
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_424",
+    "name": "Bạch Sát Thần Trảo 424",
+    "type": "thần_trảo",
+    "rarity": "MYTHIC",
+    "price": 127700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 38,
+      "speed": 6,
+      "crit": 4,
+      "hp": 272
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_425",
+    "name": "Chu Hỏa Long Lân 425",
+    "type": "long_lân",
+    "rarity": "MYTHIC",
+    "price": 128000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 40,
+      "speed": 7,
+      "crit": 5,
+      "hp": 275
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_426",
+    "name": "Cổ Thần Hổ Nha 426",
+    "type": "hổ_nha",
+    "rarity": "MYTHIC",
+    "price": 128300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 42,
+      "speed": 8,
+      "crit": 6,
+      "hp": 278
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_427",
+    "name": "Tinh Hải Hỏa Tâm 427",
+    "type": "hỏa_tâm",
+    "rarity": "MYTHIC",
+    "price": 128600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 44,
+      "speed": 9,
+      "crit": 7,
+      "hp": 281
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_428",
+    "name": "Hắc Uyên Huyền Giáp 428",
+    "type": "huyền_giáp",
+    "rarity": "MYTHIC",
+    "price": 128900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 1,
+      "speed": 10,
+      "crit": 8,
+      "hp": 284
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_429",
+    "name": "Thiên Ngoại Lôi Tinh 429",
+    "type": "lôi_tinh",
+    "rarity": "MYTHIC",
+    "price": 129200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 3,
+      "speed": 11,
+      "crit": 9,
+      "hp": 287
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_430",
+    "name": "Vạn Thú Phong Ngọc 430",
+    "type": "phong_ngọc",
+    "rarity": "MYTHIC",
+    "price": 129500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 5,
+      "speed": 12,
+      "crit": 10,
+      "hp": 290
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_431",
+    "name": "Hư Không Thủy Ngọc 431",
+    "type": "thủy_ngọc",
+    "rarity": "MYTHIC",
+    "price": 129800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 7,
+      "speed": 13,
+      "crit": 11,
+      "hp": 293
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_432",
+    "name": "Thái Cổ Thánh Phù 432",
+    "type": "thánh_phù",
+    "rarity": "MYTHIC",
+    "price": 130100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 9,
+      "speed": 14,
+      "crit": 0,
+      "hp": 296
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_433",
+    "name": "Ngân Nguyệt Cổ Quyển 433",
+    "type": "cổ_quyển",
+    "rarity": "MYTHIC",
+    "price": 130400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 11,
+      "speed": 15,
+      "crit": 1,
+      "hp": 299
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_434",
+    "name": "Tử Kim Mật Khóa 434",
+    "type": "mật_khóa",
+    "rarity": "MYTHIC",
+    "price": 130700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 13,
+      "speed": 16,
+      "crit": 2,
+      "hp": 302
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_435",
+    "name": "Lưu Ly Di Cốt 435",
+    "type": "di_cốt",
+    "rarity": "MYTHIC",
+    "price": 131000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 15,
+      "speed": 17,
+      "crit": 3,
+      "hp": 305
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_436",
+    "name": "Hoang Cổ Hồn Tinh 436",
+    "type": "hồn_tinh",
+    "rarity": "MYTHIC",
+    "price": 131300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 17,
+      "speed": 18,
+      "crit": 4,
+      "hp": 308
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_437",
+    "name": "Thần Mộc Thiên Thạch 437",
+    "type": "thiên_thạch",
+    "rarity": "MYTHIC",
+    "price": 131600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 19,
+      "speed": 19,
+      "crit": 5,
+      "hp": 311
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_438",
+    "name": "Cửu Thiên Linh Quả 438",
+    "type": "linh_quả",
+    "rarity": "MYTHIC",
+    "price": 131900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 21,
+      "speed": 20,
+      "crit": 6,
+      "hp": 314
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_439",
+    "name": "Địa Ngục Thần Dược 439",
+    "type": "thần_dược",
+    "rarity": "MYTHIC",
+    "price": 132200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 23,
+      "speed": 21,
+      "crit": 7,
+      "hp": 317
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_440",
+    "name": "Vô Danh Bảo Đỉnh 440",
+    "type": "bảo_đỉnh",
+    "rarity": "MYTHIC",
+    "price": 132500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 25,
+      "speed": 0,
+      "crit": 8,
+      "hp": 320
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_441",
+    "name": "Tứ Tượng Cổ Kính 441",
+    "type": "cổ_kính",
+    "rarity": "MYTHIC",
+    "price": 132800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 27,
+      "speed": 1,
+      "crit": 9,
+      "hp": 323
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_442",
+    "name": "Bắc Minh Thần Đăng 442",
+    "type": "thần_đăng",
+    "rarity": "MYTHIC",
+    "price": 133100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 29,
+      "speed": 2,
+      "crit": 10,
+      "hp": 326
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_443",
+    "name": "Thanh Lôi Ngọc Bội 443",
+    "type": "ngọc_bội",
+    "rarity": "MYTHIC",
+    "price": 133400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 31,
+      "speed": 3,
+      "crit": 11,
+      "hp": 329
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_444",
+    "name": "Bạch Sát Lệnh Bài 444",
+    "type": "lệnh_bài",
+    "rarity": "MYTHIC",
+    "price": 133700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 33,
+      "speed": 4,
+      "crit": 0,
+      "hp": 332
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_445",
+    "name": "Chu Hỏa Tàn Phiến 445",
+    "type": "tàn_phiến",
+    "rarity": "MYTHIC",
+    "price": 134000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 35,
+      "speed": 5,
+      "crit": 1,
+      "hp": 335
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_446",
+    "name": "Cổ Thần Thú Hồn 446",
+    "type": "thú_hồn",
+    "rarity": "MYTHIC",
+    "price": 134300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 37,
+      "speed": 6,
+      "crit": 2,
+      "hp": 338
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_447",
+    "name": "Tinh Hải Thần Huyết 447",
+    "type": "thần_huyết",
+    "rarity": "MYTHIC",
+    "price": 134600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 39,
+      "speed": 7,
+      "crit": 3,
+      "hp": 341
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_448",
+    "name": "Hắc Uyên Cổ Linh 448",
+    "type": "cổ_linh",
+    "rarity": "MYTHIC",
+    "price": 134900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 41,
+      "speed": 8,
+      "crit": 4,
+      "hp": 344
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_449",
+    "name": "Thiên Ngoại Tinh Tủy 449",
+    "type": "tinh_tủy",
+    "rarity": "MYTHIC",
+    "price": 135200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 43,
+      "speed": 9,
+      "crit": 5,
+      "hp": 347
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_450",
+    "name": "Vạn Thú Bí Văn 450",
+    "type": "bí_văn",
+    "rarity": "MYTHIC",
+    "price": 135500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 0,
+      "speed": 10,
+      "crit": 6,
+      "hp": 350
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_451",
+    "name": "Hư Không Vương Miện 451",
+    "type": "vương_miện",
+    "rarity": "MYTHIC",
+    "price": 135800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 2,
+      "speed": 11,
+      "crit": 7,
+      "hp": 353
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_452",
+    "name": "Thái Cổ Giày 452",
+    "type": "giày",
+    "rarity": "MYTHIC",
+    "price": 136100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 4,
+      "speed": 12,
+      "crit": 8,
+      "hp": 356
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_453",
+    "name": "Ngân Nguyệt Nhẫn 453",
+    "type": "nhẫn",
+    "rarity": "MYTHIC",
+    "price": 136400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 6,
+      "speed": 13,
+      "crit": 9,
+      "hp": 359
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_454",
+    "name": "Tử Kim Dây Chuyền 454",
+    "type": "dây_chuyền",
+    "rarity": "MYTHIC",
+    "price": 136700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 8,
+      "speed": 14,
+      "crit": 10,
+      "hp": 362
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_455",
+    "name": "Lưu Ly Vũ Khí 455",
+    "type": "vũ_khí",
+    "rarity": "MYTHIC",
+    "price": 137000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 10,
+      "speed": 15,
+      "crit": 11,
+      "hp": 365
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_456",
+    "name": "Hoang Cổ Pháp Bào 456",
+    "type": "pháp_bào",
+    "rarity": "DIVINE",
+    "price": 137300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 12,
+      "speed": 16,
+      "crit": 0,
+      "hp": 368
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_457",
+    "name": "Thần Mộc Thần Khí 457",
+    "type": "thần_khí",
+    "rarity": "DIVINE",
+    "price": 137600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 14,
+      "speed": 17,
+      "crit": 1,
+      "hp": 371
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_458",
+    "name": "Cửu Thiên Cổ Ấn 458",
+    "type": "cổ_ấn",
+    "rarity": "DIVINE",
+    "price": 137900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 16,
+      "speed": 18,
+      "crit": 2,
+      "hp": 374
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_459",
+    "name": "Địa Ngục Thần Châu 459",
+    "type": "thần_châu",
+    "rarity": "DIVINE",
+    "price": 138200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 18,
+      "speed": 19,
+      "crit": 3,
+      "hp": 377
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_460",
+    "name": "Vô Danh Hộ Thuẫn 460",
+    "type": "hộ_thuẫn",
+    "rarity": "DIVINE",
+    "price": 138500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 20,
+      "speed": 20,
+      "crit": 4,
+      "hp": 380
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_461",
+    "name": "Tứ Tượng Chiến Giáp 461",
+    "type": "chiến_giáp",
+    "rarity": "DIVINE",
+    "price": 138800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 21,
+      "defense": 22,
+      "speed": 21,
+      "crit": 5,
+      "hp": 383
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_462",
+    "name": "Bắc Minh Thần Trảo 462",
+    "type": "thần_trảo",
+    "rarity": "DIVINE",
+    "price": 139100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 22,
+      "defense": 24,
+      "speed": 0,
+      "crit": 6,
+      "hp": 386
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_463",
+    "name": "Thanh Lôi Long Lân 463",
+    "type": "long_lân",
+    "rarity": "DIVINE",
+    "price": 139400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 23,
+      "defense": 26,
+      "speed": 1,
+      "crit": 7,
+      "hp": 389
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_464",
+    "name": "Bạch Sát Hổ Nha 464",
+    "type": "hổ_nha",
+    "rarity": "DIVINE",
+    "price": 139700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 24,
+      "defense": 28,
+      "speed": 2,
+      "crit": 8,
+      "hp": 392
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_465",
+    "name": "Chu Hỏa Hỏa Tâm 465",
+    "type": "hỏa_tâm",
+    "rarity": "DIVINE",
+    "price": 140000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 25,
+      "defense": 30,
+      "speed": 3,
+      "crit": 9,
+      "hp": 395
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_466",
+    "name": "Cổ Thần Huyền Giáp 466",
+    "type": "huyền_giáp",
+    "rarity": "DIVINE",
+    "price": 140300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 26,
+      "defense": 32,
+      "speed": 4,
+      "crit": 10,
+      "hp": 398
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_467",
+    "name": "Tinh Hải Lôi Tinh 467",
+    "type": "lôi_tinh",
+    "rarity": "DIVINE",
+    "price": 140600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 27,
+      "defense": 34,
+      "speed": 5,
+      "crit": 11,
+      "hp": 401
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_468",
+    "name": "Hắc Uyên Phong Ngọc 468",
+    "type": "phong_ngọc",
+    "rarity": "DIVINE",
+    "price": 140900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 28,
+      "defense": 36,
+      "speed": 6,
+      "crit": 0,
+      "hp": 404
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_469",
+    "name": "Thiên Ngoại Thủy Ngọc 469",
+    "type": "thủy_ngọc",
+    "rarity": "DIVINE",
+    "price": 141200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 29,
+      "defense": 38,
+      "speed": 7,
+      "crit": 1,
+      "hp": 407
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_470",
+    "name": "Vạn Thú Thánh Phù 470",
+    "type": "thánh_phù",
+    "rarity": "DIVINE",
+    "price": 141500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 30,
+      "defense": 40,
+      "speed": 8,
+      "crit": 2,
+      "hp": 410
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_471",
+    "name": "Hư Không Cổ Quyển 471",
+    "type": "cổ_quyển",
+    "rarity": "DIVINE",
+    "price": 141800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 31,
+      "defense": 42,
+      "speed": 9,
+      "crit": 3,
+      "hp": 413
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_472",
+    "name": "Thái Cổ Mật Khóa 472",
+    "type": "mật_khóa",
+    "rarity": "DIVINE",
+    "price": 142100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 32,
+      "defense": 44,
+      "speed": 10,
+      "crit": 4,
+      "hp": 416
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_473",
+    "name": "Ngân Nguyệt Di Cốt 473",
+    "type": "di_cốt",
+    "rarity": "DIVINE",
+    "price": 142400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 33,
+      "defense": 1,
+      "speed": 11,
+      "crit": 5,
+      "hp": 419
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_474",
+    "name": "Tử Kim Hồn Tinh 474",
+    "type": "hồn_tinh",
+    "rarity": "DIVINE",
+    "price": 142700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 34,
+      "defense": 3,
+      "speed": 12,
+      "crit": 6,
+      "hp": 422
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_475",
+    "name": "Lưu Ly Thiên Thạch 475",
+    "type": "thiên_thạch",
+    "rarity": "DIVINE",
+    "price": 143000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 35,
+      "defense": 5,
+      "speed": 13,
+      "crit": 7,
+      "hp": 425
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_476",
+    "name": "Hoang Cổ Linh Quả 476",
+    "type": "linh_quả",
+    "rarity": "DIVINE",
+    "price": 143300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 36,
+      "defense": 7,
+      "speed": 14,
+      "crit": 8,
+      "hp": 428
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_477",
+    "name": "Thần Mộc Thần Dược 477",
+    "type": "thần_dược",
+    "rarity": "DIVINE",
+    "price": 143600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 37,
+      "defense": 9,
+      "speed": 15,
+      "crit": 9,
+      "hp": 431
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_478",
+    "name": "Cửu Thiên Bảo Đỉnh 478",
+    "type": "bảo_đỉnh",
+    "rarity": "DIVINE",
+    "price": 143900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 38,
+      "defense": 11,
+      "speed": 16,
+      "crit": 10,
+      "hp": 434
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_479",
+    "name": "Địa Ngục Cổ Kính 479",
+    "type": "cổ_kính",
+    "rarity": "DIVINE",
+    "price": 144200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 39,
+      "defense": 13,
+      "speed": 17,
+      "crit": 11,
+      "hp": 437
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_480",
+    "name": "Vô Danh Thần Đăng 480",
+    "type": "thần_đăng",
+    "rarity": "DIVINE",
+    "price": 144500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 0,
+      "defense": 15,
+      "speed": 18,
+      "crit": 0,
+      "hp": 440
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_481",
+    "name": "Tứ Tượng Ngọc Bội 481",
+    "type": "ngọc_bội",
+    "rarity": "DIVINE",
+    "price": 144800,
+    "lore": "Di vật nguyên bản thuộc Tứ Tượng, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 1,
+      "defense": 17,
+      "speed": 19,
+      "crit": 1,
+      "hp": 443
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_482",
+    "name": "Bắc Minh Lệnh Bài 482",
+    "type": "lệnh_bài",
+    "rarity": "DIVINE",
+    "price": 145100,
+    "lore": "Di vật nguyên bản thuộc Bắc Minh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 2,
+      "defense": 19,
+      "speed": 20,
+      "crit": 2,
+      "hp": 446
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_483",
+    "name": "Thanh Lôi Tàn Phiến 483",
+    "type": "tàn_phiến",
+    "rarity": "DIVINE",
+    "price": 145400,
+    "lore": "Di vật nguyên bản thuộc Thanh Lôi, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 3,
+      "defense": 21,
+      "speed": 21,
+      "crit": 3,
+      "hp": 449
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_484",
+    "name": "Bạch Sát Thú Hồn 484",
+    "type": "thú_hồn",
+    "rarity": "DIVINE",
+    "price": 145700,
+    "lore": "Di vật nguyên bản thuộc Bạch Sát, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 4,
+      "defense": 23,
+      "speed": 0,
+      "crit": 4,
+      "hp": 452
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_485",
+    "name": "Chu Hỏa Thần Huyết 485",
+    "type": "thần_huyết",
+    "rarity": "DIVINE",
+    "price": 146000,
+    "lore": "Di vật nguyên bản thuộc Chu Hỏa, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 5,
+      "defense": 25,
+      "speed": 1,
+      "crit": 5,
+      "hp": 455
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_486",
+    "name": "Cổ Thần Cổ Linh 486",
+    "type": "cổ_linh",
+    "rarity": "DIVINE",
+    "price": 146300,
+    "lore": "Di vật nguyên bản thuộc Cổ Thần, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 6,
+      "defense": 27,
+      "speed": 2,
+      "crit": 6,
+      "hp": 458
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_487",
+    "name": "Tinh Hải Tinh Tủy 487",
+    "type": "tinh_tủy",
+    "rarity": "DIVINE",
+    "price": 146600,
+    "lore": "Di vật nguyên bản thuộc Tinh Hải, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 7,
+      "defense": 29,
+      "speed": 3,
+      "crit": 7,
+      "hp": 461
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_488",
+    "name": "Hắc Uyên Bí Văn 488",
+    "type": "bí_văn",
+    "rarity": "DIVINE",
+    "price": 146900,
+    "lore": "Di vật nguyên bản thuộc Hắc Uyên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 8,
+      "defense": 31,
+      "speed": 4,
+      "crit": 8,
+      "hp": 464
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_489",
+    "name": "Thiên Ngoại Vương Miện 489",
+    "type": "vương_miện",
+    "rarity": "DIVINE",
+    "price": 147200,
+    "lore": "Di vật nguyên bản thuộc Thiên Ngoại, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 9,
+      "defense": 33,
+      "speed": 5,
+      "crit": 9,
+      "hp": 467
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_490",
+    "name": "Vạn Thú Giày 490",
+    "type": "giày",
+    "rarity": "DIVINE",
+    "price": 147500,
+    "lore": "Di vật nguyên bản thuộc Vạn Thú, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 10,
+      "defense": 35,
+      "speed": 6,
+      "crit": 10,
+      "hp": 470
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_491",
+    "name": "Hư Không Nhẫn 491",
+    "type": "nhẫn",
+    "rarity": "DIVINE",
+    "price": 147800,
+    "lore": "Di vật nguyên bản thuộc Hư Không, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 11,
+      "defense": 37,
+      "speed": 7,
+      "crit": 11,
+      "hp": 473
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_492",
+    "name": "Thái Cổ Dây Chuyền 492",
+    "type": "dây_chuyền",
+    "rarity": "DIVINE",
+    "price": 148100,
+    "lore": "Di vật nguyên bản thuộc Thái Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 12,
+      "defense": 39,
+      "speed": 8,
+      "crit": 0,
+      "hp": 476
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_493",
+    "name": "Ngân Nguyệt Vũ Khí 493",
+    "type": "vũ_khí",
+    "rarity": "DIVINE",
+    "price": 148400,
+    "lore": "Di vật nguyên bản thuộc Ngân Nguyệt, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 13,
+      "defense": 41,
+      "speed": 9,
+      "crit": 1,
+      "hp": 479
+    },
+    "drop_sources": "Bí cảnh"
+  },
+  {
+    "id": "item_494",
+    "name": "Tử Kim Pháp Bào 494",
+    "type": "pháp_bào",
+    "rarity": "DIVINE",
+    "price": 148700,
+    "lore": "Di vật nguyên bản thuộc Tử Kim, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 14,
+      "defense": 43,
+      "speed": 10,
+      "crit": 2,
+      "hp": 482
+    },
+    "drop_sources": "Cổ địa"
+  },
+  {
+    "id": "item_495",
+    "name": "Lưu Ly Thần Khí 495",
+    "type": "thần_khí",
+    "rarity": "DIVINE",
+    "price": 149000,
+    "lore": "Di vật nguyên bản thuộc Lưu Ly, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 15,
+      "defense": 0,
+      "speed": 11,
+      "crit": 3,
+      "hp": 485
+    },
+    "drop_sources": "Crafting"
+  },
+  {
+    "id": "item_496",
+    "name": "Hoang Cổ Cổ Ấn 496",
+    "type": "cổ_ấn",
+    "rarity": "DIVINE",
+    "price": 149300,
+    "lore": "Di vật nguyên bản thuộc Hoang Cổ, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 16,
+      "defense": 2,
+      "speed": 12,
+      "crit": 4,
+      "hp": 488
+    },
+    "drop_sources": "Event"
+  },
+  {
+    "id": "item_497",
+    "name": "Thần Mộc Thần Châu 497",
+    "type": "thần_châu",
+    "rarity": "DIVINE",
+    "price": 149600,
+    "lore": "Di vật nguyên bản thuộc Thần Mộc, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 17,
+      "defense": 4,
+      "speed": 13,
+      "crit": 5,
+      "hp": 491
+    },
+    "drop_sources": "Boss"
+  },
+  {
+    "id": "item_498",
+    "name": "Cửu Thiên Hộ Thuẫn 498",
+    "type": "hộ_thuẫn",
+    "rarity": "DIVINE",
+    "price": 149900,
+    "lore": "Di vật nguyên bản thuộc Cửu Thiên, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 18,
+      "defense": 6,
+      "speed": 14,
+      "crit": 6,
+      "hp": 494
+    },
+    "drop_sources": "Dungeon"
+  },
+  {
+    "id": "item_499",
+    "name": "Địa Ngục Chiến Giáp 499",
+    "type": "chiến_giáp",
+    "rarity": "DIVINE",
+    "price": 150200,
+    "lore": "Di vật nguyên bản thuộc Địa Ngục, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 19,
+      "defense": 8,
+      "speed": 15,
+      "crit": 7,
+      "hp": 497
+    },
+    "drop_sources": "World Boss"
+  },
+  {
+    "id": "item_500",
+    "name": "Vô Danh Thần Trảo 500",
+    "type": "thần_trảo",
+    "rarity": "DIVINE",
+    "price": 150500,
+    "lore": "Di vật nguyên bản thuộc Vô Danh, lưu giữ một phần sức mạnh cổ xưa.",
+    "effects": {
+      "attack": 20,
+      "defense": 10,
+      "speed": 16,
+      "crit": 8,
+      "hp": 0
+    },
+    "drop_sources": "Bí cảnh"
+  }
+]

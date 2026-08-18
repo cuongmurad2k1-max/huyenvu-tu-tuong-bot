@@ -1,0 +1,45 @@
+{
+  "artifacts": [
+    {
+      "name": "Tứ Tượng Cổ Ấn",
+      "description": "Một hệ thống bốn ấn tượng trưng bốn phương, dùng để mở khóa các khu vực và cơ chế đặc biệt."
+    },
+    {
+      "name": "Bắc Minh Huyền Tâm",
+      "description": "Hạch năng lượng nguyên bản cho hệ Thủy/Huyền Vũ."
+    },
+    {
+      "name": "Thanh Lôi Long Châu",
+      "description": "Cổ châu tích tụ lôi lực, dùng cho kỹ năng hệ Thanh Long."
+    },
+    {
+      "name": "Bạch Hổ Sát Ngọc",
+      "description": "Ngọc chiến đấu tăng chí mạng và phản kích."
+    },
+    {
+      "name": "Chu Tước Niết Hỏa",
+      "description": "Hỏa chủng có cơ chế tái sinh một lần trong combat."
+    }
+  ],
+  "currencies": [
+    "Kim tệ",
+    "Cổ Ngọc",
+    "Thần Hồn Tinh",
+    "Tứ Tượng Ấn",
+    "Sự kiện Huy Chương"
+  ],
+  "statuses": [
+    "Thiêu Đốt",
+    "Đóng Băng",
+    "Choáng",
+    "Suy Yếu",
+    "Chảy Máu",
+    "Điện Kích",
+    "Hộ Thuẫn",
+    "Phản Kích",
+    "Cuồng Nộ",
+    "Niết Bàn"
+  ],
+  "rarity_rules": "Độ hiếm cao mở thêm lore, nội tại, hiệu ứng UI và tỷ lệ rơi đặc biệt.",
+  "copyright_note": "Các tên và lore trong gói mở rộng này là nội dung nguyên bản, chỉ lấy cảm hứng từ mô-típ Tứ Tượng; không sao chép nguyên văn nội dung phim."
+}

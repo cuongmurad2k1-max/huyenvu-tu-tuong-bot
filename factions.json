@@ -1,0 +1,71 @@
+[
+  {
+    "id": "thanh_long",
+    "name": "Thanh Long",
+    "element": "Lôi/Mộc",
+    "color": "green",
+    "bonuses": {
+      "attack": 10,
+      "speed": 10
+    },
+    "skills": [
+      "Long Uy",
+      "Thanh Lôi",
+      "Lôi Vũ",
+      "Thanh Long Hóa",
+      "Long Hồn Thức Tỉnh"
+    ]
+  },
+  {
+    "id": "bach_ho",
+    "name": "Bạch Hổ",
+    "element": "Kim",
+    "color": "red",
+    "bonuses": {
+      "attack": 15,
+      "crit": 8
+    },
+    "skills": [
+      "Hổ Khiếu",
+      "Sát Khí",
+      "Bạch Hổ Trảo",
+      "Cuồng Sát",
+      "Hổ Hồn Thức Tỉnh"
+    ]
+  },
+  {
+    "id": "chu_tuoc",
+    "name": "Chu Tước",
+    "element": "Hỏa",
+    "color": "orange",
+    "bonuses": {
+      "attack": 12,
+      "speed": 7
+    },
+    "skills": [
+      "Hỏa Vũ",
+      "Xích Viêm",
+      "Niết Bàn",
+      "Phượng Hỏa",
+      "Bất Diệt Hỏa Hồn"
+    ]
+  },
+  {
+    "id": "huyen_vu",
+    "name": "Huyền Vũ",
+    "element": "Thủy/Thổ",
+    "color": "blue",
+    "bonuses": {
+      "defense": 20,
+      "maxHp": 100
+    },
+    "skills": [
+      "Huyền Thủy",
+      "Huyền Giáp",
+      "Bắc Minh",
+      "Thủy Ngục",
+      "Huyền Vũ Hộ Thể",
+      "Huyền Vũ Thần Hồn"
+    ]
+  }
+]

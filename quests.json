@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "quest_1",
+    "name": "Bí Cảnh Nhiệm Vụ 1",
+    "type": "side",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 500,
+      "exp": 100,
+      "item": "item_2"
+    }
+  },
+  {
+    "id": "quest_2",
+    "name": "Thần Điện Nhiệm Vụ 2",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 1000,
+      "exp": 200,
+      "item": "item_3"
+    }
+  },
+  {
+    "id": "quest_3",
+    "name": "Hắc Uyên Nhiệm Vụ 3",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 1500,
+      "exp": 300,
+      "item": "item_4"
+    }
+  },
+  {
+    "id": "quest_4",
+    "name": "Vạn Thú Nhiệm Vụ 4",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 2000,
+      "exp": 400,
+      "item": "item_5"
+    }
+  },
+  {
+    "id": "quest_5",
+    "name": "Cổ Địa Nhiệm Vụ 5",
+    "type": "main",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 2500,
+      "exp": 500,
+      "item": "item_6"
+    }
+  },
+  {
+    "id": "quest_6",
+    "name": "Bí Cảnh Nhiệm Vụ 6",
+    "type": "side",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 3000,
+      "exp": 600,
+      "item": "item_7"
+    }
+  },
+  {
+    "id": "quest_7",
+    "name": "Thần Điện Nhiệm Vụ 7",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 3500,
+      "exp": 700,
+      "item": "item_8"
+    }
+  },
+  {
+    "id": "quest_8",
+    "name": "Hắc Uyên Nhiệm Vụ 8",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 4000,
+      "exp": 800,
+      "item": "item_9"
+    }
+  },
+  {
+    "id": "quest_9",
+    "name": "Vạn Thú Nhiệm Vụ 9",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 4500,
+      "exp": 900,
+      "item": "item_10"
+    }
+  },
+  {
+    "id": "quest_10",
+    "name": "Cổ Địa Nhiệm Vụ 10",
+    "type": "main",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 5000,
+      "exp": 1000,
+      "item": "item_11"
+    }
+  },
+  {
+    "id": "quest_11",
+    "name": "Bí Cảnh Nhiệm Vụ 11",
+    "type": "side",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 5500,
+      "exp": 1100,
+      "item": "item_12"
+    }
+  },
+  {
+    "id": "quest_12",
+    "name": "Thần Điện Nhiệm Vụ 12",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 6000,
+      "exp": 1200,
+      "item": "item_13"
+    }
+  },
+  {
+    "id": "quest_13",
+    "name": "Hắc Uyên Nhiệm Vụ 13",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 6500,
+      "exp": 1300,
+      "item": "item_14"
+    }
+  },
+  {
+    "id": "quest_14",
+    "name": "Vạn Thú Nhiệm Vụ 14",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 7000,
+      "exp": 1400,
+      "item": "item_15"
+    }
+  },
+  {
+    "id": "quest_15",
+    "name": "Cổ Địa Nhiệm Vụ 15",
+    "type": "main",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 7500,
+      "exp": 1500,
+      "item": "item_16"
+    }
+  },
+  {
+    "id": "quest_16",
+    "name": "Bí Cảnh Nhiệm Vụ 16",
+    "type": "side",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 8000,
+      "exp": 1600,
+      "item": "item_17"
+    }
+  },
+  {
+    "id": "quest_17",
+    "name": "Thần Điện Nhiệm Vụ 17",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 8500,
+      "exp": 1700,
+      "item": "item_18"
+    }
+  },
+  {
+    "id": "quest_18",
+    "name": "Hắc Uyên Nhiệm Vụ 18",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 9000,
+      "exp": 1800,
+      "item": "item_19"
+    }
+  },
+  {
+    "id": "quest_19",
+    "name": "Vạn Thú Nhiệm Vụ 19",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 9500,
+      "exp": 1900,
+      "item": "item_20"
+    }
+  },
+  {
+    "id": "quest_20",
+    "name": "Cổ Địa Nhiệm Vụ 20",
+    "type": "main",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 10000,
+      "exp": 2000,
+      "item": "item_21"
+    }
+  },
+  {
+    "id": "quest_21",
+    "name": "Bí Cảnh Nhiệm Vụ 21",
+    "type": "side",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 10500,
+      "exp": 2100,
+      "item": "item_22"
+    }
+  },
+  {
+    "id": "quest_22",
+    "name": "Thần Điện Nhiệm Vụ 22",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 11000,
+      "exp": 2200,
+      "item": "item_23"
+    }
+  },
+  {
+    "id": "quest_23",
+    "name": "Hắc Uyên Nhiệm Vụ 23",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 11500,
+      "exp": 2300,
+      "item": "item_24"
+    }
+  },
+  {
+    "id": "quest_24",
+    "name": "Vạn Thú Nhiệm Vụ 24",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 12000,
+      "exp": 2400,
+      "item": "item_25"
+    }
+  },
+  {
+    "id": "quest_25",
+    "name": "Cổ Địa Nhiệm Vụ 25",
+    "type": "main",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 12500,
+      "exp": 2500,
+      "item": "item_26"
+    }
+  },
+  {
+    "id": "quest_26",
+    "name": "Bí Cảnh Nhiệm Vụ 26",
+    "type": "side",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 13000,
+      "exp": 2600,
+      "item": "item_27"
+    }
+  },
+  {
+    "id": "quest_27",
+    "name": "Thần Điện Nhiệm Vụ 27",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 13500,
+      "exp": 2700,
+      "item": "item_28"
+    }
+  },
+  {
+    "id": "quest_28",
+    "name": "Hắc Uyên Nhiệm Vụ 28",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 14000,
+      "exp": 2800,
+      "item": "item_29"
+    }
+  },
+  {
+    "id": "quest_29",
+    "name": "Vạn Thú Nhiệm Vụ 29",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 14500,
+      "exp": 2900,
+      "item": "item_30"
+    }
+  },
+  {
+    "id": "quest_30",
+    "name": "Cổ Địa Nhiệm Vụ 30",
+    "type": "main",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 15000,
+      "exp": 3000,
+      "item": "item_31"
+    }
+  },
+  {
+    "id": "quest_31",
+    "name": "Bí Cảnh Nhiệm Vụ 31",
+    "type": "side",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 15500,
+      "exp": 3100,
+      "item": "item_32"
+    }
+  },
+  {
+    "id": "quest_32",
+    "name": "Thần Điện Nhiệm Vụ 32",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 16000,
+      "exp": 3200,
+      "item": "item_33"
+    }
+  },
+  {
+    "id": "quest_33",
+    "name": "Hắc Uyên Nhiệm Vụ 33",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 16500,
+      "exp": 3300,
+      "item": "item_34"
+    }
+  },
+  {
+    "id": "quest_34",
+    "name": "Vạn Thú Nhiệm Vụ 34",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 17000,
+      "exp": 3400,
+      "item": "item_35"
+    }
+  },
+  {
+    "id": "quest_35",
+    "name": "Cổ Địa Nhiệm Vụ 35",
+    "type": "main",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 17500,
+      "exp": 3500,
+      "item": "item_36"
+    }
+  },
+  {
+    "id": "quest_36",
+    "name": "Bí Cảnh Nhiệm Vụ 36",
+    "type": "side",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 18000,
+      "exp": 3600,
+      "item": "item_37"
+    }
+  },
+  {
+    "id": "quest_37",
+    "name": "Thần Điện Nhiệm Vụ 37",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 18500,
+      "exp": 3700,
+      "item": "item_38"
+    }
+  },
+  {
+    "id": "quest_38",
+    "name": "Hắc Uyên Nhiệm Vụ 38",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 19000,
+      "exp": 3800,
+      "item": "item_39"
+    }
+  },
+  {
+    "id": "quest_39",
+    "name": "Vạn Thú Nhiệm Vụ 39",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 19500,
+      "exp": 3900,
+      "item": "item_40"
+    }
+  },
+  {
+    "id": "quest_40",
+    "name": "Cổ Địa Nhiệm Vụ 40",
+    "type": "main",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 20000,
+      "exp": 4000,
+      "item": "item_41"
+    }
+  },
+  {
+    "id": "quest_41",
+    "name": "Bí Cảnh Nhiệm Vụ 41",
+    "type": "side",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 20500,
+      "exp": 4100,
+      "item": "item_42"
+    }
+  },
+  {
+    "id": "quest_42",
+    "name": "Thần Điện Nhiệm Vụ 42",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 21000,
+      "exp": 4200,
+      "item": "item_43"
+    }
+  },
+  {
+    "id": "quest_43",
+    "name": "Hắc Uyên Nhiệm Vụ 43",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 21500,
+      "exp": 4300,
+      "item": "item_44"
+    }
+  },
+  {
+    "id": "quest_44",
+    "name": "Vạn Thú Nhiệm Vụ 44",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 22000,
+      "exp": 4400,
+      "item": "item_45"
+    }
+  },
+  {
+    "id": "quest_45",
+    "name": "Cổ Địa Nhiệm Vụ 45",
+    "type": "main",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 22500,
+      "exp": 4500,
+      "item": "item_46"
+    }
+  },
+  {
+    "id": "quest_46",
+    "name": "Bí Cảnh Nhiệm Vụ 46",
+    "type": "side",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 23000,
+      "exp": 4600,
+      "item": "item_47"
+    }
+  },
+  {
+    "id": "quest_47",
+    "name": "Thần Điện Nhiệm Vụ 47",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 23500,
+      "exp": 4700,
+      "item": "item_48"
+    }
+  },
+  {
+    "id": "quest_48",
+    "name": "Hắc Uyên Nhiệm Vụ 48",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 24000,
+      "exp": 4800,
+      "item": "item_49"
+    }
+  },
+  {
+    "id": "quest_49",
+    "name": "Vạn Thú Nhiệm Vụ 49",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 24500,
+      "exp": 4900,
+      "item": "item_50"
+    }
+  },
+  {
+    "id": "quest_50",
+    "name": "Cổ Địa Nhiệm Vụ 50",
+    "type": "main",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 25000,
+      "exp": 5000,
+      "item": "item_51"
+    }
+  },
+  {
+    "id": "quest_51",
+    "name": "Bí Cảnh Nhiệm Vụ 51",
+    "type": "side",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 25500,
+      "exp": 5100,
+      "item": "item_52"
+    }
+  },
+  {
+    "id": "quest_52",
+    "name": "Thần Điện Nhiệm Vụ 52",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 26000,
+      "exp": 5200,
+      "item": "item_53"
+    }
+  },
+  {
+    "id": "quest_53",
+    "name": "Hắc Uyên Nhiệm Vụ 53",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 26500,
+      "exp": 5300,
+      "item": "item_54"
+    }
+  },
+  {
+    "id": "quest_54",
+    "name": "Vạn Thú Nhiệm Vụ 54",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 27000,
+      "exp": 5400,
+      "item": "item_55"
+    }
+  },
+  {
+    "id": "quest_55",
+    "name": "Cổ Địa Nhiệm Vụ 55",
+    "type": "main",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 27500,
+      "exp": 5500,
+      "item": "item_56"
+    }
+  },
+  {
+    "id": "quest_56",
+    "name": "Bí Cảnh Nhiệm Vụ 56",
+    "type": "side",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 28000,
+      "exp": 5600,
+      "item": "item_57"
+    }
+  },
+  {
+    "id": "quest_57",
+    "name": "Thần Điện Nhiệm Vụ 57",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 28500,
+      "exp": 5700,
+      "item": "item_58"
+    }
+  },
+  {
+    "id": "quest_58",
+    "name": "Hắc Uyên Nhiệm Vụ 58",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 29000,
+      "exp": 5800,
+      "item": "item_59"
+    }
+  },
+  {
+    "id": "quest_59",
+    "name": "Vạn Thú Nhiệm Vụ 59",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 29500,
+      "exp": 5900,
+      "item": "item_60"
+    }
+  },
+  {
+    "id": "quest_60",
+    "name": "Cổ Địa Nhiệm Vụ 60",
+    "type": "main",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 30000,
+      "exp": 6000,
+      "item": "item_61"
+    }
+  },
+  {
+    "id": "quest_61",
+    "name": "Bí Cảnh Nhiệm Vụ 61",
+    "type": "side",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 30500,
+      "exp": 6100,
+      "item": "item_62"
+    }
+  },
+  {
+    "id": "quest_62",
+    "name": "Thần Điện Nhiệm Vụ 62",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 31000,
+      "exp": 6200,
+      "item": "item_63"
+    }
+  },
+  {
+    "id": "quest_63",
+    "name": "Hắc Uyên Nhiệm Vụ 63",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 31500,
+      "exp": 6300,
+      "item": "item_64"
+    }
+  },
+  {
+    "id": "quest_64",
+    "name": "Vạn Thú Nhiệm Vụ 64",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 32000,
+      "exp": 6400,
+      "item": "item_65"
+    }
+  },
+  {
+    "id": "quest_65",
+    "name": "Cổ Địa Nhiệm Vụ 65",
+    "type": "main",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 32500,
+      "exp": 6500,
+      "item": "item_66"
+    }
+  },
+  {
+    "id": "quest_66",
+    "name": "Bí Cảnh Nhiệm Vụ 66",
+    "type": "side",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 33000,
+      "exp": 6600,
+      "item": "item_67"
+    }
+  },
+  {
+    "id": "quest_67",
+    "name": "Thần Điện Nhiệm Vụ 67",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 33500,
+      "exp": 6700,
+      "item": "item_68"
+    }
+  },
+  {
+    "id": "quest_68",
+    "name": "Hắc Uyên Nhiệm Vụ 68",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 34000,
+      "exp": 6800,
+      "item": "item_69"
+    }
+  },
+  {
+    "id": "quest_69",
+    "name": "Vạn Thú Nhiệm Vụ 69",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 34500,
+      "exp": 6900,
+      "item": "item_70"
+    }
+  },
+  {
+    "id": "quest_70",
+    "name": "Cổ Địa Nhiệm Vụ 70",
+    "type": "main",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 35000,
+      "exp": 7000,
+      "item": "item_71"
+    }
+  },
+  {
+    "id": "quest_71",
+    "name": "Bí Cảnh Nhiệm Vụ 71",
+    "type": "side",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 35500,
+      "exp": 7100,
+      "item": "item_72"
+    }
+  },
+  {
+    "id": "quest_72",
+    "name": "Thần Điện Nhiệm Vụ 72",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 36000,
+      "exp": 7200,
+      "item": "item_73"
+    }
+  },
+  {
+    "id": "quest_73",
+    "name": "Hắc Uyên Nhiệm Vụ 73",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 36500,
+      "exp": 7300,
+      "item": "item_74"
+    }
+  },
+  {
+    "id": "quest_74",
+    "name": "Vạn Thú Nhiệm Vụ 74",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 37000,
+      "exp": 7400,
+      "item": "item_75"
+    }
+  },
+  {
+    "id": "quest_75",
+    "name": "Cổ Địa Nhiệm Vụ 75",
+    "type": "main",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 37500,
+      "exp": 7500,
+      "item": "item_76"
+    }
+  },
+  {
+    "id": "quest_76",
+    "name": "Bí Cảnh Nhiệm Vụ 76",
+    "type": "side",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 38000,
+      "exp": 7600,
+      "item": "item_77"
+    }
+  },
+  {
+    "id": "quest_77",
+    "name": "Thần Điện Nhiệm Vụ 77",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 38500,
+      "exp": 7700,
+      "item": "item_78"
+    }
+  },
+  {
+    "id": "quest_78",
+    "name": "Hắc Uyên Nhiệm Vụ 78",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 39000,
+      "exp": 7800,
+      "item": "item_79"
+    }
+  },
+  {
+    "id": "quest_79",
+    "name": "Vạn Thú Nhiệm Vụ 79",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 39500,
+      "exp": 7900,
+      "item": "item_80"
+    }
+  },
+  {
+    "id": "quest_80",
+    "name": "Cổ Địa Nhiệm Vụ 80",
+    "type": "main",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 40000,
+      "exp": 8000,
+      "item": "item_81"
+    }
+  },
+  {
+    "id": "quest_81",
+    "name": "Bí Cảnh Nhiệm Vụ 81",
+    "type": "side",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 40500,
+      "exp": 8100,
+      "item": "item_82"
+    }
+  },
+  {
+    "id": "quest_82",
+    "name": "Thần Điện Nhiệm Vụ 82",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 41000,
+      "exp": 8200,
+      "item": "item_83"
+    }
+  },
+  {
+    "id": "quest_83",
+    "name": "Hắc Uyên Nhiệm Vụ 83",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 41500,
+      "exp": 8300,
+      "item": "item_84"
+    }
+  },
+  {
+    "id": "quest_84",
+    "name": "Vạn Thú Nhiệm Vụ 84",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 42000,
+      "exp": 8400,
+      "item": "item_85"
+    }
+  },
+  {
+    "id": "quest_85",
+    "name": "Cổ Địa Nhiệm Vụ 85",
+    "type": "main",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 42500,
+      "exp": 8500,
+      "item": "item_86"
+    }
+  },
+  {
+    "id": "quest_86",
+    "name": "Bí Cảnh Nhiệm Vụ 86",
+    "type": "side",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 43000,
+      "exp": 8600,
+      "item": "item_87"
+    }
+  },
+  {
+    "id": "quest_87",
+    "name": "Thần Điện Nhiệm Vụ 87",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 43500,
+      "exp": 8700,
+      "item": "item_88"
+    }
+  },
+  {
+    "id": "quest_88",
+    "name": "Hắc Uyên Nhiệm Vụ 88",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 44000,
+      "exp": 8800,
+      "item": "item_89"
+    }
+  },
+  {
+    "id": "quest_89",
+    "name": "Vạn Thú Nhiệm Vụ 89",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 44500,
+      "exp": 8900,
+      "item": "item_90"
+    }
+  },
+  {
+    "id": "quest_90",
+    "name": "Cổ Địa Nhiệm Vụ 90",
+    "type": "main",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 45000,
+      "exp": 9000,
+      "item": "item_91"
+    }
+  },
+  {
+    "id": "quest_91",
+    "name": "Bí Cảnh Nhiệm Vụ 91",
+    "type": "side",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 45500,
+      "exp": 9100,
+      "item": "item_92"
+    }
+  },
+  {
+    "id": "quest_92",
+    "name": "Thần Điện Nhiệm Vụ 92",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 46000,
+      "exp": 9200,
+      "item": "item_93"
+    }
+  },
+  {
+    "id": "quest_93",
+    "name": "Hắc Uyên Nhiệm Vụ 93",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 46500,
+      "exp": 9300,
+      "item": "item_94"
+    }
+  },
+  {
+    "id": "quest_94",
+    "name": "Vạn Thú Nhiệm Vụ 94",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 47000,
+      "exp": 9400,
+      "item": "item_95"
+    }
+  },
+  {
+    "id": "quest_95",
+    "name": "Cổ Địa Nhiệm Vụ 95",
+    "type": "main",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 47500,
+      "exp": 9500,
+      "item": "item_96"
+    }
+  },
+  {
+    "id": "quest_96",
+    "name": "Bí Cảnh Nhiệm Vụ 96",
+    "type": "side",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 48000,
+      "exp": 9600,
+      "item": "item_97"
+    }
+  },
+  {
+    "id": "quest_97",
+    "name": "Thần Điện Nhiệm Vụ 97",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 48500,
+      "exp": 9700,
+      "item": "item_98"
+    }
+  },
+  {
+    "id": "quest_98",
+    "name": "Hắc Uyên Nhiệm Vụ 98",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 49000,
+      "exp": 9800,
+      "item": "item_99"
+    }
+  },
+  {
+    "id": "quest_99",
+    "name": "Vạn Thú Nhiệm Vụ 99",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 49500,
+      "exp": 9900,
+      "item": "item_100"
+    }
+  },
+  {
+    "id": "quest_100",
+    "name": "Cổ Địa Nhiệm Vụ 100",
+    "type": "main",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 50000,
+      "exp": 10000,
+      "item": "item_101"
+    }
+  },
+  {
+    "id": "quest_101",
+    "name": "Bí Cảnh Nhiệm Vụ 101",
+    "type": "side",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 50500,
+      "exp": 10100,
+      "item": "item_102"
+    }
+  },
+  {
+    "id": "quest_102",
+    "name": "Thần Điện Nhiệm Vụ 102",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 51000,
+      "exp": 10200,
+      "item": "item_103"
+    }
+  },
+  {
+    "id": "quest_103",
+    "name": "Hắc Uyên Nhiệm Vụ 103",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 51500,
+      "exp": 10300,
+      "item": "item_104"
+    }
+  },
+  {
+    "id": "quest_104",
+    "name": "Vạn Thú Nhiệm Vụ 104",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 52000,
+      "exp": 10400,
+      "item": "item_105"
+    }
+  },
+  {
+    "id": "quest_105",
+    "name": "Cổ Địa Nhiệm Vụ 105",
+    "type": "main",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 52500,
+      "exp": 10500,
+      "item": "item_106"
+    }
+  },
+  {
+    "id": "quest_106",
+    "name": "Bí Cảnh Nhiệm Vụ 106",
+    "type": "side",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 53000,
+      "exp": 10600,
+      "item": "item_107"
+    }
+  },
+  {
+    "id": "quest_107",
+    "name": "Thần Điện Nhiệm Vụ 107",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 53500,
+      "exp": 10700,
+      "item": "item_108"
+    }
+  },
+  {
+    "id": "quest_108",
+    "name": "Hắc Uyên Nhiệm Vụ 108",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 54000,
+      "exp": 10800,
+      "item": "item_109"
+    }
+  },
+  {
+    "id": "quest_109",
+    "name": "Vạn Thú Nhiệm Vụ 109",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 54500,
+      "exp": 10900,
+      "item": "item_110"
+    }
+  },
+  {
+    "id": "quest_110",
+    "name": "Cổ Địa Nhiệm Vụ 110",
+    "type": "main",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 55000,
+      "exp": 11000,
+      "item": "item_111"
+    }
+  },
+  {
+    "id": "quest_111",
+    "name": "Bí Cảnh Nhiệm Vụ 111",
+    "type": "side",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 55500,
+      "exp": 11100,
+      "item": "item_112"
+    }
+  },
+  {
+    "id": "quest_112",
+    "name": "Thần Điện Nhiệm Vụ 112",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 56000,
+      "exp": 11200,
+      "item": "item_113"
+    }
+  },
+  {
+    "id": "quest_113",
+    "name": "Hắc Uyên Nhiệm Vụ 113",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 56500,
+      "exp": 11300,
+      "item": "item_114"
+    }
+  },
+  {
+    "id": "quest_114",
+    "name": "Vạn Thú Nhiệm Vụ 114",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 57000,
+      "exp": 11400,
+      "item": "item_115"
+    }
+  },
+  {
+    "id": "quest_115",
+    "name": "Cổ Địa Nhiệm Vụ 115",
+    "type": "main",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 57500,
+      "exp": 11500,
+      "item": "item_116"
+    }
+  },
+  {
+    "id": "quest_116",
+    "name": "Bí Cảnh Nhiệm Vụ 116",
+    "type": "side",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 58000,
+      "exp": 11600,
+      "item": "item_117"
+    }
+  },
+  {
+    "id": "quest_117",
+    "name": "Thần Điện Nhiệm Vụ 117",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 58500,
+      "exp": 11700,
+      "item": "item_118"
+    }
+  },
+  {
+    "id": "quest_118",
+    "name": "Hắc Uyên Nhiệm Vụ 118",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 59000,
+      "exp": 11800,
+      "item": "item_119"
+    }
+  },
+  {
+    "id": "quest_119",
+    "name": "Vạn Thú Nhiệm Vụ 119",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 59500,
+      "exp": 11900,
+      "item": "item_120"
+    }
+  },
+  {
+    "id": "quest_120",
+    "name": "Cổ Địa Nhiệm Vụ 120",
+    "type": "main",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 60000,
+      "exp": 12000,
+      "item": "item_121"
+    }
+  },
+  {
+    "id": "quest_121",
+    "name": "Bí Cảnh Nhiệm Vụ 121",
+    "type": "side",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 60500,
+      "exp": 12100,
+      "item": "item_122"
+    }
+  },
+  {
+    "id": "quest_122",
+    "name": "Thần Điện Nhiệm Vụ 122",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 61000,
+      "exp": 12200,
+      "item": "item_123"
+    }
+  },
+  {
+    "id": "quest_123",
+    "name": "Hắc Uyên Nhiệm Vụ 123",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 61500,
+      "exp": 12300,
+      "item": "item_124"
+    }
+  },
+  {
+    "id": "quest_124",
+    "name": "Vạn Thú Nhiệm Vụ 124",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 62000,
+      "exp": 12400,
+      "item": "item_125"
+    }
+  },
+  {
+    "id": "quest_125",
+    "name": "Cổ Địa Nhiệm Vụ 125",
+    "type": "main",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 62500,
+      "exp": 12500,
+      "item": "item_126"
+    }
+  },
+  {
+    "id": "quest_126",
+    "name": "Bí Cảnh Nhiệm Vụ 126",
+    "type": "side",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 63000,
+      "exp": 12600,
+      "item": "item_127"
+    }
+  },
+  {
+    "id": "quest_127",
+    "name": "Thần Điện Nhiệm Vụ 127",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 63500,
+      "exp": 12700,
+      "item": "item_128"
+    }
+  },
+  {
+    "id": "quest_128",
+    "name": "Hắc Uyên Nhiệm Vụ 128",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 64000,
+      "exp": 12800,
+      "item": "item_129"
+    }
+  },
+  {
+    "id": "quest_129",
+    "name": "Vạn Thú Nhiệm Vụ 129",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 64500,
+      "exp": 12900,
+      "item": "item_130"
+    }
+  },
+  {
+    "id": "quest_130",
+    "name": "Cổ Địa Nhiệm Vụ 130",
+    "type": "main",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 65000,
+      "exp": 13000,
+      "item": "item_131"
+    }
+  },
+  {
+    "id": "quest_131",
+    "name": "Bí Cảnh Nhiệm Vụ 131",
+    "type": "side",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 65500,
+      "exp": 13100,
+      "item": "item_132"
+    }
+  },
+  {
+    "id": "quest_132",
+    "name": "Thần Điện Nhiệm Vụ 132",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 66000,
+      "exp": 13200,
+      "item": "item_133"
+    }
+  },
+  {
+    "id": "quest_133",
+    "name": "Hắc Uyên Nhiệm Vụ 133",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 66500,
+      "exp": 13300,
+      "item": "item_134"
+    }
+  },
+  {
+    "id": "quest_134",
+    "name": "Vạn Thú Nhiệm Vụ 134",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 67000,
+      "exp": 13400,
+      "item": "item_135"
+    }
+  },
+  {
+    "id": "quest_135",
+    "name": "Cổ Địa Nhiệm Vụ 135",
+    "type": "main",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 67500,
+      "exp": 13500,
+      "item": "item_136"
+    }
+  },
+  {
+    "id": "quest_136",
+    "name": "Bí Cảnh Nhiệm Vụ 136",
+    "type": "side",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 68000,
+      "exp": 13600,
+      "item": "item_137"
+    }
+  },
+  {
+    "id": "quest_137",
+    "name": "Thần Điện Nhiệm Vụ 137",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 68500,
+      "exp": 13700,
+      "item": "item_138"
+    }
+  },
+  {
+    "id": "quest_138",
+    "name": "Hắc Uyên Nhiệm Vụ 138",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 69000,
+      "exp": 13800,
+      "item": "item_139"
+    }
+  },
+  {
+    "id": "quest_139",
+    "name": "Vạn Thú Nhiệm Vụ 139",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 8 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 69500,
+      "exp": 13900,
+      "item": "item_140"
+    }
+  },
+  {
+    "id": "quest_140",
+    "name": "Cổ Địa Nhiệm Vụ 140",
+    "type": "main",
+    "objectives": [
+      "Khám phá 9 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 70000,
+      "exp": 14000,
+      "item": "item_141"
+    }
+  },
+  {
+    "id": "quest_141",
+    "name": "Bí Cảnh Nhiệm Vụ 141",
+    "type": "side",
+    "objectives": [
+      "Khám phá 10 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 70500,
+      "exp": 14100,
+      "item": "item_142"
+    }
+  },
+  {
+    "id": "quest_142",
+    "name": "Thần Điện Nhiệm Vụ 142",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 11 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 71000,
+      "exp": 14200,
+      "item": "item_143"
+    }
+  },
+  {
+    "id": "quest_143",
+    "name": "Hắc Uyên Nhiệm Vụ 143",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 12 khu vực",
+      "Đánh bại 8 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 71500,
+      "exp": 14300,
+      "item": "item_144"
+    }
+  },
+  {
+    "id": "quest_144",
+    "name": "Vạn Thú Nhiệm Vụ 144",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 1 khu vực",
+      "Đánh bại 1 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 72000,
+      "exp": 14400,
+      "item": "item_145"
+    }
+  },
+  {
+    "id": "quest_145",
+    "name": "Cổ Địa Nhiệm Vụ 145",
+    "type": "main",
+    "objectives": [
+      "Khám phá 2 khu vực",
+      "Đánh bại 2 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 72500,
+      "exp": 14500,
+      "item": "item_146"
+    }
+  },
+  {
+    "id": "quest_146",
+    "name": "Bí Cảnh Nhiệm Vụ 146",
+    "type": "side",
+    "objectives": [
+      "Khám phá 3 khu vực",
+      "Đánh bại 3 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 73000,
+      "exp": 14600,
+      "item": "item_147"
+    }
+  },
+  {
+    "id": "quest_147",
+    "name": "Thần Điện Nhiệm Vụ 147",
+    "type": "hidden",
+    "objectives": [
+      "Khám phá 4 khu vực",
+      "Đánh bại 4 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 73500,
+      "exp": 14700,
+      "item": "item_148"
+    }
+  },
+  {
+    "id": "quest_148",
+    "name": "Hắc Uyên Nhiệm Vụ 148",
+    "type": "daily",
+    "objectives": [
+      "Khám phá 5 khu vực",
+      "Đánh bại 5 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 74000,
+      "exp": 14800,
+      "item": "item_149"
+    }
+  },
+  {
+    "id": "quest_149",
+    "name": "Vạn Thú Nhiệm Vụ 149",
+    "type": "weekly",
+    "objectives": [
+      "Khám phá 6 khu vực",
+      "Đánh bại 6 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 74500,
+      "exp": 14900,
+      "item": "item_150"
+    }
+  },
+  {
+    "id": "quest_150",
+    "name": "Cổ Địa Nhiệm Vụ 150",
+    "type": "main",
+    "objectives": [
+      "Khám phá 7 khu vực",
+      "Đánh bại 7 kẻ địch",
+      "Tìm vật phẩm bí mật"
+    ],
+    "reward": {
+      "coins": 75000,
+      "exp": 15000,
+      "item": "item_151"
+    }
+  }
+]

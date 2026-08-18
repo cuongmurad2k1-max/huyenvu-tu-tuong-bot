@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "boss_1",
+    "name": "Ma Thần 1",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 100000,
+        "attack": 1080
+      },
+      {
+        "hp": 65000,
+        "attack": 1700
+      },
+      {
+        "hp": 35000,
+        "attack": 2530
+      },
+      {
+        "hp": 12000,
+        "attack": 3680
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_8",
+      "item_12"
+    ]
+  },
+  {
+    "id": "boss_2",
+    "name": "Thần Thú Vương 2",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 200000,
+        "attack": 1160
+      },
+      {
+        "hp": 130000,
+        "attack": 1800
+      },
+      {
+        "hp": 70000,
+        "attack": 2660
+      },
+      {
+        "hp": 24000,
+        "attack": 3860
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_15",
+      "item_23"
+    ]
+  },
+  {
+    "id": "boss_3",
+    "name": "Hư Không Chúa Tể 3",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 300000,
+        "attack": 1240
+      },
+      {
+        "hp": 195000,
+        "attack": 1900
+      },
+      {
+        "hp": 105000,
+        "attack": 2790
+      },
+      {
+        "hp": 36000,
+        "attack": 4040
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_22",
+      "item_34"
+    ]
+  },
+  {
+    "id": "boss_4",
+    "name": "Tứ Tượng Thủ Hộ 4",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 400000,
+        "attack": 1320
+      },
+      {
+        "hp": 260000,
+        "attack": 2000
+      },
+      {
+        "hp": 140000,
+        "attack": 2920
+      },
+      {
+        "hp": 48000,
+        "attack": 4220
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_29",
+      "item_45"
+    ]
+  },
+  {
+    "id": "boss_5",
+    "name": "Cổ Đế 5",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 500000,
+        "attack": 1400
+      },
+      {
+        "hp": 325000,
+        "attack": 2100
+      },
+      {
+        "hp": 175000,
+        "attack": 3050
+      },
+      {
+        "hp": 60000,
+        "attack": 4400
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_36",
+      "item_56"
+    ]
+  },
+  {
+    "id": "boss_6",
+    "name": "Ma Thần 6",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 600000,
+        "attack": 1480
+      },
+      {
+        "hp": 390000,
+        "attack": 2200
+      },
+      {
+        "hp": 210000,
+        "attack": 3180
+      },
+      {
+        "hp": 72000,
+        "attack": 4580
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_43",
+      "item_67"
+    ]
+  },
+  {
+    "id": "boss_7",
+    "name": "Thần Thú Vương 7",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 700000,
+        "attack": 1560
+      },
+      {
+        "hp": 455000,
+        "attack": 2300
+      },
+      {
+        "hp": 245000,
+        "attack": 3310
+      },
+      {
+        "hp": 84000,
+        "attack": 4760
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_50",
+      "item_78"
+    ]
+  },
+  {
+    "id": "boss_8",
+    "name": "Hư Không Chúa Tể 8",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 800000,
+        "attack": 1640
+      },
+      {
+        "hp": 520000,
+        "attack": 2400
+      },
+      {
+        "hp": 280000,
+        "attack": 3440
+      },
+      {
+        "hp": 96000,
+        "attack": 4940
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_57",
+      "item_89"
+    ]
+  },
+  {
+    "id": "boss_9",
+    "name": "Tứ Tượng Thủ Hộ 9",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 900000,
+        "attack": 1720
+      },
+      {
+        "hp": 585000,
+        "attack": 2500
+      },
+      {
+        "hp": 315000,
+        "attack": 3570
+      },
+      {
+        "hp": 108000,
+        "attack": 5120
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_64",
+      "item_100"
+    ]
+  },
+  {
+    "id": "boss_10",
+    "name": "Cổ Đế 10",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 1000000,
+        "attack": 1800
+      },
+      {
+        "hp": 650000,
+        "attack": 2600
+      },
+      {
+        "hp": 350000,
+        "attack": 3700
+      },
+      {
+        "hp": 120000,
+        "attack": 5300
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_71",
+      "item_111"
+    ]
+  },
+  {
+    "id": "boss_11",
+    "name": "Ma Thần 11",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 1100000,
+        "attack": 1880
+      },
+      {
+        "hp": 715000,
+        "attack": 2700
+      },
+      {
+        "hp": 385000,
+        "attack": 3830
+      },
+      {
+        "hp": 132000,
+        "attack": 5480
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_78",
+      "item_122"
+    ]
+  },
+  {
+    "id": "boss_12",
+    "name": "Thần Thú Vương 12",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 1200000,
+        "attack": 1960
+      },
+      {
+        "hp": 780000,
+        "attack": 2800
+      },
+      {
+        "hp": 420000,
+        "attack": 3960
+      },
+      {
+        "hp": 144000,
+        "attack": 5660
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_85",
+      "item_133"
+    ]
+  },
+  {
+    "id": "boss_13",
+    "name": "Hư Không Chúa Tể 13",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 1300000,
+        "attack": 2040
+      },
+      {
+        "hp": 845000,
+        "attack": 2900
+      },
+      {
+        "hp": 455000,
+        "attack": 4090
+      },
+      {
+        "hp": 156000,
+        "attack": 5840
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_92",
+      "item_144"
+    ]
+  },
+  {
+    "id": "boss_14",
+    "name": "Tứ Tượng Thủ Hộ 14",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 1400000,
+        "attack": 2120
+      },
+      {
+        "hp": 910000,
+        "attack": 3000
+      },
+      {
+        "hp": 490000,
+        "attack": 4220
+      },
+      {
+        "hp": 168000,
+        "attack": 6020
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_99",
+      "item_155"
+    ]
+  },
+  {
+    "id": "boss_15",
+    "name": "Cổ Đế 15",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 1500000,
+        "attack": 2200
+      },
+      {
+        "hp": 975000,
+        "attack": 3100
+      },
+      {
+        "hp": 525000,
+        "attack": 4350
+      },
+      {
+        "hp": 180000,
+        "attack": 6200
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_106",
+      "item_166"
+    ]
+  },
+  {
+    "id": "boss_16",
+    "name": "Ma Thần 16",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 1600000,
+        "attack": 2280
+      },
+      {
+        "hp": 1040000,
+        "attack": 3200
+      },
+      {
+        "hp": 560000,
+        "attack": 4480
+      },
+      {
+        "hp": 192000,
+        "attack": 6380
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_113",
+      "item_177"
+    ]
+  },
+  {
+    "id": "boss_17",
+    "name": "Thần Thú Vương 17",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 1700000,
+        "attack": 2360
+      },
+      {
+        "hp": 1105000,
+        "attack": 3300
+      },
+      {
+        "hp": 595000,
+        "attack": 4610
+      },
+      {
+        "hp": 204000,
+        "attack": 6560
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_120",
+      "item_188"
+    ]
+  },
+  {
+    "id": "boss_18",
+    "name": "Hư Không Chúa Tể 18",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 1800000,
+        "attack": 2440
+      },
+      {
+        "hp": 1170000,
+        "attack": 3400
+      },
+      {
+        "hp": 630000,
+        "attack": 4740
+      },
+      {
+        "hp": 216000,
+        "attack": 6740
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_127",
+      "item_199"
+    ]
+  },
+  {
+    "id": "boss_19",
+    "name": "Tứ Tượng Thủ Hộ 19",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 1900000,
+        "attack": 2520
+      },
+      {
+        "hp": 1235000,
+        "attack": 3500
+      },
+      {
+        "hp": 665000,
+        "attack": 4870
+      },
+      {
+        "hp": 228000,
+        "attack": 6920
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_134",
+      "item_210"
+    ]
+  },
+  {
+    "id": "boss_20",
+    "name": "Cổ Đế 20",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 2000000,
+        "attack": 2600
+      },
+      {
+        "hp": 1300000,
+        "attack": 3600
+      },
+      {
+        "hp": 700000,
+        "attack": 5000
+      },
+      {
+        "hp": 240000,
+        "attack": 7100
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_141",
+      "item_221"
+    ]
+  },
+  {
+    "id": "boss_21",
+    "name": "Ma Thần 21",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 2100000,
+        "attack": 2680
+      },
+      {
+        "hp": 1365000,
+        "attack": 3700
+      },
+      {
+        "hp": 735000,
+        "attack": 5130
+      },
+      {
+        "hp": 252000,
+        "attack": 7280
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_148",
+      "item_232"
+    ]
+  },
+  {
+    "id": "boss_22",
+    "name": "Thần Thú Vương 22",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 2200000,
+        "attack": 2760
+      },
+      {
+        "hp": 1430000,
+        "attack": 3800
+      },
+      {
+        "hp": 770000,
+        "attack": 5260
+      },
+      {
+        "hp": 264000,
+        "attack": 7460
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_155",
+      "item_243"
+    ]
+  },
+  {
+    "id": "boss_23",
+    "name": "Hư Không Chúa Tể 23",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 2300000,
+        "attack": 2840
+      },
+      {
+        "hp": 1495000,
+        "attack": 3900
+      },
+      {
+        "hp": 805000,
+        "attack": 5390
+      },
+      {
+        "hp": 276000,
+        "attack": 7640
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_162",
+      "item_254"
+    ]
+  },
+  {
+    "id": "boss_24",
+    "name": "Tứ Tượng Thủ Hộ 24",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 2400000,
+        "attack": 2920
+      },
+      {
+        "hp": 1560000,
+        "attack": 4000
+      },
+      {
+        "hp": 840000,
+        "attack": 5520
+      },
+      {
+        "hp": 288000,
+        "attack": 7820
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_169",
+      "item_265"
+    ]
+  },
+  {
+    "id": "boss_25",
+    "name": "Cổ Đế 25",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 2500000,
+        "attack": 3000
+      },
+      {
+        "hp": 1625000,
+        "attack": 4100
+      },
+      {
+        "hp": 875000,
+        "attack": 5650
+      },
+      {
+        "hp": 300000,
+        "attack": 8000
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_176",
+      "item_276"
+    ]
+  },
+  {
+    "id": "boss_26",
+    "name": "Ma Thần 26",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 2600000,
+        "attack": 3080
+      },
+      {
+        "hp": 1690000,
+        "attack": 4200
+      },
+      {
+        "hp": 910000,
+        "attack": 5780
+      },
+      {
+        "hp": 312000,
+        "attack": 8180
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_183",
+      "item_287"
+    ]
+  },
+  {
+    "id": "boss_27",
+    "name": "Thần Thú Vương 27",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 2700000,
+        "attack": 3160
+      },
+      {
+        "hp": 1755000,
+        "attack": 4300
+      },
+      {
+        "hp": 945000,
+        "attack": 5910
+      },
+      {
+        "hp": 324000,
+        "attack": 8360
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_190",
+      "item_298"
+    ]
+  },
+  {
+    "id": "boss_28",
+    "name": "Hư Không Chúa Tể 28",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 2800000,
+        "attack": 3240
+      },
+      {
+        "hp": 1820000,
+        "attack": 4400
+      },
+      {
+        "hp": 980000,
+        "attack": 6040
+      },
+      {
+        "hp": 336000,
+        "attack": 8540
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_197",
+      "item_309"
+    ]
+  },
+  {
+    "id": "boss_29",
+    "name": "Tứ Tượng Thủ Hộ 29",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 2900000,
+        "attack": 3320
+      },
+      {
+        "hp": 1885000,
+        "attack": 4500
+      },
+      {
+        "hp": 1015000,
+        "attack": 6170
+      },
+      {
+        "hp": 348000,
+        "attack": 8720
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_204",
+      "item_320"
+    ]
+  },
+  {
+    "id": "boss_30",
+    "name": "Cổ Đế 30",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 3000000,
+        "attack": 3400
+      },
+      {
+        "hp": 1950000,
+        "attack": 4600
+      },
+      {
+        "hp": 1050000,
+        "attack": 6300
+      },
+      {
+        "hp": 360000,
+        "attack": 8900
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_211",
+      "item_331"
+    ]
+  },
+  {
+    "id": "boss_31",
+    "name": "Ma Thần 31",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 3100000,
+        "attack": 3480
+      },
+      {
+        "hp": 2015000,
+        "attack": 4700
+      },
+      {
+        "hp": 1085000,
+        "attack": 6430
+      },
+      {
+        "hp": 372000,
+        "attack": 9080
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_218",
+      "item_342"
+    ]
+  },
+  {
+    "id": "boss_32",
+    "name": "Thần Thú Vương 32",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 3200000,
+        "attack": 3560
+      },
+      {
+        "hp": 2080000,
+        "attack": 4800
+      },
+      {
+        "hp": 1120000,
+        "attack": 6560
+      },
+      {
+        "hp": 384000,
+        "attack": 9260
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_225",
+      "item_353"
+    ]
+  },
+  {
+    "id": "boss_33",
+    "name": "Hư Không Chúa Tể 33",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 3300000,
+        "attack": 3640
+      },
+      {
+        "hp": 2145000,
+        "attack": 4900
+      },
+      {
+        "hp": 1155000,
+        "attack": 6690
+      },
+      {
+        "hp": 396000,
+        "attack": 9440
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_232",
+      "item_364"
+    ]
+  },
+  {
+    "id": "boss_34",
+    "name": "Tứ Tượng Thủ Hộ 34",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 3400000,
+        "attack": 3720
+      },
+      {
+        "hp": 2210000,
+        "attack": 5000
+      },
+      {
+        "hp": 1190000,
+        "attack": 6820
+      },
+      {
+        "hp": 408000,
+        "attack": 9620
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_239",
+      "item_375"
+    ]
+  },
+  {
+    "id": "boss_35",
+    "name": "Cổ Đế 35",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 3500000,
+        "attack": 3800
+      },
+      {
+        "hp": 2275000,
+        "attack": 5100
+      },
+      {
+        "hp": 1225000,
+        "attack": 6950
+      },
+      {
+        "hp": 420000,
+        "attack": 9800
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_246",
+      "item_386"
+    ]
+  },
+  {
+    "id": "boss_36",
+    "name": "Ma Thần 36",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 3600000,
+        "attack": 3880
+      },
+      {
+        "hp": 2340000,
+        "attack": 5200
+      },
+      {
+        "hp": 1260000,
+        "attack": 7080
+      },
+      {
+        "hp": 432000,
+        "attack": 9980
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_253",
+      "item_397"
+    ]
+  },
+  {
+    "id": "boss_37",
+    "name": "Thần Thú Vương 37",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 3700000,
+        "attack": 3960
+      },
+      {
+        "hp": 2405000,
+        "attack": 5300
+      },
+      {
+        "hp": 1295000,
+        "attack": 7210
+      },
+      {
+        "hp": 444000,
+        "attack": 10160
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_260",
+      "item_408"
+    ]
+  },
+  {
+    "id": "boss_38",
+    "name": "Hư Không Chúa Tể 38",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 3800000,
+        "attack": 4040
+      },
+      {
+        "hp": 2470000,
+        "attack": 5400
+      },
+      {
+        "hp": 1330000,
+        "attack": 7340
+      },
+      {
+        "hp": 456000,
+        "attack": 10340
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_267",
+      "item_419"
+    ]
+  },
+  {
+    "id": "boss_39",
+    "name": "Tứ Tượng Thủ Hộ 39",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 3900000,
+        "attack": 4120
+      },
+      {
+        "hp": 2535000,
+        "attack": 5500
+      },
+      {
+        "hp": 1365000,
+        "attack": 7470
+      },
+      {
+        "hp": 468000,
+        "attack": 10520
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_274",
+      "item_430"
+    ]
+  },
+  {
+    "id": "boss_40",
+    "name": "Cổ Đế 40",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 4000000,
+        "attack": 4200
+      },
+      {
+        "hp": 2600000,
+        "attack": 5600
+      },
+      {
+        "hp": 1400000,
+        "attack": 7600
+      },
+      {
+        "hp": 480000,
+        "attack": 10700
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_281",
+      "item_441"
+    ]
+  },
+  {
+    "id": "boss_41",
+    "name": "Ma Thần 41",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 4100000,
+        "attack": 4280
+      },
+      {
+        "hp": 2665000,
+        "attack": 5700
+      },
+      {
+        "hp": 1435000,
+        "attack": 7730
+      },
+      {
+        "hp": 492000,
+        "attack": 10880
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_288",
+      "item_452"
+    ]
+  },
+  {
+    "id": "boss_42",
+    "name": "Thần Thú Vương 42",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 4200000,
+        "attack": 4360
+      },
+      {
+        "hp": 2730000,
+        "attack": 5800
+      },
+      {
+        "hp": 1470000,
+        "attack": 7860
+      },
+      {
+        "hp": 504000,
+        "attack": 11060
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_295",
+      "item_463"
+    ]
+  },
+  {
+    "id": "boss_43",
+    "name": "Hư Không Chúa Tể 43",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 4300000,
+        "attack": 4440
+      },
+      {
+        "hp": 2795000,
+        "attack": 5900
+      },
+      {
+        "hp": 1505000,
+        "attack": 7990
+      },
+      {
+        "hp": 516000,
+        "attack": 11240
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_302",
+      "item_474"
+    ]
+  },
+  {
+    "id": "boss_44",
+    "name": "Tứ Tượng Thủ Hộ 44",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 4400000,
+        "attack": 4520
+      },
+      {
+        "hp": 2860000,
+        "attack": 6000
+      },
+      {
+        "hp": 1540000,
+        "attack": 8120
+      },
+      {
+        "hp": 528000,
+        "attack": 11420
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_309",
+      "item_485"
+    ]
+  },
+  {
+    "id": "boss_45",
+    "name": "Cổ Đế 45",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 4500000,
+        "attack": 4600
+      },
+      {
+        "hp": 2925000,
+        "attack": 6100
+      },
+      {
+        "hp": 1575000,
+        "attack": 8250
+      },
+      {
+        "hp": 540000,
+        "attack": 11600
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_316",
+      "item_496"
+    ]
+  },
+  {
+    "id": "boss_46",
+    "name": "Ma Thần 46",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 4600000,
+        "attack": 4680
+      },
+      {
+        "hp": 2990000,
+        "attack": 6200
+      },
+      {
+        "hp": 1610000,
+        "attack": 8380
+      },
+      {
+        "hp": 552000,
+        "attack": 11780
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_323",
+      "item_7"
+    ]
+  },
+  {
+    "id": "boss_47",
+    "name": "Thần Thú Vương 47",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 4700000,
+        "attack": 4760
+      },
+      {
+        "hp": 3055000,
+        "attack": 6300
+      },
+      {
+        "hp": 1645000,
+        "attack": 8510
+      },
+      {
+        "hp": 564000,
+        "attack": 11960
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_330",
+      "item_18"
+    ]
+  },
+  {
+    "id": "boss_48",
+    "name": "Hư Không Chúa Tể 48",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 4800000,
+        "attack": 4840
+      },
+      {
+        "hp": 3120000,
+        "attack": 6400
+      },
+      {
+        "hp": 1680000,
+        "attack": 8640
+      },
+      {
+        "hp": 576000,
+        "attack": 12140
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_337",
+      "item_29"
+    ]
+  },
+  {
+    "id": "boss_49",
+    "name": "Tứ Tượng Thủ Hộ 49",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 4900000,
+        "attack": 4920
+      },
+      {
+        "hp": 3185000,
+        "attack": 6500
+      },
+      {
+        "hp": 1715000,
+        "attack": 8770
+      },
+      {
+        "hp": 588000,
+        "attack": 12320
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_344",
+      "item_40"
+    ]
+  },
+  {
+    "id": "boss_50",
+    "name": "Cổ Đế 50",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 5000000,
+        "attack": 5000
+      },
+      {
+        "hp": 3250000,
+        "attack": 6600
+      },
+      {
+        "hp": 1750000,
+        "attack": 8900
+      },
+      {
+        "hp": 600000,
+        "attack": 12500
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_351",
+      "item_51"
+    ]
+  },
+  {
+    "id": "boss_51",
+    "name": "Ma Thần 51",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 5100000,
+        "attack": 5080
+      },
+      {
+        "hp": 3315000,
+        "attack": 6700
+      },
+      {
+        "hp": 1785000,
+        "attack": 9030
+      },
+      {
+        "hp": 612000,
+        "attack": 12680
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_358",
+      "item_62"
+    ]
+  },
+  {
+    "id": "boss_52",
+    "name": "Thần Thú Vương 52",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 5200000,
+        "attack": 5160
+      },
+      {
+        "hp": 3380000,
+        "attack": 6800
+      },
+      {
+        "hp": 1820000,
+        "attack": 9160
+      },
+      {
+        "hp": 624000,
+        "attack": 12860
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_365",
+      "item_73"
+    ]
+  },
+  {
+    "id": "boss_53",
+    "name": "Hư Không Chúa Tể 53",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 5300000,
+        "attack": 5240
+      },
+      {
+        "hp": 3445000,
+        "attack": 6900
+      },
+      {
+        "hp": 1855000,
+        "attack": 9290
+      },
+      {
+        "hp": 636000,
+        "attack": 13040
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_372",
+      "item_84"
+    ]
+  },
+  {
+    "id": "boss_54",
+    "name": "Tứ Tượng Thủ Hộ 54",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 5400000,
+        "attack": 5320
+      },
+      {
+        "hp": 3510000,
+        "attack": 7000
+      },
+      {
+        "hp": 1890000,
+        "attack": 9420
+      },
+      {
+        "hp": 648000,
+        "attack": 13220
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_379",
+      "item_95"
+    ]
+  },
+  {
+    "id": "boss_55",
+    "name": "Cổ Đế 55",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 5500000,
+        "attack": 5400
+      },
+      {
+        "hp": 3575000,
+        "attack": 7100
+      },
+      {
+        "hp": 1925000,
+        "attack": 9550
+      },
+      {
+        "hp": 660000,
+        "attack": 13400
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_386",
+      "item_106"
+    ]
+  },
+  {
+    "id": "boss_56",
+    "name": "Ma Thần 56",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 5600000,
+        "attack": 5480
+      },
+      {
+        "hp": 3640000,
+        "attack": 7200
+      },
+      {
+        "hp": 1960000,
+        "attack": 9680
+      },
+      {
+        "hp": 672000,
+        "attack": 13580
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_393",
+      "item_117"
+    ]
+  },
+  {
+    "id": "boss_57",
+    "name": "Thần Thú Vương 57",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 5700000,
+        "attack": 5560
+      },
+      {
+        "hp": 3705000,
+        "attack": 7300
+      },
+      {
+        "hp": 1995000,
+        "attack": 9810
+      },
+      {
+        "hp": 684000,
+        "attack": 13760
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_400",
+      "item_128"
+    ]
+  },
+  {
+    "id": "boss_58",
+    "name": "Hư Không Chúa Tể 58",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 5800000,
+        "attack": 5640
+      },
+      {
+        "hp": 3770000,
+        "attack": 7400
+      },
+      {
+        "hp": 2030000,
+        "attack": 9940
+      },
+      {
+        "hp": 696000,
+        "attack": 13940
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_407",
+      "item_139"
+    ]
+  },
+  {
+    "id": "boss_59",
+    "name": "Tứ Tượng Thủ Hộ 59",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 5900000,
+        "attack": 5720
+      },
+      {
+        "hp": 3835000,
+        "attack": 7500
+      },
+      {
+        "hp": 2065000,
+        "attack": 10070
+      },
+      {
+        "hp": 708000,
+        "attack": 14120
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_414",
+      "item_150"
+    ]
+  },
+  {
+    "id": "boss_60",
+    "name": "Cổ Đế 60",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 6000000,
+        "attack": 5800
+      },
+      {
+        "hp": 3900000,
+        "attack": 7600
+      },
+      {
+        "hp": 2100000,
+        "attack": 10200
+      },
+      {
+        "hp": 720000,
+        "attack": 14300
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_421",
+      "item_161"
+    ]
+  },
+  {
+    "id": "boss_61",
+    "name": "Ma Thần 61",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 6100000,
+        "attack": 5880
+      },
+      {
+        "hp": 3965000,
+        "attack": 7700
+      },
+      {
+        "hp": 2135000,
+        "attack": 10330
+      },
+      {
+        "hp": 732000,
+        "attack": 14480
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_428",
+      "item_172"
+    ]
+  },
+  {
+    "id": "boss_62",
+    "name": "Thần Thú Vương 62",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 6200000,
+        "attack": 5960
+      },
+      {
+        "hp": 4030000,
+        "attack": 7800
+      },
+      {
+        "hp": 2170000,
+        "attack": 10460
+      },
+      {
+        "hp": 744000,
+        "attack": 14660
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_435",
+      "item_183"
+    ]
+  },
+  {
+    "id": "boss_63",
+    "name": "Hư Không Chúa Tể 63",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 6300000,
+        "attack": 6040
+      },
+      {
+        "hp": 4095000,
+        "attack": 7900
+      },
+      {
+        "hp": 2205000,
+        "attack": 10590
+      },
+      {
+        "hp": 756000,
+        "attack": 14840
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_442",
+      "item_194"
+    ]
+  },
+  {
+    "id": "boss_64",
+    "name": "Tứ Tượng Thủ Hộ 64",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 6400000,
+        "attack": 6120
+      },
+      {
+        "hp": 4160000,
+        "attack": 8000
+      },
+      {
+        "hp": 2240000,
+        "attack": 10720
+      },
+      {
+        "hp": 768000,
+        "attack": 15020
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_449",
+      "item_205"
+    ]
+  },
+  {
+    "id": "boss_65",
+    "name": "Cổ Đế 65",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 6500000,
+        "attack": 6200
+      },
+      {
+        "hp": 4225000,
+        "attack": 8100
+      },
+      {
+        "hp": 2275000,
+        "attack": 10850
+      },
+      {
+        "hp": 780000,
+        "attack": 15200
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_456",
+      "item_216"
+    ]
+  },
+  {
+    "id": "boss_66",
+    "name": "Ma Thần 66",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 6600000,
+        "attack": 6280
+      },
+      {
+        "hp": 4290000,
+        "attack": 8200
+      },
+      {
+        "hp": 2310000,
+        "attack": 10980
+      },
+      {
+        "hp": 792000,
+        "attack": 15380
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_463",
+      "item_227"
+    ]
+  },
+  {
+    "id": "boss_67",
+    "name": "Thần Thú Vương 67",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 6700000,
+        "attack": 6360
+      },
+      {
+        "hp": 4355000,
+        "attack": 8300
+      },
+      {
+        "hp": 2345000,
+        "attack": 11110
+      },
+      {
+        "hp": 804000,
+        "attack": 15560
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_470",
+      "item_238"
+    ]
+  },
+  {
+    "id": "boss_68",
+    "name": "Hư Không Chúa Tể 68",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 6800000,
+        "attack": 6440
+      },
+      {
+        "hp": 4420000,
+        "attack": 8400
+      },
+      {
+        "hp": 2380000,
+        "attack": 11240
+      },
+      {
+        "hp": 816000,
+        "attack": 15740
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_477",
+      "item_249"
+    ]
+  },
+  {
+    "id": "boss_69",
+    "name": "Tứ Tượng Thủ Hộ 69",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 6900000,
+        "attack": 6520
+      },
+      {
+        "hp": 4485000,
+        "attack": 8500
+      },
+      {
+        "hp": 2415000,
+        "attack": 11370
+      },
+      {
+        "hp": 828000,
+        "attack": 15920
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_484",
+      "item_260"
+    ]
+  },
+  {
+    "id": "boss_70",
+    "name": "Cổ Đế 70",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 7000000,
+        "attack": 6600
+      },
+      {
+        "hp": 4550000,
+        "attack": 8600
+      },
+      {
+        "hp": 2450000,
+        "attack": 11500
+      },
+      {
+        "hp": 840000,
+        "attack": 16100
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_491",
+      "item_271"
+    ]
+  },
+  {
+    "id": "boss_71",
+    "name": "Ma Thần 71",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 7100000,
+        "attack": 6680
+      },
+      {
+        "hp": 4615000,
+        "attack": 8700
+      },
+      {
+        "hp": 2485000,
+        "attack": 11630
+      },
+      {
+        "hp": 852000,
+        "attack": 16280
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_498",
+      "item_282"
+    ]
+  },
+  {
+    "id": "boss_72",
+    "name": "Thần Thú Vương 72",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 7200000,
+        "attack": 6760
+      },
+      {
+        "hp": 4680000,
+        "attack": 8800
+      },
+      {
+        "hp": 2520000,
+        "attack": 11760
+      },
+      {
+        "hp": 864000,
+        "attack": 16460
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_5",
+      "item_293"
+    ]
+  },
+  {
+    "id": "boss_73",
+    "name": "Hư Không Chúa Tể 73",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 7300000,
+        "attack": 6840
+      },
+      {
+        "hp": 4745000,
+        "attack": 8900
+      },
+      {
+        "hp": 2555000,
+        "attack": 11890
+      },
+      {
+        "hp": 876000,
+        "attack": 16640
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_12",
+      "item_304"
+    ]
+  },
+  {
+    "id": "boss_74",
+    "name": "Tứ Tượng Thủ Hộ 74",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 7400000,
+        "attack": 6920
+      },
+      {
+        "hp": 4810000,
+        "attack": 9000
+      },
+      {
+        "hp": 2590000,
+        "attack": 12020
+      },
+      {
+        "hp": 888000,
+        "attack": 16820
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_19",
+      "item_315"
+    ]
+  },
+  {
+    "id": "boss_75",
+    "name": "Cổ Đế 75",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 7500000,
+        "attack": 7000
+      },
+      {
+        "hp": 4875000,
+        "attack": 9100
+      },
+      {
+        "hp": 2625000,
+        "attack": 12150
+      },
+      {
+        "hp": 900000,
+        "attack": 17000
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_26",
+      "item_326"
+    ]
+  },
+  {
+    "id": "boss_76",
+    "name": "Ma Thần 76",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 7600000,
+        "attack": 7080
+      },
+      {
+        "hp": 4940000,
+        "attack": 9200
+      },
+      {
+        "hp": 2660000,
+        "attack": 12280
+      },
+      {
+        "hp": 912000,
+        "attack": 17180
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_33",
+      "item_337"
+    ]
+  },
+  {
+    "id": "boss_77",
+    "name": "Thần Thú Vương 77",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 7700000,
+        "attack": 7160
+      },
+      {
+        "hp": 5005000,
+        "attack": 9300
+      },
+      {
+        "hp": 2695000,
+        "attack": 12410
+      },
+      {
+        "hp": 924000,
+        "attack": 17360
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_40",
+      "item_348"
+    ]
+  },
+  {
+    "id": "boss_78",
+    "name": "Hư Không Chúa Tể 78",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 7800000,
+        "attack": 7240
+      },
+      {
+        "hp": 5070000,
+        "attack": 9400
+      },
+      {
+        "hp": 2730000,
+        "attack": 12540
+      },
+      {
+        "hp": 936000,
+        "attack": 17540
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_47",
+      "item_359"
+    ]
+  },
+  {
+    "id": "boss_79",
+    "name": "Tứ Tượng Thủ Hộ 79",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 7900000,
+        "attack": 7320
+      },
+      {
+        "hp": 5135000,
+        "attack": 9500
+      },
+      {
+        "hp": 2765000,
+        "attack": 12670
+      },
+      {
+        "hp": 948000,
+        "attack": 17720
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_54",
+      "item_370"
+    ]
+  },
+  {
+    "id": "boss_80",
+    "name": "Cổ Đế 80",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 8000000,
+        "attack": 7400
+      },
+      {
+        "hp": 5200000,
+        "attack": 9600
+      },
+      {
+        "hp": 2800000,
+        "attack": 12800
+      },
+      {
+        "hp": 960000,
+        "attack": 17900
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_61",
+      "item_381"
+    ]
+  },
+  {
+    "id": "boss_81",
+    "name": "Ma Thần 81",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 8100000,
+        "attack": 7480
+      },
+      {
+        "hp": 5265000,
+        "attack": 9700
+      },
+      {
+        "hp": 2835000,
+        "attack": 12930
+      },
+      {
+        "hp": 972000,
+        "attack": 18080
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_68",
+      "item_392"
+    ]
+  },
+  {
+    "id": "boss_82",
+    "name": "Thần Thú Vương 82",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 8200000,
+        "attack": 7560
+      },
+      {
+        "hp": 5330000,
+        "attack": 9800
+      },
+      {
+        "hp": 2870000,
+        "attack": 13060
+      },
+      {
+        "hp": 984000,
+        "attack": 18260
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_75",
+      "item_403"
+    ]
+  },
+  {
+    "id": "boss_83",
+    "name": "Hư Không Chúa Tể 83",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 8300000,
+        "attack": 7640
+      },
+      {
+        "hp": 5395000,
+        "attack": 9900
+      },
+      {
+        "hp": 2905000,
+        "attack": 13190
+      },
+      {
+        "hp": 996000,
+        "attack": 18440
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_82",
+      "item_414"
+    ]
+  },
+  {
+    "id": "boss_84",
+    "name": "Tứ Tượng Thủ Hộ 84",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 8400000,
+        "attack": 7720
+      },
+      {
+        "hp": 5460000,
+        "attack": 10000
+      },
+      {
+        "hp": 2940000,
+        "attack": 13320
+      },
+      {
+        "hp": 1008000,
+        "attack": 18620
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_89",
+      "item_425"
+    ]
+  },
+  {
+    "id": "boss_85",
+    "name": "Cổ Đế 85",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 8500000,
+        "attack": 7800
+      },
+      {
+        "hp": 5525000,
+        "attack": 10100
+      },
+      {
+        "hp": 2975000,
+        "attack": 13450
+      },
+      {
+        "hp": 1020000,
+        "attack": 18800
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_96",
+      "item_436"
+    ]
+  },
+  {
+    "id": "boss_86",
+    "name": "Ma Thần 86",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 8600000,
+        "attack": 7880
+      },
+      {
+        "hp": 5590000,
+        "attack": 10200
+      },
+      {
+        "hp": 3010000,
+        "attack": 13580
+      },
+      {
+        "hp": 1032000,
+        "attack": 18980
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_103",
+      "item_447"
+    ]
+  },
+  {
+    "id": "boss_87",
+    "name": "Thần Thú Vương 87",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 8700000,
+        "attack": 7960
+      },
+      {
+        "hp": 5655000,
+        "attack": 10300
+      },
+      {
+        "hp": 3045000,
+        "attack": 13710
+      },
+      {
+        "hp": 1044000,
+        "attack": 19160
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_110",
+      "item_458"
+    ]
+  },
+  {
+    "id": "boss_88",
+    "name": "Hư Không Chúa Tể 88",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 8800000,
+        "attack": 8040
+      },
+      {
+        "hp": 5720000,
+        "attack": 10400
+      },
+      {
+        "hp": 3080000,
+        "attack": 13840
+      },
+      {
+        "hp": 1056000,
+        "attack": 19340
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_117",
+      "item_469"
+    ]
+  },
+  {
+    "id": "boss_89",
+    "name": "Tứ Tượng Thủ Hộ 89",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 8900000,
+        "attack": 8120
+      },
+      {
+        "hp": 5785000,
+        "attack": 10500
+      },
+      {
+        "hp": 3115000,
+        "attack": 13970
+      },
+      {
+        "hp": 1068000,
+        "attack": 19520
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_124",
+      "item_480"
+    ]
+  },
+  {
+    "id": "boss_90",
+    "name": "Cổ Đế 90",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 9000000,
+        "attack": 8200
+      },
+      {
+        "hp": 5850000,
+        "attack": 10600
+      },
+      {
+        "hp": 3150000,
+        "attack": 14100
+      },
+      {
+        "hp": 1080000,
+        "attack": 19700
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_131",
+      "item_491"
+    ]
+  },
+  {
+    "id": "boss_91",
+    "name": "Ma Thần 91",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 9100000,
+        "attack": 8280
+      },
+      {
+        "hp": 5915000,
+        "attack": 10700
+      },
+      {
+        "hp": 3185000,
+        "attack": 14230
+      },
+      {
+        "hp": 1092000,
+        "attack": 19880
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_138",
+      "item_2"
+    ]
+  },
+  {
+    "id": "boss_92",
+    "name": "Thần Thú Vương 92",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 9200000,
+        "attack": 8360
+      },
+      {
+        "hp": 5980000,
+        "attack": 10800
+      },
+      {
+        "hp": 3220000,
+        "attack": 14360
+      },
+      {
+        "hp": 1104000,
+        "attack": 20060
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_145",
+      "item_13"
+    ]
+  },
+  {
+    "id": "boss_93",
+    "name": "Hư Không Chúa Tể 93",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 9300000,
+        "attack": 8440
+      },
+      {
+        "hp": 6045000,
+        "attack": 10900
+      },
+      {
+        "hp": 3255000,
+        "attack": 14490
+      },
+      {
+        "hp": 1116000,
+        "attack": 20240
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_152",
+      "item_24"
+    ]
+  },
+  {
+    "id": "boss_94",
+    "name": "Tứ Tượng Thủ Hộ 94",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 9400000,
+        "attack": 8520
+      },
+      {
+        "hp": 6110000,
+        "attack": 11000
+      },
+      {
+        "hp": 3290000,
+        "attack": 14620
+      },
+      {
+        "hp": 1128000,
+        "attack": 20420
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_159",
+      "item_35"
+    ]
+  },
+  {
+    "id": "boss_95",
+    "name": "Cổ Đế 95",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 9500000,
+        "attack": 8600
+      },
+      {
+        "hp": 6175000,
+        "attack": 11100
+      },
+      {
+        "hp": 3325000,
+        "attack": 14750
+      },
+      {
+        "hp": 1140000,
+        "attack": 20600
+      }
+    ],
+    "mechanics": "Summon Minions",
+    "drops": [
+      "item_166",
+      "item_46"
+    ]
+  },
+  {
+    "id": "boss_96",
+    "name": "Ma Thần 96",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 9600000,
+        "attack": 8680
+      },
+      {
+        "hp": 6240000,
+        "attack": 11200
+      },
+      {
+        "hp": 3360000,
+        "attack": 14880
+      },
+      {
+        "hp": 1152000,
+        "attack": 20780
+      }
+    ],
+    "mechanics": "Rage",
+    "drops": [
+      "item_173",
+      "item_57"
+    ]
+  },
+  {
+    "id": "boss_97",
+    "name": "Thần Thú Vương 97",
+    "difficulty": "Legendary",
+    "phases": [
+      {
+        "hp": 9700000,
+        "attack": 8760
+      },
+      {
+        "hp": 6305000,
+        "attack": 11300
+      },
+      {
+        "hp": 3395000,
+        "attack": 15010
+      },
+      {
+        "hp": 1164000,
+        "attack": 20960
+      }
+    ],
+    "mechanics": "Shield",
+    "drops": [
+      "item_180",
+      "item_68"
+    ]
+  },
+  {
+    "id": "boss_98",
+    "name": "Hư Không Chúa Tể 98",
+    "difficulty": "Ancient",
+    "phases": [
+      {
+        "hp": 9800000,
+        "attack": 8840
+      },
+      {
+        "hp": 6370000,
+        "attack": 11400
+      },
+      {
+        "hp": 3430000,
+        "attack": 15140
+      },
+      {
+        "hp": 1176000,
+        "attack": 21140
+      }
+    ],
+    "mechanics": "Counter",
+    "drops": [
+      "item_187",
+      "item_79"
+    ]
+  },
+  {
+    "id": "boss_99",
+    "name": "Tứ Tượng Thủ Hộ 99",
+    "difficulty": "Mythic",
+    "phases": [
+      {
+        "hp": 9900000,
+        "attack": 8920
+      },
+      {
+        "hp": 6435000,
+        "attack": 11500
+      },
+      {
+        "hp": 3465000,
+        "attack": 15270
+      },
+      {
+        "hp": 1188000,
+        "attack": 21320
+      }
+    ],
+    "mechanics": "AoE",
+    "drops": [
+      "item_194",
+      "item_90"
+    ]
+  },
+  {
+    "id": "boss_100",
+    "name": "Cổ Đế 100",
+    "difficulty": "Elite",
+    "phases": [
+      {
+        "hp": 10000000,
+        "attack": 9000
+      },
+      {
+        "hp": 6500000,
+        "attack": 11600
+      },
+      {
+        "hp": 3500000,
+        "attack": 15400
+      },
+      {
+        "hp": 1200000,
+        "attack": 21500
+      }
+    ],
+    "mechanics": "Enrage",
+    "drops": [
+      "item_201",
+      "item_101"
+    ]
+  }
+]

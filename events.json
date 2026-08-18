@@ -1,0 +1,602 @@
+[
+  {
+    "id": "event_1",
+    "name": "Đại Sự Kiện Tứ Tượng 1",
+    "type": "festival",
+    "duration_hours": 25,
+    "rewards": [
+      "item_18",
+      "item_20"
+    ]
+  },
+  {
+    "id": "event_2",
+    "name": "Đại Sự Kiện Tứ Tượng 2",
+    "type": "invasion",
+    "duration_hours": 26,
+    "rewards": [
+      "item_35",
+      "item_39"
+    ]
+  },
+  {
+    "id": "event_3",
+    "name": "Đại Sự Kiện Tứ Tượng 3",
+    "type": "treasure",
+    "duration_hours": 27,
+    "rewards": [
+      "item_52",
+      "item_58"
+    ]
+  },
+  {
+    "id": "event_4",
+    "name": "Đại Sự Kiện Tứ Tượng 4",
+    "type": "hunt",
+    "duration_hours": 28,
+    "rewards": [
+      "item_69",
+      "item_77"
+    ]
+  },
+  {
+    "id": "event_5",
+    "name": "Đại Sự Kiện Tứ Tượng 5",
+    "type": "raid",
+    "duration_hours": 29,
+    "rewards": [
+      "item_86",
+      "item_96"
+    ]
+  },
+  {
+    "id": "event_6",
+    "name": "Đại Sự Kiện Tứ Tượng 6",
+    "type": "festival",
+    "duration_hours": 30,
+    "rewards": [
+      "item_103",
+      "item_115"
+    ]
+  },
+  {
+    "id": "event_7",
+    "name": "Đại Sự Kiện Tứ Tượng 7",
+    "type": "invasion",
+    "duration_hours": 31,
+    "rewards": [
+      "item_120",
+      "item_134"
+    ]
+  },
+  {
+    "id": "event_8",
+    "name": "Đại Sự Kiện Tứ Tượng 8",
+    "type": "treasure",
+    "duration_hours": 32,
+    "rewards": [
+      "item_137",
+      "item_153"
+    ]
+  },
+  {
+    "id": "event_9",
+    "name": "Đại Sự Kiện Tứ Tượng 9",
+    "type": "hunt",
+    "duration_hours": 33,
+    "rewards": [
+      "item_154",
+      "item_172"
+    ]
+  },
+  {
+    "id": "event_10",
+    "name": "Đại Sự Kiện Tứ Tượng 10",
+    "type": "raid",
+    "duration_hours": 34,
+    "rewards": [
+      "item_171",
+      "item_191"
+    ]
+  },
+  {
+    "id": "event_11",
+    "name": "Đại Sự Kiện Tứ Tượng 11",
+    "type": "festival",
+    "duration_hours": 35,
+    "rewards": [
+      "item_188",
+      "item_210"
+    ]
+  },
+  {
+    "id": "event_12",
+    "name": "Đại Sự Kiện Tứ Tượng 12",
+    "type": "invasion",
+    "duration_hours": 36,
+    "rewards": [
+      "item_205",
+      "item_229"
+    ]
+  },
+  {
+    "id": "event_13",
+    "name": "Đại Sự Kiện Tứ Tượng 13",
+    "type": "treasure",
+    "duration_hours": 37,
+    "rewards": [
+      "item_222",
+      "item_248"
+    ]
+  },
+  {
+    "id": "event_14",
+    "name": "Đại Sự Kiện Tứ Tượng 14",
+    "type": "hunt",
+    "duration_hours": 24,
+    "rewards": [
+      "item_239",
+      "item_267"
+    ]
+  },
+  {
+    "id": "event_15",
+    "name": "Đại Sự Kiện Tứ Tượng 15",
+    "type": "raid",
+    "duration_hours": 25,
+    "rewards": [
+      "item_256",
+      "item_286"
+    ]
+  },
+  {
+    "id": "event_16",
+    "name": "Đại Sự Kiện Tứ Tượng 16",
+    "type": "festival",
+    "duration_hours": 26,
+    "rewards": [
+      "item_273",
+      "item_305"
+    ]
+  },
+  {
+    "id": "event_17",
+    "name": "Đại Sự Kiện Tứ Tượng 17",
+    "type": "invasion",
+    "duration_hours": 27,
+    "rewards": [
+      "item_290",
+      "item_324"
+    ]
+  },
+  {
+    "id": "event_18",
+    "name": "Đại Sự Kiện Tứ Tượng 18",
+    "type": "treasure",
+    "duration_hours": 28,
+    "rewards": [
+      "item_307",
+      "item_343"
+    ]
+  },
+  {
+    "id": "event_19",
+    "name": "Đại Sự Kiện Tứ Tượng 19",
+    "type": "hunt",
+    "duration_hours": 29,
+    "rewards": [
+      "item_324",
+      "item_362"
+    ]
+  },
+  {
+    "id": "event_20",
+    "name": "Đại Sự Kiện Tứ Tượng 20",
+    "type": "raid",
+    "duration_hours": 30,
+    "rewards": [
+      "item_341",
+      "item_381"
+    ]
+  },
+  {
+    "id": "event_21",
+    "name": "Đại Sự Kiện Tứ Tượng 21",
+    "type": "festival",
+    "duration_hours": 31,
+    "rewards": [
+      "item_358",
+      "item_400"
+    ]
+  },
+  {
+    "id": "event_22",
+    "name": "Đại Sự Kiện Tứ Tượng 22",
+    "type": "invasion",
+    "duration_hours": 32,
+    "rewards": [
+      "item_375",
+      "item_419"
+    ]
+  },
+  {
+    "id": "event_23",
+    "name": "Đại Sự Kiện Tứ Tượng 23",
+    "type": "treasure",
+    "duration_hours": 33,
+    "rewards": [
+      "item_392",
+      "item_438"
+    ]
+  },
+  {
+    "id": "event_24",
+    "name": "Đại Sự Kiện Tứ Tượng 24",
+    "type": "hunt",
+    "duration_hours": 34,
+    "rewards": [
+      "item_409",
+      "item_457"
+    ]
+  },
+  {
+    "id": "event_25",
+    "name": "Đại Sự Kiện Tứ Tượng 25",
+    "type": "raid",
+    "duration_hours": 35,
+    "rewards": [
+      "item_426",
+      "item_476"
+    ]
+  },
+  {
+    "id": "event_26",
+    "name": "Đại Sự Kiện Tứ Tượng 26",
+    "type": "festival",
+    "duration_hours": 36,
+    "rewards": [
+      "item_443",
+      "item_495"
+    ]
+  },
+  {
+    "id": "event_27",
+    "name": "Đại Sự Kiện Tứ Tượng 27",
+    "type": "invasion",
+    "duration_hours": 37,
+    "rewards": [
+      "item_460",
+      "item_14"
+    ]
+  },
+  {
+    "id": "event_28",
+    "name": "Đại Sự Kiện Tứ Tượng 28",
+    "type": "treasure",
+    "duration_hours": 24,
+    "rewards": [
+      "item_477",
+      "item_33"
+    ]
+  },
+  {
+    "id": "event_29",
+    "name": "Đại Sự Kiện Tứ Tượng 29",
+    "type": "hunt",
+    "duration_hours": 25,
+    "rewards": [
+      "item_494",
+      "item_52"
+    ]
+  },
+  {
+    "id": "event_30",
+    "name": "Đại Sự Kiện Tứ Tượng 30",
+    "type": "raid",
+    "duration_hours": 26,
+    "rewards": [
+      "item_11",
+      "item_71"
+    ]
+  },
+  {
+    "id": "event_31",
+    "name": "Đại Sự Kiện Tứ Tượng 31",
+    "type": "festival",
+    "duration_hours": 27,
+    "rewards": [
+      "item_28",
+      "item_90"
+    ]
+  },
+  {
+    "id": "event_32",
+    "name": "Đại Sự Kiện Tứ Tượng 32",
+    "type": "invasion",
+    "duration_hours": 28,
+    "rewards": [
+      "item_45",
+      "item_109"
+    ]
+  },
+  {
+    "id": "event_33",
+    "name": "Đại Sự Kiện Tứ Tượng 33",
+    "type": "treasure",
+    "duration_hours": 29,
+    "rewards": [
+      "item_62",
+      "item_128"
+    ]
+  },
+  {
+    "id": "event_34",
+    "name": "Đại Sự Kiện Tứ Tượng 34",
+    "type": "hunt",
+    "duration_hours": 30,
+    "rewards": [
+      "item_79",
+      "item_147"
+    ]
+  },
+  {
+    "id": "event_35",
+    "name": "Đại Sự Kiện Tứ Tượng 35",
+    "type": "raid",
+    "duration_hours": 31,
+    "rewards": [
+      "item_96",
+      "item_166"
+    ]
+  },
+  {
+    "id": "event_36",
+    "name": "Đại Sự Kiện Tứ Tượng 36",
+    "type": "festival",
+    "duration_hours": 32,
+    "rewards": [
+      "item_113",
+      "item_185"
+    ]
+  },
+  {
+    "id": "event_37",
+    "name": "Đại Sự Kiện Tứ Tượng 37",
+    "type": "invasion",
+    "duration_hours": 33,
+    "rewards": [
+      "item_130",
+      "item_204"
+    ]
+  },
+  {
+    "id": "event_38",
+    "name": "Đại Sự Kiện Tứ Tượng 38",
+    "type": "treasure",
+    "duration_hours": 34,
+    "rewards": [
+      "item_147",
+      "item_223"
+    ]
+  },
+  {
+    "id": "event_39",
+    "name": "Đại Sự Kiện Tứ Tượng 39",
+    "type": "hunt",
+    "duration_hours": 35,
+    "rewards": [
+      "item_164",
+      "item_242"
+    ]
+  },
+  {
+    "id": "event_40",
+    "name": "Đại Sự Kiện Tứ Tượng 40",
+    "type": "raid",
+    "duration_hours": 36,
+    "rewards": [
+      "item_181",
+      "item_261"
+    ]
+  },
+  {
+    "id": "event_41",
+    "name": "Đại Sự Kiện Tứ Tượng 41",
+    "type": "festival",
+    "duration_hours": 37,
+    "rewards": [
+      "item_198",
+      "item_280"
+    ]
+  },
+  {
+    "id": "event_42",
+    "name": "Đại Sự Kiện Tứ Tượng 42",
+    "type": "invasion",
+    "duration_hours": 24,
+    "rewards": [
+      "item_215",
+      "item_299"
+    ]
+  },
+  {
+    "id": "event_43",
+    "name": "Đại Sự Kiện Tứ Tượng 43",
+    "type": "treasure",
+    "duration_hours": 25,
+    "rewards": [
+      "item_232",
+      "item_318"
+    ]
+  },
+  {
+    "id": "event_44",
+    "name": "Đại Sự Kiện Tứ Tượng 44",
+    "type": "hunt",
+    "duration_hours": 26,
+    "rewards": [
+      "item_249",
+      "item_337"
+    ]
+  },
+  {
+    "id": "event_45",
+    "name": "Đại Sự Kiện Tứ Tượng 45",
+    "type": "raid",
+    "duration_hours": 27,
+    "rewards": [
+      "item_266",
+      "item_356"
+    ]
+  },
+  {
+    "id": "event_46",
+    "name": "Đại Sự Kiện Tứ Tượng 46",
+    "type": "festival",
+    "duration_hours": 28,
+    "rewards": [
+      "item_283",
+      "item_375"
+    ]
+  },
+  {
+    "id": "event_47",
+    "name": "Đại Sự Kiện Tứ Tượng 47",
+    "type": "invasion",
+    "duration_hours": 29,
+    "rewards": [
+      "item_300",
+      "item_394"
+    ]
+  },
+  {
+    "id": "event_48",
+    "name": "Đại Sự Kiện Tứ Tượng 48",
+    "type": "treasure",
+    "duration_hours": 30,
+    "rewards": [
+      "item_317",
+      "item_413"
+    ]
+  },
+  {
+    "id": "event_49",
+    "name": "Đại Sự Kiện Tứ Tượng 49",
+    "type": "hunt",
+    "duration_hours": 31,
+    "rewards": [
+      "item_334",
+      "item_432"
+    ]
+  },
+  {
+    "id": "event_50",
+    "name": "Đại Sự Kiện Tứ Tượng 50",
+    "type": "raid",
+    "duration_hours": 32,
+    "rewards": [
+      "item_351",
+      "item_451"
+    ]
+  },
+  {
+    "id": "event_51",
+    "name": "Đại Sự Kiện Tứ Tượng 51",
+    "type": "festival",
+    "duration_hours": 33,
+    "rewards": [
+      "item_368",
+      "item_470"
+    ]
+  },
+  {
+    "id": "event_52",
+    "name": "Đại Sự Kiện Tứ Tượng 52",
+    "type": "invasion",
+    "duration_hours": 34,
+    "rewards": [
+      "item_385",
+      "item_489"
+    ]
+  },
+  {
+    "id": "event_53",
+    "name": "Đại Sự Kiện Tứ Tượng 53",
+    "type": "treasure",
+    "duration_hours": 35,
+    "rewards": [
+      "item_402",
+      "item_8"
+    ]
+  },
+  {
+    "id": "event_54",
+    "name": "Đại Sự Kiện Tứ Tượng 54",
+    "type": "hunt",
+    "duration_hours": 36,
+    "rewards": [
+      "item_419",
+      "item_27"
+    ]
+  },
+  {
+    "id": "event_55",
+    "name": "Đại Sự Kiện Tứ Tượng 55",
+    "type": "raid",
+    "duration_hours": 37,
+    "rewards": [
+      "item_436",
+      "item_46"
+    ]
+  },
+  {
+    "id": "event_56",
+    "name": "Đại Sự Kiện Tứ Tượng 56",
+    "type": "festival",
+    "duration_hours": 24,
+    "rewards": [
+      "item_453",
+      "item_65"
+    ]
+  },
+  {
+    "id": "event_57",
+    "name": "Đại Sự Kiện Tứ Tượng 57",
+    "type": "invasion",
+    "duration_hours": 25,
+    "rewards": [
+      "item_470",
+      "item_84"
+    ]
+  },
+  {
+    "id": "event_58",
+    "name": "Đại Sự Kiện Tứ Tượng 58",
+    "type": "treasure",
+    "duration_hours": 26,
+    "rewards": [
+      "item_487",
+      "item_103"
+    ]
+  },
+  {
+    "id": "event_59",
+    "name": "Đại Sự Kiện Tứ Tượng 59",
+    "type": "hunt",
+    "duration_hours": 27,
+    "rewards": [
+      "item_4",
+      "item_122"
+    ]
+  },
+  {
+    "id": "event_60",
+    "name": "Đại Sự Kiện Tứ Tượng 60",
+    "type": "raid",
+    "duration_hours": 28,
+    "rewards": [
+      "item_21",
+      "item_141"
+    ]
+  }
+]

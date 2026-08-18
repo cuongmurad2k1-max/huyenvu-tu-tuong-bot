@@ -1,0 +1,50 @@
+{
+  "frame_sets": {
+    "faction_awaken": [
+      "blackout",
+      "symbol",
+      "element",
+      "beast_roar",
+      "title_reveal"
+    ],
+    "boss_intro": [
+      "warning",
+      "portal",
+      "boss_name",
+      "hp_bar",
+      "roar"
+    ],
+    "boss_phase": [
+      "screen_shake",
+      "phase_text",
+      "shield",
+      "rage",
+      "ultimate"
+    ],
+    "combat": [
+      "charge",
+      "skill",
+      "impact",
+      "critical",
+      "status",
+      "damage",
+      "counter",
+      "finish"
+    ],
+    "loot": [
+      "chest",
+      "glow",
+      "rarity",
+      "item",
+      "stats"
+    ],
+    "evolution": [
+      "egg",
+      "crack",
+      "light",
+      "beast",
+      "new_form"
+    ]
+  },
+  "note": "Các frame là tên logic; đặt GIF/WebP/PNG tự tạo trong data/assets."
+}
