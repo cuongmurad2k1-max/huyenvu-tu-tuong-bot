@@ -3,350 +3,360 @@ const {
 } = require("discord.js");
 
 module.exports = {
-
     name: "help",
 
-    description:
-        "Hiển thị toàn bộ danh sách lệnh",
+    description: "Hiển thị toàn bộ danh sách lệnh",
 
     async execute(message, args) {
 
         try {
 
-            const commandMap =
-                message.client.commandMap;
-
-            if (
-                !commandMap ||
-                commandMap.size === 0
-            ) {
-
-                await message.reply(
-                    "❌ Không thể lấy danh sách command."
-                );
-
-                return;
-            }
-
-            // ==================================================
-            // LẤY TOÀN BỘ COMMAND
-            // ==================================================
-
             const commands =
-                [...commandMap.values()]
-                    .filter(command => {
+                message.client.commands;
 
-                        return (
-                            command &&
-                            typeof command.name ===
-                            "string"
-                        );
-
-                    });
-
-            if (commands.length === 0) {
+            if (!commands || commands.size === 0) {
 
                 await message.reply(
-                    "❌ Không có command nào."
+                    "❌ Không có command nào được tải."
                 );
 
                 return;
             }
 
-            // ==================================================
-            // CHIA NHÓM THEO FILE
-            // ==================================================
+            // ==========================================
+            // CHUYỂN COMMAND THÀNH ARRAY
+            // ==========================================
 
-            const groups = new Map();
+            const list = [];
 
-            for (const command of commands) {
+            for (const [name, command] of commands) {
 
-                let fileName = "Khác";
-
-                if (command.file) {
-
-                    fileName =
-                        command.file
-                            .split("/")
-                            .pop()
-                            .replace(".js", "");
-
-                }
-
-                // ==================================================
-                // ĐẶT TÊN NHÓM
-                // ==================================================
-
-                let groupName = "📦 KHÁC";
-
-                if (
-                    fileName
-                        .toLowerCase()
-                        .includes("combat")
-                ) {
-
-                    groupName =
-                        "⚔️ CHIẾN ĐẤU";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("tutuong")
-                ) {
-
-                    groupName =
-                        "🐉 TỨ TƯỢNG";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("thanthu")
-                ) {
-
-                    groupName =
-                        "🦁 THẦN THÚ";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("nhanvat")
-                ) {
-
-                    groupName =
-                        "👤 NHÂN VẬT";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("boss")
-                ) {
-
-                    groupName =
-                        "👹 BOSS / RAID";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("pvp")
-                ) {
-
-                    groupName =
-                        "⚔️ PVP";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("guild")
-                ) {
-
-                    groupName =
-                        "🏰 GUILD";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("shop")
-                ) {
-
-                    groupName =
-                        "🛒 CỬA HÀNG";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("item")
-                ) {
-
-                    groupName =
-                        "🎒 VẬT PHẨM";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("economy")
-                ) {
-
-                    groupName =
-                        "💰 KINH TẾ";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("admin")
-                ) {
-
-                    groupName =
-                        "👑 ADMIN";
-
-                } else if (
-                    fileName
-                        .toLowerCase()
-                        .includes("help")
-                ) {
-
-                    groupName =
-                        "📖 HỆ THỐNG";
-
-                } else {
-
-                    groupName =
-                        `📦 ${fileName}`;
-                }
-
-                if (
-                    !groups.has(groupName)
-                ) {
-
-                    groups.set(
-                        groupName,
-                        []
-                    );
-                }
-
-                groups
-                    .get(groupName)
-                    .push(command);
-            }
-
-            // ==================================================
-            // SẮP XẾP COMMAND
-            // ==================================================
-
-            for (
-                const list of groups.values()
-            ) {
-
-                list.sort(
-                    (a, b) =>
-                        a.name.localeCompare(
-                            b.name
-                        )
-                );
-            }
-
-            // ==================================================
-            // TỔNG SỐ
-            // ==================================================
-
-            const total =
-                commands.length;
-
-            // ==================================================
-            // TẠO NỘI DUNG HELP
-            // ==================================================
-
-            let pages = [];
-
-            let currentPage = "";
-
-            const MAX_LENGTH = 3500;
-
-            for (
-                const [groupName, list]
-                of groups
-            ) {
-
-                let text =
-                    `\n${groupName}\n`;
-
-                text +=
-                    "────────────────────\n";
-
-                for (
-                    const command of list
-                ) {
-
-                    let description =
+                list.push({
+                    name: name,
+                    description:
                         command.description ||
-                        (
-                            command.data &&
-                            command.data.description
-                        ) ||
-                        "Không có mô tả";
+                        command.data?.description ||
+                        "Không có mô tả"
+                });
+            }
 
-                    description =
-                        String(description)
-                            .replace(/\n/g, " ")
-                            .slice(0, 100);
+            // Sắp xếp A → Z
+            list.sort((a, b) =>
+                a.name.localeCompare(b.name)
+            );
 
-                    const line =
-                        `\`.${command.name}\` — ${description}\n`;
+            // ==========================================
+            // CHIA NHÓM
+            // ==========================================
 
-                    // Nếu vượt giới hạn
-                    if (
-                        currentPage.length +
-                        text.length +
-                        line.length >
-                        MAX_LENGTH
-                    ) {
+            const groups = {
+
+                "⚔️ COMBAT": [
+                    "combat",
+                    "attack",
+                    "danh",
+                    "chien",
+                    "arena",
+                    "pk"
+                ],
+
+                "🔮 TU TƯỞNG": [
+                    "tutuong",
+                    "tuong",
+                    "tuluyen",
+                    "tu-luyen"
+                ],
+
+                "👻 THẦN THÚ": [
+                    "thanthu",
+                    "linhthu"
+                ],
+
+                "👤 NHÂN VẬT": [
+                    "nhanvat",
+                    "nhanvat",
+                    "profile",
+                    "me"
+                ],
+
+                "👹 BOSS / RAID": [
+                    "boss",
+                    "bossraid",
+                    "raid",
+                    "dotpha"
+                ],
+
+                "🏆 PVP": [
+                    "pvp",
+                    "arena"
+                ],
+
+                "🏰 GUILD": [
+                    "guild",
+                    "bang"
+                ],
+
+                "💰 KINH TẾ": [
+                    "shop",
+                    "mua",
+                    "ban",
+                    "item",
+                    "money",
+                    "economy"
+                ],
+
+                "🎒 VẬT PHẨM": [
+                    "item",
+                    "inventory",
+                    "tui",
+                    "kho"
+                ],
+
+                "📖 HỆ THỐNG": [
+                    "help",
+                    "ping",
+                    "data",
+                    "database"
+                ]
+            };
+
+            // ==========================================
+            // TẠO DANH SÁCH NHÓM
+            // ==========================================
+
+            const used = new Set();
+
+            const pages = [];
+
+            let current = "";
+
+            function addCommand(command) {
+
+                const line =
+                    `\`.${command.name}\` — ${command.description}\n`;
+
+                // Discord Embed tối đa khoảng 6000 ký tự
+                if (
+                    current.length + line.length > 3500
+                ) {
+
+                    pages.push(current);
+
+                    current = "";
+                }
+
+                current += line;
+            }
+
+            // ==========================================
+            // NHÓM COMMAND
+            // ==========================================
+
+            for (
+                const [groupName, keywords]
+                of Object.entries(groups)
+            ) {
+
+                const groupCommands =
+                    list.filter(command => {
 
                         if (
-                            currentPage.length > 0
+                            used.has(command.name)
                         ) {
-
-                            pages.push(
-                                currentPage
-                            );
-
+                            return false;
                         }
 
-                        currentPage =
-                            text + line;
+                        const name =
+                            command.name.toLowerCase();
 
-                        text = "";
+                        return keywords.some(keyword =>
+                            name.includes(
+                                keyword.toLowerCase()
+                            )
+                        );
+                    });
 
-                    } else {
+                if (
+                    groupCommands.length === 0
+                ) {
+                    continue;
+                }
 
-                        currentPage +=
-                            text + line;
+                current +=
+                    `\n${groupName}\n` +
+                    `━━━━━━━━━━━━━━━━━━━━\n`;
 
-                        text = "";
-                    }
+                for (
+                    const command
+                    of groupCommands
+                ) {
+
+                    used.add(command.name);
+
+                    addCommand(command);
                 }
             }
 
-            if (
-                currentPage.length > 0
-            ) {
+            // ==========================================
+            // COMMAND CHƯA CÓ NHÓM
+            // ==========================================
 
-                pages.push(
-                    currentPage
+            const otherCommands =
+                list.filter(command =>
+                    !used.has(command.name)
                 );
+
+            if (otherCommands.length > 0) {
+
+                current +=
+                    `\n📚 KHÁC\n` +
+                    `━━━━━━━━━━━━━━━━━━━━\n`;
+
+                for (
+                    const command
+                    of otherCommands
+                ) {
+
+                    addCommand(command);
+                }
             }
 
-            // ==================================================
-            // GỬI TỪNG TRANG
-            // ==================================================
+            // ==========================================
+            // THÊM TRANG CUỐI
+            // ==========================================
 
-            for (
-                let i = 0;
-                i < pages.length;
-                i++
-            ) {
+            if (current.trim()) {
+
+                pages.push(current);
+            }
+
+            // ==========================================
+            // GỬI HELP
+            // ==========================================
+
+            if (pages.length === 0) {
+
+                await message.reply(
+                    "❌ Không tìm thấy command."
+                );
+
+                return;
+            }
+
+            let page = 0;
+
+            async function sendPage() {
 
                 const embed =
                     new EmbedBuilder()
                         .setTitle(
-                            "📖 HUYỀN VŨ TỨ TƯỢNG — DANH SÁCH LỆNH"
+                            "📚 HUYỀN VŨ TỨ TƯỢNG — DANH SÁCH LỆNH"
                         )
                         .setDescription(
-                            pages[i]
+                            pages[page]
                         )
                         .setFooter({
                             text:
-                                `Tổng ${total} lệnh • Trang ${i + 1}/${pages.length}`
+                                `Tổng ${list.length} lệnh • Trang ${page + 1}/${pages.length}`
                         })
                         .setTimestamp();
 
-                await message.channel.send({
-                    embeds: [embed]
-                });
+                const sent =
+                    await message.channel.send({
+                        embeds: [embed]
+                    });
+
+                // ======================================
+                // NẾU CHỈ CÓ 1 TRANG
+                // ======================================
+
+                if (pages.length <= 1) {
+                    return;
+                }
+
+                // ======================================
+                // NÚT TRANG
+                // ======================================
+
+                await sent.react("⬅️");
+                await sent.react("➡️");
+
+                const filter =
+                    (reaction, user) =>
+                        ["⬅️", "➡️"].includes(
+                            reaction.emoji.name
+                        ) &&
+                        user.id ===
+                            message.author.id;
+
+                const collector =
+                    sent.createReactionCollector({
+                        filter,
+                        time: 5 * 60 * 1000
+                    });
+
+                collector.on(
+                    "collect",
+                    async reaction => {
+
+                        if (
+                            reaction.emoji.name ===
+                            "➡️"
+                        ) {
+
+                            page++;
+
+                            if (
+                                page >= pages.length
+                            ) {
+                                page = 0;
+                            }
+                        }
+
+                        if (
+                            reaction.emoji.name ===
+                            "⬅️"
+                        ) {
+
+                            page--;
+
+                            if (page < 0) {
+                                page =
+                                    pages.length - 1;
+                            }
+                        }
+
+                        const newEmbed =
+                            new EmbedBuilder()
+                                .setTitle(
+                                    "📚 HUYỀN VŨ TỨ TƯỢNG — DANH SÁCH LỆNH"
+                                )
+                                .setDescription(
+                                    pages[page]
+                                )
+                                .setFooter({
+                                    text:
+                                        `Tổng ${list.length} lệnh • Trang ${page + 1}/${pages.length}`
+                                })
+                                .setTimestamp();
+
+                        await sent.edit({
+                            embeds: [newEmbed]
+                        });
+
+                        await reaction.users.remove(
+                            message.author.id
+                        );
+                    }
+                );
             }
+
+            await sendPage();
 
         } catch (error) {
 
             console.error(
-                "❌ Lỗi .help:"
+                "❌ LỖI HELP:"
             );
 
             console.error(error);
@@ -354,7 +364,7 @@ module.exports = {
             try {
 
                 await message.reply(
-                    "❌ Có lỗi khi tạo danh sách command."
+                    "❌ Không thể lấy danh sách command."
                 );
 
             } catch {}
