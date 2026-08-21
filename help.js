@@ -6,891 +6,520 @@ const {
 } = require("discord.js");
 
 // ======================================================
-// CONFIG
-// ======================================================
-
-const PREFIX = ".";
-
-// Số command hiển thị trên 1 trang của 1 nhóm
-const COMMANDS_PER_PAGE = 20;
-
-// ======================================================
-// 14 NHÓM LỚN
+// CẤU HÌNH 14 NHÓM LỚN
 // ======================================================
 
 const GROUPS = [
     {
-        id: "combat",
-        name: "⚔️ CHIẾN ĐẤU",
-        description: "Chiến đấu, đánh quái, tấn công",
+        name: "🌟 NHÂN VẬT",
         keywords: [
-            "combat",
-            "fight",
-            "attack",
-            "battle",
-            "danh",
-            "chien",
-            "dau",
-            "damage",
-            "skill",
-            "attack",
-            "arena"
+            "batdau",
+            "trangthai",
+            "tuv",
+            "me",
+            "profile",
+            "nhanvat",
+            "thongtin",
+            "hoso",
+            "avatar",
+            "info"
         ]
     },
 
     {
-        id: "tutuong",
-        name: "☯️ TỨ TƯỢNG",
-        description: "Hệ thống Huyền Vũ Tứ Tượng",
-        keywords: [
-            "tutuong",
-            "tứtượng",
-            "tu_tuong",
-            "hopthe",
-            "hop_the",
-            "nguhanh",
-            "ngu_hanh",
-            "amduong",
-            "am_duong"
-        ]
-    },
-
-    {
-        id: "tuluyen",
         name: "🔥 TU LUYỆN",
-        description: "Tu luyện, cảnh giới, linh lực, kinh nghiệm",
         keywords: [
             "tuluyen",
-            "tu_luyen",
-            "luyenthi",
-            "luyen",
+            "tuyenluyen",
+            "tuvi",
             "canhgioi",
-            "canh_gioi",
-            "linhluc",
-            "linh_luc",
+            "dotpha",
+            "linhthu",
             "kinhnghiem",
-            "kinh_nghiem",
-            "exp",
-            "level",
-            "capdo",
-            "cap_do"
+            "linhluc",
+            "khang",
+            "congphap",
+            "tamphap"
         ]
     },
 
     {
-        id: "thanthu",
-        name: "🐉 THẦN THÚ",
-        description: "Thần thú, thú cưỡi, tiến hóa",
+        name: "⚔️ CHIẾN ĐẤU",
         keywords: [
-            "thanthu",
-            "than_thu",
-            "thầnthú",
-            "thú",
-            "thu",
-            "pet",
-            "thucuoi",
-            "thu_cuoi",
-            "tienhoa",
-            "tien_hoa",
-            "evolve"
-        ]
-    },
-
-    {
-        id: "nhanvat",
-        name: "👤 NHÂN VẬT",
-        description: "Thông tin và phát triển nhân vật",
-        keywords: [
-            "nhanvat",
-            "nhan_vat",
-            "profile",
-            "me",
-            "info",
-            "thongtin",
-            "thong_tin",
-            "stats",
-            "stat",
-            "avatar",
-            "rank",
-            "level"
-        ]
-    },
-
-    {
-        id: "boss",
-        name: "👹 BOSS RAID",
-        description: "Boss, raid và phần thưởng boss",
-        keywords: [
-            "boss",
-            "raid",
-            "bossraid",
-            "boss_raid",
-            "worldboss",
-            "world_boss",
-            "bossfight",
-            "boss_fight"
-        ]
-    },
-
-    {
-        id: "pvp",
-        name: "🏆 PVP",
-        description: "Đấu người chơi, đấu trường và xếp hạng",
-        keywords: [
+            "combat",
+            "danh",
+            "chien",
+            "arena",
             "pvp",
             "pk",
-            "arena",
-            "duel",
-            "dau",
-            "rank",
-            "ranking",
-            "leaderboard",
-            "top"
+            "battle",
+            "dautruong",
+            "phoban",
+            "boss",
+            "raid"
         ]
     },
 
     {
-        id: "phoban",
-        name: "🏯 PHÓ BẢN",
-        description: "Phó bản, cửa ải và thử thách",
+        name: "🌎 THẾ GIỚI",
         keywords: [
-            "phoban",
-            "pho_ban",
-            "dungeon",
-            "instance",
-            "phoban",
-            "phó_bản",
-            "man",
+            "thegioi",
+            "khuvuc",
             "map",
-            "cuaai",
-            "cua_ai",
-            "challenge"
+            "ban do",
+            "thanh",
+            "lang",
+            "vung",
+            "di",
+            "tele",
+            "dichuyen"
         ]
     },
 
     {
-        id: "item",
+        name: "📜 NHIỆM VỤ",
+        keywords: [
+            "nhiemvu",
+            "quest",
+            "daily",
+            "dailyquest",
+            "nhiemvu",
+            "nhiemvutuan",
+            "nhiemvungay"
+        ]
+    },
+
+    {
         name: "🎒 VẬT PHẨM",
-        description: "Item, trang bị, túi đồ và sử dụng vật phẩm",
         keywords: [
             "item",
-            "items",
             "vatpham",
-            "vat_pham",
+            "tui",
+            "kho",
+            "khodo",
             "inventory",
             "inv",
-            "tui",
-            "bag",
-            "shop",
-            "equip",
-            "trangbi",
-            "trang_bi",
-            "weapon",
-            "armor",
-            "useitem",
-            "use_item"
+            "nhat",
+            "drop",
+            "loot",
+            "useitem"
         ]
     },
 
     {
-        id: "kinhte",
         name: "💰 KINH TẾ",
-        description: "Tiền, mua bán, cửa hàng và giao dịch",
         keywords: [
-            "economy",
+            "shop",
+            "mua",
+            "ban",
+            "muasam",
             "money",
             "coin",
             "gold",
             "tien",
-            "xu",
-            "ngoc",
-            "shop",
-            "mua",
-            "ban",
-            "sell",
-            "buy",
-            "trade",
-            "giaodich",
-            "giao_dich",
             "bank",
-            "daily",
-            "reward"
+            "nganhang",
+            "trade",
+            "giao"
         ]
     },
 
     {
-        id: "linhthu",
-        name: "🦊 LINH THÚ",
-        description: "Linh thú, triệu hồi và phát triển linh thú",
+        name: "🏆 XẾP HẠNG",
         keywords: [
-            "linhthu",
-            "linh_thu",
-            "linhthú",
-            "summon",
-            "trieuhồi",
-            "trieuhoi",
-            "trieu_hoi",
-            "pet",
-            "thú"
+            "top",
+            "rank",
+            "ranking",
+            "xephang",
+            "leaderboard",
+            "bxh",
+            "diem",
+            "thanh tich"
         ]
     },
 
     {
-        id: "banghoi",
-        name: "🏰 BANG HỘI",
-        description: "Bang hội, thành viên và hoạt động bang",
+        name: "📖 CỐT TRUYỆN",
         keywords: [
-            "bang",
-            "banghoi",
-            "bang_hoi",
-            "guild",
-            "clan",
-            "member",
-            "thanhvien",
-            "thanh_vien",
+            "cottruyen",
+            "story",
+            "truyen",
+            "chuong",
+            "chapter",
+            "su kien",
+            "sukien",
+            "lichsu"
+        ]
+    },
+
+    {
+        name: "🎯 KỸ NĂNG",
+        keywords: [
+            "kynang",
+            "skill",
+            "ky nang",
+            "chieu",
+            "cong",
+            "phap",
+            "skilltree",
+            "thongthao"
+        ]
+    },
+
+    {
+        name: "🐉 BOSS / PHÓ BẢN",
+        keywords: [
+            "boss",
+            "bossraid",
+            "raid",
+            "phoban",
+            "dungeon",
+            "raidboss",
+            "worldboss",
+            "bosshunt"
+        ]
+    },
+
+    {
+        name: "👥 TƯƠNG TÁC",
+        keywords: [
+            "tuongtac",
+            "friend",
+            "banbe",
+            "ketban",
+            "gift",
+            "give",
+            "invite",
+            "team",
             "party",
-            "team"
+            "guild"
         ]
     },
 
     {
-        id: "he thong",
-        name: "📖 HỆ THỐNG",
-        description: "Thông tin, hướng dẫn và tiện ích",
+        name: "⚙️ HỆ THỐNG",
         keywords: [
             "help",
-            "menu",
-            "info",
-            "about",
             "data",
-            "database",
-            "db",
-            "ping",
-            "status",
-            "uptime",
-            "version",
-            "guide",
-            "huongdan",
-            "huong_dan",
-            "setting",
-            "settings"
-        ]
-    },
-
-    {
-        id: "admin",
-        name: "👑 QUẢN TRỊ",
-        description: "Lệnh quản trị bot",
-        keywords: [
-            "admin",
             "reset",
-            "resetdata",
-            "resetall",
-            "reload",
-            "load",
-            "debug",
-            "ban",
-            "unban",
-            "kick",
-            "mute",
-            "unmute",
-            "give",
-            "set",
-            "delete",
-            "remove"
+            "settings",
+            "setting",
+            "config",
+            "ping",
+            "uptime",
+            "server",
+            "bot",
+            "admin"
         ]
-    },
-
-    {
-        id: "khac",
-        name: "🔧 KHÁC",
-        description: "Các lệnh chưa thuộc nhóm cụ thể",
-        keywords: []
     }
 ];
 
 // ======================================================
-// HÀM LẤY TÊN COMMAND
+// TÌM NHÓM CHO COMMAND
 // ======================================================
 
-function getCommandName(command) {
+function findGroup(commandName) {
 
-    if (!command) {
-        return null;
+    const name = commandName
+        .toLowerCase()
+        .replace(/[_\-]/g, "");
+
+    for (const group of GROUPS) {
+
+        for (const keyword of group.keywords) {
+
+            const key = keyword
+                .toLowerCase()
+                .replace(/[_\-\s]/g, "");
+
+            if (
+                name === key ||
+                name.includes(key) ||
+                key.includes(name)
+            ) {
+                return group.name;
+            }
+        }
     }
 
-    if (
-        typeof command.name === "string" &&
-        command.name.trim()
-    ) {
-        return command.name.trim();
-    }
-
-    if (
-        command.data &&
-        typeof command.data.name === "string" &&
-        command.data.name.trim()
-    ) {
-        return command.data.name.trim();
-    }
-
-    if (
-        typeof command.command === "string" &&
-        command.command.trim()
-    ) {
-        return command.command.trim();
-    }
-
-    return null;
+    return "📦 KHÁC";
 }
 
 // ======================================================
-// LẤY DESCRIPTION
+// LẤY MÔ TẢ COMMAND
 // ======================================================
 
-function getCommandDescription(command) {
+function getDescription(command) {
 
     if (!command) {
         return "Không có mô tả";
     }
 
     if (
-        typeof command.description === "string" &&
-        command.description.trim()
+        command.data &&
+        typeof command.data.description === "string" &&
+        command.data.description.length
     ) {
-        return command.description.trim();
+        return command.data.description;
     }
 
     if (
-        command.data &&
-        typeof command.data.description === "string" &&
-        command.data.description.trim()
+        typeof command.description === "string" &&
+        command.description.length
     ) {
-        return command.data.description.trim();
+        return command.description;
+    }
+
+    if (
+        typeof command.desc === "string" &&
+        command.desc.length
+    ) {
+        return command.desc;
     }
 
     return "Không có mô tả";
 }
 
 // ======================================================
-// CHUẨN HÓA CHUỖI
+// TẠO DANH SÁCH NHÓM
 // ======================================================
 
-function normalize(text) {
+function buildGroups(commandMap) {
 
-    return String(text || "")
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/đ/g, "d")
-        .replace(/[^a-z0-9_]/g, "");
-}
+    const result = {};
 
-// ======================================================
-// XÁC ĐỊNH NHÓM COMMAND
-// ======================================================
-
-function getGroup(command) {
-
-    const name = getCommandName(command);
-
-    const file =
-        command?.file ||
-        "";
-
-    const source =
-        normalize(
-            `${name || ""} ${file || ""}`
-        );
-
-    // ==================================================
-    // KIỂM TRA TỪNG NHÓM
-    // ==================================================
-
-    for (
-        let i = 0;
-        i < GROUPS.length - 1;
-        i++
-    ) {
-
-        const group = GROUPS[i];
-
-        for (
-            const keyword of group.keywords
-        ) {
-
-            const key =
-                normalize(keyword);
-
-            if (!key) {
-                continue;
-            }
-
-            if (
-                source.includes(key)
-            ) {
-                return group;
-            }
-        }
-    }
-
-    // Không khớp -> KHÁC
-    return GROUPS[GROUPS.length - 1];
-}
-
-// ======================================================
-// TẠO DANH SÁCH 14 NHÓM
-// ======================================================
-
-function buildGroups(commands) {
-
-    const result = new Map();
-
+    // Tạo đủ 14 nhóm
     for (const group of GROUPS) {
+        result[group.name] = [];
+    }
 
-        result.set(
-            group.id,
-            {
-                ...group,
-                commands: []
-            }
+    // Thêm nhóm KHÁC
+    result["📦 KHÁC"] = [];
+
+    // Duyệt toàn bộ command
+    for (const [name, command] of commandMap) {
+
+        const groupName = findGroup(name);
+
+        result[groupName].push({
+            name,
+            description: getDescription(command)
+        });
+    }
+
+    // Sắp xếp alphabet
+    for (const groupName of Object.keys(result)) {
+
+        result[groupName].sort((a, b) =>
+            a.name.localeCompare(
+                b.name,
+                "vi"
+            )
         );
     }
 
-    // ==================================================
-    // ĐƯA TỪNG COMMAND VÀO NHÓM
-    // ==================================================
-
-    for (
-        const [name, command]
-        of commands
-    ) {
-
-        const group =
-            getGroup(command);
-
-        result
-            .get(group.id)
-            .commands
-            .push({
-                name:
-                    String(
-                        name ||
-                        getCommandName(command) ||
-                        "unknown"
-                    ).toLowerCase(),
-
-                description:
-                    getCommandDescription(
-                        command
-                    ),
-
-                file:
-                    command.file ||
-                    ""
-            });
+    // Xóa nhóm KHÁC nếu không có command
+    if (result["📦 KHÁC"].length === 0) {
+        delete result["📦 KHÁC"];
     }
 
-    // ==================================================
-    // SẮP XẾP ABC
-    // ==================================================
-
-    for (
-        const group of result.values()
-    ) {
-
-        group.commands.sort(
-            (a, b) =>
-                a.name.localeCompare(
-                    b.name
-                )
-        );
-    }
-
-    return [
-        ...result.values()
-    ];
+    return result;
 }
 
 // ======================================================
-// TẠO EMBED CHO TRANG NHÓM
+// CHIA DANH SÁCH COMMAND THÀNH CÁC DÒNG
 // ======================================================
 
-function createGroupEmbed(
-    group,
-    groupIndex,
-    totalGroups,
-    page,
-    totalPages,
-    totalCommands
-) {
+function makeCommandText(commands) {
 
-    const start =
-        page *
-        COMMANDS_PER_PAGE;
+    let text = "";
 
-    const end =
-        start +
-        COMMANDS_PER_PAGE;
+    for (const command of commands) {
 
-    const commands =
-        group.commands.slice(
-            start,
-            end
-        );
+        const line =
+            `\`.${command.name}\` — ${command.description}\n`;
 
-    // ==================================================
-    // NỘI DUNG COMMAND
-    // ==================================================
-
-    let description = "";
-
-    if (commands.length === 0) {
-
-        description =
-            "❌ Nhóm này hiện chưa có command.";
-
-    } else {
-
-        for (
-            const command
-            of commands
-        ) {
-
-            description +=
-                `\`${PREFIX}${command.name}\``;
-
-            description +=
-                ` — ${command.description}`;
-
-            description += "\n";
+        // Không vượt quá giới hạn Embed
+        if ((text + line).length > 3900) {
+            break;
         }
+
+        text += line;
     }
 
-    // ==================================================
-    // EMBED
-    // ==================================================
+    return text || "Không có command.";
+}
 
-    const embed =
-        new EmbedBuilder()
-            .setTitle(
-                `${group.name}`
-            )
-            .setDescription(
-                description
-            )
-            .addFields(
-                {
-                    name: "📌 Mô tả nhóm",
-                    value:
-                        group.description ||
-                        "Không có mô tả"
-                }
-            )
-            .setFooter({
-                text:
-                    `Nhóm ${groupIndex + 1}/${totalGroups} • ` +
-                    `Trang ${page + 1}/${totalPages} • ` +
-                    `Tổng ${totalCommands} lệnh`
-            })
-            .setTimestamp();
+// ======================================================
+// TẠO EMBED
+// ======================================================
+
+function createEmbed(groupName, commands, page, totalPages, totalCommands) {
+
+    const text = makeCommandText(commands);
+
+    const embed = new EmbedBuilder()
+        .setTitle("📚 HUYỀN VŨ TỨ TƯỢNG — DANH SÁCH LỆNH")
+        .setDescription(
+            `## ${groupName}\n` +
+            `━━━━━━━━━━━━━━━━━━━━\n` +
+            text
+        )
+        .setFooter({
+            text:
+                `Tổng ${totalCommands} lệnh • ` +
+                `Nhóm ${page + 1}/${totalPages}`
+        })
+        .setTimestamp();
 
     return embed;
 }
 
 // ======================================================
-// TẠO NÚT ĐIỀU KHIỂN
+// NÚT ĐIỀU HƯỚNG
 // ======================================================
 
-function createButtons(
-    groupIndex,
-    page,
-    totalPages
-) {
+function createButtons(page, totalPages) {
 
-    const row =
-        new ActionRowBuilder();
+    return new ActionRowBuilder()
+        .addComponents(
 
-    // ==================================================
-    // NHÓM TRƯỚC
-    // ==================================================
+            new ButtonBuilder()
+                .setCustomId("help_first")
+                .setLabel("⏮️")
+                .setStyle(ButtonStyle.Secondary)
+                .setDisabled(page === 0),
 
-    row.addComponents(
+            new ButtonBuilder()
+                .setCustomId("help_prev")
+                .setLabel("⬅️")
+                .setStyle(ButtonStyle.Primary)
+                .setDisabled(page === 0),
 
-        new ButtonBuilder()
-            .setCustomId(
-                "help_group_prev"
-            )
-            .setLabel(
-                "◀ Nhóm trước"
-            )
-            .setStyle(
-                ButtonStyle.Secondary
-            )
-            .setDisabled(
-                groupIndex <= 0
-            )
-    );
+            new ButtonBuilder()
+                .setCustomId("help_page")
+                .setLabel(`${page + 1}/${totalPages}`)
+                .setStyle(ButtonStyle.Secondary)
+                .setDisabled(true),
 
-    // ==================================================
-    // TRANG TRƯỚC
-    // ==================================================
+            new ButtonBuilder()
+                .setCustomId("help_next")
+                .setLabel("➡️")
+                .setStyle(ButtonStyle.Primary)
+                .setDisabled(page >= totalPages - 1),
 
-    row.addComponents(
-
-        new ButtonBuilder()
-            .setCustomId(
-                "help_page_prev"
-            )
-            .setLabel(
-                "◀ Trang"
-            )
-            .setStyle(
-                ButtonStyle.Primary
-            )
-            .setDisabled(
-                page <= 0
-            )
-    );
-
-    // ==================================================
-    // HIỂN THỊ TRANG
-    // ==================================================
-
-    row.addComponents(
-
-        new ButtonBuilder()
-            .setCustomId(
-                "help_current"
-            )
-            .setLabel(
-                `${page + 1}/${totalPages}`
-            )
-            .setStyle(
-                ButtonStyle.Secondary
-            )
-            .setDisabled(
-                true
-            )
-    );
-
-    // ==================================================
-    // TRANG SAU
-    // ==================================================
-
-    row.addComponents(
-
-        new ButtonBuilder()
-            .setCustomId(
-                "help_page_next"
-            )
-            .setLabel(
-                "Trang ▶"
-            )
-            .setStyle(
-                ButtonStyle.Primary
-            )
-            .setDisabled(
-                page >= totalPages - 1
-            )
-    );
-
-    // ==================================================
-    // NHÓM SAU
-    // ==================================================
-
-    row.addComponents(
-
-        new ButtonBuilder()
-            .setCustomId(
-                "help_group_next"
-            )
-            .setLabel(
-                "Nhóm ▶"
-            )
-            .setStyle(
-                ButtonStyle.Secondary
-            )
-            .setDisabled(
-                groupIndex >= 13
-            )
-    );
-
-    return row;
+            new ButtonBuilder()
+                .setCustomId("help_last")
+                .setLabel("⏭️")
+                .setStyle(ButtonStyle.Secondary)
+                .setDisabled(page >= totalPages - 1)
+        );
 }
 
 // ======================================================
-// HIỂN THỊ HELP
+// COMMAND .HELP
 // ======================================================
 
-async function showHelp(
-    message,
-    groupIndex = 0,
-    page = 0
-) {
+module.exports = {
 
-    try {
+    name: "help",
 
-        // ==================================================
-        // LẤY COMMAND MAP TỪ INDEX.JS
-        // ==================================================
+    description: "Hiển thị toàn bộ danh sách 291 lệnh",
 
-        const commandMap =
-            message.client.commands;
+    async execute(message) {
 
-        // ==================================================
-        // KIỂM TRA
-        // ==================================================
+        try {
 
-        if (
-            !commandMap ||
-            typeof commandMap.values !== "function"
-        ) {
+            // ==============================================
+            // LẤY COMMAND MAP TỪ CLIENT
+            // ==============================================
 
-            await message.reply(
-                "❌ Không thể lấy danh sách command.\n" +
-                "Hãy kiểm tra `index.js` đã gắn `client.commands` chưa."
+            const commandMap = message.client.commandMap;
+
+            if (
+                !commandMap ||
+                commandMap.size === 0
+            ) {
+
+                await message.reply(
+                    "❌ Không có command nào được tải."
+                );
+
+                return;
+            }
+
+            // ==============================================
+            // CHIA 291 COMMAND THÀNH 14 NHÓM
+            // ==============================================
+
+            const groups = buildGroups(commandMap);
+
+            const groupNames = Object.keys(groups);
+
+            // ==============================================
+            // CHỈ LẤY 14 NHÓM CHÍNH
+            // ==============================================
+
+            const pages = [];
+
+            for (const groupName of groupNames) {
+
+                const commands = groups[groupName];
+
+                pages.push({
+                    name: groupName,
+                    commands
+                });
+            }
+
+            // ==============================================
+            // TỔNG COMMAND
+            // ==============================================
+
+            let totalCommands = 0;
+
+            for (const page of pages) {
+                totalCommands += page.commands.length;
+            }
+
+            // ==============================================
+            // TRANG ĐẦU
+            // ==============================================
+
+            let currentPage = 0;
+
+            const embed = createEmbed(
+                pages[currentPage].name,
+                pages[currentPage].commands,
+                currentPage,
+                pages.length,
+                totalCommands
             );
 
-            return;
-        }
-
-        // ==================================================
-        // KHÔNG CÓ COMMAND
-        // ==================================================
-
-        if (
-            commandMap.size === 0
-        ) {
-
-            await message.reply(
-                "❌ Không có command nào được tải."
+            const row = createButtons(
+                currentPage,
+                pages.length
             );
 
-            return;
-        }
-
-        // ==================================================
-        // TẠO 14 NHÓM
-        // ==================================================
-
-        const groups =
-            buildGroups(
-                commandMap
-            );
-
-        // ==================================================
-        // ĐẢM BẢO GROUP INDEX HỢP LỆ
-        // ==================================================
-
-        if (
-            groupIndex < 0
-        ) {
-            groupIndex = 0;
-        }
-
-        if (
-            groupIndex >= groups.length
-        ) {
-            groupIndex =
-                groups.length - 1;
-        }
-
-        const group =
-            groups[groupIndex];
-
-        // ==================================================
-        // TỔNG PAGE
-        // ==================================================
-
-        const totalPages =
-            Math.max(
-                1,
-                Math.ceil(
-                    group.commands.length /
-                    COMMANDS_PER_PAGE
-                )
-            );
-
-        // ==================================================
-        // ĐẢM BẢO PAGE HỢP LỆ
-        // ==================================================
-
-        if (
-            page < 0
-        ) {
-            page = 0;
-        }
-
-        if (
-            page >= totalPages
-        ) {
-            page =
-                totalPages - 1;
-        }
-
-        // ==================================================
-        // TẠO EMBED
-        // ==================================================
-
-        const embed =
-            createGroupEmbed(
-                group,
-                groupIndex,
-                groups.length,
-                page,
-                totalPages,
-                commandMap.size
-            );
-
-        // ==================================================
-        // NÚT
-        // ==================================================
-
-        const row =
-            createButtons(
-                groupIndex,
-                page,
-                totalPages
-            );
-
-        // ==================================================
-        // GỬI
-        // ==================================================
-
-        const sent =
-            await message.reply({
-                embeds: [
-                    embed
-                ],
-                components: [
-                    row
-                ]
+            const reply = await message.reply({
+                embeds: [embed],
+                components: [row]
             });
 
-        // ==================================================
-        // COLLECTOR
-        // ==================================================
+            // ==============================================
+            // BUTTON COLLECTOR
+            // ==============================================
 
-        const collector =
-            sent.createMessageComponentCollector({
-                time: 5 * 60 * 1000
-            });
+            const collector =
+                reply.createMessageComponentCollector({
+                    time: 10 * 60 * 1000
+                });
 
-        // ==================================================
-        // BUTTON CLICK
-        // ==================================================
+            collector.on(
+                "collect",
+                async (interaction) => {
 
-        collector.on(
-            "collect",
-            async interaction => {
-
-                try {
-
-                    // --------------------------------------
-                    // CHỈ NGƯỜI GỌI LỆNH ĐƯỢC BẤM
-                    // --------------------------------------
-
+                    // Chỉ người gọi .help
                     if (
                         interaction.user.id !==
                         message.author.id
@@ -898,317 +527,145 @@ async function showHelp(
 
                         await interaction.reply({
                             content:
-                                "❌ Đây không phải bảng help của bạn.",
+                                "❌ Chỉ người sử dụng `.help` mới có thể chuyển trang.",
                             ephemeral: true
                         });
 
                         return;
                     }
 
-                    // --------------------------------------
-                    // NHÓM TRƯỚC
-                    // --------------------------------------
+                    // ======================================
+                    // XỬ LÝ NÚT
+                    // ======================================
 
                     if (
                         interaction.customId ===
-                        "help_group_prev"
+                        "help_first"
                     ) {
 
-                        groupIndex--;
+                        currentPage = 0;
 
-                        if (
-                            groupIndex < 0
-                        ) {
-                            groupIndex = 0;
-                        }
-
-                        page = 0;
-                    }
-
-                    // --------------------------------------
-                    // NHÓM SAU
-                    // --------------------------------------
-
-                    else if (
+                    } else if (
                         interaction.customId ===
-                        "help_group_next"
+                        "help_prev"
                     ) {
 
-                        groupIndex++;
-
-                        if (
-                            groupIndex >=
-                            groups.length
-                        ) {
-
-                            groupIndex =
-                                groups.length - 1;
+                        if (currentPage > 0) {
+                            currentPage--;
                         }
 
-                        page = 0;
-                    }
-
-                    // --------------------------------------
-                    // TRANG TRƯỚC
-                    // --------------------------------------
-
-                    else if (
+                    } else if (
                         interaction.customId ===
-                        "help_page_prev"
+                        "help_next"
                     ) {
 
-                        page--;
-
                         if (
-                            page < 0
+                            currentPage <
+                            pages.length - 1
                         ) {
-                            page = 0;
+                            currentPage++;
                         }
-                    }
 
-                    // --------------------------------------
-                    // TRANG SAU
-                    // --------------------------------------
-
-                    else if (
+                    } else if (
                         interaction.customId ===
-                        "help_page_next"
+                        "help_last"
                     ) {
 
-                        page++;
-
-                        const currentGroup =
-                            groups[groupIndex];
-
-                        const pages =
-                            Math.max(
-                                1,
-                                Math.ceil(
-                                    currentGroup.commands.length /
-                                    COMMANDS_PER_PAGE
-                                )
-                            );
-
-                        if (
-                            page >= pages
-                        ) {
-                            page =
-                                pages - 1;
-                        }
+                        currentPage =
+                            pages.length - 1;
                     }
 
-                    // --------------------------------------
-                    // TẠO LẠI
-                    // --------------------------------------
+                    // ======================================
+                    // CẬP NHẬT EMBED
+                    // ======================================
 
-                    const currentGroup =
-                        groups[groupIndex];
+                    const newEmbed = createEmbed(
+                        pages[currentPage].name,
+                        pages[currentPage].commands,
+                        currentPage,
+                        pages.length,
+                        totalCommands
+                    );
 
-                    const currentTotalPages =
-                        Math.max(
-                            1,
-                            Math.ceil(
-                                currentGroup.commands.length /
-                                COMMANDS_PER_PAGE
-                            )
-                        );
-
-                    const newEmbed =
-                        createGroupEmbed(
-                            currentGroup,
-                            groupIndex,
-                            groups.length,
-                            page,
-                            currentTotalPages,
-                            commandMap.size
-                        );
-
-                    const newRow =
-                        createButtons(
-                            groupIndex,
-                            page,
-                            currentTotalPages
-                        );
-
-                    // --------------------------------------
-                    // UPDATE
-                    // --------------------------------------
+                    const newRow = createButtons(
+                        currentPage,
+                        pages.length
+                    );
 
                     await interaction.update({
-                        embeds: [
-                            newEmbed
-                        ],
-                        components: [
-                            newRow
-                        ]
+                        embeds: [newEmbed],
+                        components: [newRow]
                     });
-
-                } catch (error) {
-
-                    console.error(
-                        "❌ Lỗi help button:"
-                    );
-
-                    console.error(
-                        error.stack ||
-                        error.message
-                    );
-
-                    try {
-
-                        if (
-                            !interaction.replied &&
-                            !interaction.deferred
-                        ) {
-
-                            await interaction.reply({
-                                content:
-                                    "❌ Không thể chuyển trang.",
-                                ephemeral: true
-                            });
-                        }
-
-                    } catch {}
                 }
-            }
-        );
+            );
 
-        // ==================================================
-        // HẾT THỜI GIAN
-        // ==================================================
+            // ==============================================
+            // HẾT THỜI GIAN
+            // ==============================================
 
-        collector.on(
-            "end",
-            async () => {
+            collector.on("end", async () => {
 
                 try {
 
                     const disabledRow =
-                        new ActionRowBuilder();
+                        new ActionRowBuilder()
+                            .addComponents(
 
-                    for (
-                        const component
-                        of row.components
-                    ) {
+                                new ButtonBuilder()
+                                    .setCustomId("help_first_end")
+                                    .setLabel("⏮️")
+                                    .setStyle(ButtonStyle.Secondary)
+                                    .setDisabled(true),
 
-                        disabledRow.addComponents(
-                            ButtonBuilder.from(
-                                component
-                            ).setDisabled(true)
-                        );
-                    }
+                                new ButtonBuilder()
+                                    .setCustomId("help_prev_end")
+                                    .setLabel("⬅️")
+                                    .setStyle(ButtonStyle.Primary)
+                                    .setDisabled(true),
 
-                    await sent.edit({
-                        components: [
-                            disabledRow
-                        ]
+                                new ButtonBuilder()
+                                    .setCustomId("help_page_end")
+                                    .setLabel(
+                                        `${currentPage + 1}/${pages.length}`
+                                    )
+                                    .setStyle(ButtonStyle.Secondary)
+                                    .setDisabled(true),
+
+                                new ButtonBuilder()
+                                    .setCustomId("help_next_end")
+                                    .setLabel("➡️")
+                                    .setStyle(ButtonStyle.Primary)
+                                    .setDisabled(true),
+
+                                new ButtonBuilder()
+                                    .setCustomId("help_last_end")
+                                    .setLabel("⏭️")
+                                    .setStyle(ButtonStyle.Secondary)
+                                    .setDisabled(true)
+                            );
+
+                    await reply.edit({
+                        components: [disabledRow]
                     });
 
                 } catch {}
-            }
-        );
+            });
 
-    } catch (error) {
+        } catch (error) {
 
-        console.error(
-            "❌ LỖI HELP:"
-        );
-
-        console.error(
-            error.stack ||
-            error.message
-        );
-
-        try {
-
-            await message.reply(
-                "❌ Có lỗi xảy ra khi mở danh sách command."
+            console.error(
+                "❌ Lỗi .help:"
             );
 
-        } catch {}
-    }
-}
+            console.error(error);
 
-// ======================================================
-// EXPORT COMMAND
-// ======================================================
+            try {
 
-module.exports = {
-
-    name: "help",
-
-    description:
-        "Hiển thị toàn bộ command theo 14 nhóm lớn",
-
-    async execute(
-        message,
-        args = []
-    ) {
-
-        // ==================================================
-        // LẤY NHÓM TỪ ARG
-        // ==================================================
-
-        let groupIndex = 0;
-
-        let page = 0;
-
-        // ==================================================
-        // .help 2
-        // ==================================================
-
-        if (
-            args[0] &&
-            /^\d+$/.test(
-                args[0]
-            )
-        ) {
-
-            const number =
-                parseInt(
-                    args[0],
-                    10
+                await message.reply(
+                    "❌ Có lỗi khi tạo danh sách command."
                 );
 
-            if (
-                number >= 1 &&
-                number <= 14
-            ) {
-
-                groupIndex =
-                    number - 1;
-            }
+            } catch {}
         }
-
-        // ==================================================
-        // .help 2 3
-        // ==================================================
-
-        if (
-            args[1] &&
-            /^\d+$/.test(
-                args[1]
-            )
-        ) {
-
-            page =
-                Math.max(
-                    0,
-                    parseInt(
-                        args[1],
-                        10
-                    ) - 1
-                );
-        }
-
-        // ==================================================
-        // HIỂN THỊ
-        // ==================================================
-
-        await showHelp(
-            message,
-            groupIndex,
-            page
-        );
     }
 };
