@@ -1,20 +1,71 @@
-# Huyền Vũ Tứ Tượng — Bản Gộp 15 File
+# Huyền Vũ — 276 Commands Grouped
 
-Đã gộp toàn bộ 276 slash commands thành 14 bundle command + các file lõi. Không xóa lệnh; mỗi bundle export một mảng command để loader nạp toàn bộ.
+Bản này chuyển toàn bộ 276 command thành 15 nhóm top-level để dùng dạng:
 
-## Cấu trúc
-- commands/01_combat.js ... commands/14_misc.js: toàn bộ 276 lệnh
-- - database.js: database người chơi
-- systems.js: toàn bộ 31 hệ thống đã gộp
-- catalog.json: toàn bộ catalog dữ liệu
-- command-loader.js: loader cho bundle
+- `/combat <lệnh>`
+- `/tutuong <lệnh>`
+- `/thanthu <lệnh>`
+- `/nhanvat <lệnh>`
+- `/bossraid <lệnh>`
+- `/pvp <lệnh>`
+- `/guild <lệnh>`
+- `/quest <lệnh>`
+- `/world <lệnh>`
+- `/item <lệnh>`
+- `/economy <lệnh>`
+- `/social <lệnh>`
+- `/progress <lệnh>`
+- `/misc <lệnh>`
 
-## Tích hợp vào bot hiện tại
-Nếu bot của bạn đang tự động quét `commands/*.js`, thay loader bằng:
-```js
-const { loadCommands } = require('./command-loader');
-const commands = loadCommands();
+## Giới hạn Discord
+
+Một top-level command có tối đa 25 options. Ba bundle vượt 25 lệnh:
+
+- combat: 30
+- item: 29
+- economy: 26
+
+Vì vậy các lệnh vượt quá 24 của ba nhóm này được đặt dưới `more`:
+
+- `/combat more <lệnh>`
+- `/item more <lệnh>`
+- `/economy more <lệnh>`
+
+Tất cả 276 logic command gốc vẫn được giữ và dispatcher gọi đúng `execute()` của command cũ.
+
+## File mới
+
+- `grouped-commands.js` — tạo 15 nhóm và map interaction → command gốc.
+- `deploy-commands.js` — đăng ký 15 top-level commands.
+- `index.js` — dispatcher grouped.
+- `command-loader.js` — loader bundle.
+- `package.json` — thêm dotenv.
+
+## Railway
+
+Variables cần có:
+
+- `DISCORD_TOKEN`
+- `CLIENT_ID`
+- `GUILD_ID` (khuyên dùng khi test; bỏ trống nếu muốn global)
+
+Chạy:
+
+```bash
+node deploy-commands.js
 ```
-Khi đăng ký slash commands, dùng `commands.map(c => c.data.toJSON())`. Khi xử lý interaction, tìm command theo `interaction.commandName` trong mảng `commands`.
 
-Bản này phù hợp để upload GitHub bằng điện thoại: chỉ còn 19 file chính thay vì hơn 300 file.
+Sau đó:
+
+```bash
+node index.js
+```
+
+Kỳ vọng:
+
+```text
+📦 Command gốc: 276
+📚 Nhóm Discord: 15
+```
+
+Nếu deploy guild, lệnh cập nhật nhanh hơn global.
