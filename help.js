@@ -5,356 +5,454 @@ const {
     ButtonStyle
 } = require("discord.js");
 
+const fs = require("fs");
+const path = require("path");
+
 // ======================================================
-// .HELP
-// HIỂN THỊ TOÀN BỘ COMMAND ĐÃ LOAD
+// CẤU HÌNH
+// ======================================================
+
+const PREFIX = ".";
+
+// Số lệnh hiển thị mỗi trang
+const COMMANDS_PER_PAGE = 15;
+
+// ======================================================
+// TÊN NHÓM
+// ======================================================
+
+const GROUP_NAMES = {
+
+    "01_combat": "⚔️ COMBAT",
+    "02_tutuong": "🌀 TU TƯỞNG",
+    "03_thanhthu": "🔥 THẦN THÚ",
+    "04_nhanvat": "👤 NHÂN VẬT",
+    "05_boss_raid": "👑 BOSS",
+    "06_pvp": "⚔️ PVP",
+    "07_guild": "🏯 GUILD",
+
+    "08_phoban": "🏰 PHÓ BẢN",
+    "09_item": "🎒 VẬT PHẨM",
+    "10_shop": "🛒 CỬA HÀNG",
+    "11_economy": "💰 KINH TẾ",
+    "12_rank": "🏆 XẾP HẠNG",
+    "13_event": "🎉 SỰ KIỆN",
+    "14_admin": "🛡️ ADMIN",
+    "15_system": "⚙️ HỆ THỐNG"
+};
+
+// ======================================================
+// LẤY TÊN NHÓM TỪ FILE
+// ======================================================
+
+function getGroupName(filePath) {
+
+    const fileName = path.basename(filePath, ".js")
+        .toLowerCase();
+
+    // Ví dụ:
+    // 01_combat.js
+    // 02_tutuong.js
+
+    if (GROUP_NAMES[fileName]) {
+        return GROUP_NAMES[fileName];
+    }
+
+    // Nếu file nằm trong thư mục
+    const parent = path.basename(
+        path.dirname(filePath)
+    ).toLowerCase();
+
+    if (GROUP_NAMES[parent]) {
+        return GROUP_NAMES[parent];
+    }
+
+    // Tự lấy tên file
+    return `📁 ${fileName
+        .replace(/^\d+[_-]?/, "")
+        .replace(/[_-]/g, " ")
+        .toUpperCase()}`;
+}
+
+// ======================================================
+// LẤY COMMAND TỪ COMMAND MAP
+// ======================================================
+
+function getCommands(commandMap) {
+
+    const groups = new Map();
+
+    for (const [name, command] of commandMap.entries()) {
+
+        if (!command) {
+            continue;
+        }
+
+        let group = "📚 KHÁC";
+
+        if (command.file) {
+            group = getGroupName(command.file);
+        }
+
+        if (!groups.has(group)) {
+            groups.set(group, []);
+        }
+
+        groups.get(group).push({
+            name,
+            command
+        });
+    }
+
+    // Sắp xếp tên lệnh
+    for (const list of groups.values()) {
+
+        list.sort((a, b) =>
+            a.name.localeCompare(
+                b.name,
+                "vi",
+                {
+                    sensitivity: "base"
+                }
+            )
+        );
+    }
+
+    return groups;
+}
+
+// ======================================================
+// LẤY DESCRIPTION
+// ======================================================
+
+function getDescription(command) {
+
+    if (!command) {
+        return "";
+    }
+
+    // description trực tiếp
+    if (
+        typeof command.description === "string" &&
+        command.description.trim()
+    ) {
+        return command.description;
+    }
+
+    // Slash command data
+    if (
+        command.data &&
+        typeof command.data.description === "string"
+    ) {
+        return command.data.description;
+    }
+
+    return "Không có mô tả";
+}
+
+// ======================================================
+// TẠO EMBED DANH SÁCH NHÓM
+// ======================================================
+
+function createMainHelp(groups) {
+
+    let total = 0;
+
+    for (const commands of groups.values()) {
+        total += commands.length;
+    }
+
+    const embed = new EmbedBuilder()
+        .setTitle("📚 HUYỀN VŨ TỨ TƯỢNG")
+        .setDescription(
+            [
+                "Danh sách toàn bộ command của bot.",
+                "",
+                `📦 **Tổng cộng: ${total} lệnh**`,
+                "",
+                "👇 Chọn một nhóm bên dưới để xem lệnh.",
+                "",
+                "💡 Bạn vẫn dùng lệnh bình thường:",
+                `\`${PREFIX}boss\``,
+                `\`${PREFIX}tu\``,
+                `\`${PREFIX}combat\``,
+                `\`${PREFIX}help\``
+            ].join("\n")
+        )
+        .setColor(0x5865F2)
+        .setFooter({
+            text: "Huyền Vũ Tứ Tượng • Hệ thống command"
+        });
+
+    let text = "";
+
+    for (const [group, commands] of groups) {
+
+        text += `\n${group} — **${commands.length} lệnh**`;
+    }
+
+    if (text.length <= 3900) {
+        embed.addFields({
+            name: "📂 CÁC NHÓM COMMAND",
+            value: text.trim()
+        });
+    }
+
+    return embed;
+}
+
+// ======================================================
+// TẠO NÚT NHÓM
+// ======================================================
+
+function createGroupButtons(groups) {
+
+    const buttons = [];
+
+    let index = 0;
+
+    for (const [group] of groups) {
+
+        if (index >= 20) {
+            break;
+        }
+
+        const id = `help_group_${index}`;
+
+        buttons.push(
+            new ButtonBuilder()
+                .setCustomId(id)
+                .setLabel(
+                    group
+                        .replace(
+                            /^[^\p{L}\p{N}]+/u,
+                            ""
+                        )
+                        .slice(0, 80)
+                )
+                .setStyle(ButtonStyle.Primary)
+        );
+
+        index++;
+    }
+
+    const rows = [];
+
+    for (let i = 0; i < buttons.length; i += 5) {
+
+        rows.push(
+            new ActionRowBuilder()
+                .addComponents(
+                    buttons.slice(i, i + 5)
+                )
+        );
+    }
+
+    return rows;
+}
+
+// ======================================================
+// TẠO DANH SÁCH NHÓM THEO INDEX
+// ======================================================
+
+function getGroupByIndex(groups, index) {
+
+    let i = 0;
+
+    for (const [group, commands] of groups) {
+
+        if (i === index) {
+            return {
+                name: group,
+                commands
+            };
+        }
+
+        i++;
+    }
+
+    return null;
+}
+
+// ======================================================
+// TẠO EMBED COMMAND
+// ======================================================
+
+function createCommandEmbed(
+    groupName,
+    commands,
+    page
+) {
+
+    const totalPages = Math.max(
+        1,
+        Math.ceil(
+            commands.length /
+            COMMANDS_PER_PAGE
+        )
+    );
+
+    if (page < 0) {
+        page = 0;
+    }
+
+    if (page >= totalPages) {
+        page = totalPages - 1;
+    }
+
+    const start =
+        page * COMMANDS_PER_PAGE;
+
+    const end =
+        Math.min(
+            start + COMMANDS_PER_PAGE,
+            commands.length
+        );
+
+    const current =
+        commands.slice(start, end);
+
+    let description = "";
+
+    for (const item of current) {
+
+        const desc =
+            getDescription(item.command);
+
+        description +=
+            `\`${PREFIX}${item.name}\` — ${desc}\n`;
+    }
+
+    const embed = new EmbedBuilder()
+        .setTitle(
+            `${groupName}`
+        )
+        .setDescription(
+            description ||
+            "Không có command."
+        )
+        .setColor(0x5865F2)
+        .setFooter({
+            text:
+                `Trang ${page + 1}/${totalPages} • ` +
+                `${commands.length} lệnh`
+        });
+
+    return {
+        embed,
+        page,
+        totalPages
+    };
+}
+
+// ======================================================
+// NÚT TRANG
+// ======================================================
+
+function createPageButtons(
+    groupIndex,
+    page,
+    totalPages
+) {
+
+    const row =
+        new ActionRowBuilder()
+            .addComponents(
+
+                new ButtonBuilder()
+                    .setCustomId(
+                        `help_prev_${groupIndex}_${page}`
+                    )
+                    .setLabel("⬅️ Trước")
+                    .setStyle(ButtonStyle.Secondary)
+                    .setDisabled(page <= 0),
+
+                new ButtonBuilder()
+                    .setCustomId(
+                        `help_home_${groupIndex}`
+                    )
+                    .setLabel("🏠 Nhóm")
+                    .setStyle(ButtonStyle.Primary),
+
+                new ButtonBuilder()
+                    .setCustomId(
+                        `help_next_${groupIndex}_${page}`
+                    )
+                    .setLabel("Sau ➡️")
+                    .setStyle(ButtonStyle.Secondary)
+                    .setDisabled(
+                        page >= totalPages - 1
+                    )
+            );
+
+    return row;
+}
+
+// ======================================================
+// MODULE
 // ======================================================
 
 module.exports = {
 
     name: "help",
 
-    description: "📚 Hiển thị toàn bộ lệnh của bot",
+    description:
+        "📚 Hiển thị toàn bộ command theo từng nhóm",
 
-    async execute(message, args) {
+    async execute(message, args, commandMap) {
 
         try {
 
             // ==================================================
-            // LẤY COMMAND MAP
+            // KIỂM TRA COMMAND MAP
             // ==================================================
 
-            const commandMap = global.commandMap;
-
-            if (!commandMap) {
+            if (
+                !commandMap ||
+                typeof commandMap.entries !== "function"
+            ) {
 
                 await message.reply(
-                    "❌ Không tìm thấy hệ thống command."
+                    "❌ Không thể lấy danh sách command."
                 );
 
                 return;
             }
 
             // ==================================================
-            // LẤY DANH SÁCH COMMAND
+            // TẠO GROUP
             // ==================================================
 
-            const commands = [];
+            const groups =
+                getCommands(commandMap);
 
-            for (const [name, command] of commandMap.entries()) {
-
-                if (!name) {
-                    continue;
-                }
-
-                commands.push({
-                    name: name.toString().toLowerCase(),
-                    command: command
-                });
-
-            }
-
-            // ==================================================
-            // SORT A → Z
-            // ==================================================
-
-            commands.sort((a, b) =>
-                a.name.localeCompare(
-                    b.name,
-                    "vi"
-                )
-            );
-
-            // ==================================================
-            // KHÔNG CÓ COMMAND
-            // ==================================================
-
-            if (commands.length === 0) {
+            if (groups.size === 0) {
 
                 await message.reply(
-                    "❌ Hiện chưa có command nào được load."
+                    "❌ Không tìm thấy command nào."
                 );
 
                 return;
             }
 
             // ==================================================
-            // SỐ COMMAND
+            // EMBED CHÍNH
             // ==================================================
 
-            const totalCommands =
-                commands.length;
+            const embed =
+                createMainHelp(groups);
 
-            // ==================================================
-            // SỐ COMMAND MỖI TRANG
-            // ==================================================
-
-            const perPage = 25;
-
-            const totalPages =
-                Math.ceil(
-                    totalCommands / perPage
-                );
-
-            // ==================================================
-            // TẠO TRANG
-            // ==================================================
-
-            function createPage(page) {
-
-                const start =
-                    page * perPage;
-
-                const end =
-                    Math.min(
-                        start + perPage,
-                        totalCommands
-                    );
-
-                const current =
-                    commands.slice(
-                        start,
-                        end
-                    );
-
-                // ----------------------------------------------
-                // DANH SÁCH COMMAND
-                // ----------------------------------------------
-
-                let commandList = "";
-
-                for (
-                    let i = 0;
-                    i < current.length;
-                    i++
-                ) {
-
-                    const item =
-                        current[i];
-
-                    const command =
-                        item.command;
-
-                    let description =
-                        "";
-
-                    // ------------------------------------------
-                    // description
-                    // ------------------------------------------
-
-                    if (
-                        command &&
-                        typeof command.description ===
-                            "string"
-                    ) {
-
-                        description =
-                            command.description;
-
-                    }
-
-                    // ------------------------------------------
-                    // data.description
-                    // ------------------------------------------
-
-                    if (
-                        !description &&
-                        command &&
-                        command.data &&
-                        typeof command.data.description ===
-                            "string"
-                    ) {
-
-                        description =
-                            command.data.description;
-                    }
-
-                    // ------------------------------------------
-                    // data.toJSON()
-                    // ------------------------------------------
-
-                    if (
-                        !description &&
-                        command &&
-                        command.data &&
-                        typeof command.data.toJSON ===
-                            "function"
-                    ) {
-
-                        try {
-
-                            const data =
-                                command.data.toJSON();
-
-                            if (
-                                data &&
-                                typeof data.description ===
-                                    "string"
-                            ) {
-
-                                description =
-                                    data.description;
-                            }
-
-                        } catch {}
-                    }
-
-                    // ------------------------------------------
-                    // Nếu không có mô tả
-                    // ------------------------------------------
-
-                    if (!description) {
-
-                        description =
-                            "Không có mô tả";
-                    }
-
-                    // ------------------------------------------
-                    // Giới hạn mô tả
-                    // ------------------------------------------
-
-                    if (
-                        description.length > 80
-                    ) {
-
-                        description =
-                            description.substring(
-                                0,
-                                77
-                            ) + "...";
-                    }
-
-                    commandList +=
-                        `\`${start + i + 1}.\` **.${item.name}** — ${description}\n`;
-                }
-
-                // ==================================================
-                // EMBED
-                // ==================================================
-
-                const embed =
-                    new EmbedBuilder()
-                        .setTitle(
-                            "📚 HỆ THỐNG LỆNH HUYỀN VŨ TỨ TƯỢNG"
-                        )
-                        .setDescription(
-                            [
-                                `⚔️ **Tổng số lệnh: ${totalCommands}**`,
-                                "",
-                                commandList
-                            ].join("\n")
-                        )
-                        .setFooter({
-                            text:
-                                `Trang ${page + 1}/${totalPages} • Dùng .<lệnh> để sử dụng`
-                        })
-                        .setTimestamp();
-
-                return embed;
-            }
-
-            // ==================================================
-            // BUTTON
-            // ==================================================
-
-            function createButtons(page) {
-
-                const first =
-                    new ButtonBuilder()
-                        .setCustomId(
-                            "help_first"
-                        )
-                        .setEmoji("⏮️")
-                        .setStyle(
-                            ButtonStyle.Secondary
-                        )
-                        .setDisabled(
-                            page === 0
-                        );
-
-                const previous =
-                    new ButtonBuilder()
-                        .setCustomId(
-                            "help_previous"
-                        )
-                        .setEmoji("◀️")
-                        .setStyle(
-                            ButtonStyle.Primary
-                        )
-                        .setDisabled(
-                            page === 0
-                        );
-
-                const pageButton =
-                    new ButtonBuilder()
-                        .setCustomId(
-                            "help_page"
-                        )
-                        .setLabel(
-                            `${page + 1}/${totalPages}`
-                        )
-                        .setStyle(
-                            ButtonStyle.Secondary
-                        )
-                        .setDisabled(true);
-
-                const next =
-                    new ButtonBuilder()
-                        .setCustomId(
-                            "help_next"
-                        )
-                        .setEmoji("▶️")
-                        .setStyle(
-                            ButtonStyle.Primary
-                        )
-                        .setDisabled(
-                            page >= totalPages - 1
-                        );
-
-                const last =
-                    new ButtonBuilder()
-                        .setCustomId(
-                            "help_last"
-                        )
-                        .setEmoji("⏭️")
-                        .setStyle(
-                            ButtonStyle.Secondary
-                        )
-                        .setDisabled(
-                            page >= totalPages - 1
-                        );
-
-                return new ActionRowBuilder()
-                    .addComponents(
-                        first,
-                        previous,
-                        pageButton,
-                        next,
-                        last
-                    );
-            }
+            const rows =
+                createGroupButtons(groups);
 
             // ==================================================
             // GỬI HELP
             // ==================================================
 
-            let currentPage = 0;
-
             const helpMessage =
                 await message.reply({
-
-                    embeds: [
-                        createPage(
-                            currentPage
-                        )
-                    ],
-
-                    components: [
-                        createButtons(
-                            currentPage
-                        )
-                    ]
-
+                    embeds: [embed],
+                    components: rows
                 });
 
             // ==================================================
@@ -367,7 +465,7 @@ module.exports = {
                 });
 
             // ==================================================
-            // BUTTON CLICK
+            // XỬ LÝ BUTTON
             // ==================================================
 
             collector.on(
@@ -376,9 +474,8 @@ module.exports = {
 
                     try {
 
-                        // --------------------------------------
                         // Chỉ người gọi .help
-                        // --------------------------------------
+                        // được điều khiển menu
 
                         if (
                             interaction.user.id !==
@@ -386,112 +483,214 @@ module.exports = {
                         ) {
 
                             await interaction.reply({
-
                                 content:
-                                    "❌ Đây không phải bảng help của bạn.",
-
+                                    "❌ Đây không phải menu help của bạn.",
                                 ephemeral: true
-
                             });
 
                             return;
                         }
 
-                        // --------------------------------------
-                        // FIRST
-                        // --------------------------------------
+                        const customId =
+                            interaction.customId;
+
+                        // ==================================================
+                        // VỀ TRANG NHÓM
+                        // ==================================================
 
                         if (
-                            interaction.customId ===
-                            "help_first"
+                            customId.startsWith(
+                                "help_home_"
+                            )
                         ) {
 
-                            currentPage = 0;
+                            const mainEmbed =
+                                createMainHelp(groups);
+
+                            const mainRows =
+                                createGroupButtons(groups);
+
+                            await interaction.update({
+                                embeds: [
+                                    mainEmbed
+                                ],
+                                components:
+                                    mainRows
+                            });
+
+                            return;
                         }
 
-                        // --------------------------------------
-                        // PREVIOUS
-                        // --------------------------------------
+                        // ==================================================
+                        // CHỌN NHÓM
+                        // ==================================================
 
-                        else if (
-                            interaction.customId ===
-                            "help_previous"
+                        if (
+                            customId.startsWith(
+                                "help_group_"
+                            )
                         ) {
 
-                            currentPage--;
+                            const index =
+                                Number(
+                                    customId
+                                        .replace(
+                                            "help_group_",
+                                            ""
+                                        )
+                                );
+
+                            const group =
+                                getGroupByIndex(
+                                    groups,
+                                    index
+                                );
+
+                            if (!group) {
+
+                                await interaction.reply({
+                                    content:
+                                        "❌ Không tìm thấy nhóm.",
+                                    ephemeral: true
+                                });
+
+                                return;
+                            }
+
+                            const result =
+                                createCommandEmbed(
+                                    group.name,
+                                    group.commands,
+                                    0
+                                );
+
+                            const pageRow =
+                                createPageButtons(
+                                    index,
+                                    result.page,
+                                    result.totalPages
+                                );
+
+                            await interaction.update({
+                                embeds: [
+                                    result.embed
+                                ],
+                                components: [
+                                    pageRow
+                                ]
+                            });
+
+                            return;
+                        }
+
+                        // ==================================================
+                        // NÚT TRANG
+                        // ==================================================
+
+                        if (
+                            customId.startsWith(
+                                "help_prev_"
+                            ) ||
+                            customId.startsWith(
+                                "help_next_"
+                            )
+                        ) {
+
+                            const parts =
+                                customId.split("_");
+
+                            const action =
+                                parts[1];
+
+                            const groupIndex =
+                                Number(parts[2]);
+
+                            const oldPage =
+                                Number(parts[3]);
+
+                            let newPage =
+                                oldPage;
 
                             if (
-                                currentPage < 0
+                                action === "prev"
                             ) {
-
-                                currentPage = 0;
+                                newPage--;
                             }
-                        }
-
-                        // --------------------------------------
-                        // NEXT
-                        // --------------------------------------
-
-                        else if (
-                            interaction.customId ===
-                            "help_next"
-                        ) {
-
-                            currentPage++;
 
                             if (
-                                currentPage >=
-                                totalPages
+                                action === "next"
                             ) {
-
-                                currentPage =
-                                    totalPages - 1;
+                                newPage++;
                             }
+
+                            const group =
+                                getGroupByIndex(
+                                    groups,
+                                    groupIndex
+                                );
+
+                            if (!group) {
+
+                                await interaction.reply({
+                                    content:
+                                        "❌ Không tìm thấy nhóm.",
+                                    ephemeral: true
+                                });
+
+                                return;
+                            }
+
+                            const result =
+                                createCommandEmbed(
+                                    group.name,
+                                    group.commands,
+                                    newPage
+                                );
+
+                            const pageRow =
+                                createPageButtons(
+                                    groupIndex,
+                                    result.page,
+                                    result.totalPages
+                                );
+
+                            await interaction.update({
+                                embeds: [
+                                    result.embed
+                                ],
+                                components: [
+                                    pageRow
+                                ]
+                            });
+
+                            return;
                         }
-
-                        // --------------------------------------
-                        // LAST
-                        // --------------------------------------
-
-                        else if (
-                            interaction.customId ===
-                            "help_last"
-                        ) {
-
-                            currentPage =
-                                totalPages - 1;
-                        }
-
-                        // --------------------------------------
-                        // UPDATE
-                        // --------------------------------------
-
-                        await interaction.update({
-
-                            embeds: [
-                                createPage(
-                                    currentPage
-                                )
-                            ],
-
-                            components: [
-                                createButtons(
-                                    currentPage
-                                )
-                            ]
-
-                        });
 
                     } catch (error) {
 
                         console.error(
-                            "❌ Lỗi nút .help:"
+                            "❌ Lỗi HELP BUTTON:"
                         );
 
                         console.error(error);
 
-                    }
+                        try {
 
+                            if (
+                                !interaction.replied &&
+                                !interaction.deferred
+                            ) {
+
+                                await interaction.reply({
+                                    content:
+                                        "❌ Có lỗi khi sử dụng menu help.",
+                                    ephemeral: true
+                                });
+
+                            }
+
+                        } catch {}
+                    }
                 }
             );
 
@@ -505,81 +704,18 @@ module.exports = {
 
                     try {
 
-                        const disabledButtons =
-                            new ActionRowBuilder()
-                                .addComponents(
-
-                                    new ButtonBuilder()
-                                        .setCustomId(
-                                            "help_first_end"
-                                        )
-                                        .setEmoji("⏮️")
-                                        .setStyle(
-                                            ButtonStyle.Secondary
-                                        )
-                                        .setDisabled(true),
-
-                                    new ButtonBuilder()
-                                        .setCustomId(
-                                            "help_previous_end"
-                                        )
-                                        .setEmoji("◀️")
-                                        .setStyle(
-                                            ButtonStyle.Secondary
-                                        )
-                                        .setDisabled(true),
-
-                                    new ButtonBuilder()
-                                        .setCustomId(
-                                            "help_page_end"
-                                        )
-                                        .setLabel(
-                                            `${currentPage + 1}/${totalPages}`
-                                        )
-                                        .setStyle(
-                                            ButtonStyle.Secondary
-                                        )
-                                        .setDisabled(true),
-
-                                    new ButtonBuilder()
-                                        .setCustomId(
-                                            "help_next_end"
-                                        )
-                                        .setEmoji("▶️")
-                                        .setStyle(
-                                            ButtonStyle.Secondary
-                                        )
-                                        .setDisabled(true),
-
-                                    new ButtonBuilder()
-                                        .setCustomId(
-                                            "help_last_end"
-                                        )
-                                        .setEmoji("⏭️")
-                                        .setStyle(
-                                            ButtonStyle.Secondary
-                                        )
-                                        .setDisabled(true)
-
-                                );
-
                         await helpMessage.edit({
-
-                            components: [
-                                disabledButtons
-                            ]
-
+                            components: []
                         });
 
                     } catch {}
-
                 }
             );
 
         } catch (error) {
 
             console.error(
-                "❌ LỖI .help:"
+                "❌ LỖI COMMAND .HELP:"
             );
 
             console.error(error);
@@ -587,11 +723,10 @@ module.exports = {
             try {
 
                 await message.reply(
-                    "❌ Không thể mở danh sách lệnh."
+                    "❌ Có lỗi khi mở danh sách lệnh."
                 );
 
             } catch {}
-
         }
     }
 };
