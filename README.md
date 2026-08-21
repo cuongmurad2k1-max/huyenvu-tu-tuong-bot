@@ -1,71 +1,35 @@
-# Huyền Vũ — 276 Commands Grouped
+# Huyền Vũ — 276 Commands Prefix
 
-Bản này chuyển toàn bộ 276 command thành 15 nhóm top-level để dùng dạng:
+Toàn bộ 276 lệnh dùng prefix `.` thay cho Slash Command.
 
-- `/combat <lệnh>`
-- `/tutuong <lệnh>`
-- `/thanthu <lệnh>`
-- `/nhanvat <lệnh>`
-- `/bossraid <lệnh>`
-- `/pvp <lệnh>`
-- `/guild <lệnh>`
-- `/quest <lệnh>`
-- `/world <lệnh>`
-- `/item <lệnh>`
-- `/economy <lệnh>`
-- `/social <lệnh>`
-- `/progress <lệnh>`
-- `/misc <lệnh>`
+Ví dụ:
+- `.bat_dau`
+- `.phoban`
+- `.dotpha`
+- `.dung <tên hoặc ID vật phẩm>`
+- `.resetall`
 
-## Giới hạn Discord
+`.help` hoặc `.lenh` sẽ hiện danh sách lệnh.
 
-Một top-level command có tối đa 25 options. Ba bundle vượt 25 lệnh:
+## Railway / Discord Developer Portal
 
-- combat: 30
-- item: 29
-- economy: 26
-
-Vì vậy các lệnh vượt quá 24 của ba nhóm này được đặt dưới `more`:
-
-- `/combat more <lệnh>`
-- `/item more <lệnh>`
-- `/economy more <lệnh>`
-
-Tất cả 276 logic command gốc vẫn được giữ và dispatcher gọi đúng `execute()` của command cũ.
-
-## File mới
-
-- `grouped-commands.js` — tạo 15 nhóm và map interaction → command gốc.
-- `deploy-commands.js` — đăng ký 15 top-level commands.
-- `index.js` — dispatcher grouped.
-- `command-loader.js` — loader bundle.
-- `package.json` — thêm dotenv.
-
-## Railway
-
-Variables cần có:
-
+Bot cần các biến môi trường:
 - `DISCORD_TOKEN`
-- `CLIENT_ID`
-- `GUILD_ID` (khuyên dùng khi test; bỏ trống nếu muốn global)
 
-Chạy:
+Quan trọng: bật **Message Content Intent** trong Discord Developer Portal → Bot → Privileged Gateway Intents.
 
-```bash
-node deploy-commands.js
-```
-
-Sau đó:
+Slash Command đã được loại bỏ khỏi hệ thống. Không có bước deploy `/` nào nữa. Không chạy file deploy lệnh cũ. Chỉ chạy:
 
 ```bash
 node index.js
 ```
 
-Kỳ vọng:
+Logic `execute()` của 276 command được giữ nguyên; `index.js` tạo adapter để các command cũ nhận được `interaction.user`, `interaction.options.getString()` và `interaction.reply()` như trước.
 
-```text
-📦 Command gốc: 276
-📚 Nhóm Discord: 15
-```
 
-Nếu deploy guild, lệnh cập nhật nhanh hơn global.
+## 🚫 Slash Command
+
+Bản này **chỉ nhận lệnh bắt đầu bằng `.`**. Ví dụ `.bat_dau`, `.phoban`, `.dotpha`.
+Các lệnh `/...` không được đăng ký và bot không xử lý Slash Command.
+
+Nếu Discord vẫn còn hiện lệnh `/` cũ, đó là lệnh đã được đăng ký từ phiên bản trước; cần xóa các application commands cũ trong Discord Developer Portal hoặc dùng một lần script xóa command cũ trước khi bỏ script đó.

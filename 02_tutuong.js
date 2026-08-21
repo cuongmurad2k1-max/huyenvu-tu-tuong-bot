@@ -1,4 +1,4 @@
-// Auto-grouped command bundle. Contains 21 slash commands.
+// Auto-grouped command bundle. Contains 21 prefix commands.
 const commands = [];
 // Shared helper inlined to keep the upload to 19 files.
 const __db = require("../database");
