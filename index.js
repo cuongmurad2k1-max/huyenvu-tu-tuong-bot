@@ -7,7 +7,14 @@ const {
 } = require("discord.js");
 
 const db = require("./database");
-const { loadCommands } = require("./command-loader");
+
+// =====================================================
+// 📦 LOAD TOÀN BỘ COMMANDS
+// =====================================================
+
+const {
+    loadCommands
+} = require("./command-loader");
 
 // =====================================================
 // 🐢 HUYỀN VŨ – TỨ TƯỢNG ULTRA
@@ -17,21 +24,26 @@ const { loadCommands } = require("./command-loader");
 const factions = require("./factions.json");
 
 // =====================================================
-// 📦 LOAD TOÀN BỘ COMMAND BẰNG COMMAND-LOADER
+// 📦 LOAD COMMANDS
 // =====================================================
 
 let commands = [];
 
 try {
+
     commands = loadCommands();
 
     if (!Array.isArray(commands)) {
-        console.error("❌ command-loader không trả về Array.");
+
+        console.warn(
+            "⚠️ command-loader không trả về Array."
+        );
+
         commands = [];
     }
 
     console.log(
-        `✅ Đã load ${commands.length} commands từ ./commands`
+        `✅ Đã load ${commands.length} commands.`
     );
 
 } catch (error) {
@@ -57,47 +69,38 @@ for (const command of commands) {
     try {
 
         if (
-            !command ||
-            !command.data ||
-            typeof command.execute !== "function"
+            command &&
+            command.data &&
+            typeof command.data.name === "string" &&
+            typeof command.execute === "function"
         ) {
+
+            const name =
+                command.data.name;
+
+            // ---------------------------------------------
+            // 🔁 CHỐNG COMMAND TRÙNG TÊN
+            // ---------------------------------------------
+
+            if (commandNames.has(name)) {
+
+                console.warn(
+                    `⚠️ Command trùng tên: /${name}`
+                );
+
+                continue;
+            }
+
+            commandNames.add(name);
+
+            validCommands.push(command);
+
+        } else {
+
             console.warn(
                 "⚠️ Bỏ qua command không hợp lệ."
             );
-
-            continue;
         }
-
-        const commandName =
-            command.data.name;
-
-        if (
-            !commandName ||
-            typeof commandName !== "string"
-        ) {
-            console.warn(
-                "⚠️ Command không có tên hợp lệ."
-            );
-
-            continue;
-        }
-
-        // -------------------------------------------------
-        // 🔁 CHỐNG TRÙNG TÊN
-        // -------------------------------------------------
-
-        if (commandNames.has(commandName)) {
-
-            console.warn(
-                `⚠️ Command trùng tên: /${commandName}`
-            );
-
-            continue;
-        }
-
-        commandNames.add(commandName);
-
-        validCommands.push(command);
 
     } catch (error) {
 
@@ -111,21 +114,11 @@ for (const command of commands) {
 commands = validCommands;
 
 // =====================================================
-// 📜 COMMAND MAP
+// 🧮 THỐNG KÊ
 // =====================================================
 
-const commandMap = new Map();
-
-for (const command of commands) {
-
-    commandMap.set(
-        command.data.name,
-        command
-    );
-}
-
 console.log(
-    `📜 Command Map: ${commandMap.size} commands`
+    `📦 Tổng command hợp lệ: ${commands.length}`
 );
 
 // =====================================================
@@ -141,122 +134,56 @@ const client = new Client({
 });
 
 // =====================================================
+// 🗺️ COMMAND MAP
+// =====================================================
+
+const commandMap = new Map();
+
+for (const command of commands) {
+
+    try {
+
+        commandMap.set(
+            command.data.name,
+            command
+        );
+
+    } catch (error) {
+
+        console.error(
+            "❌ Không thể thêm command vào Map:",
+            error
+        );
+    }
+}
+
+console.log(
+    `📜 Command Map: ${commandMap.size} commands`
+);
+
+// =====================================================
 // 🟢 READY
 // =====================================================
 
 client.once(
     Events.ClientReady,
-    async (clientUser) => {
+    (clientUser) => {
 
-        console.log("");
-        console.log("======================================");
         console.log(
-            `🐢 ${clientUser.user.tag} ONLINE`
+            `🐢 ${clientUser.user.tag} ONLINE — HUYỀN VŨ MEGA`
         );
-        console.log("======================================");
 
         console.log(
             `🌌 Servers: ${clientUser.guilds.cache.size}`
         );
 
         console.log(
-            `📦 Commands loaded: ${commands.length}`
+            `⚔️ Commands: ${commandMap.size}`
         );
 
         console.log(
-            `📜 Command Map: ${commandMap.size}`
+            `📦 Tổng command đã load: ${commands.length}`
         );
-
-        // =================================================
-        // ⚠️ DISCORD LIMIT
-        // =================================================
-
-        const commandData =
-            commands.map(
-                command =>
-                    command.data.toJSON()
-            );
-
-        console.log(
-            `📝 Tổng command có trong code: ${commandData.length}`
-        );
-
-        if (commandData.length > 100) {
-
-            console.warn("");
-            console.warn(
-                "⚠️ CẢNH BÁO: Discord chỉ cho tối đa 100"
-            );
-
-            console.warn(
-                "⚠️ slash commands cho một scope."
-            );
-
-            console.warn(
-                "⚠️ Không thể đăng ký toàn bộ 276 lệnh dạng /."
-            );
-
-            console.warn(
-                "⚠️ Bot vẫn load và xử lý toàn bộ command trong code."
-            );
-
-            console.warn("");
-
-        }
-
-        // =================================================
-        // 📌 ĐĂNG KÝ COMMAND
-        // =================================================
-        //
-        // Discord chỉ cho tối đa 100 slash commands.
-        // Chúng ta đăng ký tối đa 100 command đầu tiên.
-        //
-        // Nếu muốn dùng đủ 276 lệnh:
-        // cần chuyển hệ thống sang command nhóm/subcommand.
-        //
-        // =================================================
-
-        const commandsToRegister =
-            commandData.slice(0, 100);
-
-        try {
-
-            // -------------------------------------------------
-            // 🌍 GLOBAL COMMANDS
-            // -------------------------------------------------
-
-            await client.application.commands.set(
-                commandsToRegister
-            );
-
-            console.log(
-                `✅ Đã đăng ký ${commandsToRegister.length} slash commands GLOBAL.`
-            );
-
-            if (commandData.length > 100) {
-
-                console.warn(
-                    `⚠️ Còn ${
-                        commandData.length - 100
-                    } commands chưa đăng ký do giới hạn Discord.`
-                );
-
-            }
-
-        } catch (error) {
-
-            console.error(
-                "❌ LỖI ĐĂNG KÝ SLASH COMMANDS:"
-            );
-
-            console.error(error);
-        }
-
-        console.log("");
-        console.log(
-            "🚀 BOT ĐÃ SẴN SÀNG!"
-        );
-        console.log("");
     }
 );
 
@@ -283,9 +210,9 @@ client.on(
                         interaction.commandName
                     );
 
-                // -------------------------------------------------
-                // ❌ KHÔNG TÌM THẤY COMMAND
-                // -------------------------------------------------
+                // ---------------------------------------------
+                // ❌ COMMAND KHÔNG TỒN TẠI
+                // ---------------------------------------------
 
                 if (!command) {
 
@@ -299,9 +226,9 @@ client.on(
                     }).catch(() => {});
                 }
 
-                // -------------------------------------------------
-                // ❌ COMMAND THIẾU EXECUTE
-                // -------------------------------------------------
+                // ---------------------------------------------
+                // ❌ THIẾU EXECUTE
+                // ---------------------------------------------
 
                 if (
                     typeof command.execute !==
@@ -309,7 +236,7 @@ client.on(
                 ) {
 
                     console.error(
-                        `❌ Command /${interaction.commandName} thiếu execute().`
+                        `❌ Command ${interaction.commandName} thiếu execute().`
                     );
 
                     return interaction.reply({
@@ -322,9 +249,9 @@ client.on(
                     }).catch(() => {});
                 }
 
-                // -------------------------------------------------
-                // ▶️ EXECUTE COMMAND
-                // -------------------------------------------------
+                // ---------------------------------------------
+                // ▶️ CHẠY COMMAND
+                // ---------------------------------------------
 
                 return await command.execute(
                     interaction
@@ -385,9 +312,9 @@ client.on(
                                 String(id)
                         );
 
-                    // -------------------------------------------------
-                    // ❌ KHÔNG TÌM THẤY TỨ TƯỢNG
-                    // -------------------------------------------------
+                    // ---------------------------------------------
+                    // ❌ KHÔNG TÌM THẤY
+                    // ---------------------------------------------
 
                     if (!faction) {
 
@@ -512,7 +439,7 @@ client.on(
                             : "Chưa có";
 
                     // =================================================
-                    // 📤 UPDATE BUTTON
+                    // 📤 UPDATE
                     // =================================================
 
                     return interaction.update({
@@ -549,6 +476,10 @@ client.on(
             }
 
         } catch (error) {
+
+            // =================================================
+            // ❌ INTERACTION ERROR
+            // =================================================
 
             console.error(
                 "❌ INTERACTION ERROR:"
@@ -604,7 +535,6 @@ if (
     !process.env.DISCORD_TOKEN
 ) {
 
-    console.error("");
     console.error(
         "❌ THIẾU DISCORD_TOKEN!"
     );
@@ -612,8 +542,6 @@ if (
     console.error(
         "📌 Railway → Variables → DISCORD_TOKEN"
     );
-
-    console.error("");
 
 } else {
 
