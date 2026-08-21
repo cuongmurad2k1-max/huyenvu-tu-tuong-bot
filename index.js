@@ -1,23 +1,355 @@
 require("dotenv").config();
-const {Client,GatewayIntentBits,Events}=require("discord.js");
-const db=require("./database"),commands=require("./commands");
-const factions=require("./data/config/factions.json");
-const client=new Client({intents:[GatewayIntentBits.Guilds]});
-const map=new Map(commands.map(x=>[x.data.name,x]));
-client.once(Events.ClientReady,c=>console.log(`🐢 ${c.user.tag} ONLINE — HUYỀN VŨ MEGA`));
-client.on(Events.InteractionCreate,async i=>{
- try{
-  if(i.isChatInputCommand()){const c=map.get(i.commandName);if(c)return c.execute(i);}
-  if(i.isButton()){
-   const [type,uid,id]=i.customId.split(":");
-   if(uid!==i.user.id)return i.reply({content:"❌ Menu này không thuộc về bạn.",ephemeral:true});
-   if(type==="faction"){
-    const f=factions.find(x=>x.id===id);if(!f)return i.reply({content:"❌ Không tìm thấy Tứ Tượng.",ephemeral:true});
-    db.mutate(uid,p=>{p.faction=f.name;p.bloodline=f.name;p.attack+=(f.bonuses.attack||0);p.defense+=(f.bonuses.defense||0);p.speed+=(f.bonuses.speed||0);p.maxHp+=(f.bonuses.maxHp||0);p.hp=p.maxHp;return p});
-    return i.update({content:`🌟 **THỨC TỈNH THÀNH CÔNG**\n🐾 ${f.name}\n🩸 Huyết mạch: **${f.name}**\n✨ Kỹ năng: ${f.skills.join(" • ")}`,embeds:[],components:[]});
-   }
-  }
- }catch(e){console.error(e);if(!i.replied&&!i.deferred)i.reply({content:"❌ Lỗi hệ thống: "+e.message,ephemeral:true}).catch(()=>{});}
+
+const {
+    Client,
+    GatewayIntentBits,
+    Events
+} = require("discord.js");
+
+const db = require("./database");
+
+const factions = require("./data/config/factions.json");
+
+// =====================================================
+// 🐢 HUYỀN VŨ – TỨ TƯỢNG ULTRA
+// =====================================================
+
+// =====================================================
+// 📦 LOAD COMMANDS AN TOÀN
+// =====================================================
+
+let commands = [];
+
+try {
+    commands = require("./commands");
+
+    if (!Array.isArray(commands)) {
+        console.warn("⚠️ ./commands không trả về một Array.");
+        commands = [];
+    }
+
+    console.log(`✅ Đã load ${commands.length} commands.`);
+} catch (error) {
+    console.warn("⚠️ Không tìm thấy ./commands.");
+    console.warn("⚠️ Bot vẫn khởi động nhưng Slash Commands chưa được load.");
+    console.warn("📌 Chi tiết:", error.message);
+}
+
+// =====================================================
+// 🤖 CLIENT
+// =====================================================
+
+const client = new Client({
+    intents: [
+        GatewayIntentBits.Guilds
+    ]
 });
-if(!process.env.DISCORD_TOKEN)console.warn("⚠️ Thiếu DISCORD_TOKEN trong .env");
-client.login(process.env.DISCORD_TOKEN);
+
+// =====================================================
+// 🗺️ COMMAND MAP
+// =====================================================
+
+const commandMap = new Map();
+
+for (const command of commands) {
+    try {
+        if (
+            command &&
+            command.data &&
+            typeof command.data.name === "string"
+        ) {
+            commandMap.set(command.data.name, command);
+        }
+    } catch (error) {
+        console.error("❌ Không thể load command:", error);
+    }
+}
+
+console.log(`📜 Command Map: ${commandMap.size} commands`);
+
+// =====================================================
+// 🟢 BOT READY
+// =====================================================
+
+client.once(
+    Events.ClientReady,
+    (clientUser) => {
+        console.log(
+            `🐢 ${clientUser.user.tag} ONLINE — HUYỀN VŨ MEGA`
+        );
+
+        console.log(
+            `🌌 Server count: ${clientUser.guilds.cache.size}`
+        );
+
+        console.log(
+            `⚔️ Commands loaded: ${commandMap.size}`
+        );
+    }
+);
+
+// =====================================================
+// 🎮 INTERACTION
+// =====================================================
+
+client.on(
+    Events.InteractionCreate,
+    async (interaction) => {
+
+        try {
+
+            // =================================================
+            // ⚔️ SLASH COMMAND
+            // =================================================
+
+            if (interaction.isChatInputCommand()) {
+
+                const command =
+                    commandMap.get(interaction.commandName);
+
+                if (!command) {
+
+                    return interaction.reply({
+                        content:
+                            "❌ Lệnh này chưa được tải vào bot.",
+                        ephemeral: true
+                    }).catch(() => {});
+
+                }
+
+                if (typeof command.execute !== "function") {
+
+                    console.error(
+                        `❌ Command ${interaction.commandName} thiếu execute().`
+                    );
+
+                    return interaction.reply({
+                        content:
+                            "❌ Command này đang bị lỗi cấu hình.",
+                        ephemeral: true
+                    }).catch(() => {});
+                }
+
+                return await command.execute(interaction);
+            }
+
+            // =================================================
+            // 🔘 BUTTON
+            // =================================================
+
+            if (interaction.isButton()) {
+
+                const parts =
+                    interaction.customId.split(":");
+
+                const type = parts[0];
+                const uid = parts[1];
+                const id = parts[2];
+
+                // ---------------------------------------------
+                // 🔒 KIỂM TRA NGƯỜI DÙNG
+                // ---------------------------------------------
+
+                if (
+                    uid &&
+                    uid !== interaction.user.id
+                ) {
+
+                    return interaction.reply({
+                        content:
+                            "❌ Menu này không thuộc về bạn.",
+                        ephemeral: true
+                    });
+                }
+
+                // =================================================
+                // 🐾 THỨC TỈNH TỨ TƯỢNG
+                // =================================================
+
+                if (type === "faction") {
+
+                    const faction =
+                        factions.find(
+                            x => String(x.id) === String(id)
+                        );
+
+                    if (!faction) {
+
+                        return interaction.reply({
+                            content:
+                                "❌ Không tìm thấy Tứ Tượng.",
+                            ephemeral: true
+                        });
+                    }
+
+                    // ---------------------------------------------
+                    // 🛡️ BONUS AN TOÀN
+                    // ---------------------------------------------
+
+                    const bonuses =
+                        faction.bonuses || {};
+
+                    const attack =
+                        Number(bonuses.attack || 0);
+
+                    const defense =
+                        Number(bonuses.defense || 0);
+
+                    const speed =
+                        Number(bonuses.speed || 0);
+
+                    const maxHp =
+                        Number(bonuses.maxHp || 0);
+
+                    // ---------------------------------------------
+                    // 💾 UPDATE PLAYER
+                    // ---------------------------------------------
+
+                    db.mutate(
+                        interaction.user.id,
+                        player => {
+
+                            // Đảm bảo stat tồn tại
+                            player.attack =
+                                Number(player.attack || 0);
+
+                            player.defense =
+                                Number(player.defense || 0);
+
+                            player.speed =
+                                Number(player.speed || 0);
+
+                            player.maxHp =
+                                Number(player.maxHp || 0);
+
+                            player.hp =
+                                Number(player.hp || 0);
+
+                            // -------------------------------------
+                            // 🐢 TỨ TƯỢNG
+                            // -------------------------------------
+
+                            player.faction =
+                                faction.name;
+
+                            player.bloodline =
+                                faction.name;
+
+                            // -------------------------------------
+                            // ⚔️ BONUS
+                            // -------------------------------------
+
+                            player.attack += attack;
+                            player.defense += defense;
+                            player.speed += speed;
+                            player.maxHp += maxHp;
+
+                            // -------------------------------------
+                            // ❤️ HP
+                            // -------------------------------------
+
+                            player.hp =
+                                player.maxHp;
+
+                            return player;
+                        }
+                    );
+
+                    // ---------------------------------------------
+                    // ✨ KỸ NĂNG
+                    // ---------------------------------------------
+
+                    const skills =
+                        Array.isArray(faction.skills)
+                            ? faction.skills.join(" • ")
+                            : "Chưa có";
+
+                    return interaction.update({
+                        content:
+                            `🌟 **THỨC TỈNH THÀNH CÔNG**\n\n` +
+                            `🐾 Tứ Tượng: **${faction.name}**\n` +
+                            `🩸 Huyết mạch: **${faction.name}**\n\n` +
+                            `⚔️ Công kích: +${attack}\n` +
+                            `🛡️ Phòng thủ: +${defense}\n` +
+                            `💨 Tốc độ: +${speed}\n` +
+                            `❤️ HP tối đa: +${maxHp}\n\n` +
+                            `✨ **Kỹ năng:** ${skills}`,
+                        embeds: [],
+                        components: []
+                    });
+                }
+
+                // =================================================
+                // ❓ BUTTON KHÔNG XÁC ĐỊNH
+                // =================================================
+
+                return interaction.reply({
+                    content:
+                        "❌ Nút này chưa được hệ thống hỗ trợ.",
+                    ephemeral: true
+                }).catch(() => {});
+            }
+
+        } catch (error) {
+
+            console.error(
+                "❌ INTERACTION ERROR:",
+                error
+            );
+
+            const message =
+                "❌ Lỗi hệ thống: " +
+                (error.message || "Không xác định");
+
+            try {
+
+                if (
+                    interaction.replied ||
+                    interaction.deferred
+                ) {
+
+                    await interaction.followUp({
+                        content: message,
+                        ephemeral: true
+                    }).catch(() => {});
+
+                } else {
+
+                    await interaction.reply({
+                        content: message,
+                        ephemeral: true
+                    }).catch(() => {});
+                }
+
+            } catch (_) {}
+        }
+    }
+);
+
+// =====================================================
+// 🔐 DISCORD TOKEN
+// =====================================================
+
+if (!process.env.DISCORD_TOKEN) {
+
+    console.error(
+        "❌ THIẾU DISCORD_TOKEN!"
+    );
+
+    console.error(
+        "📌 Hãy vào Railway → Variables → thêm DISCORD_TOKEN."
+    );
+
+} else {
+
+    client.login(
+        process.env.DISCORD_TOKEN
+    ).catch(error => {
+
+        console.error(
+            "❌ KHÔNG THỂ ĐĂNG NHẬP DISCORD:"
+        );
+
+        console.error(error);
+    });
+}
