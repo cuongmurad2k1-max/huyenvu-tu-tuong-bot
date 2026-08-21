@@ -5,16 +5,15 @@ const {
     ButtonStyle
 } = require("discord.js");
 
-const fs = require("fs");
 const path = require("path");
 
 // ======================================================
-// CẤU HÌNH
+// CONFIG
 // ======================================================
 
 const PREFIX = ".";
 
-// Số lệnh hiển thị mỗi trang
+// Số command hiển thị trên 1 trang
 const COMMANDS_PER_PAGE = 15;
 
 // ======================================================
@@ -23,102 +22,97 @@ const COMMANDS_PER_PAGE = 15;
 
 const GROUP_NAMES = {
 
-    "01_combat": "⚔️ COMBAT",
-    "02_tutuong": "🌀 TU TƯỞNG",
-    "03_thanhthu": "🔥 THẦN THÚ",
-    "04_nhanvat": "👤 NHÂN VẬT",
-    "05_boss_raid": "👑 BOSS",
-    "06_pvp": "⚔️ PVP",
-    "07_guild": "🏯 GUILD",
+    "01_combat":
+        "⚔️ COMBAT",
 
-    "08_phoban": "🏰 PHÓ BẢN",
-    "09_item": "🎒 VẬT PHẨM",
-    "10_shop": "🛒 CỬA HÀNG",
-    "11_economy": "💰 KINH TẾ",
-    "12_rank": "🏆 XẾP HẠNG",
-    "13_event": "🎉 SỰ KIỆN",
-    "14_admin": "🛡️ ADMIN",
-    "15_system": "⚙️ HỆ THỐNG"
+    "02_tutuong":
+        "🌀 TU TƯỞNG",
+
+    "03_thanthu":
+        "🔥 THẦN THÚ",
+
+    "04_nhanvat":
+        "👤 NHÂN VẬT",
+
+    "05_boss_raid":
+        "👑 BOSS",
+
+    "06_pvp":
+        "⚔️ PVP",
+
+    "07_guild":
+        "🏯 GUILD"
 };
 
 // ======================================================
-// LẤY TÊN NHÓM TỪ FILE
+// LẤY TÊN NHÓM
 // ======================================================
 
 function getGroupName(filePath) {
 
-    const fileName = path.basename(filePath, ".js")
-        .toLowerCase();
-
-    // Ví dụ:
-    // 01_combat.js
-    // 02_tutuong.js
-
-    if (GROUP_NAMES[fileName]) {
-        return GROUP_NAMES[fileName];
+    if (!filePath) {
+        return "📚 KHÁC";
     }
 
-    // Nếu file nằm trong thư mục
-    const parent = path.basename(
-        path.dirname(filePath)
-    ).toLowerCase();
+    const fileName =
+        path.basename(
+            filePath,
+            ".js"
+        ).toLowerCase();
 
-    if (GROUP_NAMES[parent]) {
-        return GROUP_NAMES[parent];
+    // ==================================================
+    // FILE GỐC
+    // ==================================================
+
+    if (
+        GROUP_NAMES[fileName]
+    ) {
+
+        return GROUP_NAMES[
+            fileName
+        ];
     }
 
-    // Tự lấy tên file
-    return `📁 ${fileName
-        .replace(/^\d+[_-]?/, "")
-        .replace(/[_-]/g, " ")
-        .toUpperCase()}`;
-}
+    // ==================================================
+    // THƯ MỤC CHA
+    // ==================================================
 
-// ======================================================
-// LẤY COMMAND TỪ COMMAND MAP
-// ======================================================
+    const parent =
+        path.basename(
+            path.dirname(filePath)
+        ).toLowerCase();
 
-function getCommands(commandMap) {
+    if (
+        GROUP_NAMES[parent]
+    ) {
 
-    const groups = new Map();
-
-    for (const [name, command] of commandMap.entries()) {
-
-        if (!command) {
-            continue;
-        }
-
-        let group = "📚 KHÁC";
-
-        if (command.file) {
-            group = getGroupName(command.file);
-        }
-
-        if (!groups.has(group)) {
-            groups.set(group, []);
-        }
-
-        groups.get(group).push({
-            name,
-            command
-        });
+        return GROUP_NAMES[
+            parent
+        ];
     }
 
-    // Sắp xếp tên lệnh
-    for (const list of groups.values()) {
+    // ==================================================
+    // TỰ TẠO TÊN
+    // ==================================================
 
-        list.sort((a, b) =>
-            a.name.localeCompare(
-                b.name,
-                "vi",
-                {
-                    sensitivity: "base"
-                }
+    const cleanName =
+        fileName
+            .replace(
+                /^\d+[_-]?/,
+                ""
             )
-        );
+            .replace(
+                /[_-]/g,
+                " "
+            )
+            .trim()
+            .toUpperCase();
+
+    if (!cleanName) {
+        return "📚 KHÁC";
     }
 
-    return groups;
+    return `📁 ${cleanName}`;
 }
 
 // ======================================================
@@ -128,81 +122,223 @@ function getCommands(commandMap) {
 function getDescription(command) {
 
     if (!command) {
-        return "";
+        return "Không có mô tả";
     }
 
-    // description trực tiếp
+    // ==================================================
+    // DESCRIPTION TRỰC TIẾP
+    // ==================================================
+
     if (
-        typeof command.description === "string" &&
+        typeof command.description ===
+        "string" &&
         command.description.trim()
     ) {
-        return command.description;
+
+        return command.description
+            .trim();
     }
 
-    // Slash command data
+    // ==================================================
+    // SLASH DATA
+    // ==================================================
+
     if (
         command.data &&
-        typeof command.data.description === "string"
+        typeof command.data.description ===
+        "string" &&
+        command.data.description.trim()
     ) {
-        return command.data.description;
+
+        return command.data.description
+            .trim();
     }
 
     return "Không có mô tả";
 }
 
 // ======================================================
-// TẠO EMBED DANH SÁCH NHÓM
+// TẠO GROUP
 // ======================================================
 
-function createMainHelp(groups) {
+function buildGroups(commandMap) {
+
+    const groups = new Map();
+
+    // ==================================================
+    // ĐỌC TOÀN BỘ COMMAND
+    // ==================================================
+
+    for (
+        const [name, command]
+        of commandMap.entries()
+    ) {
+
+        if (!command) {
+            continue;
+        }
+
+        let group =
+            getGroupName(
+                command.file
+            );
+
+        if (!groups.has(group)) {
+
+            groups.set(
+                group,
+                []
+            );
+        }
+
+        groups
+            .get(group)
+            .push({
+                name,
+                command
+            });
+    }
+
+    // ==================================================
+    // SẮP XẾP COMMAND
+    // ==================================================
+
+    for (
+        const commands
+        of groups.values()
+    ) {
+
+        commands.sort(
+            (a, b) =>
+                a.name.localeCompare(
+                    b.name,
+                    "vi",
+                    {
+                        sensitivity:
+                            "base"
+                    }
+                )
+        );
+    }
+
+    return groups;
+}
+
+// ======================================================
+// TỔNG COMMAND
+// ======================================================
+
+function getTotalCommands(groups) {
 
     let total = 0;
 
-    for (const commands of groups.values()) {
-        total += commands.length;
+    for (
+        const commands
+        of groups.values()
+    ) {
+
+        total +=
+            commands.length;
     }
 
-    const embed = new EmbedBuilder()
-        .setTitle("📚 HUYỀN VŨ TỨ TƯỢNG")
-        .setDescription(
-            [
-                "Danh sách toàn bộ command của bot.",
-                "",
-                `📦 **Tổng cộng: ${total} lệnh**`,
-                "",
-                "👇 Chọn một nhóm bên dưới để xem lệnh.",
-                "",
-                "💡 Bạn vẫn dùng lệnh bình thường:",
-                `\`${PREFIX}boss\``,
-                `\`${PREFIX}tu\``,
-                `\`${PREFIX}combat\``,
-                `\`${PREFIX}help\``
-            ].join("\n")
-        )
-        .setColor(0x5865F2)
-        .setFooter({
-            text: "Huyền Vũ Tứ Tượng • Hệ thống command"
-        });
+    return total;
+}
+
+// ======================================================
+// LẤY GROUP THEO INDEX
+// ======================================================
+
+function getGroupByIndex(
+    groups,
+    index
+) {
+
+    let current = 0;
+
+    for (
+        const [name, commands]
+        of groups
+    ) {
+
+        if (
+            current === index
+        ) {
+
+            return {
+                name,
+                commands
+            };
+        }
+
+        current++;
+    }
+
+    return null;
+}
+
+// ======================================================
+// TẠO TRANG CHÍNH
+// ======================================================
+
+function createMainEmbed(groups) {
+
+    const total =
+        getTotalCommands(
+            groups
+        );
 
     let text = "";
 
-    for (const [group, commands] of groups) {
+    for (
+        const [group, commands]
+        of groups
+    ) {
 
-        text += `\n${group} — **${commands.length} lệnh**`;
+        text +=
+            `${group} — **${commands.length} lệnh**\n`;
     }
 
-    if (text.length <= 3900) {
-        embed.addFields({
-            name: "📂 CÁC NHÓM COMMAND",
-            value: text.trim()
-        });
-    }
+    const embed =
+        new EmbedBuilder()
+            .setTitle(
+                "📚 HUYỀN VŨ TỨ TƯỢNG"
+            )
+            .setDescription(
+                [
+                    "Danh sách toàn bộ command.",
+                    "",
+                    `📦 **Tổng cộng: ${total} lệnh**`,
+                    "",
+                    "👇 Chọn nhóm để xem command.",
+                    "",
+                    "💡 Ví dụ:",
+                    "`.boss`",
+                    "`.tu`",
+                    "`.combat`",
+                    "`.shop`",
+                    "`.help`"
+                ].join("\n")
+            )
+            .addFields({
+                name:
+                    "📂 CÁC NHÓM COMMAND",
+                value:
+                    text ||
+                    "Không có command."
+            })
+            .setColor(
+                0x5865F2
+            )
+            .setFooter({
+                text:
+                    "Huyền Vũ Tứ Tượng • Tất cả command vẫn dùng bằng dấu ."
+            });
 
     return embed;
 }
 
 // ======================================================
-// TẠO NÚT NHÓM
+// TẠO BUTTON NHÓM
 // ======================================================
 
 function createGroupButtons(groups) {
@@ -211,26 +347,48 @@ function createGroupButtons(groups) {
 
     let index = 0;
 
-    for (const [group] of groups) {
+    for (
+        const [group]
+        of groups
+    ) {
 
-        if (index >= 20) {
+        // Discord tối đa 25 button
+        if (
+            index >= 25
+        ) {
             break;
         }
 
-        const id = `help_group_${index}`;
+        let label =
+            group
+                .replace(
+                    /^[^\p{L}\p{N}]+/u,
+                    ""
+                )
+                .trim();
+
+        if (
+            label.length > 80
+        ) {
+
+            label =
+                label.slice(
+                    0,
+                    80
+                );
+        }
 
         buttons.push(
             new ButtonBuilder()
-                .setCustomId(id)
-                .setLabel(
-                    group
-                        .replace(
-                            /^[^\p{L}\p{N}]+/u,
-                            ""
-                        )
-                        .slice(0, 80)
+                .setCustomId(
+                    `help_group_${index}`
                 )
-                .setStyle(ButtonStyle.Primary)
+                .setLabel(
+                    label
+                )
+                .setStyle(
+                    ButtonStyle.Primary
+                )
         );
 
         index++;
@@ -238,12 +396,19 @@ function createGroupButtons(groups) {
 
     const rows = [];
 
-    for (let i = 0; i < buttons.length; i += 5) {
+    for (
+        let i = 0;
+        i < buttons.length;
+        i += 5
+    ) {
 
         rows.push(
             new ActionRowBuilder()
                 .addComponents(
-                    buttons.slice(i, i + 5)
+                    buttons.slice(
+                        i,
+                        i + 5
+                    )
                 )
         );
     }
@@ -252,91 +417,121 @@ function createGroupButtons(groups) {
 }
 
 // ======================================================
-// TẠO DANH SÁCH NHÓM THEO INDEX
+// TẠO TRANG COMMAND
 // ======================================================
 
-function getGroupByIndex(groups, index) {
-
-    let i = 0;
-
-    for (const [group, commands] of groups) {
-
-        if (i === index) {
-            return {
-                name: group,
-                commands
-            };
-        }
-
-        i++;
-    }
-
-    return null;
-}
-
-// ======================================================
-// TẠO EMBED COMMAND
-// ======================================================
-
-function createCommandEmbed(
+function createCommandPage(
     groupName,
     commands,
     page
 ) {
 
-    const totalPages = Math.max(
-        1,
-        Math.ceil(
-            commands.length /
-            COMMANDS_PER_PAGE
-        )
-    );
+    const totalPages =
+        Math.max(
+            1,
+            Math.ceil(
+                commands.length /
+                COMMANDS_PER_PAGE
+            )
+        );
 
-    if (page < 0) {
+    // ==================================================
+    // GIỚI HẠN PAGE
+    // ==================================================
+
+    if (
+        page < 0
+    ) {
+
         page = 0;
     }
 
-    if (page >= totalPages) {
-        page = totalPages - 1;
+    if (
+        page >= totalPages
+    ) {
+
+        page =
+            totalPages - 1;
     }
 
+    // ==================================================
+    // LẤY COMMAND
+    // ==================================================
+
     const start =
-        page * COMMANDS_PER_PAGE;
+        page *
+        COMMANDS_PER_PAGE;
 
     const end =
         Math.min(
-            start + COMMANDS_PER_PAGE,
+            start +
+            COMMANDS_PER_PAGE,
             commands.length
         );
 
     const current =
-        commands.slice(start, end);
+        commands.slice(
+            start,
+            end
+        );
+
+    // ==================================================
+    // TẠO TEXT
+    // ==================================================
 
     let description = "";
 
-    for (const item of current) {
+    for (
+        const item
+        of current
+    ) {
 
-        const desc =
-            getDescription(item.command);
+        let desc =
+            getDescription(
+                item.command
+            );
+
+        // Tránh embed quá dài
+        if (
+            desc.length > 150
+        ) {
+
+            desc =
+                desc.slice(
+                    0,
+                    147
+                ) + "...";
+        }
 
         description +=
             `\`${PREFIX}${item.name}\` — ${desc}\n`;
     }
 
-    const embed = new EmbedBuilder()
-        .setTitle(
-            `${groupName}`
-        )
-        .setDescription(
-            description ||
-            "Không có command."
-        )
-        .setColor(0x5865F2)
-        .setFooter({
-            text:
-                `Trang ${page + 1}/${totalPages} • ` +
-                `${commands.length} lệnh`
-        });
+    if (!description) {
+
+        description =
+            "Không có command.";
+    }
+
+    // ==================================================
+    // EMBED
+    // ==================================================
+
+    const embed =
+        new EmbedBuilder()
+            .setTitle(
+                groupName
+            )
+            .setDescription(
+                description
+            )
+            .setColor(
+                0x5865F2
+            )
+            .setFooter({
+                text:
+                    `Trang ${page + 1}/${totalPages} • ${commands.length} lệnh`
+            });
 
     return {
         embed,
@@ -346,7 +541,7 @@ function createCommandEmbed(
 }
 
 // ======================================================
-// NÚT TRANG
+// BUTTON TRANG
 // ======================================================
 
 function createPageButtons(
@@ -355,37 +550,61 @@ function createPageButtons(
     totalPages
 ) {
 
-    const row =
-        new ActionRowBuilder()
-            .addComponents(
+    return new ActionRowBuilder()
+        .addComponents(
 
-                new ButtonBuilder()
-                    .setCustomId(
-                        `help_prev_${groupIndex}_${page}`
-                    )
-                    .setLabel("⬅️ Trước")
-                    .setStyle(ButtonStyle.Secondary)
-                    .setDisabled(page <= 0),
+            // ==================================================
+            // TRANG TRƯỚC
+            // ==================================================
 
-                new ButtonBuilder()
-                    .setCustomId(
-                        `help_home_${groupIndex}`
-                    )
-                    .setLabel("🏠 Nhóm")
-                    .setStyle(ButtonStyle.Primary),
+            new ButtonBuilder()
+                .setCustomId(
+                    `help_prev_${groupIndex}_${page}`
+                )
+                .setLabel(
+                    "⬅️ Trước"
+                )
+                .setStyle(
+                    ButtonStyle.Secondary
+                )
+                .setDisabled(
+                    page <= 0
+                ),
 
-                new ButtonBuilder()
-                    .setCustomId(
-                        `help_next_${groupIndex}_${page}`
-                    )
-                    .setLabel("Sau ➡️")
-                    .setStyle(ButtonStyle.Secondary)
-                    .setDisabled(
-                        page >= totalPages - 1
-                    )
-            );
+            // ==================================================
+            // VỀ NHÓM
+            // ==================================================
 
-    return row;
+            new ButtonBuilder()
+                .setCustomId(
+                    `help_home`
+                )
+                .setLabel(
+                    "🏠 Nhóm"
+                )
+                .setStyle(
+                    ButtonStyle.Primary
+                ),
+
+            // ==================================================
+            // TRANG SAU
+            // ==================================================
+
+            new ButtonBuilder()
+                .setCustomId(
+                    `help_next_${groupIndex}_${page}`
+                )
+                .setLabel(
+                    "Sau ➡️"
+                )
+                .setStyle(
+                    ButtonStyle.Secondary
+                )
+                .setDisabled(
+                    page >=
+                    totalPages - 1
+                )
+        );
 }
 
 // ======================================================
@@ -397,9 +616,13 @@ module.exports = {
     name: "help",
 
     description:
-        "📚 Hiển thị toàn bộ command theo từng nhóm",
+        "📚 Hiển thị toàn bộ 291 command theo nhóm",
 
-    async execute(message, args, commandMap) {
+    async execute(
+        message,
+        args,
+        commandMap
+    ) {
 
         try {
 
@@ -409,8 +632,13 @@ module.exports = {
 
             if (
                 !commandMap ||
-                typeof commandMap.entries !== "function"
+                typeof commandMap.entries !==
+                "function"
             ) {
+
+                console.error(
+                    "❌ HELP: commandMap không được truyền vào."
+                );
 
                 await message.reply(
                     "❌ Không thể lấy danh sách command."
@@ -424,9 +652,13 @@ module.exports = {
             // ==================================================
 
             const groups =
-                getCommands(commandMap);
+                buildGroups(
+                    commandMap
+                );
 
-            if (groups.size === 0) {
+            if (
+                groups.size === 0
+            ) {
 
                 await message.reply(
                     "❌ Không tìm thấy command nào."
@@ -436,23 +668,32 @@ module.exports = {
             }
 
             // ==================================================
-            // EMBED CHÍNH
+            // TẠO EMBED CHÍNH
             // ==================================================
 
-            const embed =
-                createMainHelp(groups);
+            const mainEmbed =
+                createMainEmbed(
+                    groups
+                );
 
-            const rows =
-                createGroupButtons(groups);
+            const groupButtons =
+                createGroupButtons(
+                    groups
+                );
 
             // ==================================================
-            // GỬI HELP
+            // GỬI MESSAGE
             // ==================================================
 
             const helpMessage =
                 await message.reply({
-                    embeds: [embed],
-                    components: rows
+
+                    embeds: [
+                        mainEmbed
+                    ],
+
+                    components:
+                        groupButtons
                 });
 
             // ==================================================
@@ -461,21 +702,26 @@ module.exports = {
 
             const collector =
                 helpMessage.createMessageComponentCollector({
-                    time: 5 * 60 * 1000
+
+                    time:
+                        5 * 60 * 1000
                 });
 
             // ==================================================
-            // XỬ LÝ BUTTON
+            // BUTTON COLLECT
             // ==================================================
 
             collector.on(
                 "collect",
-                async (interaction) => {
+                async (
+                    interaction
+                ) => {
 
                     try {
 
-                        // Chỉ người gọi .help
-                        // được điều khiển menu
+                        // ==================================================
+                        // CHỈ NGƯỜI DÙNG .HELP
+                        // ==================================================
 
                         if (
                             interaction.user.id !==
@@ -483,9 +729,12 @@ module.exports = {
                         ) {
 
                             await interaction.reply({
+
                                 content:
-                                    "❌ Đây không phải menu help của bạn.",
-                                ephemeral: true
+                                    "❌ Bạn không thể điều khiển menu `.help` của người khác.",
+
+                                ephemeral:
+                                    true
                             });
 
                             return;
@@ -499,23 +748,28 @@ module.exports = {
                         // ==================================================
 
                         if (
-                            customId.startsWith(
-                                "help_home_"
-                            )
+                            customId ===
+                            "help_home"
                         ) {
 
-                            const mainEmbed =
-                                createMainHelp(groups);
+                            const embed =
+                                createMainEmbed(
+                                    groups
+                                );
 
-                            const mainRows =
-                                createGroupButtons(groups);
+                            const buttons =
+                                createGroupButtons(
+                                    groups
+                                );
 
                             await interaction.update({
+
                                 embeds: [
-                                    mainEmbed
+                                    embed
                                 ],
+
                                 components:
-                                    mainRows
+                                    buttons
                             });
 
                             return;
@@ -533,12 +787,29 @@ module.exports = {
 
                             const index =
                                 Number(
-                                    customId
-                                        .replace(
-                                            "help_group_",
-                                            ""
-                                        )
+                                    customId.replace(
+                                        "help_group_",
+                                        ""
+                                    )
                                 );
+
+                            if (
+                                Number.isNaN(
+                                    index
+                                )
+                            ) {
+
+                                await interaction.reply({
+
+                                    content:
+                                        "❌ Nhóm không hợp lệ.",
+
+                                    ephemeral:
+                                        true
+                                });
+
+                                return;
+                            }
 
                             const group =
                                 getGroupByIndex(
@@ -549,22 +820,25 @@ module.exports = {
                             if (!group) {
 
                                 await interaction.reply({
+
                                     content:
                                         "❌ Không tìm thấy nhóm.",
-                                    ephemeral: true
+
+                                    ephemeral:
+                                        true
                                 });
 
                                 return;
                             }
 
                             const result =
-                                createCommandEmbed(
+                                createCommandPage(
                                     group.name,
                                     group.commands,
                                     0
                                 );
 
-                            const pageRow =
+                            const pageButtons =
                                 createPageButtons(
                                     index,
                                     result.page,
@@ -572,11 +846,13 @@ module.exports = {
                                 );
 
                             await interaction.update({
+
                                 embeds: [
                                     result.embed
                                 ],
+
                                 components: [
-                                    pageRow
+                                    pageButtons
                                 ]
                             });
 
@@ -584,7 +860,7 @@ module.exports = {
                         }
 
                         // ==================================================
-                        // NÚT TRANG
+                        // TRANG TRƯỚC / SAU
                         // ==================================================
 
                         if (
@@ -597,29 +873,47 @@ module.exports = {
                         ) {
 
                             const parts =
-                                customId.split("_");
+                                customId.split(
+                                    "_"
+                                );
 
                             const action =
                                 parts[1];
 
                             const groupIndex =
-                                Number(parts[2]);
+                                Number(
+                                    parts[2]
+                                );
 
                             const oldPage =
-                                Number(parts[3]);
+                                Number(
+                                    parts[3]
+                                );
 
                             let newPage =
                                 oldPage;
 
+                            // ==================================================
+                            // TRANG TRƯỚC
+                            // ==================================================
+
                             if (
-                                action === "prev"
+                                action ===
+                                "prev"
                             ) {
+
                                 newPage--;
                             }
 
+                            // ==================================================
+                            // TRANG SAU
+                            // ==================================================
+
                             if (
-                                action === "next"
+                                action ===
+                                "next"
                             ) {
+
                                 newPage++;
                             }
 
@@ -632,22 +926,25 @@ module.exports = {
                             if (!group) {
 
                                 await interaction.reply({
+
                                     content:
                                         "❌ Không tìm thấy nhóm.",
-                                    ephemeral: true
+
+                                    ephemeral:
+                                        true
                                 });
 
                                 return;
                             }
 
                             const result =
-                                createCommandEmbed(
+                                createCommandPage(
                                     group.name,
                                     group.commands,
                                     newPage
                                 );
 
-                            const pageRow =
+                            const pageButtons =
                                 createPageButtons(
                                     groupIndex,
                                     result.page,
@@ -655,11 +952,13 @@ module.exports = {
                                 );
 
                             await interaction.update({
+
                                 embeds: [
                                     result.embed
                                 ],
+
                                 components: [
-                                    pageRow
+                                    pageButtons
                                 ]
                             });
 
@@ -669,10 +968,12 @@ module.exports = {
                     } catch (error) {
 
                         console.error(
-                            "❌ Lỗi HELP BUTTON:"
+                            "❌ LỖI HELP BUTTON:"
                         );
 
-                        console.error(error);
+                        console.error(
+                            error
+                        );
 
                         try {
 
@@ -682,11 +983,13 @@ module.exports = {
                             ) {
 
                                 await interaction.reply({
+
                                     content:
                                         "❌ Có lỗi khi sử dụng menu help.",
-                                    ephemeral: true
-                                });
 
+                                    ephemeral:
+                                        true
+                                });
                             }
 
                         } catch {}
@@ -718,13 +1021,21 @@ module.exports = {
                 "❌ LỖI COMMAND .HELP:"
             );
 
-            console.error(error);
+            console.error(
+                error
+            );
 
             try {
 
-                await message.reply(
-                    "❌ Có lỗi khi mở danh sách lệnh."
-                );
+                if (
+                    !message.replied &&
+                    !message.deferred
+                ) {
+
+                    await message.reply(
+                        "❌ Có lỗi khi mở danh sách lệnh."
+                    );
+                }
 
             } catch {}
         }
