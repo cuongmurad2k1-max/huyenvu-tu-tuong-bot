@@ -1,17 +1,8 @@
 {
-  "name": "huyenvu-tu-tuong-ultra",
-  "version": "4.0.0",
-  "description": "Huyen Vu Tu Tuong Ultra RPG Discord Bot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "deploy": "node deploy-commands.js"
-  },
-  "engines": {
-    "node": "22.x"
-  },
+  "name": "huyen-vu-tu-tuong-grouped",
+  "version": "4.0.0-grouped",
+  "private": true,
   "dependencies": {
-    "discord.js": "^14.22.1",
-    "dotenv": "^17.2.1"
+    "discord.js": "^14.0.0"
   }
 }

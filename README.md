@@ -1,49 +1,20 @@
-# HUYỀN VŨ TỨ TƯỢNG — ULTIMATE EXPANSION
+# Huyền Vũ Tứ Tượng — Bản Gộp 15 File
 
-Đây là bản mở rộng lớn hơn của gói trước, theo hướng MMORPG Discord.
+Đã gộp toàn bộ 276 slash commands thành 14 bundle command + các file lõi. Không xóa lệnh; mỗi bundle export một mảng command để loader nạp toàn bộ.
 
-## Hệ thống đã thêm
-- Tứ Tượng + Song/Tam/Tứ Tượng trận.
-- Combat, critical, penetration, status, elemental reaction.
-- Thế giới, thời tiết, world events.
-- Nhân vật, quái, Boss nhiều phase.
-- Thiên Mệnh.
-- 10 huyết mạch.
-- 10 thiên phú.
-- 9 nghề nghiệp và mastery.
-- Chế tạo.
-- Gacha/banner/pity.
-- Guild, lãnh thổ, chiến tranh.
-- PvP/rating.
-- Season/Battle Pass foundation.
-- Mail.
-- Quest.
-- Achievement.
-- Housing.
-- World event.
-- Raid 5/10/20 người.
-- Auction foundation.
-- Investigation.
-- Secrets/hidden content.
-- Minigames.
-- World Boss.
-- Ranking.
-- Daily quests.
-- Party.
-- NPC dialogue.
-- Puzzle.
-- Economy.
-- 100 vật phẩm mẫu.
-- 60 quái mẫu.
-- 30 Boss mẫu.
-- 40 NPC mẫu.
+## Cấu trúc
+- commands/01_combat.js ... commands/14_misc.js: toàn bộ 276 lệnh
+- - database.js: database người chơi
+- systems.js: toàn bộ 31 hệ thống đã gộp
+- catalog.json: toàn bộ catalog dữ liệu
+- command-loader.js: loader cho bundle
 
-## Lưu ý quan trọng
-Gói này là nền tảng mở rộng độc lập. Vì chưa có toàn bộ source bot hiện tại của bạn trong lượt này, tôi không tự ý sửa handler/deploy command của bot hiện hữu. Các module được tách riêng để ghép an toàn.
+## Tích hợp vào bot hiện tại
+Nếu bot của bạn đang tự động quét `commands/*.js`, thay loader bằng:
+```js
+const { loadCommands } = require('./command-loader');
+const commands = loadCommands();
+```
+Khi đăng ký slash commands, dùng `commands.map(c => c.data.toJSON())`. Khi xử lý interaction, tìm command theo `interaction.commandName` trong mảng `commands`.
 
-## Tích hợp
-- Giữ `database.js` làm lớp lưu trữ.
-- Chép `systems/` vào project.
-- Chép `commands/` vào thư mục command của bot.
-- Register slash commands theo command loader hiện tại.
-- Backup bot trước khi thay database.
+Bản này phù hợp để upload GitHub bằng điện thoại: chỉ còn 19 file chính thay vì hơn 300 file.
