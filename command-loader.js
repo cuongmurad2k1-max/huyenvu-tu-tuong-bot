@@ -2,107 +2,183 @@ const fs = require("fs");
 const path = require("path");
 
 /**
- * Load toàn bộ command trong thư mục commands
+ * =====================================================
+ * 📦 HUYỀN VŨ COMMAND LOADER
+ * =====================================================
  *
- * Hỗ trợ:
- * - File export Array command
- * - File export một command
+ * Tự động hỗ trợ:
+ *
+ * 1. /app/commands/*.js
+ *
+ * 2. /app/*.js
+ *
+ * Nếu có thư mục commands thì ưu tiên commands/.
+ * Nếu không có thì tự tìm 14 bundle ở /app.
  */
-function loadCommands(
-    commandsDir = path.join(__dirname, "commands")
-) {
 
-    const all = [];
+function loadCommands() {
 
-    if (!fs.existsSync(commandsDir)) {
+    const rootDir = __dirname;
 
-        throw new Error(
-            `Không tìm thấy thư mục commands: ${commandsDir}`
+    const commandsDir =
+        path.join(
+            rootDir,
+            "commands"
+        );
+
+    let files = [];
+    let loadDir = rootDir;
+
+    // =================================================
+    // 📁 ƯU TIÊN /commands
+    // =================================================
+
+    if (
+        fs.existsSync(commandsDir) &&
+        fs.statSync(commandsDir).isDirectory()
+    ) {
+
+        loadDir = commandsDir;
+
+        files = fs
+            .readdirSync(commandsDir)
+            .filter(
+                file =>
+                    file.endsWith(".js") &&
+                    !file.startsWith("_")
+            )
+            .sort();
+
+        console.log(
+            `📂 Đang load commands từ: ${commandsDir}`
+        );
+
+    } else {
+
+        // =================================================
+        // 📁 FALLBACK: LOAD TRỰC TIẾP /app
+        // =================================================
+
+        files = fs
+            .readdirSync(rootDir)
+            .filter(
+                file =>
+                    /^(\d{2})_.+\.js$/i.test(file)
+            )
+            .sort();
+
+        console.log(
+            "📂 Không có /commands."
+        );
+
+        console.log(
+            "📂 Tự động load command bundle trực tiếp từ /app."
         );
     }
 
-    const files = fs
-        .readdirSync(commandsDir)
-        .filter(
-            file =>
-                file.endsWith(".js") &&
-                file !== "_helper.js"
-        )
-        .sort();
+    // =================================================
+    // ❌ KHÔNG CÓ FILE
+    // =================================================
+
+    if (files.length === 0) {
+
+        throw new Error(
+            "Không tìm thấy file command bundle."
+        );
+    }
 
     console.log(
         `📂 Tìm thấy ${files.length} file command bundle.`
     );
 
-    for (const file of files) {
+    // =================================================
+    // 📦 LOAD COMMAND
+    // =================================================
+
+    const all = [];
+
+    for (
+        const file of files
+    ) {
 
         try {
 
             const filePath =
                 path.join(
-                    commandsDir,
+                    loadDir,
                     file
                 );
 
             const mod =
                 require(filePath);
 
-            // =============================================
-            // 📦 BUNDLE ARRAY
-            // =============================================
+            let count = 0;
 
-            if (Array.isArray(mod)) {
+            // =================================================
+            // 📦 EXPORT ARRAY
+            // =================================================
 
-                console.log(
-                    `📦 ${file}: ${mod.length} commands`
-                );
+            if (
+                Array.isArray(mod)
+            ) {
 
-                for (const command of mod) {
+                for (
+                    const command of mod
+                ) {
 
                     if (
                         command &&
                         command.data &&
-                        typeof command.execute === "function"
+                        typeof command.execute ===
+                            "function"
                     ) {
+
                         all.push(command);
+
+                        count++;
+
                     } else {
 
                         console.warn(
-                            `⚠️ ${file}: phát hiện command không hợp lệ.`
+                            `⚠️ ${file}: command không hợp lệ.`
                         );
                     }
                 }
 
             }
 
-            // =============================================
-            // ⚔️ COMMAND ĐƠN
-            // =============================================
+            // =================================================
+            // ⚔️ EXPORT COMMAND ĐƠN
+            // =================================================
 
             else if (
                 mod &&
                 mod.data &&
-                typeof mod.execute === "function"
+                typeof mod.execute ===
+                    "function"
             ) {
-
-                console.log(
-                    `📦 ${file}: 1 command`
-                );
 
                 all.push(mod);
 
+                count++;
             }
 
-            // =============================================
-            // ❌ KHÔNG HỢP LỆ
-            // =============================================
+            // =================================================
+            // ❌ KHÔNG PHẢI COMMAND
+            // =================================================
 
             else {
 
                 console.warn(
                     `⚠️ ${file}: không chứa command hợp lệ.`
                 );
+
+                continue;
             }
+
+            console.log(
+                `📦 ${file}: ${count} commands`
+            );
 
         } catch (error) {
 
@@ -110,57 +186,88 @@ function loadCommands(
                 `❌ Không thể load ${file}:`
             );
 
-            console.error(error);
+            console.error(
+                error
+            );
         }
     }
 
-    // =============================================
+    // =================================================
     // 🔍 KIỂM TRA TRÙNG TÊN
-    // =============================================
+    // =================================================
 
-    const names = new Map();
+    const uniqueCommands = [];
+
+    const names = new Set();
+
     const duplicates = [];
 
-    for (const command of all) {
+    for (
+        const command of all
+    ) {
 
         const name =
             command.data.name;
 
-        if (names.has(name)) {
+        if (
+            names.has(name)
+        ) {
 
-            duplicates.push(name);
+            duplicates.push(
+                name
+            );
 
-        } else {
-
-            names.set(name, command);
+            continue;
         }
+
+        names.add(
+            name
+        );
+
+        uniqueCommands.push(
+            command
+        );
     }
 
-    if (duplicates.length > 0) {
+    // =================================================
+    // ⚠️ COMMAND TRÙNG
+    // =================================================
+
+    if (
+        duplicates.length > 0
+    ) {
 
         console.warn(
             "⚠️ COMMAND TRÙNG TÊN:"
         );
 
         console.warn(
-            [...new Set(duplicates)].join(", ")
+            [
+                ...new Set(
+                    duplicates
+                )
+            ].join(", ")
         );
     }
 
-    // =============================================
+    // =================================================
     // 📊 THỐNG KÊ
-    // =============================================
+    // =================================================
 
     console.log(
         `📊 Tổng command load được: ${all.length}`
     );
 
     console.log(
-        `📊 Command tên duy nhất: ${names.size}`
+        `📊 Command tên duy nhất: ${uniqueCommands.length}`
     );
 
-    return all;
+    return uniqueCommands;
 }
+
+// =====================================================
+// 📤 EXPORT
+// =====================================================
 
 module.exports = {
     loadCommands
