@@ -1,17 +1,10 @@
-require("dotenv").config();
-
 const fs = require("fs");
 const path = require("path");
-
 const {
     Client,
     GatewayIntentBits,
-    Events,
-    REST,
-    Routes
+    Partials
 } = require("discord.js");
-
-const db = require("./database");
 
 // =====================================================
 // CONFIG
@@ -19,78 +12,332 @@ const db = require("./database");
 
 const PREFIX = ".";
 
-const ROOT = __dirname;
+const TOKEN =
+    process.env.TOKEN ||
+    process.env.DISCORD_TOKEN ||
+    process.env.BOT_TOKEN;
 
-const COMMANDS_DIR =
-    path.join(ROOT, "commands");
+if (!TOKEN) {
+    console.error("❌ Không tìm thấy TOKEN trong Railway Variables.");
+    process.exit(1);
+}
 
 // =====================================================
-// 14 BUNDLE COMMAND
+// DISCORD CLIENT
 // =====================================================
 
-const BUNDLES = [
-    "01_combat.js",
-    "02_tutuong.js",
-    "03_thanthu.js",
-    "04_nhanvat.js",
-    "05_boss_raid.js",
-    "06_pvp.js",
-    "07_guild.js",
-    "08_quest_story.js",
-    "09_world.js",
-    "10_items_craft.js",
-    "11_economy.js",
-    "12_social.js",
-    "13_progress.js",
-    "14_misc.js"
-];
+const client = new Client({
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent
+    ],
+
+    partials: [
+        Partials.Channel,
+        Partials.Message,
+        Partials.User,
+        Partials.GuildMember
+    ]
+});
 
 // =====================================================
 // COMMAND MAP
+// CHỈ KHAI BÁO 1 LẦN
 // =====================================================
 
 const commandMap = new Map();
 
 // =====================================================
+// COMMAND ALIASES
+// =====================================================
+
+const aliases = new Map();
+
+// =====================================================
+// ĐƯỜNG DẪN CẦN QUÉT
+// =====================================================
+
+const ROOT_DIR = __dirname;
+
+const COMMAND_DIRS = [
+    ROOT_DIR,
+    path.join(ROOT_DIR, "commands")
+];
+
+// =====================================================
+// FILE / THƯ MỤC KHÔNG LOAD
+// =====================================================
+
+const IGNORE_FILES = new Set([
+    "index.js",
+    "database.js",
+    "package.json"
+]);
+
+const IGNORE_DIRS = new Set([
+    "node_modules",
+    ".git",
+    ".railway",
+    "systems"
+]);
+
+// =====================================================
 // KIỂM TRA COMMAND
 // =====================================================
 
-function isCommand(value) {
-    return !!(
-        value &&
-        value.data &&
-        typeof value.execute === "function" &&
-        typeof value.data.name === "string"
-    );
+function isValidCommand(command) {
+    if (!command) return false;
+
+    // Kiểu:
+    // {
+    //   data: SlashCommandBuilder,
+    //   execute()
+    // }
+
+    if (
+        command.data &&
+        typeof command.execute === "function"
+    ) {
+        return true;
+    }
+
+    // Kiểu:
+    // {
+    //   name: "boss",
+    //   execute()
+    // }
+
+    if (
+        typeof command.name === "string" &&
+        typeof command.execute === "function"
+    ) {
+        return true;
+    }
+
+    // Kiểu:
+    // {
+    //   name: "boss",
+    //   run()
+    // }
+
+    if (
+        typeof command.name === "string" &&
+        typeof command.run === "function"
+    ) {
+        return true;
+    }
+
+    // Kiểu:
+    // {
+    //   command: "boss",
+    //   execute()
+    // }
+
+    if (
+        typeof command.command === "string" &&
+        typeof command.execute === "function"
+    ) {
+        return true;
+    }
+
+    // Kiểu:
+    // {
+    //   command: "boss",
+    //   run()
+    // }
+
+    if (
+        typeof command.command === "string" &&
+        typeof command.run === "function"
+    ) {
+        return true;
+    }
+
+    return false;
 }
 
 // =====================================================
-// LOAD 1 MODULE
+// LẤY TÊN COMMAND
 // =====================================================
 
-function readCommandModule(file) {
+function getCommandName(command) {
+    let name = null;
 
+    // SlashCommandBuilder
+    if (
+        command.data &&
+        typeof command.data.name === "string"
+    ) {
+        name = command.data.name;
+    }
+
+    // name
+    if (
+        !name &&
+        typeof command.name === "string"
+    ) {
+        name = command.name;
+    }
+
+    // command
+    if (
+        !name &&
+        typeof command.command === "string"
+    ) {
+        name = command.command;
+    }
+
+    if (!name) return null;
+
+    return name
+        .toLowerCase()
+        .trim()
+        .replace(/^\//, "")
+        .replace(/^\./, "");
+}
+
+// =====================================================
+// LẤY ALIAS
+// =====================================================
+
+function getAliases(command) {
+    if (!command) return [];
+
+    if (Array.isArray(command.aliases)) {
+        return command.aliases
+            .filter(x => typeof x === "string")
+            .map(x =>
+                x
+                    .toLowerCase()
+                    .trim()
+                    .replace(/^\./, "")
+                    .replace(/^\//, "")
+            );
+    }
+
+    return [];
+}
+
+// =====================================================
+// LOAD COMMAND
+// =====================================================
+
+function registerCommand(command, file) {
+    if (!isValidCommand(command)) {
+        return 0;
+    }
+
+    const name = getCommandName(command);
+
+    if (!name) {
+        console.warn(
+            `⚠️ Bỏ qua ${file}: không tìm thấy tên command.`
+        );
+        return 0;
+    }
+
+    if (commandMap.has(name)) {
+        console.warn(
+            `⚠️ Trùng command .${name} -> ${file}`
+        );
+
+        return 0;
+    }
+
+    commandMap.set(name, command);
+
+    const commandAliases = getAliases(command);
+
+    for (const alias of commandAliases) {
+        if (!aliases.has(alias)) {
+            aliases.set(alias, name);
+        }
+    }
+
+    return 1;
+}
+
+// =====================================================
+// LOAD FILE
+// =====================================================
+
+function loadFile(file) {
     try {
+        if (
+            !file.endsWith(".js") ||
+            file.endsWith(".map.js")
+        ) {
+            return 0;
+        }
 
+        const baseName = path.basename(file);
+
+        if (IGNORE_FILES.has(baseName)) {
+            return 0;
+        }
+
+        // Xóa cache để Railway luôn load code mới
         delete require.cache[
             require.resolve(file)
         ];
 
-        const mod = require(file);
+        const loaded = require(file);
 
-        if (Array.isArray(mod)) {
+        // ---------------------------------------------
+        // 1. export trực tiếp command
+        // ---------------------------------------------
 
-            return mod.filter(
-                isCommand
+        if (isValidCommand(loaded)) {
+            return registerCommand(
+                loaded,
+                file
             );
         }
 
-        if (isCommand(mod)) {
+        // ---------------------------------------------
+        // 2. module.exports = [command1, command2]
+        // ---------------------------------------------
 
-            return [mod];
+        if (Array.isArray(loaded)) {
+            let count = 0;
+
+            for (const command of loaded) {
+                count += registerCommand(
+                    command,
+                    file
+                );
+            }
+
+            return count;
         }
 
-        return [];
+        // ---------------------------------------------
+        // 3. module.exports = {
+        //      command1: {...},
+        //      command2: {...}
+        //    }
+        // ---------------------------------------------
+
+        if (
+            loaded &&
+            typeof loaded === "object"
+        ) {
+            let count = 0;
+
+            for (const value of Object.values(loaded)) {
+                if (isValidCommand(value)) {
+                    count += registerCommand(
+                        value,
+                        file
+                    );
+                }
+            }
+
+            return count;
+        }
+
+        return 0;
 
     } catch (error) {
 
@@ -102,8 +349,74 @@ function readCommandModule(file) {
             error.message
         );
 
-        return [];
+        return 0;
     }
+}
+
+// =====================================================
+// QUÉT THƯ MỤC ĐỆ QUY
+// =====================================================
+
+function scanDirectory(dir) {
+    let count = 0;
+
+    if (!fs.existsSync(dir)) {
+        return count;
+    }
+
+    let entries;
+
+    try {
+        entries = fs.readdirSync(
+            dir,
+            { withFileTypes: true }
+        );
+    } catch (error) {
+        console.error(
+            `❌ Không thể đọc thư mục ${dir}`
+        );
+
+        return count;
+    }
+
+    for (const entry of entries) {
+
+        const fullPath = path.join(
+            dir,
+            entry.name
+        );
+
+        // ---------------------------------------------
+        // DIRECTORY
+        // ---------------------------------------------
+
+        if (entry.isDirectory()) {
+
+            if (
+                IGNORE_DIRS.has(entry.name)
+            ) {
+                continue;
+            }
+
+            count += scanDirectory(
+                fullPath
+            );
+
+            continue;
+        }
+
+        // ---------------------------------------------
+        // FILE
+        // ---------------------------------------------
+
+        if (!entry.name.endsWith(".js")) {
+            continue;
+        }
+
+        count += loadFile(fullPath);
+    }
+
+    return count;
 }
 
 // =====================================================
@@ -112,1296 +425,73 @@ function readCommandModule(file) {
 
 function loadAllCommands() {
 
-    const loaded = [];
+    commandMap.clear();
+    aliases.clear();
 
-    const seenFiles = new Set();
+    let loadedCount = 0;
 
-    // -------------------------------------------------
-    // LOAD BUNDLE TRONG /commands
-    // -------------------------------------------------
+    const scanned = new Set();
 
-    if (
-        fs.existsSync(COMMANDS_DIR) &&
-        fs.statSync(COMMANDS_DIR).isDirectory()
-    ) {
+    for (const dir of COMMAND_DIRS) {
 
-        for (
-            const file
-            of BUNDLES
-        ) {
-
-            const fullPath =
-                path.join(
-                    COMMANDS_DIR,
-                    file
-                );
-
-            if (
-                !fs.existsSync(
-                    fullPath
-                )
-            ) {
-                continue;
-            }
-
-            seenFiles.add(
-                fullPath
-            );
-
-            loaded.push(
-                ...readCommandModule(
-                    fullPath
-                )
-            );
-        }
-
-        // -------------------------------------------------
-        // LOAD COMMAND JS RỜI TRONG /commands
-        // -------------------------------------------------
-
-        for (
-            const file
-            of fs.readdirSync(
-                COMMANDS_DIR
-            )
-        ) {
-
-            if (
-                !file.endsWith(".js")
-            ) {
-                continue;
-            }
-
-            if (
-                file === "index.js" ||
-                file === "_helper.js"
-            ) {
-                continue;
-            }
-
-            const fullPath =
-                path.join(
-                    COMMANDS_DIR,
-                    file
-                );
-
-            if (
-                seenFiles.has(
-                    fullPath
-                )
-            ) {
-                continue;
-            }
-
-            loaded.push(
-                ...readCommandModule(
-                    fullPath
-                )
-            );
-        }
-    }
-
-    // -------------------------------------------------
-    // LOAD BUNDLE TRỰC TIẾP TRONG /app
-    // -------------------------------------------------
-
-    for (
-        const file
-        of BUNDLES
-    ) {
-
-        const fullPath =
-            path.join(
-                ROOT,
-                file
-            );
-
-        if (
-            !fs.existsSync(
-                fullPath
-            )
-        ) {
+        if (!fs.existsSync(dir)) {
             continue;
         }
 
-        loaded.push(
-            ...readCommandModule(
-                fullPath
-            )
-        );
-    }
+        const realDir = path.resolve(dir);
 
-    // -------------------------------------------------
-    // TẠO MAP
-    // -------------------------------------------------
-
-    const map =
-        new Map();
-
-    for (
-        const command
-        of loaded
-    ) {
-
-        const name =
-            String(
-                command.data.name
-            ).toLowerCase();
-
-        if (
-            !/^[a-z0-9_-]{1,32}$/.test(
-                name
-            )
-        ) {
-
-            console.warn(
-                `⚠️ Tên command không hợp lệ: ${name}`
-            );
-
+        if (scanned.has(realDir)) {
             continue;
         }
 
-        if (
-            map.has(name)
-        ) {
+        scanned.add(realDir);
 
-            console.warn(
-                `⚠️ Trùng .${name} — giữ command đầu tiên.`
-            );
-
-            continue;
-        }
-
-        map.set(
-            name,
-            command
+        loadedCount += scanDirectory(
+            realDir
         );
     }
 
-    return map;
-}
-
-// =====================================================
-// LOAD COMMAND
-// =====================================================
-
-const commandMap =
-    loadAllCommands();
-
-console.log("");
-console.log(
-    "========================================"
-);
-
-console.log(
-    "📦 HUYỀN VŨ PREFIX LOADER"
-);
-
-console.log(
-    "========================================"
-);
-
-console.log(
-    `📜 Command Map: ${commandMap.size} commands`
-);
-
-console.log(
-    `🔰 Prefix: ${PREFIX}`
-);
-
-console.log(
-    "========================================"
-);
-
-console.log("");
-
-// =====================================================
-// DISCORD CLIENT
-// =====================================================
-
-const client =
-    new Client({
-
-        intents: [
-
-            GatewayIntentBits.Guilds,
-
-            GatewayIntentBits.GuildMessages,
-
-            GatewayIntentBits.MessageContent
-
-        ]
-    });
-
-// =====================================================
-// TOKENIZE
-// =====================================================
-
-function tokenize(text) {
-
-    const result = [];
-
-    const regex =
-        /"([^"\\]*(?:\\.[^"\\]*)*)"|'([^'\\]*(?:\\.[^'\\]*)*)'|(\S+)/g;
-
-    let match;
-
-    while (
-        (match = regex.exec(text))
-        !== null
-    ) {
-
-        result.push(
-            match[1] ??
-            match[2] ??
-            match[3]
-        );
-    }
-
-    return result;
-}
-
-// =====================================================
-// NORMALIZE ID
-// =====================================================
-
-function normalizeId(value) {
-
-    if (!value) {
-        return null;
-    }
-
-    const text =
-        String(value).trim();
-
-    const match =
-        text.match(
-            /^<@!?(\d+)>$/
-        );
-
-    if (match) {
-        return match[1];
-    }
-
-    if (
-        /^\d+$/.test(text)
-    ) {
-        return text;
-    }
-
-    return null;
-}
-
-// =====================================================
-// BOOLEAN
-// =====================================================
-
-function parseBoolean(value) {
-
-    if (value == null) {
-        return null;
-    }
-
-    const v =
-        String(value).toLowerCase();
-
-    if (
-        [
-            "true",
-            "1",
-            "yes",
-            "y",
-            "co",
-            "có",
-            "bat",
-            "bật"
-        ].includes(v)
-    ) {
-        return true;
-    }
-
-    if (
-        [
-            "false",
-            "0",
-            "no",
-            "n",
-            "khong",
-            "không",
-            "tat",
-            "tắt"
-        ].includes(v)
-    ) {
-        return false;
-    }
-
-    return Boolean(value);
-}
-
-// =====================================================
-// CHUYỂN OPTION
-// =====================================================
-
-function makeOptionValue(
-    message,
-    option,
-    raw
-) {
-
-    if (raw == null) {
-        return null;
-    }
-
-    switch (option.type) {
-
-        case 4: {
-
-            const n =
-                Number.parseInt(
-                    raw,
-                    10
-                );
-
-            if (
-                Number.isNaN(n)
-            ) {
-
-                throw new Error(
-                    `Tham số ${option.name} phải là số nguyên.`
-                );
-            }
-
-            return n;
-        }
-
-        case 10: {
-
-            const n =
-                Number(raw);
-
-            if (
-                Number.isNaN(n)
-            ) {
-
-                throw new Error(
-                    `Tham số ${option.name} phải là số.`
-                );
-            }
-
-            return n;
-        }
-
-        case 5:
-
-            return parseBoolean(
-                raw
-            );
-
-        case 6: {
-
-            const id =
-                normalizeId(raw);
-
-            if (!id) {
-
-                throw new Error(
-                    `Không nhận diện được người dùng ở ${option.name}.`
-                );
-            }
-
-            return (
-                message.client.users.cache.get(id) ||
-                { id }
-            );
-        }
-
-        case 7: {
-
-            const id =
-                normalizeId(raw);
-
-            if (!id) {
-
-                throw new Error(
-                    `Không nhận diện được kênh ở ${option.name}.`
-                );
-            }
-
-            return (
-                message.guild?.channels.cache.get(id) ||
-                { id }
-            );
-        }
-
-        case 8: {
-
-            const id =
-                normalizeId(raw);
-
-            if (!id) {
-
-                throw new Error(
-                    `Không nhận diện được role ở ${option.name}.`
-                );
-            }
-
-            return (
-                message.guild?.roles.cache.get(id) ||
-                { id }
-            );
-        }
-
-        case 9: {
-
-            const id =
-                normalizeId(raw);
-
-            if (!id) {
-
-                throw new Error(
-                    `Không nhận diện được mentionable ở ${option.name}.`
-                );
-            }
-
-            return (
-                message.guild?.members.cache.get(id) ||
-                message.guild?.roles.cache.get(id) ||
-                message.client.users.cache.get(id) ||
-                { id }
-            );
-        }
-
-        default:
-
-            return String(raw);
-    }
-}
-
-// =====================================================
-// BUILD OPTIONS
-// =====================================================
-
-function buildValues(
-    message,
-    command,
-    args
-) {
-
-    const json =
-        typeof command.data?.toJSON ===
-        "function"
-
-            ? command.data.toJSON()
-
-            : {};
-
-    let options =
-        Array.isArray(json.options)
-
-            ? json.options
-
-            : [];
-
-    let positional =
-        [...args];
-
-    const values =
-        new Map();
-
-    let selectedSubcommand =
-        null;
-
-    let selectedSubcommandGroup =
-        null;
-
-    // -------------------------------------------------
-    // SUBCOMMAND GROUP
-    // -------------------------------------------------
-
-    if (
-        options.some(
-            x =>
-                x.type === 1 ||
-                x.type === 2
-        )
-    ) {
-
-        if (
-            options.some(
-                x =>
-                    x.type === 2
-            )
-        ) {
-
-            const groupName =
-                positional.shift();
-
-            const group =
-                options.find(
-                    x =>
-                        x.type === 2 &&
-                        x.name === groupName
-                );
-
-            if (group) {
-
-                selectedSubcommandGroup =
-                    group.name;
-
-                options =
-                    group.options || [];
-            }
-        }
-
-        const sub =
-            options.find(
-                x =>
-                    x.type === 1 &&
-                    x.name === positional[0]
-            );
-
-        if (sub) {
-
-            selectedSubcommand =
-                sub.name;
-
-            positional.shift();
-
-            options =
-                sub.options || [];
-        }
-    }
-
-    // -------------------------------------------------
-    // OPTIONS
-    // -------------------------------------------------
-
-    let cursor = 0;
-
-    for (
-        const option
-        of options
-    ) {
-
-        if (
-            option.type === 1 ||
-            option.type === 2
-        ) {
-            continue;
-        }
-
-        const raw =
-            positional[cursor];
-
-        if (
-            raw == null
-        ) {
-
-            values.set(
-                option.name,
-                null
-            );
-
-            if (
-                option.required
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số bắt buộc: ${option.name}`
-                );
-            }
-
-            continue;
-        }
-
-        const value =
-            makeOptionValue(
-                message,
-                option,
-                raw
-            );
-
-        // -------------------------------------------------
-        // CHOICE
-        // -------------------------------------------------
-
-        if (
-            Array.isArray(
-                option.choices
-            ) &&
-            option.choices.length
-        ) {
-
-            const byName =
-                option.choices.find(
-                    x =>
-                        String(
-                            x.name
-                        ).toLowerCase() ===
-                        String(
-                            raw
-                        ).toLowerCase()
-                );
-
-            const byValue =
-                option.choices.find(
-                    x =>
-                        String(
-                            x.value
-                        ).toLowerCase() ===
-                        String(
-                            raw
-                        ).toLowerCase()
-                );
-
-            if (byName) {
-
-                values.set(
-                    option.name,
-                    byName.value
-                );
-
-            } else if (byValue) {
-
-                values.set(
-                    option.name,
-                    byValue.value
-                );
-
-            } else {
-
-                values.set(
-                    option.name,
-                    value
-                );
-
-            }
-
-        } else {
-
-            values.set(
-                option.name,
-                value
-            );
-        }
-
-        cursor++;
-    }
-
-    return {
-        values,
-        selectedSubcommand,
-        selectedSubcommandGroup
-    };
-}
-
-// =====================================================
-// PREFIX INTERACTION
-// =====================================================
-
-function makePrefixInteraction(
-    message,
-    command,
-    args
-) {
-
-    const {
-        values,
-        selectedSubcommand,
-        selectedSubcommandGroup
-    } =
-        buildValues(
-            message,
-            command,
-            args
-        );
-
-    let replied =
-        false;
-
-    let deferred =
-        false;
-
-    let lastReply =
-        null;
-
-    // -------------------------------------------------
-    // OPTIONS API
-    // -------------------------------------------------
-
-    const optionsApi = {
-
-        getString(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value;
-        },
-
-        getInteger(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value == null
-                ? null
-                : Number.parseInt(
-                    value,
-                    10
-                );
-        },
-
-        getNumber(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value == null
-                ? null
-                : Number(value);
-        },
-
-        getBoolean(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value == null
-                ? null
-                : Boolean(value);
-        },
-
-        getUser(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value;
-        },
-
-        getMember(
-            name,
-            required = false
-        ) {
-
-            const user =
-                values.get(name) ??
-                null;
-
-            const member =
-                user?.id
-                    ? message.guild?.members.cache.get(
-                        user.id
-                    )
-                    : null;
-
-            if (
-                required &&
-                !member
-            ) {
-
-                throw new Error(
-                    `Không tìm thấy thành viên: ${name}`
-                );
-            }
-
-            return member;
-        },
-
-        getChannel(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value;
-        },
-
-        getRole(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value;
-        },
-
-        getMentionable(
-            name,
-            required = false
-        ) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            if (
-                required &&
-                value == null
-            ) {
-
-                throw new Error(
-                    `Thiếu tham số: ${name}`
-                );
-            }
-
-            return value;
-        },
-
-        getSubcommand(
-            required = true
-        ) {
-
-            if (
-                !selectedSubcommand &&
-                required
-            ) {
-
-                throw new Error(
-                    "Không có subcommand."
-                );
-            }
-
-            return (
-                selectedSubcommand ||
-                null
-            );
-        },
-
-        getSubcommandGroup(
-            required = true
-        ) {
-
-            if (
-                !selectedSubcommandGroup &&
-                required
-            ) {
-
-                throw new Error(
-                    "Không có subcommand group."
-                );
-            }
-
-            return (
-                selectedSubcommandGroup ||
-                null
-            );
-        },
-
-        get(name) {
-
-            const value =
-                values.get(name) ??
-                null;
-
-            return value == null
-                ? null
-                : {
-                    name,
-                    value
-                };
-        }
-    };
-
-    // -------------------------------------------------
-    // INTERACTION GIẢ
-    // -------------------------------------------------
-
-    const interaction = {
-
-        user:
-            message.author,
-
-        member:
-            message.member,
-
-        guild:
-            message.guild,
-
-        channel:
-            message.channel,
-
-        client:
-            message.client,
-
-        message,
-
-        createdTimestamp:
-            message.createdTimestamp,
-
-        commandName:
-            command.data.name,
-
-        options:
-            optionsApi,
-
-        isChatInputCommand:
-            () => true,
-
-        isButton:
-            () => false,
-
-        isStringSelectMenu:
-            () => false,
-
-        isUserSelectMenu:
-            () => false,
-
-        reply:
-            async payload => {
-
-                lastReply =
-                    await message.reply(
-                        payload
-                    );
-
-                replied = true;
-
-                return lastReply;
-            },
-
-        followUp:
-            async payload =>
-                message.channel.send(
-                    payload
-                ),
-
-        editReply:
-            async payload => {
-
-                if (lastReply) {
-
-                    return lastReply.edit(
-                        payload
-                    );
-                }
-
-                lastReply =
-                    await message.reply(
-                        payload
-                    );
-
-                replied = true;
-
-                return lastReply;
-            },
-
-        deferReply:
-            async () => {
-
-                deferred = true;
-            },
-
-        deleteReply:
-            async () => {
-
-                if (lastReply) {
-
-                    await lastReply
-                        .delete()
-                        .catch(
-                            () => {}
-                        );
-                }
-            },
-
-        fetchReply:
-            async () =>
-                lastReply,
-
-        update:
-            async payload => {
-
-                if (lastReply) {
-
-                    return lastReply.edit(
-                        payload
-                    );
-                }
-
-                lastReply =
-                    await message.reply(
-                        payload
-                    );
-
-                replied = true;
-
-                return lastReply;
-            },
-
-        showModal:
-            async () => {
-
-                throw new Error(
-                    "Modal không thể mở trực tiếp từ prefix ."
-                );
-            }
-    };
-
-    Object.defineProperty(
-        interaction,
-        "replied",
-        {
-            get: () =>
-                replied
-        }
+    console.log("");
+    console.log(
+        "=========================================="
     );
 
-    Object.defineProperty(
-        interaction,
-        "deferred",
-        {
-            get: () =>
-                deferred
-        }
+    console.log(
+        `📦 Đã load ${loadedCount} command`
     );
 
-    return interaction;
-}
+    console.log(
+        `📚 Command Map: ${commandMap.size} commands`
+    );
 
-// =====================================================
-// HELP
-// =====================================================
+    console.log(
+        `🔗 Aliases: ${aliases.size}`
+    );
 
-function helpText() {
+    console.log(
+        "=========================================="
+    );
 
-    const names =
-        [
-            ...commandMap.keys()
-        ].sort();
-
-    const lines = [
-
-        `📜 **HUYỀN VŨ — ${names.length} LỆNH**`,
-
-        "Dùng: **.tên_lệnh [tham số]**",
-
-        ""
+    // Hiển thị một số command để kiểm tra
+    const names = [
+        ...commandMap.keys()
     ];
 
-    for (
-        const name
-        of names
-    ) {
+    if (names.length > 0) {
 
-        lines.push(
-            `• .${name}`
+        console.log(
+            "📋 Một số command:"
+        );
+
+        console.log(
+            names
+                .slice(0, 20)
+                .map(x => `.${x}`)
+                .join(" | ")
         );
     }
 
-    return lines.join(
-        "\n"
-    );
-}
-
-// =====================================================
-// XÓA TOÀN BỘ SLASH COMMAND
-// =====================================================
-
-async function deleteAllSlashCommands() {
-
-    try {
-
-        if (
-            !process.env.DISCORD_TOKEN
-        ) {
-
-            console.warn(
-                "⚠️ Không có DISCORD_TOKEN."
-            );
-
-            return;
-        }
-
-        const rest =
-            new REST({
-                version: "10"
-            }).setToken(
-                process.env.DISCORD_TOKEN
-            );
-
-        const applicationId =
-            client.user.id;
-
-        console.log(
-            "🗑️ Đang xóa toàn bộ Slash Commands..."
-        );
-
-        // -------------------------------------------------
-        // GLOBAL
-        // -------------------------------------------------
-
-        try {
-
-            await rest.put(
-                Routes.applicationCommands(
-                    applicationId
-                ),
-                {
-                    body: []
-                }
-            );
-
-            console.log(
-                "✅ Đã xóa Global Slash Commands."
-            );
-
-        } catch (error) {
-
-            console.warn(
-                "⚠️ Không xóa được Global Slash Commands:",
-                error.message
-            );
-        }
-
-        // -------------------------------------------------
-        // TỪNG SERVER
-        // -------------------------------------------------
-
-        const guilds =
-            await client.guilds.fetch();
-
-        for (
-            const [guildId, guild]
-            of guilds
-        ) {
-
-            try {
-
-                await rest.put(
-                    Routes.applicationGuildCommands(
-                        applicationId,
-                        guildId
-                    ),
-                    {
-                        body: []
-                    }
-                );
-
-                console.log(
-                    `✅ Đã xóa Slash Commands: ${guild.name || guildId}`
-                );
-
-            } catch (error) {
-
-                console.warn(
-                    `⚠️ Không xóa được Slash ở ${guildId}:`,
-                    error.message
-                );
-            }
-        }
-
-        console.log(
-            "🟢 Hoàn tất: BOT CHỈ DÙNG PREFIX ."
-        );
-
-    } catch (error) {
-
-        console.error(
-            "❌ Lỗi xóa Slash Commands:"
-        );
-
-        console.error(
-            error
-        );
-    }
+    console.log("");
 }
 
 // =====================================================
@@ -1409,38 +499,36 @@ async function deleteAllSlashCommands() {
 // =====================================================
 
 client.once(
-    Events.ClientReady,
-    async readyClient => {
+    "ready",
+    () => {
 
         console.log("");
         console.log(
-            "========================================"
+            "=========================================="
         );
 
         console.log(
-            `🐢 ${readyClient.user.tag} ONLINE`
+            `🤖 ${client.user.tag} ONLINE`
         );
 
         console.log(
-            `🌌 Servers: ${readyClient.guilds.cache.size}`
+            `🛡️ Prefix: ${PREFIX}`
         );
 
         console.log(
-            `📜 Commands: ${commandMap.size}`
+            `🌐 Servers: ${client.guilds.cache.size}`
         );
 
         console.log(
-            `🔰 Prefix: ${PREFIX}`
+            `📦 Commands: ${commandMap.size}`
         );
 
         console.log(
-            "========================================"
+            "=========================================="
         );
 
-        await deleteAllSlashCommands();
-
         console.log(
-            "🟢 Bot sẵn sàng nhận lệnh PREFIX."
+            "💡 Dùng lệnh dạng: .boss"
         );
 
         console.log("");
@@ -1452,385 +540,142 @@ client.once(
 // =====================================================
 
 client.on(
-    Events.MessageCreate,
+    "messageCreate",
     async message => {
 
-        if (
-            message.author.bot
-        ) {
-            return;
-        }
+        try {
 
-        if (
-            !message.guild
-        ) {
-            return;
-        }
+            // Không xử lý bot
+            if (message.author.bot) {
+                return;
+            }
 
-        if (
-            !message.content.startsWith(
-                PREFIX
-            )
-        ) {
-            return;
-        }
+            // Không có content
+            if (!message.content) {
+                return;
+            }
 
-        const body =
-            message.content
-                .slice(
-                    PREFIX.length
+            // Không bắt đầu bằng .
+            if (
+                !message.content.startsWith(
+                    PREFIX
                 )
-                .trim();
-
-        if (!body) {
-            return;
-        }
-
-        console.log(
-            `📥 ${message.author.tag}: .${body}`
-        );
-
-        const parts =
-            tokenize(body);
-
-        const name =
-            String(
-                parts.shift() || ""
-            ).toLowerCase();
-
-        if (!name) {
-            return;
-        }
-
-        // -------------------------------------------------
-        // HELP
-        // -------------------------------------------------
-
-        if (
-            name === "help" ||
-            name === "lenh"
-        ) {
-
-            return message.reply(
-                helpText()
-            );
-        }
-
-        // -------------------------------------------------
-        // TÌM COMMAND
-        // -------------------------------------------------
-
-        const command =
-            commandMap.get(
-                name
-            );
-
-        if (!command) {
-
-            return message.reply(
-                `❌ Không tìm thấy lệnh **.${name}**.`
-            ).catch(
-                () => {}
-            );
-        }
-
-        // -------------------------------------------------
-        // EXECUTE
-        // -------------------------------------------------
-
-        try {
-
-            const interaction =
-                makePrefixInteraction(
-                    message,
-                    command,
-                    parts
-                );
-
-            await command.execute(
-                interaction
-            );
-
-        } catch (error) {
-
-            console.error(
-                `❌ Lỗi .${name}:`,
-                error
-            );
-
-            await message.reply(
-                `❌ Lỗi khi thực hiện **.${name}**: ${
-                    error.message ||
-                    "Không xác định"
-                }`
-            ).catch(
-                () => {}
-            );
-        }
-    }
-);
-
-// =====================================================
-// BUTTON / MENU
-// =====================================================
-
-client.on(
-    Events.InteractionCreate,
-    async interaction => {
-
-        // Slash Command không được xử lý
-        if (
-            interaction.isChatInputCommand()
-        ) {
-            return;
-        }
-
-        if (
-            !interaction.isButton() &&
-            !interaction.isStringSelectMenu() &&
-            !interaction.isUserSelectMenu()
-        ) {
-            return;
-        }
-
-        try {
-
-            const parts =
-                interaction.customId.split(
-                    ":"
-                );
-
-            const type =
-                parts[0];
-
-            const uid =
-                parts[1];
-
-            const id =
-                parts[2];
-
-            // -------------------------------------------------
-            // KIỂM TRA USER
-            // -------------------------------------------------
-
-            if (
-                uid &&
-                uid !== interaction.user.id
             ) {
-
-                return interaction.reply({
-
-                    content:
-                        "❌ Menu này không thuộc về bạn.",
-
-                    ephemeral:
-                        true
-
-                }).catch(
-                    () => {}
-                );
+                return;
             }
 
-            // -------------------------------------------------
-            // FACTION
-            // -------------------------------------------------
+            // -----------------------------------------
+            // TÁCH COMMAND
+            // -----------------------------------------
 
-            if (
-                type === "faction" &&
-                interaction.isButton()
-            ) {
+            const content =
+                message.content.slice(
+                    PREFIX.length
+                ).trim();
 
-                let factions = [];
+            if (!content) {
+                return;
+            }
 
-                try {
+            const args =
+                content.split(/\s+/);
 
-                    factions =
-                        require(
-                            "./factions.json"
+            let commandName =
+                args.shift()
+                    .toLowerCase();
+
+            // -----------------------------------------
+            // TÌM COMMAND
+            // -----------------------------------------
+
+            let command =
+                commandMap.get(
+                    commandName
+                );
+
+            // Alias
+            if (!command) {
+
+                const realName =
+                    aliases.get(
+                        commandName
+                    );
+
+                if (realName) {
+                    command =
+                        commandMap.get(
+                            realName
                         );
-
-                } catch (_) {}
-
-                const faction =
-                    factions.find(
-                        x =>
-                            String(x.id) ===
-                            String(id)
-                    );
-
-                if (!faction) {
-
-                    return interaction.reply({
-
-                        content:
-                            "❌ Không tìm thấy Tứ Tượng.",
-
-                        ephemeral:
-                            true
-
-                    });
                 }
+            }
 
-                const bonuses =
-                    faction.bonuses ||
-                    {};
+            // Không tồn tại
+            if (!command) {
+                return;
+            }
 
-                const attack =
-                    Number(
-                        bonuses.attack ||
-                        0
-                    );
+            // -----------------------------------------
+            // EXECUTE
+            // -----------------------------------------
 
-                const defense =
-                    Number(
-                        bonuses.defense ||
-                        0
-                    );
+            if (
+                typeof command.execute ===
+                "function"
+            ) {
 
-                const speed =
-                    Number(
-                        bonuses.speed ||
-                        0
-                    );
+                await command.execute(
+                    message,
+                    args,
+                    {
+                        client,
+                        message,
+                        args
+                    }
+                );
 
-                const maxHp =
-                    Number(
-                        bonuses.maxHp ||
-                        0
-                    );
+                return;
+            }
 
-                // -------------------------------------------------
-                // DATABASE
-                // -------------------------------------------------
+            // -----------------------------------------
+            // RUN
+            // -----------------------------------------
 
-                if (
-                    db &&
-                    typeof db.mutate ===
-                    "function"
-                ) {
+            if (
+                typeof command.run ===
+                "function"
+            ) {
 
-                    db.mutate(
-                        interaction.user.id,
-                        player => {
+                await command.run(
+                    message,
+                    args,
+                    {
+                        client,
+                        message,
+                        args
+                    }
+                );
 
-                            player.attack =
-                                Number(
-                                    player.attack ||
-                                    0
-                                ) +
-                                attack;
-
-                            player.defense =
-                                Number(
-                                    player.defense ||
-                                    0
-                                ) +
-                                defense;
-
-                            player.speed =
-                                Number(
-                                    player.speed ||
-                                    0
-                                ) +
-                                speed;
-
-                            player.maxHp =
-                                Number(
-                                    player.maxHp ||
-                                    0
-                                ) +
-                                maxHp;
-
-                            player.faction =
-                                faction.name;
-
-                            player.bloodline =
-                                faction.name;
-
-                            player.hp =
-                                player.maxHp;
-
-                            return player;
-                        }
-                    );
-                }
-
-                const skills =
-                    Array.isArray(
-                        faction.skills
-                    )
-                        ? faction.skills.join(
-                            " • "
-                        )
-                        : "Chưa có";
-
-                return interaction.update({
-
-                    content:
-
-                        `🌟 **THỨC TỈNH THÀNH CÔNG**\n\n` +
-
-                        `🐾 Tứ Tượng: **${faction.name}**\n` +
-
-                        `🩸 Huyết mạch: **${faction.name}**\n\n` +
-
-                        `⚔️ Công kích: +${attack}\n` +
-
-                        `🛡️ Phòng thủ: +${defense}\n` +
-
-                        `💨 Tốc độ: +${speed}\n` +
-
-                        `❤️ HP tối đa: +${maxHp}\n\n` +
-
-                        `✨ **Kỹ năng:** ${skills}`,
-
-                    embeds: [],
-
-                    components: []
-                });
+                return;
             }
 
         } catch (error) {
 
             console.error(
-                "❌ INTERACTION ERROR:",
-                error
+                "❌ Lỗi khi chạy command:"
             );
+
+            console.error(error);
 
             try {
 
                 if (
-                    interaction.replied ||
-                    interaction.deferred
+                    message.channel &&
+                    message.channel.isTextBased()
                 ) {
 
-                    await interaction.followUp({
-
-                        content:
-                            `❌ ${
-                                error.message ||
-                                "Lỗi hệ thống"
-                            }`,
-
-                        ephemeral:
-                            true
-
-                    });
-
-                } else {
-
-                    await interaction.reply({
-
-                        content:
-                            `❌ ${
-                                error.message ||
-                                "Lỗi hệ thống"
-                            }`,
-
-                        ephemeral:
-                            true
-
-                    });
+                    await message.reply(
+                        "❌ Có lỗi xảy ra khi thực hiện lệnh."
+                    );
                 }
 
             } catch (_) {}
@@ -1839,46 +684,76 @@ client.on(
 );
 
 // =====================================================
-// CHECK TOKEN
+// ERROR HANDLER
 // =====================================================
 
-if (
-    !process.env.DISCORD_TOKEN
-) {
+client.on(
+    "error",
+    error => {
 
-    console.error(
-        "❌ THIẾU DISCORD_TOKEN!"
-    );
+        console.error(
+            "❌ Discord Client Error:"
+        );
 
-    console.error(
-        "📌 Railway → Variables → DISCORD_TOKEN"
-    );
+        console.error(error);
+    }
+);
 
-    process.exit(1);
-}
+process.on(
+    "unhandledRejection",
+    error => {
+
+        console.error(
+            "❌ Unhandled Rejection:"
+        );
+
+        console.error(error);
+    }
+);
+
+process.on(
+    "uncaughtException",
+    error => {
+
+        console.error(
+            "❌ Uncaught Exception:"
+        );
+
+        console.error(error);
+    }
+);
+
+// =====================================================
+// LOAD COMMANDS
+// =====================================================
+
+loadAllCommands();
 
 // =====================================================
 // LOGIN
 // =====================================================
 
-client.login(
-    process.env.DISCORD_TOKEN
-)
-.then(() => {
+console.log(
+    "🔐 Đang đăng nhập Discord..."
+);
 
-    console.log(
-        "🔐 Đang kết nối Discord..."
-    );
+client.login(TOKEN)
+    .then(() => {
 
-})
-.catch(error => {
+        console.log(
+            "✅ Đã gửi yêu cầu đăng nhập Discord."
+        );
 
-    console.error(
-        "❌ KHÔNG THỂ ĐĂNG NHẬP DISCORD:"
-    );
+    })
+    .catch(error => {
 
-    console.error(
-        error
-    );
+        console.error(
+            "❌ KHÔNG THỂ ĐĂNG NHẬP DISCORD:"
+        );
 
-});
+        console.error(
+            error.message
+        );
+
+        process.exit(1);
+    });
