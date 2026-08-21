@@ -1,0 +1,282 @@
+[
+  {
+    "id": "npc001",
+    "name": "Nhân Vật Bắc Minh 001",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc002",
+    "name": "Nhân Vật Bắc Minh 002",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc003",
+    "name": "Nhân Vật Bắc Minh 003",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc004",
+    "name": "Nhân Vật Bắc Minh 004",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc005",
+    "name": "Nhân Vật Bắc Minh 005",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc006",
+    "name": "Nhân Vật Bắc Minh 006",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc007",
+    "name": "Nhân Vật Bắc Minh 007",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": true
+  },
+  {
+    "id": "npc008",
+    "name": "Nhân Vật Bắc Minh 008",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc009",
+    "name": "Nhân Vật Bắc Minh 009",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc010",
+    "name": "Nhân Vật Bắc Minh 010",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc011",
+    "name": "Nhân Vật Bắc Minh 011",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc012",
+    "name": "Nhân Vật Bắc Minh 012",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc013",
+    "name": "Nhân Vật Bắc Minh 013",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc014",
+    "name": "Nhân Vật Bắc Minh 014",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": true
+  },
+  {
+    "id": "npc015",
+    "name": "Nhân Vật Bắc Minh 015",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc016",
+    "name": "Nhân Vật Bắc Minh 016",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc017",
+    "name": "Nhân Vật Bắc Minh 017",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc018",
+    "name": "Nhân Vật Bắc Minh 018",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc019",
+    "name": "Nhân Vật Bắc Minh 019",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc020",
+    "name": "Nhân Vật Bắc Minh 020",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc021",
+    "name": "Nhân Vật Bắc Minh 021",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": true
+  },
+  {
+    "id": "npc022",
+    "name": "Nhân Vật Bắc Minh 022",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc023",
+    "name": "Nhân Vật Bắc Minh 023",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc024",
+    "name": "Nhân Vật Bắc Minh 024",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc025",
+    "name": "Nhân Vật Bắc Minh 025",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc026",
+    "name": "Nhân Vật Bắc Minh 026",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc027",
+    "name": "Nhân Vật Bắc Minh 027",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc028",
+    "name": "Nhân Vật Bắc Minh 028",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": true
+  },
+  {
+    "id": "npc029",
+    "name": "Nhân Vật Bắc Minh 029",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc030",
+    "name": "Nhân Vật Bắc Minh 030",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc031",
+    "name": "Nhân Vật Bắc Minh 031",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc032",
+    "name": "Nhân Vật Bắc Minh 032",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc033",
+    "name": "Nhân Vật Bắc Minh 033",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc034",
+    "name": "Nhân Vật Bắc Minh 034",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc035",
+    "name": "Nhân Vật Bắc Minh 035",
+    "role": "Kẻ bí ẩn",
+    "friendship": 0,
+    "hidden": true
+  },
+  {
+    "id": "npc036",
+    "name": "Nhân Vật Bắc Minh 036",
+    "role": "Thương nhân",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc037",
+    "name": "Nhân Vật Bắc Minh 037",
+    "role": "Trưởng lão",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc038",
+    "name": "Nhân Vật Bắc Minh 038",
+    "role": "Thợ rèn",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc039",
+    "name": "Nhân Vật Bắc Minh 039",
+    "role": "Thám hiểm gia",
+    "friendship": 0,
+    "hidden": false
+  },
+  {
+    "id": "npc040",
+    "name": "Nhân Vật Bắc Minh 040",
+    "role": "Thủ vệ",
+    "friendship": 0,
+    "hidden": false
+  }
+]

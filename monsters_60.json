@@ -1,0 +1,542 @@
+[
+  {
+    "id": "mob001",
+    "name": "Huyền Thú Biến Dị 001",
+    "level": 1,
+    "hp": 230,
+    "attack": 27,
+    "defense": 18,
+    "element": "Kim"
+  },
+  {
+    "id": "mob002",
+    "name": "Huyền Thú Biến Dị 002",
+    "level": 2,
+    "hp": 310,
+    "attack": 39,
+    "defense": 26,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob003",
+    "name": "Huyền Thú Biến Dị 003",
+    "level": 3,
+    "hp": 390,
+    "attack": 51,
+    "defense": 34,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob004",
+    "name": "Huyền Thú Biến Dị 004",
+    "level": 4,
+    "hp": 470,
+    "attack": 63,
+    "defense": 42,
+    "element": "Phong"
+  },
+  {
+    "id": "mob005",
+    "name": "Huyền Thú Biến Dị 005",
+    "level": 5,
+    "hp": 550,
+    "attack": 75,
+    "defense": 50,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob006",
+    "name": "Huyền Thú Biến Dị 006",
+    "level": 6,
+    "hp": 630,
+    "attack": 87,
+    "defense": 58,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob007",
+    "name": "Huyền Thú Biến Dị 007",
+    "level": 7,
+    "hp": 710,
+    "attack": 99,
+    "defense": 66,
+    "element": "Kim"
+  },
+  {
+    "id": "mob008",
+    "name": "Huyền Thú Biến Dị 008",
+    "level": 8,
+    "hp": 790,
+    "attack": 111,
+    "defense": 74,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob009",
+    "name": "Huyền Thú Biến Dị 009",
+    "level": 9,
+    "hp": 870,
+    "attack": 123,
+    "defense": 82,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob010",
+    "name": "Huyền Thú Biến Dị 010",
+    "level": 10,
+    "hp": 950,
+    "attack": 135,
+    "defense": 90,
+    "element": "Phong"
+  },
+  {
+    "id": "mob011",
+    "name": "Huyền Thú Biến Dị 011",
+    "level": 11,
+    "hp": 1030,
+    "attack": 147,
+    "defense": 98,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob012",
+    "name": "Huyền Thú Biến Dị 012",
+    "level": 12,
+    "hp": 1110,
+    "attack": 159,
+    "defense": 106,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob013",
+    "name": "Huyền Thú Biến Dị 013",
+    "level": 13,
+    "hp": 1190,
+    "attack": 171,
+    "defense": 114,
+    "element": "Kim"
+  },
+  {
+    "id": "mob014",
+    "name": "Huyền Thú Biến Dị 014",
+    "level": 14,
+    "hp": 1270,
+    "attack": 183,
+    "defense": 122,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob015",
+    "name": "Huyền Thú Biến Dị 015",
+    "level": 15,
+    "hp": 1350,
+    "attack": 195,
+    "defense": 130,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob016",
+    "name": "Huyền Thú Biến Dị 016",
+    "level": 16,
+    "hp": 1430,
+    "attack": 207,
+    "defense": 138,
+    "element": "Phong"
+  },
+  {
+    "id": "mob017",
+    "name": "Huyền Thú Biến Dị 017",
+    "level": 17,
+    "hp": 1510,
+    "attack": 219,
+    "defense": 146,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob018",
+    "name": "Huyền Thú Biến Dị 018",
+    "level": 18,
+    "hp": 1590,
+    "attack": 231,
+    "defense": 154,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob019",
+    "name": "Huyền Thú Biến Dị 019",
+    "level": 19,
+    "hp": 1670,
+    "attack": 243,
+    "defense": 162,
+    "element": "Kim"
+  },
+  {
+    "id": "mob020",
+    "name": "Huyền Thú Biến Dị 020",
+    "level": 20,
+    "hp": 1750,
+    "attack": 255,
+    "defense": 170,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob021",
+    "name": "Huyền Thú Biến Dị 021",
+    "level": 21,
+    "hp": 1830,
+    "attack": 267,
+    "defense": 178,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob022",
+    "name": "Huyền Thú Biến Dị 022",
+    "level": 22,
+    "hp": 1910,
+    "attack": 279,
+    "defense": 186,
+    "element": "Phong"
+  },
+  {
+    "id": "mob023",
+    "name": "Huyền Thú Biến Dị 023",
+    "level": 23,
+    "hp": 1990,
+    "attack": 291,
+    "defense": 194,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob024",
+    "name": "Huyền Thú Biến Dị 024",
+    "level": 24,
+    "hp": 2070,
+    "attack": 303,
+    "defense": 202,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob025",
+    "name": "Huyền Thú Biến Dị 025",
+    "level": 25,
+    "hp": 2150,
+    "attack": 315,
+    "defense": 210,
+    "element": "Kim"
+  },
+  {
+    "id": "mob026",
+    "name": "Huyền Thú Biến Dị 026",
+    "level": 26,
+    "hp": 2230,
+    "attack": 327,
+    "defense": 218,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob027",
+    "name": "Huyền Thú Biến Dị 027",
+    "level": 27,
+    "hp": 2310,
+    "attack": 339,
+    "defense": 226,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob028",
+    "name": "Huyền Thú Biến Dị 028",
+    "level": 28,
+    "hp": 2390,
+    "attack": 351,
+    "defense": 234,
+    "element": "Phong"
+  },
+  {
+    "id": "mob029",
+    "name": "Huyền Thú Biến Dị 029",
+    "level": 29,
+    "hp": 2470,
+    "attack": 363,
+    "defense": 242,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob030",
+    "name": "Huyền Thú Biến Dị 030",
+    "level": 30,
+    "hp": 2550,
+    "attack": 375,
+    "defense": 250,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob031",
+    "name": "Huyền Thú Biến Dị 031",
+    "level": 31,
+    "hp": 2630,
+    "attack": 387,
+    "defense": 258,
+    "element": "Kim"
+  },
+  {
+    "id": "mob032",
+    "name": "Huyền Thú Biến Dị 032",
+    "level": 32,
+    "hp": 2710,
+    "attack": 399,
+    "defense": 266,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob033",
+    "name": "Huyền Thú Biến Dị 033",
+    "level": 33,
+    "hp": 2790,
+    "attack": 411,
+    "defense": 274,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob034",
+    "name": "Huyền Thú Biến Dị 034",
+    "level": 34,
+    "hp": 2870,
+    "attack": 423,
+    "defense": 282,
+    "element": "Phong"
+  },
+  {
+    "id": "mob035",
+    "name": "Huyền Thú Biến Dị 035",
+    "level": 35,
+    "hp": 2950,
+    "attack": 435,
+    "defense": 290,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob036",
+    "name": "Huyền Thú Biến Dị 036",
+    "level": 36,
+    "hp": 3030,
+    "attack": 447,
+    "defense": 298,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob037",
+    "name": "Huyền Thú Biến Dị 037",
+    "level": 37,
+    "hp": 3110,
+    "attack": 459,
+    "defense": 306,
+    "element": "Kim"
+  },
+  {
+    "id": "mob038",
+    "name": "Huyền Thú Biến Dị 038",
+    "level": 38,
+    "hp": 3190,
+    "attack": 471,
+    "defense": 314,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob039",
+    "name": "Huyền Thú Biến Dị 039",
+    "level": 39,
+    "hp": 3270,
+    "attack": 483,
+    "defense": 322,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob040",
+    "name": "Huyền Thú Biến Dị 040",
+    "level": 40,
+    "hp": 3350,
+    "attack": 495,
+    "defense": 330,
+    "element": "Phong"
+  },
+  {
+    "id": "mob041",
+    "name": "Huyền Thú Biến Dị 041",
+    "level": 41,
+    "hp": 3430,
+    "attack": 507,
+    "defense": 338,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob042",
+    "name": "Huyền Thú Biến Dị 042",
+    "level": 42,
+    "hp": 3510,
+    "attack": 519,
+    "defense": 346,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob043",
+    "name": "Huyền Thú Biến Dị 043",
+    "level": 43,
+    "hp": 3590,
+    "attack": 531,
+    "defense": 354,
+    "element": "Kim"
+  },
+  {
+    "id": "mob044",
+    "name": "Huyền Thú Biến Dị 044",
+    "level": 44,
+    "hp": 3670,
+    "attack": 543,
+    "defense": 362,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob045",
+    "name": "Huyền Thú Biến Dị 045",
+    "level": 45,
+    "hp": 3750,
+    "attack": 555,
+    "defense": 370,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob046",
+    "name": "Huyền Thú Biến Dị 046",
+    "level": 46,
+    "hp": 3830,
+    "attack": 567,
+    "defense": 378,
+    "element": "Phong"
+  },
+  {
+    "id": "mob047",
+    "name": "Huyền Thú Biến Dị 047",
+    "level": 47,
+    "hp": 3910,
+    "attack": 579,
+    "defense": 386,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob048",
+    "name": "Huyền Thú Biến Dị 048",
+    "level": 48,
+    "hp": 3990,
+    "attack": 591,
+    "defense": 394,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob049",
+    "name": "Huyền Thú Biến Dị 049",
+    "level": 49,
+    "hp": 4070,
+    "attack": 603,
+    "defense": 402,
+    "element": "Kim"
+  },
+  {
+    "id": "mob050",
+    "name": "Huyền Thú Biến Dị 050",
+    "level": 50,
+    "hp": 4150,
+    "attack": 615,
+    "defense": 410,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob051",
+    "name": "Huyền Thú Biến Dị 051",
+    "level": 51,
+    "hp": 4230,
+    "attack": 627,
+    "defense": 418,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob052",
+    "name": "Huyền Thú Biến Dị 052",
+    "level": 52,
+    "hp": 4310,
+    "attack": 639,
+    "defense": 426,
+    "element": "Phong"
+  },
+  {
+    "id": "mob053",
+    "name": "Huyền Thú Biến Dị 053",
+    "level": 53,
+    "hp": 4390,
+    "attack": 651,
+    "defense": 434,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob054",
+    "name": "Huyền Thú Biến Dị 054",
+    "level": 54,
+    "hp": 4470,
+    "attack": 663,
+    "defense": 442,
+    "element": "Mộc"
+  },
+  {
+    "id": "mob055",
+    "name": "Huyền Thú Biến Dị 055",
+    "level": 55,
+    "hp": 4550,
+    "attack": 675,
+    "defense": 450,
+    "element": "Kim"
+  },
+  {
+    "id": "mob056",
+    "name": "Huyền Thú Biến Dị 056",
+    "level": 56,
+    "hp": 4630,
+    "attack": 687,
+    "defense": 458,
+    "element": "Hỏa"
+  },
+  {
+    "id": "mob057",
+    "name": "Huyền Thú Biến Dị 057",
+    "level": 57,
+    "hp": 4710,
+    "attack": 699,
+    "defense": 466,
+    "element": "Thủy"
+  },
+  {
+    "id": "mob058",
+    "name": "Huyền Thú Biến Dị 058",
+    "level": 58,
+    "hp": 4790,
+    "attack": 711,
+    "defense": 474,
+    "element": "Phong"
+  },
+  {
+    "id": "mob059",
+    "name": "Huyền Thú Biến Dị 059",
+    "level": 59,
+    "hp": 4870,
+    "attack": 723,
+    "defense": 482,
+    "element": "Thổ"
+  },
+  {
+    "id": "mob060",
+    "name": "Huyền Thú Biến Dị 060",
+    "level": 60,
+    "hp": 4950,
+    "attack": 735,
+    "defense": 490,
+    "element": "Mộc"
+  }
+]

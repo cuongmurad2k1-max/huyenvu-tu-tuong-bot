@@ -1,0 +1,8 @@
+{
+  "name": "huyen-vu-tu-tuong-expanded",
+  "version": "1.0.0",
+  "description": "Expanded systems for a Discord RPG",
+  "requires": [
+    "discord.js"
+  ]
+}

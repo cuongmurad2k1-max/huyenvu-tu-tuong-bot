@@ -1,0 +1,272 @@
+[
+  {
+    "id": "boss001",
+    "name": "Thượng Cổ Boss 001",
+    "hp": 75000,
+    "attack": 620,
+    "defense": 390,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss002",
+    "name": "Thượng Cổ Boss 002",
+    "hp": 100000,
+    "attack": 740,
+    "defense": 480,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss003",
+    "name": "Thượng Cổ Boss 003",
+    "hp": 125000,
+    "attack": 860,
+    "defense": 570,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss004",
+    "name": "Thượng Cổ Boss 004",
+    "hp": 150000,
+    "attack": 980,
+    "defense": 660,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss005",
+    "name": "Thượng Cổ Boss 005",
+    "hp": 175000,
+    "attack": 1100,
+    "defense": 750,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss006",
+    "name": "Thượng Cổ Boss 006",
+    "hp": 200000,
+    "attack": 1220,
+    "defense": 840,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss007",
+    "name": "Thượng Cổ Boss 007",
+    "hp": 225000,
+    "attack": 1340,
+    "defense": 930,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss008",
+    "name": "Thượng Cổ Boss 008",
+    "hp": 250000,
+    "attack": 1460,
+    "defense": 1020,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss009",
+    "name": "Thượng Cổ Boss 009",
+    "hp": 275000,
+    "attack": 1580,
+    "defense": 1110,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss010",
+    "name": "Thượng Cổ Boss 010",
+    "hp": 300000,
+    "attack": 1700,
+    "defense": 1200,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss011",
+    "name": "Thượng Cổ Boss 011",
+    "hp": 325000,
+    "attack": 1820,
+    "defense": 1290,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss012",
+    "name": "Thượng Cổ Boss 012",
+    "hp": 350000,
+    "attack": 1940,
+    "defense": 1380,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss013",
+    "name": "Thượng Cổ Boss 013",
+    "hp": 375000,
+    "attack": 2060,
+    "defense": 1470,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss014",
+    "name": "Thượng Cổ Boss 014",
+    "hp": 400000,
+    "attack": 2180,
+    "defense": 1560,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss015",
+    "name": "Thượng Cổ Boss 015",
+    "hp": 425000,
+    "attack": 2300,
+    "defense": 1650,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss016",
+    "name": "Thượng Cổ Boss 016",
+    "hp": 450000,
+    "attack": 2420,
+    "defense": 1740,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss017",
+    "name": "Thượng Cổ Boss 017",
+    "hp": 475000,
+    "attack": 2540,
+    "defense": 1830,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss018",
+    "name": "Thượng Cổ Boss 018",
+    "hp": 500000,
+    "attack": 2660,
+    "defense": 1920,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss019",
+    "name": "Thượng Cổ Boss 019",
+    "hp": 525000,
+    "attack": 2780,
+    "defense": 2010,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss020",
+    "name": "Thượng Cổ Boss 020",
+    "hp": 550000,
+    "attack": 2900,
+    "defense": 2100,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss021",
+    "name": "Thượng Cổ Boss 021",
+    "hp": 575000,
+    "attack": 3020,
+    "defense": 2190,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss022",
+    "name": "Thượng Cổ Boss 022",
+    "hp": 600000,
+    "attack": 3140,
+    "defense": 2280,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss023",
+    "name": "Thượng Cổ Boss 023",
+    "hp": 625000,
+    "attack": 3260,
+    "defense": 2370,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss024",
+    "name": "Thượng Cổ Boss 024",
+    "hp": 650000,
+    "attack": 3380,
+    "defense": 2460,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss025",
+    "name": "Thượng Cổ Boss 025",
+    "hp": 675000,
+    "attack": 3500,
+    "defense": 2550,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss026",
+    "name": "Thượng Cổ Boss 026",
+    "hp": 700000,
+    "attack": 3620,
+    "defense": 2640,
+    "phases": 5,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss027",
+    "name": "Thượng Cổ Boss 027",
+    "hp": 725000,
+    "attack": 3740,
+    "defense": 2730,
+    "phases": 6,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss028",
+    "name": "Thượng Cổ Boss 028",
+    "hp": 750000,
+    "attack": 3860,
+    "defense": 2820,
+    "phases": 3,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss029",
+    "name": "Thượng Cổ Boss 029",
+    "hp": 775000,
+    "attack": 3980,
+    "defense": 2910,
+    "phases": 4,
+    "enrageAt": 10
+  },
+  {
+    "id": "boss030",
+    "name": "Thượng Cổ Boss 030",
+    "hp": 800000,
+    "attack": 4100,
+    "defense": 3000,
+    "phases": 5,
+    "enrageAt": 10
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "item001",
+    "name": "Di Vật Huyền Vũ 001",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item002",
+    "name": "Di Vật Huyền Vũ 002",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item003",
+    "name": "Di Vật Huyền Vũ 003",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item004",
+    "name": "Di Vật Huyền Vũ 004",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item005",
+    "name": "Di Vật Huyền Vũ 005",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item006",
+    "name": "Di Vật Huyền Vũ 006",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item007",
+    "name": "Di Vật Huyền Vũ 007",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item008",
+    "name": "Di Vật Huyền Vũ 008",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 1000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item009",
+    "name": "Di Vật Huyền Vũ 009",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 1125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item010",
+    "name": "Di Vật Huyền Vũ 010",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 1250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item011",
+    "name": "Di Vật Huyền Vũ 011",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 1375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item012",
+    "name": "Di Vật Huyền Vũ 012",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 1500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item013",
+    "name": "Di Vật Huyền Vũ 013",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 1625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item014",
+    "name": "Di Vật Huyền Vũ 014",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 1750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item015",
+    "name": "Di Vật Huyền Vũ 015",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 1875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item016",
+    "name": "Di Vật Huyền Vũ 016",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 2000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item017",
+    "name": "Di Vật Huyền Vũ 017",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 2125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item018",
+    "name": "Di Vật Huyền Vũ 018",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 2250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item019",
+    "name": "Di Vật Huyền Vũ 019",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 2375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item020",
+    "name": "Di Vật Huyền Vũ 020",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 2500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item021",
+    "name": "Di Vật Huyền Vũ 021",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 2625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item022",
+    "name": "Di Vật Huyền Vũ 022",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 2750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item023",
+    "name": "Di Vật Huyền Vũ 023",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 2875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item024",
+    "name": "Di Vật Huyền Vũ 024",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 3000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item025",
+    "name": "Di Vật Huyền Vũ 025",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 3125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item026",
+    "name": "Di Vật Huyền Vũ 026",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 3250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item027",
+    "name": "Di Vật Huyền Vũ 027",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 3375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item028",
+    "name": "Di Vật Huyền Vũ 028",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 3500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item029",
+    "name": "Di Vật Huyền Vũ 029",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 3625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item030",
+    "name": "Di Vật Huyền Vũ 030",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 3750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item031",
+    "name": "Di Vật Huyền Vũ 031",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 3875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item032",
+    "name": "Di Vật Huyền Vũ 032",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 4000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item033",
+    "name": "Di Vật Huyền Vũ 033",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 4125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item034",
+    "name": "Di Vật Huyền Vũ 034",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 4250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item035",
+    "name": "Di Vật Huyền Vũ 035",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 4375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item036",
+    "name": "Di Vật Huyền Vũ 036",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 4500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item037",
+    "name": "Di Vật Huyền Vũ 037",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 4625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item038",
+    "name": "Di Vật Huyền Vũ 038",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 4750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item039",
+    "name": "Di Vật Huyền Vũ 039",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 4875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item040",
+    "name": "Di Vật Huyền Vũ 040",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 5000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item041",
+    "name": "Di Vật Huyền Vũ 041",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 5125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item042",
+    "name": "Di Vật Huyền Vũ 042",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 5250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item043",
+    "name": "Di Vật Huyền Vũ 043",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 5375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item044",
+    "name": "Di Vật Huyền Vũ 044",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 5500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item045",
+    "name": "Di Vật Huyền Vũ 045",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 5625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item046",
+    "name": "Di Vật Huyền Vũ 046",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 5750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item047",
+    "name": "Di Vật Huyền Vũ 047",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 5875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item048",
+    "name": "Di Vật Huyền Vũ 048",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 6000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item049",
+    "name": "Di Vật Huyền Vũ 049",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 6125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item050",
+    "name": "Di Vật Huyền Vũ 050",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 6250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item051",
+    "name": "Di Vật Huyền Vũ 051",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 6375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item052",
+    "name": "Di Vật Huyền Vũ 052",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 6500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item053",
+    "name": "Di Vật Huyền Vũ 053",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 6625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item054",
+    "name": "Di Vật Huyền Vũ 054",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 6750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item055",
+    "name": "Di Vật Huyền Vũ 055",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 6875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item056",
+    "name": "Di Vật Huyền Vũ 056",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 7000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item057",
+    "name": "Di Vật Huyền Vũ 057",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 7125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item058",
+    "name": "Di Vật Huyền Vũ 058",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 7250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item059",
+    "name": "Di Vật Huyền Vũ 059",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 7375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item060",
+    "name": "Di Vật Huyền Vũ 060",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 7500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item061",
+    "name": "Di Vật Huyền Vũ 061",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 7625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item062",
+    "name": "Di Vật Huyền Vũ 062",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 7750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item063",
+    "name": "Di Vật Huyền Vũ 063",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 7875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item064",
+    "name": "Di Vật Huyền Vũ 064",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 8000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item065",
+    "name": "Di Vật Huyền Vũ 065",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 8125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item066",
+    "name": "Di Vật Huyền Vũ 066",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 8250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item067",
+    "name": "Di Vật Huyền Vũ 067",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 8375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item068",
+    "name": "Di Vật Huyền Vũ 068",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 8500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item069",
+    "name": "Di Vật Huyền Vũ 069",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 8625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item070",
+    "name": "Di Vật Huyền Vũ 070",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 8750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item071",
+    "name": "Di Vật Huyền Vũ 071",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 8875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item072",
+    "name": "Di Vật Huyền Vũ 072",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 9000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item073",
+    "name": "Di Vật Huyền Vũ 073",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 9125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item074",
+    "name": "Di Vật Huyền Vũ 074",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 9250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item075",
+    "name": "Di Vật Huyền Vũ 075",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 9375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item076",
+    "name": "Di Vật Huyền Vũ 076",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 9500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item077",
+    "name": "Di Vật Huyền Vũ 077",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 9625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item078",
+    "name": "Di Vật Huyền Vũ 078",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 9750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item079",
+    "name": "Di Vật Huyền Vũ 079",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 9875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item080",
+    "name": "Di Vật Huyền Vũ 080",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 10000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item081",
+    "name": "Di Vật Huyền Vũ 081",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 10125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item082",
+    "name": "Di Vật Huyền Vũ 082",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 10250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item083",
+    "name": "Di Vật Huyền Vũ 083",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 10375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item084",
+    "name": "Di Vật Huyền Vũ 084",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 10500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item085",
+    "name": "Di Vật Huyền Vũ 085",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 10625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item086",
+    "name": "Di Vật Huyền Vũ 086",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 10750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item087",
+    "name": "Di Vật Huyền Vũ 087",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 10875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item088",
+    "name": "Di Vật Huyền Vũ 088",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 11000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item089",
+    "name": "Di Vật Huyền Vũ 089",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 11125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item090",
+    "name": "Di Vật Huyền Vũ 090",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 11250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item091",
+    "name": "Di Vật Huyền Vũ 091",
+    "rarity": "Phàm",
+    "type": "equipment",
+    "value": 11375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item092",
+    "name": "Di Vật Huyền Vũ 092",
+    "rarity": "Linh",
+    "type": "consumable",
+    "value": 11500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item093",
+    "name": "Di Vật Huyền Vũ 093",
+    "rarity": "Huyền",
+    "type": "quest",
+    "value": 11625,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item094",
+    "name": "Di Vật Huyền Vũ 094",
+    "rarity": "Địa",
+    "type": "relic",
+    "value": 11750,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item095",
+    "name": "Di Vật Huyền Vũ 095",
+    "rarity": "Thiên",
+    "type": "material",
+    "value": 11875,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item096",
+    "name": "Di Vật Huyền Vũ 096",
+    "rarity": "Thánh",
+    "type": "equipment",
+    "value": 12000,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item097",
+    "name": "Di Vật Huyền Vũ 097",
+    "rarity": "Thần",
+    "type": "consumable",
+    "value": 12125,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item098",
+    "name": "Di Vật Huyền Vũ 098",
+    "rarity": "Tứ Tượng",
+    "type": "quest",
+    "value": 12250,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item099",
+    "name": "Di Vật Huyền Vũ 099",
+    "rarity": "Thượng Cổ",
+    "type": "relic",
+    "value": 12375,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  },
+  {
+    "id": "item100",
+    "name": "Di Vật Huyền Vũ 100",
+    "rarity": "Chí Cao",
+    "type": "material",
+    "value": 12500,
+    "description": "Vật phẩm dùng cho hệ thống mở rộng Huyền Vũ."
+  }
+]
