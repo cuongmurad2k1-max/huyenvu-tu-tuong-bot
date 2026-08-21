@@ -55,8 +55,45 @@ const DESCRIPTIONS = {
 const ROOT = __dirname;
 const COMMANDS_DIR = path.join(ROOT, "commands");
 
+function ensureCommandDirectory() {
+  if (fs.existsSync(COMMANDS_DIR) && fs.statSync(COMMANDS_DIR).isDirectory()) {
+    return;
+  }
+
+  // Railway may upload/extract the command bundles directly into /app.
+  // Create /app/commands automatically and copy the bundles there so their
+  // original require("../database") / require("../systems") paths keep working.
+  const rootBundles = Object.keys(GROUPS).filter(file =>
+    fs.existsSync(path.join(ROOT, file))
+  );
+
+  if (rootBundles.length === 0) {
+    throw new Error(
+      `Không tìm thấy thư mục commands hoặc command bundle tại ${ROOT}`
+    );
+  }
+
+  fs.mkdirSync(COMMANDS_DIR, { recursive: true });
+
+  for (const file of rootBundles) {
+    fs.copyFileSync(
+      path.join(ROOT, file),
+      path.join(COMMANDS_DIR, file)
+    );
+  }
+
+  console.log(`📁 Tự tạo /commands và copy ${rootBundles.length} bundle từ /app.`);
+}
+
 function loadBundle(file) {
-  const mod = require(path.join(COMMANDS_DIR, file));
+  ensureCommandDirectory();
+  const bundlePath = path.join(COMMANDS_DIR, file);
+
+  if (!fs.existsSync(bundlePath)) {
+    throw new Error(`Không tìm thấy command bundle: ${bundlePath}`);
+  }
+
+  const mod = require(bundlePath);
   if (Array.isArray(mod)) return mod;
   if (mod && mod.data && typeof mod.execute === "function") return [mod];
   return [];
