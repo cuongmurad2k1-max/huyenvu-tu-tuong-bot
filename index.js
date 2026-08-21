@@ -1,36 +1,53 @@
+// ============================================================
+// HUYỀN VŨ TỨ TƯỢNG BOT
+// PREFIX VERSION - KHÔNG DÙNG SLASH COMMAND
+// TỰ ĐỘNG LOAD COMMAND
+// ============================================================
+
 const fs = require("fs");
 const path = require("path");
+
 const {
     Client,
     GatewayIntentBits,
-    Partials
+    Partials,
+    REST,
+    Routes,
+    Collection
 } = require("discord.js");
 
-// =====================================================
+// ============================================================
 // CONFIG
-// =====================================================
+// ============================================================
+
+const TOKEN = process.env.TOKEN || process.env.DISCORD_TOKEN;
+const CLIENT_ID =
+    process.env.CLIENT_ID ||
+    process.env.DISCORD_CLIENT_ID;
 
 const PREFIX = ".";
 
-const TOKEN =
-    process.env.TOKEN ||
-    process.env.DISCORD_TOKEN ||
-    process.env.BOT_TOKEN;
-
 if (!TOKEN) {
-    console.error("❌ Không tìm thấy TOKEN trong Railway Variables.");
+    console.error("❌ THIẾU TOKEN!");
     process.exit(1);
 }
 
-// =====================================================
-// DISCORD CLIENT
-// =====================================================
+if (!CLIENT_ID) {
+    console.error("❌ THIẾU CLIENT_ID!");
+    process.exit(1);
+}
+
+// ============================================================
+// CLIENT
+// ============================================================
 
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildPresences
     ],
 
     partials: [
@@ -41,306 +58,415 @@ const client = new Client({
     ]
 });
 
-// =====================================================
+// ============================================================
 // COMMAND MAP
-// CHỈ KHAI BÁO 1 LẦN
-// =====================================================
+// ============================================================
 
-const commandMap = new Map();
+const commandMap = new Collection();
 
-// =====================================================
-// COMMAND ALIASES
-// =====================================================
+// chống load trùng
+const loadedFiles = new Set();
 
-const aliases = new Map();
+// ============================================================
+// HÀM ĐỆ QUY QUÉT FILE
+// ============================================================
 
-// =====================================================
-// ĐƯỜNG DẪN CẦN QUÉT
-// =====================================================
+function getAllJSFiles(dir) {
+    let result = [];
 
-const ROOT_DIR = __dirname;
-
-const COMMAND_DIRS = [
-    ROOT_DIR,
-    path.join(ROOT_DIR, "commands")
-];
-
-// =====================================================
-// FILE / THƯ MỤC KHÔNG LOAD
-// =====================================================
-
-const IGNORE_FILES = new Set([
-    "index.js",
-    "database.js",
-    "package.json"
-]);
-
-const IGNORE_DIRS = new Set([
-    "node_modules",
-    ".git",
-    ".railway",
-    "systems"
-]);
-
-// =====================================================
-// KIỂM TRA COMMAND
-// =====================================================
-
-function isValidCommand(command) {
-    if (!command) return false;
-
-    // Kiểu:
-    // {
-    //   data: SlashCommandBuilder,
-    //   execute()
-    // }
-
-    if (
-        command.data &&
-        typeof command.execute === "function"
-    ) {
-        return true;
+    if (!fs.existsSync(dir)) {
+        return result;
     }
 
-    // Kiểu:
-    // {
-    //   name: "boss",
-    //   execute()
-    // }
+    let entries;
 
-    if (
-        typeof command.name === "string" &&
-        typeof command.execute === "function"
-    ) {
-        return true;
+    try {
+        entries = fs.readdirSync(dir, {
+            withFileTypes: true
+        });
+    } catch (error) {
+        console.error(
+            `❌ Không thể đọc thư mục: ${dir}`,
+            error.message
+        );
+
+        return result;
     }
 
-    // Kiểu:
-    // {
-    //   name: "boss",
-    //   run()
-    // }
+    for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
 
-    if (
-        typeof command.name === "string" &&
-        typeof command.run === "function"
-    ) {
-        return true;
+        // bỏ node_modules
+        if (entry.name === "node_modules") {
+            continue;
+        }
+
+        // bỏ file index chính
+        if (
+            fullPath === __filename ||
+            entry.name === "index.js"
+        ) {
+            continue;
+        }
+
+        if (entry.isDirectory()) {
+            result = result.concat(
+                getAllJSFiles(fullPath)
+            );
+        } else if (
+            entry.isFile() &&
+            entry.name.endsWith(".js")
+        ) {
+            result.push(fullPath);
+        }
     }
 
-    // Kiểu:
-    // {
-    //   command: "boss",
-    //   execute()
-    // }
-
-    if (
-        typeof command.command === "string" &&
-        typeof command.execute === "function"
-    ) {
-        return true;
-    }
-
-    // Kiểu:
-    // {
-    //   command: "boss",
-    //   run()
-    // }
-
-    if (
-        typeof command.command === "string" &&
-        typeof command.run === "function"
-    ) {
-        return true;
-    }
-
-    return false;
+    return result;
 }
 
-// =====================================================
-// LẤY TÊN COMMAND
-// =====================================================
+// ============================================================
+// CHUẨN HÓA TÊN COMMAND
+// ============================================================
 
-function getCommandName(command) {
-    let name = null;
-
-    // SlashCommandBuilder
-    if (
-        command.data &&
-        typeof command.data.name === "string"
-    ) {
-        name = command.data.name;
-    }
-
-    // name
-    if (
-        !name &&
-        typeof command.name === "string"
-    ) {
-        name = command.name;
-    }
-
-    // command
-    if (
-        !name &&
-        typeof command.command === "string"
-    ) {
-        name = command.command;
-    }
-
+function normalizeName(name) {
     if (!name) return null;
 
-    return name
-        .toLowerCase()
+    return String(name)
         .trim()
+        .toLowerCase()
         .replace(/^\//, "")
         .replace(/^\./, "");
 }
 
-// =====================================================
-// LẤY ALIAS
-// =====================================================
+// ============================================================
+// TẠO COMMAND TỪ MODULE
+// ============================================================
 
-function getAliases(command) {
-    if (!command) return [];
+function getCommandNames(command) {
+    const names = [];
+
+    if (!command) {
+        return names;
+    }
+
+    // ----------------------------------------
+    // kiểu:
+    // module.exports = {
+    //   name: "boss",
+    //   execute(...)
+    // }
+    // ----------------------------------------
+
+    if (command.name) {
+        names.push(command.name);
+    }
+
+    // ----------------------------------------
+    // kiểu SlashCommandBuilder
+    // data.name
+    // ----------------------------------------
+
+    if (
+        command.data &&
+        command.data.name
+    ) {
+        names.push(command.data.name);
+    }
+
+    // ----------------------------------------
+    // aliases
+    // ----------------------------------------
 
     if (Array.isArray(command.aliases)) {
-        return command.aliases
-            .filter(x => typeof x === "string")
-            .map(x =>
-                x
-                    .toLowerCase()
-                    .trim()
-                    .replace(/^\./, "")
-                    .replace(/^\//, "")
-            );
+        names.push(...command.aliases);
     }
 
-    return [];
+    return [
+        ...new Set(
+            names
+                .map(normalizeName)
+                .filter(Boolean)
+        )
+    ];
 }
 
-// =====================================================
-// LOAD COMMAND
-// =====================================================
+// ============================================================
+// FAKE INTERACTION
+//
+// Dùng để hỗ trợ những command cũ được viết theo:
+// interaction.reply()
+// interaction.editReply()
+// interaction.user
+// interaction.guild
+// interaction.options.getString()
+// ...
+// ============================================================
 
-function registerCommand(command, file) {
-    if (!isValidCommand(command)) {
-        return 0;
-    }
+function createFakeInteraction(message, args) {
+    const optionsData = {};
 
-    const name = getCommandName(command);
+    // ----------------------------------------
+    // Parse:
+    // .command abc 123
+    // ----------------------------------------
 
-    if (!name) {
-        console.warn(
-            `⚠️ Bỏ qua ${file}: không tìm thấy tên command.`
-        );
-        return 0;
-    }
+    for (let i = 0; i < args.length; i++) {
+        const value = args[i];
 
-    if (commandMap.has(name)) {
-        console.warn(
-            `⚠️ Trùng command .${name} -> ${file}`
-        );
-
-        return 0;
-    }
-
-    commandMap.set(name, command);
-
-    const commandAliases = getAliases(command);
-
-    for (const alias of commandAliases) {
-        if (!aliases.has(alias)) {
-            aliases.set(alias, name);
-        }
-    }
-
-    return 1;
-}
-
-// =====================================================
-// LOAD FILE
-// =====================================================
-
-function loadFile(file) {
-    try {
+        // --name=value
         if (
-            !file.endsWith(".js") ||
-            file.endsWith(".map.js")
+            typeof value === "string" &&
+            value.startsWith("--")
         ) {
-            return 0;
+            const text = value.substring(2);
+
+            const equalIndex = text.indexOf("=");
+
+            if (equalIndex !== -1) {
+                const key = text
+                    .substring(0, equalIndex)
+                    .toLowerCase();
+
+                const val = text.substring(
+                    equalIndex + 1
+                );
+
+                optionsData[key] = val;
+            }
+        }
+    }
+
+    // ----------------------------------------
+    // Options API
+    // ----------------------------------------
+
+    const options = {
+        getString(name) {
+            const key = String(name).toLowerCase();
+
+            return optionsData[key] ?? null;
+        },
+
+        getInteger(name) {
+            const value = this.getString(name);
+
+            if (value === null) return null;
+
+            const number = parseInt(value, 10);
+
+            return Number.isNaN(number)
+                ? null
+                : number;
+        },
+
+        getNumber(name) {
+            const value = this.getString(name);
+
+            if (value === null) return null;
+
+            const number = Number(value);
+
+            return Number.isNaN(number)
+                ? null
+                : number;
+        },
+
+        getBoolean(name) {
+            const value = this.getString(name);
+
+            if (value === null) return null;
+
+            return (
+                value === true ||
+                value === "true" ||
+                value === "1"
+            );
+        },
+
+        getUser() {
+            return null;
+        },
+
+        getMember() {
+            return null;
+        },
+
+        getChannel() {
+            return null;
+        },
+
+        getRole() {
+            return null;
+        },
+
+        getAttachment() {
+            return null;
+        },
+
+        getSubcommand() {
+            return null;
+        },
+
+        getSubcommandGroup() {
+            return null;
+        },
+
+        data: []
+    };
+
+    // ----------------------------------------
+    // reply
+    // ----------------------------------------
+
+    async function sendReply(payload) {
+        if (
+            typeof payload === "string"
+        ) {
+            return message.reply(payload);
         }
 
-        const baseName = path.basename(file);
-
-        if (IGNORE_FILES.has(baseName)) {
-            return 0;
+        if (
+            payload &&
+            typeof payload === "object"
+        ) {
+            return message.reply(payload);
         }
 
-        // Xóa cache để Railway luôn load code mới
+        return message.reply(
+            "❌ Không có nội dung trả lời."
+        );
+    }
+
+    // ----------------------------------------
+    // fake interaction
+    // ----------------------------------------
+
+    const interaction = {
+        id: message.id,
+
+        type: 2,
+
+        commandName: null,
+
+        user: message.author,
+
+        member: message.member,
+
+        guild: message.guild,
+
+        guildId: message.guildId,
+
+        channel: message.channel,
+
+        channelId: message.channelId,
+
+        client: message.client,
+
+        createdTimestamp:
+            message.createdTimestamp,
+
+        createdAt:
+            message.createdAt,
+
+        options,
+
+        replied: false,
+
+        deferred: false,
+
+        isChatInputCommand() {
+            return true;
+        },
+
+        isCommand() {
+            return true;
+        },
+
+        isButton() {
+            return false;
+        },
+
+        isStringSelectMenu() {
+            return false;
+        },
+
+        isModalSubmit() {
+            return false;
+        },
+
+        isAutocomplete() {
+            return false;
+        },
+
+        async reply(payload) {
+            this.replied = true;
+
+            return sendReply(payload);
+        },
+
+        async editReply(payload) {
+            this.replied = true;
+
+            if (
+                typeof payload === "string"
+            ) {
+                return message.channel.send(
+                    payload
+                );
+            }
+
+            return message.channel.send(
+                payload
+            );
+        },
+
+        async followUp(payload) {
+            return message.channel.send(
+                typeof payload === "string"
+                    ? payload
+                    : payload
+            );
+        },
+
+        async deferReply() {
+            this.deferred = true;
+
+            return null;
+        },
+
+        async deleteReply() {
+            return null;
+        },
+
+        async fetchReply() {
+            return null;
+        }
+    };
+
+    return interaction;
+}
+
+// ============================================================
+// LOAD COMMAND
+// ============================================================
+
+function loadCommand(file) {
+    if (loadedFiles.has(file)) {
+        return 0;
+    }
+
+    loadedFiles.add(file);
+
+    let command;
+
+    try {
+        // Xóa cache để reload ổn định
         delete require.cache[
             require.resolve(file)
         ];
 
-        const loaded = require(file);
-
-        // ---------------------------------------------
-        // 1. export trực tiếp command
-        // ---------------------------------------------
-
-        if (isValidCommand(loaded)) {
-            return registerCommand(
-                loaded,
-                file
-            );
-        }
-
-        // ---------------------------------------------
-        // 2. module.exports = [command1, command2]
-        // ---------------------------------------------
-
-        if (Array.isArray(loaded)) {
-            let count = 0;
-
-            for (const command of loaded) {
-                count += registerCommand(
-                    command,
-                    file
-                );
-            }
-
-            return count;
-        }
-
-        // ---------------------------------------------
-        // 3. module.exports = {
-        //      command1: {...},
-        //      command2: {...}
-        //    }
-        // ---------------------------------------------
-
-        if (
-            loaded &&
-            typeof loaded === "object"
-        ) {
-            let count = 0;
-
-            for (const value of Object.values(loaded)) {
-                if (isValidCommand(value)) {
-                    count += registerCommand(
-                        value,
-                        file
-                    );
-                }
-            }
-
-            return count;
-        }
-
-        return 0;
-
+        command = require(file);
     } catch (error) {
-
         console.error(
             `❌ Không thể load ${file}:`
         );
@@ -351,160 +477,266 @@ function loadFile(file) {
 
         return 0;
     }
-}
 
-// =====================================================
-// QUÉT THƯ MỤC ĐỆ QUY
-// =====================================================
+    // ========================================================
+    // MODULE EXPORT DEFAULT
+    // ========================================================
 
-function scanDirectory(dir) {
-    let count = 0;
-
-    if (!fs.existsSync(dir)) {
-        return count;
+    if (
+        command &&
+        command.default
+    ) {
+        command = command.default;
     }
 
-    let entries;
+    // ========================================================
+    // KHÔNG PHẢI COMMAND
+    // ========================================================
 
-    try {
-        entries = fs.readdirSync(
-            dir,
-            { withFileTypes: true }
-        );
-    } catch (error) {
-        console.error(
-            `❌ Không thể đọc thư mục ${dir}`
+    if (
+        !command ||
+        typeof command !== "object"
+    ) {
+        console.log(
+            `⚠️ Bỏ qua ${file}: không phải command`
         );
 
-        return count;
+        return 0;
     }
 
-    for (const entry of entries) {
+    // ========================================================
+    // PHẢI CÓ EXECUTE
+    // ========================================================
 
-        const fullPath = path.join(
-            dir,
-            entry.name
+    if (
+        typeof command.execute !==
+        "function"
+    ) {
+        console.log(
+            `⚠️ Bỏ qua ${file}: không có execute()`
         );
 
-        // ---------------------------------------------
-        // DIRECTORY
-        // ---------------------------------------------
+        return 0;
+    }
 
-        if (entry.isDirectory()) {
+    // ========================================================
+    // LẤY TÊN
+    // ========================================================
 
-            if (
-                IGNORE_DIRS.has(entry.name)
-            ) {
-                continue;
-            }
+    const names =
+        getCommandNames(command);
 
-            count += scanDirectory(
-                fullPath
+    if (names.length === 0) {
+        console.log(
+            `⚠️ Bỏ qua ${file}: không có tên command`
+        );
+
+        return 0;
+    }
+
+    // ========================================================
+    // ĐĂNG KÝ
+    // ========================================================
+
+    for (const name of names) {
+        if (commandMap.has(name)) {
+            console.log(
+                `⚠️ Trùng command .${name}`
+            );
+
+            console.log(
+                `   File mới: ${file}`
             );
 
             continue;
         }
 
-        // ---------------------------------------------
-        // FILE
-        // ---------------------------------------------
+        commandMap.set(name, {
+            ...command,
 
-        if (!entry.name.endsWith(".js")) {
-            continue;
-        }
+            file,
 
-        count += loadFile(fullPath);
+            name
+        });
     }
 
-    return count;
+    return names.length;
 }
 
-// =====================================================
-// LOAD TOÀN BỘ COMMAND
-// =====================================================
+// ============================================================
+// LOAD TẤT CẢ COMMAND
+// ============================================================
 
 function loadAllCommands() {
-
     commandMap.clear();
-    aliases.clear();
+    loadedFiles.clear();
 
-    let loadedCount = 0;
+    // --------------------------------------------------------
+    // ROOT /app
+    // --------------------------------------------------------
 
-    const scanned = new Set();
-
-    for (const dir of COMMAND_DIRS) {
-
-        if (!fs.existsSync(dir)) {
-            continue;
-        }
-
-        const realDir = path.resolve(dir);
-
-        if (scanned.has(realDir)) {
-            continue;
-        }
-
-        scanned.add(realDir);
-
-        loadedCount += scanDirectory(
-            realDir
-        );
-    }
-
-    console.log("");
-    console.log(
-        "=========================================="
+    const rootDir = path.join(
+        process.cwd()
     );
 
-    console.log(
-        `📦 Đã load ${loadedCount} command`
+    // --------------------------------------------------------
+    // /app/commands
+    // --------------------------------------------------------
+
+    const commandsDir = path.join(
+        process.cwd(),
+        "commands"
     );
 
-    console.log(
-        `📚 Command Map: ${commandMap.size} commands`
+    let files = [];
+
+    files = files.concat(
+        getAllJSFiles(rootDir)
     );
 
-    console.log(
-        `🔗 Aliases: ${aliases.size}`
-    );
+    // commands có thể đã nằm trong root
+    // nên không cần quét lại nếu trùng
 
-    console.log(
-        "=========================================="
-    );
-
-    // Hiển thị một số command để kiểm tra
-    const names = [
-        ...commandMap.keys()
+    const uniqueFiles = [
+        ...new Set(
+            files.map(file =>
+                path.resolve(file)
+            )
+        )
     ];
 
-    if (names.length > 0) {
+    console.log("");
+    console.log(
+        "========================================"
+    );
 
-        console.log(
-            "📋 Một số command:"
-        );
+    console.log(
+        "📦 ĐANG LOAD COMMAND"
+    );
 
-        console.log(
-            names
-                .slice(0, 20)
-                .map(x => `.${x}`)
-                .join(" | ")
-        );
+    console.log(
+        "========================================"
+    );
+
+    console.log(
+        `📁 Tìm thấy ${uniqueFiles.length} file JS`
+    );
+
+    let totalLoaded = 0;
+
+    for (const file of uniqueFiles) {
+        const count =
+            loadCommand(file);
+
+        totalLoaded += count;
     }
 
-    console.log("");
+    console.log(
+        "========================================"
+    );
+
+    console.log(
+        `📦 Đã load ${commandMap.size} commands`
+    );
+
+    console.log(
+        `📚 ${commandMap.size} command prefix`
+    );
+
+    console.log(
+        "========================================"
+    );
+
+    return totalLoaded;
 }
 
-// =====================================================
-// READY
-// =====================================================
+// ============================================================
+// XÓA SLASH COMMAND
+// ============================================================
+
+async function deleteAllSlashCommands() {
+    console.log(
+        "🗑️ Đang xóa toàn bộ Slash Commands..."
+    );
+
+    try {
+        const rest = new REST({
+            version: "10"
+        }).setToken(TOKEN);
+
+        // ----------------------------------------------------
+        // GLOBAL COMMANDS
+        // ----------------------------------------------------
+
+        await rest.put(
+            Routes.applicationCommands(
+                CLIENT_ID
+            ),
+            {
+                body: []
+            }
+        );
+
+        console.log(
+            "✅ Đã xóa toàn bộ lệnh / GLOBAL."
+        );
+
+        // ----------------------------------------------------
+        // XÓA COMMAND Ở CÁC SERVER
+        // ----------------------------------------------------
+
+        const guilds =
+            client.guilds.cache;
+
+        for (const [
+            guildId
+        ] of guilds) {
+            try {
+                await rest.put(
+                    Routes.applicationGuildCommands(
+                        CLIENT_ID,
+                        guildId
+                    ),
+                    {
+                        body: []
+                    }
+                );
+
+                console.log(
+                    `🗑️ Đã xóa / tại server ${guildId}`
+                );
+            } catch (error) {
+                console.error(
+                    `⚠️ Không thể xóa / tại server ${guildId}:`,
+                    error.message
+                );
+            }
+        }
+
+        console.log(
+            "✅ HOÀN TẤT XÓA SLASH COMMAND."
+        );
+    } catch (error) {
+        console.error(
+            "❌ Lỗi xóa Slash Commands:"
+        );
+
+        console.error(
+            error.message
+        );
+    }
+}
+
+// ============================================================
+// BOT READY
+// ============================================================
 
 client.once(
     "ready",
-    () => {
-
+    async () => {
         console.log("");
         console.log(
-            "=========================================="
+            "========================================"
         );
 
         console.log(
@@ -512,50 +744,66 @@ client.once(
         );
 
         console.log(
-            `🛡️ Prefix: ${PREFIX}`
+            `📌 PREFIX: ${PREFIX}`
         );
 
         console.log(
-            `🌐 Servers: ${client.guilds.cache.size}`
+            `📦 COMMANDS: ${commandMap.size}`
         );
 
         console.log(
-            `📦 Commands: ${commandMap.size}`
+            `🌐 SERVERS: ${client.guilds.cache.size}`
         );
 
         console.log(
-            "=========================================="
+            "========================================"
         );
 
-        console.log(
-            "💡 Dùng lệnh dạng: .boss"
-        );
+        // ----------------------------------------------------
+        // XÓA / SAU KHI BOT ĐÃ LOGIN
+        // ----------------------------------------------------
+
+        await deleteAllSlashCommands();
 
         console.log("");
+        console.log(
+            "✅ BOT ĐANG CHẠY PREFIX."
+        );
+
+        console.log(
+            `👉 Ví dụ: ${PREFIX}boss`
+        );
+
+        console.log(
+            `👉 Ví dụ: ${PREFIX}tuvi`
+        );
+
+        console.log(
+            `👉 Ví dụ: ${PREFIX}tuluyen`
+        );
     }
 );
 
-// =====================================================
-// PREFIX MESSAGE
-// =====================================================
+// ============================================================
+// PREFIX MESSAGE HANDLER
+// ============================================================
 
 client.on(
     "messageCreate",
     async message => {
-
         try {
+            // ------------------------------------------------
+            // BOT
+            // ------------------------------------------------
 
-            // Không xử lý bot
             if (message.author.bot) {
                 return;
             }
 
-            // Không có content
-            if (!message.content) {
-                return;
-            }
+            // ------------------------------------------------
+            // Không phải prefix
+            // ------------------------------------------------
 
-            // Không bắt đầu bằng .
             if (
                 !message.content.startsWith(
                     PREFIX
@@ -564,196 +812,165 @@ client.on(
                 return;
             }
 
-            // -----------------------------------------
+            // ------------------------------------------------
             // TÁCH COMMAND
-            // -----------------------------------------
+            // ------------------------------------------------
 
             const content =
-                message.content.slice(
-                    PREFIX.length
-                ).trim();
+                message.content
+                    .slice(PREFIX.length)
+                    .trim();
 
             if (!content) {
                 return;
             }
 
-            const args =
+            const parts =
                 content.split(/\s+/);
 
-            let commandName =
-                args.shift()
-                    .toLowerCase();
+            const commandName =
+                normalizeName(
+                    parts.shift()
+                );
 
-            // -----------------------------------------
+            const args = parts;
+
+            // ------------------------------------------------
             // TÌM COMMAND
-            // -----------------------------------------
+            // ------------------------------------------------
 
-            let command =
+            const command =
                 commandMap.get(
                     commandName
                 );
 
-            // Alias
-            if (!command) {
-
-                const realName =
-                    aliases.get(
-                        commandName
-                    );
-
-                if (realName) {
-                    command =
-                        commandMap.get(
-                            realName
-                        );
-                }
-            }
-
-            // Không tồn tại
             if (!command) {
                 return;
             }
 
-            // -----------------------------------------
-            // EXECUTE
-            // -----------------------------------------
+            // ------------------------------------------------
+            // LOG
+            // ------------------------------------------------
+
+            console.log(
+                `📨 ${message.author.tag} dùng .${commandName}`
+            );
+
+            // ------------------------------------------------
+            // Nếu command có prefix execute
+            // ------------------------------------------------
 
             if (
-                typeof command.execute ===
-                "function"
+                command.prefixExecute &&
+                typeof command.prefixExecute ===
+                    "function"
             ) {
-
-                await command.execute(
+                await command.prefixExecute(
                     message,
-                    args,
-                    {
-                        client,
-                        message,
-                        args
-                    }
+                    args
                 );
 
                 return;
             }
 
-            // -----------------------------------------
-            // RUN
-            // -----------------------------------------
+            // ------------------------------------------------
+            // TẠO FAKE INTERACTION
+            // ------------------------------------------------
 
-            if (
-                typeof command.run ===
-                "function"
-            ) {
-
-                await command.run(
+            const interaction =
+                createFakeInteraction(
                     message,
-                    args,
-                    {
-                        client,
-                        message,
-                        args
-                    }
+                    args
                 );
 
-                return;
-            }
+            interaction.commandName =
+                commandName;
 
+            // ------------------------------------------------
+            // CHẠY COMMAND
+            // ------------------------------------------------
+
+            await command.execute(
+                interaction
+            );
         } catch (error) {
-
             console.error(
-                "❌ Lỗi khi chạy command:"
+                `❌ Lỗi khi thực hiện .${message.content}:`
             );
 
             console.error(error);
 
             try {
-
                 if (
-                    message.channel &&
-                    message.channel.isTextBased()
+                    !message.replied
                 ) {
-
                     await message.reply(
                         "❌ Có lỗi xảy ra khi thực hiện lệnh."
                     );
                 }
-
             } catch (_) {}
         }
     }
 );
 
-// =====================================================
-// ERROR HANDLER
-// =====================================================
+// ============================================================
+// ERROR HANDLERS
+// ============================================================
 
 client.on(
     "error",
     error => {
-
         console.error(
-            "❌ Discord Client Error:"
+            "❌ Discord Client Error:",
+            error
         );
-
-        console.error(error);
     }
 );
 
 process.on(
     "unhandledRejection",
     error => {
-
         console.error(
-            "❌ Unhandled Rejection:"
+            "❌ Unhandled Promise Rejection:",
+            error
         );
-
-        console.error(error);
     }
 );
 
 process.on(
     "uncaughtException",
     error => {
-
         console.error(
-            "❌ Uncaught Exception:"
+            "❌ Uncaught Exception:",
+            error
         );
-
-        console.error(error);
     }
 );
 
-// =====================================================
-// LOAD COMMANDS
-// =====================================================
+// ============================================================
+// LOAD COMMAND TRƯỚC KHI LOGIN
+// ============================================================
 
 loadAllCommands();
 
-// =====================================================
+// ============================================================
 // LOGIN
-// =====================================================
+// ============================================================
 
 console.log(
     "🔐 Đang đăng nhập Discord..."
 );
 
-client.login(TOKEN)
-    .then(() => {
-
-        console.log(
-            "✅ Đã gửi yêu cầu đăng nhập Discord."
-        );
-
-    })
-    .catch(error => {
-
+client.login(TOKEN).catch(
+    error => {
         console.error(
             "❌ KHÔNG THỂ ĐĂNG NHẬP DISCORD:"
         );
 
         console.error(
-            error.message
+            error
         );
 
         process.exit(1);
-    });
+    }
+);
