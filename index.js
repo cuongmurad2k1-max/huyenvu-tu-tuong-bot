@@ -8,11 +8,12 @@ const {
 
 const db = require("./database");
 
-const factions = require("./data/config/factions.json");
-
 // =====================================================
 // 🐢 HUYỀN VŨ – TỨ TƯỢNG ULTRA
 // =====================================================
+
+// factions.json nằm cùng thư mục với index.js
+const factions = require("./factions.json");
 
 // =====================================================
 // 📦 LOAD COMMANDS AN TOÀN
@@ -24,7 +25,7 @@ try {
     commands = require("./commands");
 
     if (!Array.isArray(commands)) {
-        console.warn("⚠️ ./commands không trả về một Array.");
+        console.warn("⚠️ ./commands không trả về Array.");
         commands = [];
     }
 
@@ -33,6 +34,8 @@ try {
     console.warn("⚠️ Không tìm thấy ./commands.");
     console.warn("⚠️ Bot vẫn khởi động nhưng Slash Commands chưa được load.");
     console.warn("📌 Chi tiết:", error.message);
+
+    commands = [];
 }
 
 // =====================================================
@@ -58,38 +61,47 @@ for (const command of commands) {
             command.data &&
             typeof command.data.name === "string"
         ) {
-            commandMap.set(command.data.name, command);
+            commandMap.set(
+                command.data.name,
+                command
+            );
         }
     } catch (error) {
-        console.error("❌ Không thể load command:", error);
+        console.error(
+            "❌ Không thể load command:",
+            error
+        );
     }
 }
 
-console.log(`📜 Command Map: ${commandMap.size} commands`);
+console.log(
+    `📜 Command Map: ${commandMap.size} commands`
+);
 
 // =====================================================
-// 🟢 BOT READY
+// 🟢 READY
 // =====================================================
 
 client.once(
     Events.ClientReady,
     (clientUser) => {
+
         console.log(
             `🐢 ${clientUser.user.tag} ONLINE — HUYỀN VŨ MEGA`
         );
 
         console.log(
-            `🌌 Server count: ${clientUser.guilds.cache.size}`
+            `🌌 Servers: ${clientUser.guilds.cache.size}`
         );
 
         console.log(
-            `⚔️ Commands loaded: ${commandMap.size}`
+            `⚔️ Commands: ${commandMap.size}`
         );
     }
 );
 
 // =====================================================
-// 🎮 INTERACTION
+// 🎮 INTERACTION CREATE
 // =====================================================
 
 client.on(
@@ -105,7 +117,9 @@ client.on(
             if (interaction.isChatInputCommand()) {
 
                 const command =
-                    commandMap.get(interaction.commandName);
+                    commandMap.get(
+                        interaction.commandName
+                    );
 
                 if (!command) {
 
@@ -114,10 +128,12 @@ client.on(
                             "❌ Lệnh này chưa được tải vào bot.",
                         ephemeral: true
                     }).catch(() => {});
-
                 }
 
-                if (typeof command.execute !== "function") {
+                if (
+                    typeof command.execute !==
+                    "function"
+                ) {
 
                     console.error(
                         `❌ Command ${interaction.commandName} thiếu execute().`
@@ -130,7 +146,9 @@ client.on(
                     }).catch(() => {});
                 }
 
-                return await command.execute(interaction);
+                return await command.execute(
+                    interaction
+                );
             }
 
             // =================================================
@@ -147,7 +165,7 @@ client.on(
                 const id = parts[2];
 
                 // ---------------------------------------------
-                // 🔒 KIỂM TRA NGƯỜI DÙNG
+                // 🔒 KIỂM TRA USER
                 // ---------------------------------------------
 
                 if (
@@ -170,7 +188,9 @@ client.on(
 
                     const faction =
                         factions.find(
-                            x => String(x.id) === String(id)
+                            x =>
+                                String(x.id) ===
+                                String(id)
                         );
 
                     if (!faction) {
@@ -183,50 +203,67 @@ client.on(
                     }
 
                     // ---------------------------------------------
-                    // 🛡️ BONUS AN TOÀN
+                    // 🛡️ BONUS
                     // ---------------------------------------------
 
                     const bonuses =
                         faction.bonuses || {};
 
                     const attack =
-                        Number(bonuses.attack || 0);
+                        Number(
+                            bonuses.attack || 0
+                        );
 
                     const defense =
-                        Number(bonuses.defense || 0);
+                        Number(
+                            bonuses.defense || 0
+                        );
 
                     const speed =
-                        Number(bonuses.speed || 0);
+                        Number(
+                            bonuses.speed || 0
+                        );
 
                     const maxHp =
-                        Number(bonuses.maxHp || 0);
+                        Number(
+                            bonuses.maxHp || 0
+                        );
 
                     // ---------------------------------------------
-                    // 💾 UPDATE PLAYER
+                    // 💾 DATABASE
                     // ---------------------------------------------
 
                     db.mutate(
                         interaction.user.id,
                         player => {
 
-                            // Đảm bảo stat tồn tại
                             player.attack =
-                                Number(player.attack || 0);
+                                Number(
+                                    player.attack || 0
+                                );
 
                             player.defense =
-                                Number(player.defense || 0);
+                                Number(
+                                    player.defense || 0
+                                );
 
                             player.speed =
-                                Number(player.speed || 0);
+                                Number(
+                                    player.speed || 0
+                                );
 
                             player.maxHp =
-                                Number(player.maxHp || 0);
+                                Number(
+                                    player.maxHp || 0
+                                );
 
                             player.hp =
-                                Number(player.hp || 0);
+                                Number(
+                                    player.hp || 0
+                                );
 
                             // -------------------------------------
-                            // 🐢 TỨ TƯỢNG
+                            // 🐢 FACTION
                             // -------------------------------------
 
                             player.faction =
@@ -239,10 +276,17 @@ client.on(
                             // ⚔️ BONUS
                             // -------------------------------------
 
-                            player.attack += attack;
-                            player.defense += defense;
-                            player.speed += speed;
-                            player.maxHp += maxHp;
+                            player.attack +=
+                                attack;
+
+                            player.defense +=
+                                defense;
+
+                            player.speed +=
+                                speed;
+
+                            player.maxHp +=
+                                maxHp;
 
                             // -------------------------------------
                             // ❤️ HP
@@ -256,15 +300,20 @@ client.on(
                     );
 
                     // ---------------------------------------------
-                    // ✨ KỸ NĂNG
+                    // ✨ SKILLS
                     // ---------------------------------------------
 
                     const skills =
-                        Array.isArray(faction.skills)
-                            ? faction.skills.join(" • ")
+                        Array.isArray(
+                            faction.skills
+                        )
+                            ? faction.skills.join(
+                                " • "
+                            )
                             : "Chưa có";
 
                     return interaction.update({
+
                         content:
                             `🌟 **THỨC TỈNH THÀNH CÔNG**\n\n` +
                             `🐾 Tứ Tượng: **${faction.name}**\n` +
@@ -274,7 +323,9 @@ client.on(
                             `💨 Tốc độ: +${speed}\n` +
                             `❤️ HP tối đa: +${maxHp}\n\n` +
                             `✨ **Kỹ năng:** ${skills}`,
+
                         embeds: [],
+
                         components: []
                     });
                 }
@@ -299,7 +350,10 @@ client.on(
 
             const message =
                 "❌ Lỗi hệ thống: " +
-                (error.message || "Không xác định");
+                (
+                    error.message ||
+                    "Không xác định"
+                );
 
             try {
 
@@ -337,14 +391,20 @@ if (!process.env.DISCORD_TOKEN) {
     );
 
     console.error(
-        "📌 Hãy vào Railway → Variables → thêm DISCORD_TOKEN."
+        "📌 Railway → Variables → DISCORD_TOKEN"
     );
 
 } else {
 
     client.login(
         process.env.DISCORD_TOKEN
-    ).catch(error => {
+    ).then(() => {
+
+        console.log(
+            "🔐 Đang kết nối Discord..."
+        );
+
+    }).catch(error => {
 
         console.error(
             "❌ KHÔNG THỂ ĐĂNG NHẬP DISCORD:"
